@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module db_setup.lipid_parser</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="db_setup.html"><font color="#ffffff">db_setup</font></a>.lipid_parser</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/lipid_parser.py">/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/lipid_parser.py</a></font></td></tr></table>
+    <p><tt>lipid_parser.py<br>
+Dylan&nbsp;Ross<br>
+2018/10/07<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Utility&nbsp;for&nbsp;parsing&nbsp;lipid&nbsp;names&nbsp;into&nbsp;their&nbsp;constituent&nbsp;parts&nbsp;(lipid&nbsp;class,&nbsp;fatty&nbsp;acid&nbsp;composition).<br>
+&nbsp;&nbsp;&nbsp;&nbsp;To&nbsp;be&nbsp;parsed&nbsp;correctly,&nbsp;the&nbsp;lipid&nbsp;names&nbsp;must&nbsp;conform&nbsp;to&nbsp;the&nbsp;following&nbsp;format:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;lipid_class&gt;([modifier]&lt;n_carbon&gt;:&lt;n_unsat&gt;[/&lt;n_carbon&gt;:&lt;n_unsat&gt;[/&lt;n_carbon&gt;:&lt;n_unsat&gt;]])</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="re.html">re</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-parse_lipid"><strong>parse_lipid</strong></a>(name)</dt><dd><tt>parse_lipid<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;parses&nbsp;a&nbsp;lipid&nbsp;name&nbsp;into&nbsp;lipid&nbsp;class&nbsp;and&nbsp;fatty&nbsp;acid&nbsp;composition,&nbsp;returning&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dictionary&nbsp;with&nbsp;the&nbsp;information.&nbsp;Handles&nbsp;total&nbsp;fatty&nbsp;acid&nbsp;composition,&nbsp;as&nbsp;well<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;as&nbsp;individual&nbsp;composition,&nbsp;examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PC(38:3)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;class:&nbsp;PC,&nbsp;n_carbon:&nbsp;38,&nbsp;n_unsat:&nbsp;3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PC(18:1/20:2)&nbsp;&nbsp;&nbsp;--&gt;&nbsp;class:&nbsp;PC,&nbsp;n_carbon:&nbsp;38,&nbsp;n_unsat:&nbsp;3,&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fa_comp:&nbsp;((n_carbon:&nbsp;18,&nbsp;n_unsat:&nbsp;1),&nbsp;(n_carbon:&nbsp;20,&nbsp;n_unsat:&nbsp;2))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also,&nbsp;handles&nbsp;special&nbsp;fatty&nbsp;acid&nbsp;notations&nbsp;(modifiers)&nbsp;used&nbsp;for&nbsp;ceramides&nbsp;and&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;plasmalogen&nbsp;lipids,&nbsp;examples:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cer(d36:2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;class:&nbsp;Cer,&nbsp;n_carbon:&nbsp;36,&nbsp;n_unsat:&nbsp;2,&nbsp;fa_mod:&nbsp;d<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cer(d18:1/18:1)&nbsp;--&gt;&nbsp;class:&nbsp;PC,&nbsp;n_carbon:&nbsp;38,&nbsp;n_unsat:&nbsp;3,&nbsp;fa_mod:&nbsp;d,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fa_comp:&nbsp;((n_carbon:&nbsp;18,&nbsp;n_unsat:&nbsp;1),&nbsp;(n_carbon:&nbsp;18,&nbsp;n_unsat:&nbsp;1))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PE(p40:4)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;class:&nbsp;PE,&nbsp;n_carbon:&nbsp;40,&nbsp;n_unsat:&nbsp;4,&nbsp;fa_mod:&nbsp;p<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PE(p20:2/20:2)&nbsp;&nbsp;--&gt;&nbsp;class:&nbsp;PE,&nbsp;n_carbon:&nbsp;40,&nbsp;n_unsat:&nbsp;4,&nbsp;fa_mod:&nbsp;p,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fa_comp:&nbsp;((n_carbon:&nbsp;20,&nbsp;n_unsat:&nbsp;2),&nbsp;(n_carbon:&nbsp;20,&nbsp;n_unsat:&nbsp;2))<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lipid&nbsp;name&nbsp;must&nbsp;conform&nbsp;to&nbsp;the&nbsp;general&nbsp;format:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;lipid_class&gt;([modifier]&lt;n_carbon&gt;:&lt;n_unsat&gt;[/&lt;n_carbon&gt;:&lt;n_unsat&gt;[/&lt;n_carbon&gt;:&lt;n_unsat&gt;]])<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name&nbsp;(str)&nbsp;--&nbsp;lipid&nbsp;name&nbsp;to&nbsp;parse<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(dict&nbsp;or&nbsp;None)&nbsp;--&nbsp;parsed&nbsp;lipid&nbsp;information&nbsp;(always&nbsp;contains&nbsp;'class',&nbsp;'n_carbon',&nbsp;and&nbsp;'n_unsat'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;attributes)&nbsp;or&nbsp;None&nbsp;if&nbsp;it&nbsp;cannot&nbsp;be&nbsp;parsed&nbsp;as&nbsp;a&nbsp;lipid</tt></dd></dl>
+</td></tr></table>
+</body></html>

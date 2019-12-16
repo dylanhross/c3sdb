@@ -1,0 +1,3584 @@
+[
+    {
+        "name": "Naphthalene",
+        "mz": 129.0704218,
+        "ccs": 120.2763987,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cytosine",
+        "mz": 112.050536,
+        "ccs": 121.5833866,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Betaine",
+        "mz": 118.0867992,
+        "ccs": 121.6,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "1-Methylhistamine",
+        "mz": 126.1025686,
+        "ccs": 122.5552493,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Succinic Acid",
+        "mz": 119.0338836,
+        "ccs": 122.6557869,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Diethanolamine",
+        "mz": 106.086256,
+        "ccs": 123.3260371,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Tyramine",
+        "mz": 121.0653364,
+        "ccs": 123.4265746,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Creatinine",
+        "mz": 114.0660846,
+        "ccs": 123.9292623,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2-methylnaphthalene",
+        "mz": 143.086071,
+        "ccs": 124.566,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "1-methylnaphthalene",
+        "mz": 143.086071,
+        "ccs": 125.2027376,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Dopamine",
+        "mz": 154.086255,
+        "ccs": 125.2362502,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Purine",
+        "mz": 121.050876,
+        "ccs": 125.4038127,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyrazole",
+        "mz": 68.0362,
+        "ccs": 125.47,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acenaphthylene",
+        "mz": 153.0704218,
+        "ccs": 125.7054253,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Thymine",
+        "mz": 127.050206,
+        "ccs": 126.1410879,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Trigonelline",
+        "mz": 138.0537,
+        "ccs": 126.3666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Proline",
+        "mz": 116.07115,
+        "ccs": 126.476213,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Methylhistamine",
+        "mz": 126.1021,
+        "ccs": 126.5333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Guanidinoacetic Acid",
+        "mz": 118.06111,
+        "ccs": 126.8783631,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Uracil",
+        "mz": 113.034556,
+        "ccs": 126.9789007,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adenine",
+        "mz": 136.0619,
+        "ccs": 127.9,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Imidazole-4-acetic Acid",
+        "mz": 127.0496,
+        "ccs": 128.2333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Nicotinic Acid",
+        "mz": 124.039306,
+        "ccs": 128.3529136,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "1-Methyladenine",
+        "mz": 150.0774182,
+        "ccs": 128.3529136,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Tryptamine",
+        "mz": 144.08132,
+        "ccs": 128.4199386,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Bis(3-aminopropyl)amine",
+        "mz": 132.14953,
+        "ccs": 128.5204761,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Hydroquinone",
+        "mz": 111.0440536,
+        "ccs": 128.7885762,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Nicotinamide",
+        "mz": 123.055286,
+        "ccs": 129.3247764,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Ornithine",
+        "mz": 133.0971492,
+        "ccs": 129.7939515,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Agmatine",
+        "mz": 131.129076,
+        "ccs": 129.9615141,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Trans-4-Hydroxy-L-proline",
+        "mz": 132.065516,
+        "ccs": 130.2296142,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Deoxycarnitine",
+        "mz": 146.117551,
+        "ccs": 130.3971767,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Homocysteine",
+        "mz": 136.043222,
+        "ccs": 130.5312267,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Camphene",
+        "mz": 137.1324696,
+        "ccs": 130.6317643,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-histidinol",
+        "mz": 142.0969,
+        "ccs": 130.9,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Pipecolic Acid",
+        "mz": 130.086256,
+        "ccs": 130.9333769,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Uric Acid",
+        "mz": 169.036164,
+        "ccs": 131.0004019,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Asparagine",
+        "mz": 133.0607658,
+        "ccs": 131.536602,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-Acetylputrescine",
+        "mz": 131.1174,
+        "ccs": 131.7,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Lysine",
+        "mz": 147.113347,
+        "ccs": 131.8047021,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2-Aminoethylphosphonate",
+        "mz": 126.031456,
+        "ccs": 132.2068522,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Histidine",
+        "mz": 156.0771826,
+        "ccs": 132.4079273,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Dehydroshikimic Acid",
+        "mz": 173.04445,
+        "ccs": 132.7333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "4-Guanidinobutanoic Acid",
+        "mz": 146.092,
+        "ccs": 132.8,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Glutamine",
+        "mz": 147.076415,
+        "ccs": 133.4468151,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Guanine",
+        "mz": 152.056686,
+        "ccs": 133.5473527,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Methionine",
+        "mz": 150.0588712,
+        "ccs": 133.6478902,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-Methyl-L-glutamate",
+        "mz": 162.076086,
+        "ccs": 133.7149152,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cinnamaldehyde",
+        "mz": 133.0647878,
+        "ccs": 134.2511154,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Valine",
+        "mz": 118.0862506,
+        "ccs": 134.2846279,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "7-Methylguanine",
+        "mz": 166.0756,
+        "ccs": 134.3333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Theobromine",
+        "mz": 181.0704,
+        "ccs": 134.3666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Perinaphthenon",
+        "mz": 181.0653368,
+        "ccs": 134.5862405,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Leucine",
+        "mz": 132.1024484,
+        "ccs": 135.1559531,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyridoxal",
+        "mz": 168.0655164,
+        "ccs": 135.4240532,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "D-Glucosamine",
+        "mz": 180.08665,
+        "ccs": 135.5916158,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Paraxanthine",
+        "mz": 181.07201,
+        "ccs": 135.6251283,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyridoxine",
+        "mz": 170.081166,
+        "ccs": 135.6921533,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Hypoxanthine",
+        "mz": 137.0457854,
+        "ccs": 135.7926908,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyridoxamine",
+        "mz": 169.0971492,
+        "ccs": 135.7926908,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "D-Glyceraldehyde 3-Phosphate",
+        "mz": 171.0053012,
+        "ccs": 135.8597158,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-2-Aminoadipic Acid",
+        "mz": 162.0760806,
+        "ccs": 136.3624035,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "6-Hydroxynicotinate",
+        "mz": 140.0339,
+        "ccs": 136.43,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Methyl-L-histidine",
+        "mz": 170.0932,
+        "ccs": 136.57,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Isoleucine",
+        "mz": 132.1024484,
+        "ccs": 136.9667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "4-Pyridoxate",
+        "mz": 184.06044,
+        "ccs": 137.2672413,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Urocanate",
+        "mz": 139.050206,
+        "ccs": 137.5353414,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Selenomethionine",
+        "mz": 198.00278,
+        "ccs": 137.6693914,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyrene (PE5)",
+        "mz": 203.086071,
+        "ccs": 137.971004,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Xanthine",
+        "mz": 153.0407004,
+        "ccs": 138.105054,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Indoleacetic Acid",
+        "mz": 176.0706014,
+        "ccs": 138.105054,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Phosphocholine",
+        "mz": 184.073316,
+        "ccs": 138.5407167,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2-Methylanthracene",
+        "mz": 193.1017202,
+        "ccs": 138.6077417,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Orotic Acid",
+        "mz": 157.0253,
+        "ccs": 138.85,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Methyleugenol",
+        "mz": 179.1066504,
+        "ccs": 138.9428668,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Quinolinic Acid",
+        "mz": 168.029133,
+        "ccs": 138.9763793,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-Acetyl-L-glutamate",
+        "mz": 190.0699,
+        "ccs": 139.0333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Methionine sulfoximine",
+        "mz": 181.0631,
+        "ccs": 139.3,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Oxaloacetic Acid",
+        "mz": 133.0131494,
+        "ccs": 139.4455544,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Glufosinate",
+        "mz": 182.0575528,
+        "ccs": 140.1493171,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Anabasine",
+        "mz": 163.1229684,
+        "ccs": 140.1828296,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Kynurenic Acid",
+        "mz": 190.0498672,
+        "ccs": 140.9871299,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "S-Carboxymethyl-L-cysteine",
+        "mz": 180.0312,
+        "ccs": 141.1333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Myristicin",
+        "mz": 193.0859162,
+        "ccs": 141.6908926,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Thujone",
+        "mz": 153.1273846,
+        "ccs": 141.8249426,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Gluconic Acid",
+        "mz": 197.065576,
+        "ccs": 141.8919677,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Anthraquinone",
+        "mz": 209.0602518,
+        "ccs": 141.8919677,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Norleucine",
+        "mz": 132.1011,
+        "ccs": 142.6333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Camphor",
+        "mz": 153.1273846,
+        "ccs": 142.7968054,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Picloram",
+        "mz": 240.9332868,
+        "ccs": 142.8303179,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Theophylline",
+        "mz": 181.07201,
+        "ccs": 143.0649055,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Mimosine",
+        "mz": 199.07133,
+        "ccs": 143.4670556,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cinnamic Acid",
+        "mz": 149.0597028,
+        "ccs": 145.3102437,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "4-Methyl-5-Thiazolethanol",
+        "mz": 144.055516,
+        "ccs": 145.3437562,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Caffeine",
+        "mz": 195.08766,
+        "ccs": 145.4,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acenaphthenequinone",
+        "mz": 183.0446026,
+        "ccs": 145.5113187,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Benzanthrone",
+        "mz": 231.0809856,
+        "ccs": 145.71,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "d-Desthiobiotin",
+        "mz": 215.1390118,
+        "ccs": 145.7794188,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Quinic Acid",
+        "mz": 193.0706612,
+        "ccs": 146.3491315,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Hippuric Acid",
+        "mz": 180.0655164,
+        "ccs": 146.8183066,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "O-Succinyl-L-homoserine",
+        "mz": 220.08157,
+        "ccs": 147.4550443,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2-Chloro-L-Phenylalanine",
+        "mz": 200.047279,
+        "ccs": 148.8625698,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Citric Acid",
+        "mz": 193.0342778,
+        "ccs": 148.8960823,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-(3-Phenylpropionyl) Glycine",
+        "mz": 208.0968148,
+        "ccs": 149.4657949,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Shikimic Acid",
+        "mz": 175.060097,
+        "ccs": 149.4993074,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Cysteine",
+        "mz": 122.0275728,
+        "ccs": 149.5663325,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "D-Pantothenic Acid",
+        "mz": 220.1168,
+        "ccs": 150.1666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Metribuzin",
+        "mz": 215.096652,
+        "ccs": 150.5,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Atrazine",
+        "mz": 216.1003794,
+        "ccs": 150.7392703,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Kynurenine",
+        "mz": 209.092066,
+        "ccs": 151.0743954,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Serotonin",
+        "mz": 177.1027828,
+        "ccs": 151.9,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Benzo(a)Pyrene",
+        "mz": 253.1017246,
+        "ccs": 152.0463,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Carnosine",
+        "mz": 227.113866,
+        "ccs": 152.1803083,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Fluometuron",
+        "mz": 233.0901678,
+        "ccs": 152.2,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cis-Aconitic Acid",
+        "mz": 175.0237136,
+        "ccs": 152.2138208,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Trans-Aconitic Acid",
+        "mz": 175.0237136,
+        "ccs": 153.018121,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Diuron",
+        "mz": 233.023627,
+        "ccs": 153.3197336,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Phosphocreatine",
+        "mz": 212.0653,
+        "ccs": 153.7666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "D-Biotin",
+        "mz": 245.0954346,
+        "ccs": 154.1575463,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Tryptophan",
+        "mz": 205.0971492,
+        "ccs": 154.2245714,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Benzo(k)fluoranthene",
+        "mz": 253.1017198,
+        "ccs": 154.3586,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pyridoxal 5'-Phosphate",
+        "mz": 248.0323976,
+        "ccs": 154.7608,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Naproxen",
+        "mz": 231.1023,
+        "ccs": 154.8333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Benz(j)aceanthrylene",
+        "mz": 253.1017202,
+        "ccs": 155.0791404,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-Acetyl-D-tryptophan",
+        "mz": 247.10772,
+        "ccs": 155.6656093,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "L-Anserine",
+        "mz": 241.1292,
+        "ccs": 155.97,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Sulfanilamide",
+        "mz": 174.0234,
+        "ccs": 156.0666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adenosine",
+        "mz": 268.104036,
+        "ccs": 156.9666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "sn-Glycero-3-phosphocholine",
+        "mz": 258.1089,
+        "ccs": 157.1666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Daidzein",
+        "mz": 255.065182,
+        "ccs": 157.2333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5-Methylcytidine",
+        "mz": 258.108442,
+        "ccs": 157.5087974,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Hydroxy-DL-kynurenine",
+        "mz": 225.0845,
+        "ccs": 157.6666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Imazapyr",
+        "mz": 262.118612,
+        "ccs": 157.8104099,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5-Hydroxy-L-Tryptophan",
+        "mz": 221.0920642,
+        "ccs": 157.877435,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Methoxy-L-Tyrosine",
+        "mz": 212.0913,
+        "ccs": 158.7333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Inosine",
+        "mz": 269.0880422,
+        "ccs": 159.2514479,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acetochlor",
+        "mz": 270.125525,
+        "ccs": 160.0892606,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Abscisic Acid",
+        "mz": 265.143428,
+        "ccs": 160.5584358,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Phenylacetyl L-Glutamine",
+        "mz": 265.1182776,
+        "ccs": 160.9270734,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Terbutryn",
+        "mz": 242.1433854,
+        "ccs": 161.228686,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Emodin",
+        "mz": 271.060097,
+        "ccs": 161.295711,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Metolachlor",
+        "mz": 284.1411742,
+        "ccs": 161.4632735,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5'-Deoxyadenosine",
+        "mz": 252.1091108,
+        "ccs": 162.1000112,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pendimethalin",
+        "mz": 282.1448254,
+        "ccs": 162.6026989,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2'-Deoxyadenosine",
+        "mz": 252.1095,
+        "ccs": 162.7333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "12-Hydroxybenzo(a)pyrene",
+        "mz": 267.081,
+        "ccs": 163.1,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Hexazinone",
+        "mz": 253.165894,
+        "ccs": 163.1724116,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "7-hydroxybenzo(a)pyrene",
+        "mz": 267.081,
+        "ccs": 163.2,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Genistein",
+        "mz": 271.060097,
+        "ccs": 163.3,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Thymidine 5'-Monophosphate",
+        "mz": 323.063876,
+        "ccs": 163.8426618,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pinostrobin",
+        "mz": 271.0964804,
+        "ccs": 164.2448119,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Guanosine",
+        "mz": 284.098946,
+        "ccs": 165.0155996,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Isoliquiritigenin",
+        "mz": 257.0808312,
+        "ccs": 165.0491121,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Catechin",
+        "mz": 291.0863104,
+        "ccs": 165.1831622,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2_-Deoxycytidine 5_-Monophosphate",
+        "mz": 308.064216,
+        "ccs": 165.5853123,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Kaempferol",
+        "mz": 287.055012,
+        "ccs": 165.9874624,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Prunetin",
+        "mz": 285.0757462,
+        "ccs": 166.2555625,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Xanthosine",
+        "mz": 285.0829572,
+        "ccs": 166.4901501,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Dibenzo(AH)Pyrene",
+        "mz": 303.117369,
+        "ccs": 166.69,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acacetin",
+        "mz": 285.0757462,
+        "ccs": 167.0598627,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Nicotinamide Mononucleotide",
+        "mz": 335.06389,
+        "ccs": 167.1268877,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Ophthalmic Acid",
+        "mz": 290.1329,
+        "ccs": 167.2333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Argininosuccinic Acid",
+        "mz": 291.1299,
+        "ccs": 167.3949878,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Naringenin",
+        "mz": 273.0757462,
+        "ccs": 167.9647005,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cytidine-5' Monophosphate",
+        "mz": 324.0591254,
+        "ccs": 168.7666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "1-Methylguanosine",
+        "mz": 298.11459,
+        "ccs": 168.8025133,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Indaziflam",
+        "mz": 302.1775412,
+        "ccs": 169.2716884,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Uridine 5'-Monophosphate",
+        "mz": 325.043146,
+        "ccs": 169.8078886,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2_-Deoxyadenosine 5_-Monophosphate",
+        "mz": 332.075446,
+        "ccs": 170.0089636,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Eriodictyol",
+        "mz": 289.0706612,
+        "ccs": 170.4781388,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cytidine 3'-monophosphate",
+        "mz": 324.059136,
+        "ccs": 170.9808264,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "N-Acetyl Sulfamethoxazole",
+        "mz": 296.0699498,
+        "ccs": 171.4500015,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Thiamine Monophosphate",
+        "mz": 345.0815,
+        "ccs": 172.5333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Isorhamnetin",
+        "mz": 317.0655762,
+        "ccs": 172.9580645,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5'-Methylthioadenosine",
+        "mz": 298.096836,
+        "ccs": 173.0250895,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adenosine 5' Monophosphate",
+        "mz": 348.0703584,
+        "ccs": 173.3267021,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Myricetin",
+        "mz": 319.044842,
+        "ccs": 174.3991024,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2-Methoxyestrone",
+        "mz": 301.1798114,
+        "ccs": 174.4661275,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Hesperetin",
+        "mz": 303.0863104,
+        "ccs": 176.5439031,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Pregnenolone",
+        "mz": 317.2474932,
+        "ccs": 177.2476658,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Inosine 5_-Monophosphate",
+        "mz": 349.0543748,
+        "ccs": 177.5827909,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "_-3 Arachidonic Acid",
+        "mz": 305.2480446,
+        "ccs": 178.6,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "2'-Deoxyguanosine 5'-Monophosphate",
+        "mz": 348.070366,
+        "ccs": 178.9568038,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "6-keto Prostaglandin F1_",
+        "mz": 371.243351,
+        "ccs": 179.1,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "13-OxoODE",
+        "mz": 295.2273046,
+        "ccs": 179.4,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "sn-Glycerol 3-phosphate",
+        "mz": 173.0209504,
+        "ccs": 179.493004,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "3-Methylcrotonyl-CoA",
+        "mz": 850.1648918,
+        "ccs": 180.0333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Thyrotropin-releasing hormone",
+        "mz": 363.177526,
+        "ccs": 181.0010669,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Guanosine 5' Monophosphate",
+        "mz": 364.0652734,
+        "ccs": 182.2075173,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "14(15)-EET",
+        "mz": 321.2435,
+        "ccs": 182.4333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Indomethacin",
+        "mz": 358.0840566,
+        "ccs": 183.5480177,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Testosterone",
+        "mz": 289.2161948,
+        "ccs": 183.8161178,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Androstenedione",
+        "mz": 287.2005456,
+        "ccs": 183.9501678,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "9-OxoODE",
+        "mz": 295.2273046,
+        "ccs": 184.2,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Docosahexaenoic Acid",
+        "mz": 329.2448,
+        "ccs": 184.620418,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5-7-Dihydroxy-3-4-5-Trimethoxyflavone",
+        "mz": 345.0968746,
+        "ccs": 185.5922808,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "S-Adenosyl-L-methionine",
+        "mz": 399.1450568,
+        "ccs": 186.4636061,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Progesterone",
+        "mz": 315.23118,
+        "ccs": 186.7317061,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Methyl Linoleate",
+        "mz": 295.2631424,
+        "ccs": 187.2008813,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Methyl Tetracosanoate",
+        "mz": 383.388336,
+        "ccs": 187.5360064,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "17_-Hydroxyprogesterone",
+        "mz": 331.2266436,
+        "ccs": 187.5695189,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Tangeritin",
+        "mz": 373.128173,
+        "ccs": 187.904644,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adenosine 5' Diphosphate",
+        "mz": 428.036691,
+        "ccs": 188.6084067,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cortisol",
+        "mz": 363.2171376,
+        "ccs": 188.8765068,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adrenic Acid",
+        "mz": 334.2696,
+        "ccs": 189.4127069,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "17_-Hydroxypregnenolone",
+        "mz": 333.2429568,
+        "ccs": 190.4515948,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Riboflavin",
+        "mz": 377.145554,
+        "ccs": 192.4288329,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Ampicillin",
+        "mz": 350.125,
+        "ccs": 193.1666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Dihydrofolate",
+        "mz": 445.1196,
+        "ccs": 193.6333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Aldosterone",
+        "mz": 361.2009398,
+        "ccs": 196.0481839,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Halosulfuron-methyl",
+        "mz": 435.048419,
+        "ccs": 196.4838466,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Mangiferin",
+        "mz": 423.0921838,
+        "ccs": 196.6178966,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "5-Methyltetrahydrofolate",
+        "mz": 460.1937846,
+        "ccs": 196.9865342,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Tetracycline",
+        "mz": 445.1629,
+        "ccs": 198.4833333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Vitamin K2",
+        "mz": 445.31009,
+        "ccs": 198.6621597,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Leucovorin Calcium",
+        "mz": 474.1737134,
+        "ccs": 198.7962098,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Cytidine 5'-diphosphocholine",
+        "mz": 489.1151512,
+        "ccs": 198.8632348,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Rotenone",
+        "mz": 395.1489072,
+        "ccs": 199.6340225,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Prostaglandin I2",
+        "mz": 353.2327868,
+        "ccs": 201.3,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Lauroyl-L-carnitine (C12-Carnitine)",
+        "mz": 344.2927,
+        "ccs": 201.4666667,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Riboflavin 5'-Monophosphate",
+        "mz": 457.1118866,
+        "ccs": 201.4772106,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "S-Hexyl-glutathione",
+        "mz": 392.1827,
+        "ccs": 203.2,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Calcium Pantothenate",
+        "mz": 477.1755522,
+        "ccs": 204.2587489,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Astilbin",
+        "mz": 451.1234822,
+        "ccs": 205.8673494,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "_- + _-Tocopherol",
+        "mz": 417.3725846,
+        "ccs": 212.2347263,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Leukotriene E4",
+        "mz": 440.2470558,
+        "ccs": 213.2,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "_-Tocopherol",
+        "mz": 431.3882846,
+        "ccs": 215.5524648,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Palmitoylcarnitine",
+        "mz": 400.3539,
+        "ccs": 216.1,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Adenosine 5' Diphosphoglucose",
+        "mz": 590.089512,
+        "ccs": 218.3004906,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Oleoylcarnitine",
+        "mz": 426.3692,
+        "ccs": 218.7333333,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC 13:0",
+        "mz": 454.2928004,
+        "ccs": 220.7133914,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC 14:0",
+        "mz": 468.3089982,
+        "ccs": 222.0,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPS (16:0/0:0)",
+        "mz": 498.283179,
+        "ccs": 222.791167,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Nicotinamide Hypoxanthine Dinucleotide",
+        "mz": 666.107679,
+        "ccs": 222.791167,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "_-Nicotinamide Adenine Dinucleotide (_-NAD+)",
+        "mz": 664.1163942,
+        "ccs": 229.4601565,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Amentoflavone",
+        "mz": 539.0972688,
+        "ccs": 230.1639192,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(16:0)",
+        "mz": 496.3402946,
+        "ccs": 233.3,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Leukotriene D4",
+        "mz": 497.2685146,
+        "ccs": 234.1,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(18:1)",
+        "mz": 522.3553972,
+        "ccs": 235.5929458,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(18:1)",
+        "mz": 522.3559446,
+        "ccs": 236.1,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Rutin",
+        "mz": 611.160654,
+        "ccs": 236.196171,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(p18:0)",
+        "mz": 508.37668,
+        "ccs": 236.8,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Naringin",
+        "mz": 581.186448,
+        "ccs": 240.6198223,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(18:0)",
+        "mz": 524.371595,
+        "ccs": 240.7,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(19:0)",
+        "mz": 538.3872442,
+        "ccs": 241.9,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Nicotinamide Adenine Dinucleotide (NAD+)",
+        "mz": 664.1163942,
+        "ccs": 241.9268102,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Biliverdin",
+        "mz": 583.2532,
+        "ccs": 246.5,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "LPC(20:0)",
+        "mz": 552.4028946,
+        "ccs": 248.6,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acetyl coenzyme A",
+        "mz": 810.1330448,
+        "ccs": 249.8022836,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PC(11:0/11:0)",
+        "mz": 594.412909,
+        "ccs": 257.0744648,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Leukotriene C4",
+        "mz": 626.3111146,
+        "ccs": 257.4,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "GalCer(d18:1/12:0)",
+        "mz": 644.5095674,
+        "ccs": 271.149719,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PC(16:1/16:1)",
+        "mz": 730.545542,
+        "ccs": 280.1645842,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PE(18:1/18:1)",
+        "mz": 744.5543004,
+        "ccs": 280.6,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PE(18:1/18:1)",
+        "mz": 744.5543004,
+        "ccs": 284.0185229,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Rifampicin",
+        "mz": 823.4129246,
+        "ccs": 287.13,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "SM(d18:1/17:0)",
+        "mz": 717.5904696,
+        "ccs": 290.1177997,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PC(18:1(9Z)/16:0)",
+        "mz": 760.5850502,
+        "ccs": 291.7934252,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PG(18:1/18:1)",
+        "mz": 775.5483324,
+        "ccs": 294.474426,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PG(18:1/18:1)",
+        "mz": 775.5483324,
+        "ccs": 294.8095511,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PC(18:1/18:1)",
+        "mz": 786.6007,
+        "ccs": 296.4181516,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "PC(18:1/18:1)",
+        "mz": 786.6006994,
+        "ccs": 297.2894769,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Vitamin B12",
+        "mz": 1355.574648,
+        "ccs": 338.7,
+        "adduct": "[M+H]+"
+    },
+    {
+        "name": "Acetyl Phosphate",
+        "mz": 162.976679,
+        "ccs": 125.4373252,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2-Oxovaleric Acid",
+        "mz": 139.0365898,
+        "ccs": 131.6371396,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Asparagine",
+        "mz": 155.0427078,
+        "ccs": 131.9387522,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-(+)-Xylose",
+        "mz": 173.042039,
+        "ccs": 132.0728022,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Ribulose",
+        "mz": 173.042039,
+        "ccs": 132.8100774,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Camphene",
+        "mz": 159.1144116,
+        "ccs": 133.0111525,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Creatinine",
+        "mz": 136.04803,
+        "ccs": 133.4133026,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Fumaric Acid",
+        "mz": 139.0001764,
+        "ccs": 133.5808652,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Betaine",
+        "mz": 140.0687446,
+        "ccs": 135.56,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "3-Ureidopropionic Acid",
+        "mz": 155.0426,
+        "ccs": 135.8,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-histidinol",
+        "mz": 164.0791,
+        "ccs": 136.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Threonic Acid",
+        "mz": 159.0265,
+        "ccs": 136.9333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Nicotinamide",
+        "mz": 145.037116,
+        "ccs": 137.3007538,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetylputrescine",
+        "mz": 153.1,
+        "ccs": 137.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-(-)-Ribose",
+        "mz": 173.042039,
+        "ccs": 137.6023664,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Mevalonic Acid",
+        "mz": 171.0627732,
+        "ccs": 137.7029039,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-L-alanine",
+        "mz": 154.0453,
+        "ccs": 138.0666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Glutamine",
+        "mz": 169.058357,
+        "ccs": 138.105054,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "4-Acetamidobutanoic Acid",
+        "mz": 168.062996,
+        "ccs": 138.5742292,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Hypoxanthine",
+        "mz": 159.0277274,
+        "ccs": 138.8758418,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Phenylalanine",
+        "mz": 188.0687446,
+        "ccs": 138.9093543,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Trigonelline",
+        "mz": 160.0353,
+        "ccs": 139.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Tyramine",
+        "mz": 145.062931,
+        "ccs": 139.9817546,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Linalool",
+        "mz": 177.1249758,
+        "ccs": 140.5514673,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Xylitol",
+        "mz": 175.0576882,
+        "ccs": 140.7860548,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Glyphosate",
+        "mz": 192.0035,
+        "ccs": 141.1666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Xylulose",
+        "mz": 173.042039,
+        "ccs": 141.7579176,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Mannose",
+        "mz": 203.0531552,
+        "ccs": 141.8249426,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Arabinose",
+        "mz": 173.042039,
+        "ccs": 141.8584552,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Fructose",
+        "mz": 203.0531552,
+        "ccs": 141.9254802,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-Hydroxymethyluracil",
+        "mz": 165.026946,
+        "ccs": 142.0595302,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "S-Carboxymethyl-L-cysteine",
+        "mz": 202.0136,
+        "ccs": 142.1333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "sn-Glycerol 3-phosphate",
+        "mz": 195.0028924,
+        "ccs": 142.1600677,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-2-Aminoadipic Acid",
+        "mz": 184.0580226,
+        "ccs": 142.2270928,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Galactose",
+        "mz": 203.0531552,
+        "ccs": 142.3946553,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Glufosinate",
+        "mz": 204.0394948,
+        "ccs": 142.6962679,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Caffeine",
+        "mz": 217.06949,
+        "ccs": 142.9333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Methionine sulfoximine",
+        "mz": 203.0451,
+        "ccs": 143.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Arabinose",
+        "mz": 173.042039,
+        "ccs": 143.2659806,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Ribonic Acid",
+        "mz": 189.0378,
+        "ccs": 143.4666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Uric Acid",
+        "mz": 191.0181094,
+        "ccs": 143.4972169,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Mevalonolactone",
+        "mz": 153.052106,
+        "ccs": 143.6681307,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-L-aspartic Acid",
+        "mz": 198.037176,
+        "ccs": 143.7016432,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Tyrosine",
+        "mz": 204.0636596,
+        "ccs": 143.9697433,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Valine",
+        "mz": 140.0681926,
+        "ccs": 144.0702808,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Dihydroxyacetone Phosphate",
+        "mz": 192.9872432,
+        "ccs": 144.0702808,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pyrophosphoric Acid",
+        "mz": 200.9324474,
+        "ccs": 145.5783438,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Allantoin",
+        "mz": 181.0332066,
+        "ccs": 145.6118563,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Galactitol",
+        "mz": 205.06815,
+        "ccs": 145.9134689,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Citric Acid",
+        "mz": 215.0155558,
+        "ccs": 146.1145439,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Ascorbic Acid",
+        "mz": 199.0213048,
+        "ccs": 146.1145439,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Rhamnose",
+        "mz": 187.0582402,
+        "ccs": 146.3,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Tiglyl Glycine",
+        "mz": 180.0631076,
+        "ccs": 146.6842566,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Mannosamine",
+        "mz": 202.0691388,
+        "ccs": 146.7333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cis-Aconitic Acid",
+        "mz": 197.0062076,
+        "ccs": 146.7847941,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Isocitric Acid",
+        "mz": 215.0155558,
+        "ccs": 146.7847941,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Acetylsalicylic Acid",
+        "mz": 203.0334,
+        "ccs": 146.8,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Glucosamine",
+        "mz": 202.06848,
+        "ccs": 147.1869443,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "O-Succinyl-L-homoserine",
+        "mz": 242.0634,
+        "ccs": 147.2204568,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "6-Deoxy-L-galactose",
+        "mz": 187.0582402,
+        "ccs": 147.3209943,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Glucose",
+        "mz": 203.0531552,
+        "ccs": 147.72,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Arginine",
+        "mz": 197.1014404,
+        "ccs": 147.8,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Glucuronolactone",
+        "mz": 199.0212,
+        "ccs": 147.9242195,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Imidazole-4-acetic Acid",
+        "mz": 149.0229,
+        "ccs": 148.0333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pyridoxine",
+        "mz": 192.062996,
+        "ccs": 148.4939321,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pyridoxamine",
+        "mz": 191.0790912,
+        "ccs": 148.4939321,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Trans-Aconitic Acid",
+        "mz": 197.0062076,
+        "ccs": 149.1306363,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Formyl-L-methionine",
+        "mz": 200.0337,
+        "ccs": 149.53,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Homovanillic Acid",
+        "mz": 205.047124,
+        "ccs": 149.5663325,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-L-glutamate",
+        "mz": 212.0537,
+        "ccs": 149.6333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Theophylline",
+        "mz": 203.05384,
+        "ccs": 149.6333575,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "7-Methylguanine",
+        "mz": 188.055,
+        "ccs": 149.7166667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Gluconic Acid",
+        "mz": 219.047406,
+        "ccs": 149.7674075,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Methyl beta-D-galactoside",
+        "mz": 217.0671,
+        "ccs": 149.9666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Glyceraldehyde 3- Phosphate",
+        "mz": 192.9865792,
+        "ccs": 150.3706327,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-(3-Phenylpropionyl) Glycine",
+        "mz": 230.0787568,
+        "ccs": 150.6052203,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Sedoheptulose",
+        "mz": 233.0631674,
+        "ccs": 150.73,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Serotonin",
+        "mz": 199.0847282,
+        "ccs": 150.8,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Cysteine",
+        "mz": 144.0095182,
+        "ccs": 151.3424955,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Xylulose 5-Phosphate",
+        "mz": 253.0089236,
+        "ccs": 151.4,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Xylose 5-phosphate",
+        "mz": 253.0089236,
+        "ccs": 151.4,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "4-Pyridoxate",
+        "mz": 206.04227,
+        "ccs": 151.7781581,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Inositol",
+        "mz": 203.0519392,
+        "ccs": 151.9457207,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Mevalonic Acid 5-Phosphate",
+        "mz": 251.0291058,
+        "ccs": 152.2808458,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Xanthine",
+        "mz": 175.0226424,
+        "ccs": 152.6494834,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Sulfanilamide",
+        "mz": 195.02,
+        "ccs": 152.7666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Glucuronate",
+        "mz": 217.03175,
+        "ccs": 153.1333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Aniline-2-sulfonic Acid",
+        "mz": 196.0028,
+        "ccs": 153.2333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Ribulose 5-Phosphate",
+        "mz": 253.0089236,
+        "ccs": 153.2527086,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "3-Methoxy-L-Tyrosine",
+        "mz": 234.0727,
+        "ccs": 153.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Quinic Acid",
+        "mz": 215.0526032,
+        "ccs": 153.7218837,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Erythrose 4-Phosphate",
+        "mz": 222.9978074,
+        "ccs": 153.8894463,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Hippuric Acid",
+        "mz": 202.0474584,
+        "ccs": 154.0570088,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Kynurenic Acid",
+        "mz": 212.0318092,
+        "ccs": 154.1240338,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Umbelliferone",
+        "mz": 185.0209106,
+        "ccs": 154.4591589,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-D-mannosamine",
+        "mz": 244.079046,
+        "ccs": 154.7607715,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2-Hydroxy Hippuric Acid",
+        "mz": 218.0435,
+        "ccs": 154.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Pantothenic Acid",
+        "mz": 242.1012,
+        "ccs": 155.2666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Monoethyl Phthalic Acid",
+        "mz": 217.047124,
+        "ccs": 155.6656093,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Ribose 5-Phosphate",
+        "mz": 253.0089236,
+        "ccs": 155.7996593,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Picloram",
+        "mz": 262.9152288,
+        "ccs": 156.369372,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Fructose-6-phosphate",
+        "mz": 283.0194878,
+        "ccs": 156.436397,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-Hydroxy-L-Tryptophan",
+        "mz": 243.0738942,
+        "ccs": 156.4699095,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2-Methylhippuric Acid",
+        "mz": 216.0631076,
+        "ccs": 156.6039596,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Dicamba",
+        "mz": 242.9586166,
+        "ccs": 157.2071848,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Deoxycytidine",
+        "mz": 250.07972,
+        "ccs": 158.4136351,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "4-hydroxy 3-methoxyphenylethylene glycol",
+        "mz": 207.06277,
+        "ccs": 159.0503728,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "d-Desthiobiotin",
+        "mz": 237.1209538,
+        "ccs": 159.1173978,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Deoxyuridine",
+        "mz": 251.063726,
+        "ccs": 159.4525229,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Fructose-1-phosphate",
+        "mz": 283.0194878,
+        "ccs": 159.6837593,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "L-Anserine",
+        "mz": 263.1099,
+        "ccs": 159.77,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Methyleugenol",
+        "mz": 201.0885924,
+        "ccs": 160.3573607,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-D-glucosamine",
+        "mz": 244.079046,
+        "ccs": 160.3573607,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2-(_-Glucosyl)glycerol",
+        "mz": 277.0925,
+        "ccs": 160.5,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "3-Hydroxy-DL-kynurenine",
+        "mz": 247.0677,
+        "ccs": 160.8333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Fluometuron",
+        "mz": 255.0719978,
+        "ccs": 161.2,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "sn-Glycero-3-phosphocholine",
+        "mz": 280.0912,
+        "ccs": 161.8,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "_-D-Glucose 1-Phosphate",
+        "mz": 283.0194878,
+        "ccs": 161.8319112,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Glucose-6-phosphate",
+        "mz": 283.0194878,
+        "ccs": 162.6026989,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Diuron",
+        "mz": 255.005569,
+        "ccs": 162.7032364,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl-D-tryptophan",
+        "mz": 269.08955,
+        "ccs": 162.7367489,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Naproxen",
+        "mz": 253.0853,
+        "ccs": 163.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "_-Pseudouridine",
+        "mz": 267.0611,
+        "ccs": 164.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thiabendazole",
+        "mz": 224.0257208,
+        "ccs": 164.1666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Biotin",
+        "mz": 267.0773766,
+        "ccs": 164.4458869,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thymidine",
+        "mz": 265.079376,
+        "ccs": 164.512912,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pyridoxal 5'-Phosphate",
+        "mz": 270.014343,
+        "ccs": 165.0491,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Diethyl Pthalic Acid",
+        "mz": 245.078859,
+        "ccs": 165.2333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Ophthalmic Acid",
+        "mz": 312.1147,
+        "ccs": 165.7,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Fludioxonil",
+        "mz": 271.0293866,
+        "ccs": 165.7,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Uridine",
+        "mz": 267.058646,
+        "ccs": 166.0,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2_-Deoxycytidine 5_-Monophosphate",
+        "mz": 330.046046,
+        "ccs": 166.6242001,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2'-Deoxyadenosine",
+        "mz": 274.0902,
+        "ccs": 166.6666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "6-Phosphogluconic Acid",
+        "mz": 299.0144028,
+        "ccs": 167.1637515,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Xylobiose",
+        "mz": 305.0843002,
+        "ccs": 167.4,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Glutathione",
+        "mz": 330.0730202,
+        "ccs": 168.2328006,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-Methylcytidine",
+        "mz": 280.090384,
+        "ccs": 168.9700758,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Progesterone",
+        "mz": 337.213122,
+        "ccs": 169.0333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thymidine 5'-Monophosphate",
+        "mz": 345.045818,
+        "ccs": 169.7408635,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adenosine",
+        "mz": 290.085866,
+        "ccs": 170.0666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Phenylacetyl L-Glutamine",
+        "mz": 287.1002196,
+        "ccs": 171.2489265,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Metribuzin",
+        "mz": 237.078482,
+        "ccs": 171.2666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cytidine-5' Monophosphate",
+        "mz": 346.0410674,
+        "ccs": 171.5333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5'-Deoxyadenosine",
+        "mz": 274.0910528,
+        "ccs": 171.9862017,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Linlenic Acid (C18:3)",
+        "mz": 301.2138,
+        "ccs": 172.0197142,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Argininosuccinic Acid",
+        "mz": 313.111178,
+        "ccs": 172.2207893,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Palmitoleic Acid (C16:1)",
+        "mz": 277.2138,
+        "ccs": 172.6229394,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Daidzein",
+        "mz": 277.047124,
+        "ccs": 173.1333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2'-Deoxyguanosine 5'-Monophosphate",
+        "mz": 370.0528524,
+        "ccs": 173.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Sucrose",
+        "mz": 365.1054242,
+        "ccs": 173.9299273,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Inosine 5_-Monophosphate",
+        "mz": 371.0363168,
+        "ccs": 174.566665,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Acetochlor",
+        "mz": 292.107467,
+        "ccs": 174.6001775,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Indaziflam",
+        "mz": 324.1594832,
+        "ccs": 174.6001775,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2_-Mannobiose",
+        "mz": 365.1054242,
+        "ccs": 174.8347651,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cytidine 3'-monophosphate",
+        "mz": 346.040966,
+        "ccs": 174.9017901,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Uridine 5'-Monophosphate",
+        "mz": 347.024976,
+        "ccs": 175.1363777,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Inosine",
+        "mz": 291.0699842,
+        "ccs": 175.3709652,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Metolachlor",
+        "mz": 306.1231162,
+        "ccs": 175.8401404,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Imazapyr",
+        "mz": 284.100554,
+        "ccs": 176.0747279,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Formononetin",
+        "mz": 291.0627732,
+        "ccs": 176.141753,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Abscisic Acid",
+        "mz": 287.12537,
+        "ccs": 176.1752655,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Linoleic Acid (C18:2)",
+        "mz": 303.2295,
+        "ccs": 176.3763405,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5'-Methylthioadenosine",
+        "mz": 320.078666,
+        "ccs": 176.5439031,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2_-Deoxyadenosine 5_-Monophosphate",
+        "mz": 354.057276,
+        "ccs": 176.6779531,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-(+)-Turanose",
+        "mz": 365.1054242,
+        "ccs": 177.0,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Guanosine",
+        "mz": 306.080776,
+        "ccs": 177.2476658,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Palatinose",
+        "mz": 365.1054242,
+        "ccs": 177.3146908,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Xanthosine",
+        "mz": 307.0648992,
+        "ccs": 177.4487409,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adenosine 5' Diphosphoglucose",
+        "mz": 612.071454,
+        "ccs": 177.6163034,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Genistein",
+        "mz": 293.042039,
+        "ccs": 177.6666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Guanosine 5' Monophosphate",
+        "mz": 386.0472154,
+        "ccs": 177.9514285,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Isomaltose",
+        "mz": 365.1054242,
+        "ccs": 178.0184535,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "N-Acetyl Sulfamethoxazole",
+        "mz": 318.0518918,
+        "ccs": 178.5211412,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cellobiose",
+        "mz": 365.1054242,
+        "ccs": 178.6551912,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Lactose",
+        "mz": 365.1057,
+        "ccs": 178.8333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "D-Maltose",
+        "mz": 365.1054242,
+        "ccs": 179.1913914,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Hexazinone",
+        "mz": 275.147836,
+        "ccs": 179.493004,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lactulose",
+        "mz": 365.1054242,
+        "ccs": 180.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "B-Gentiobiose",
+        "mz": 365.1054242,
+        "ccs": 180.5333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adenosine 5' Monophosphate",
+        "mz": 370.052196,
+        "ccs": 180.7329668,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "1-Methylguanosine",
+        "mz": 320.096532,
+        "ccs": 180.7999919,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Arachidonic Acid (C20:4)",
+        "mz": 327.2295,
+        "ccs": 180.9675544,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Melibiose",
+        "mz": 365.1054242,
+        "ccs": 181.135117,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "_-3 Arachidonic Acid",
+        "mz": 327.22999,
+        "ccs": 181.1666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Maltulose",
+        "mz": 365.1054242,
+        "ccs": 181.269167,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Oleic Acid",
+        "mz": 305.2451,
+        "ccs": 181.3697045,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prunetin",
+        "mz": 307.0576882,
+        "ccs": 181.4367296,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Orotic Acid",
+        "mz": 179.007,
+        "ccs": 181.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Eriodictyol",
+        "mz": 311.0526032,
+        "ccs": 182.1740048,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Bishomo-gamma-linolenic Acid",
+        "mz": 329.2451,
+        "ccs": 183.3804551,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Sophorose",
+        "mz": 365.1054242,
+        "ccs": 183.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Icosadienoic Acid",
+        "mz": 331.2608,
+        "ccs": 184.0507053,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thyrotropin-releasing hormone",
+        "mz": 385.159356,
+        "ccs": 184.1177304,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Catechin",
+        "mz": 313.0682524,
+        "ccs": 184.4193429,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Hesperetin",
+        "mz": 325.0682524,
+        "ccs": 184.4528555,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Docosahexaenoic Acid",
+        "mz": 351.2293232,
+        "ccs": 185.0560806,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Palmitic Acid",
+        "mz": 279.2295,
+        "ccs": 185.2236097,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "8(9)-EET",
+        "mz": 343.225,
+        "ccs": 186.8333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "14(15)-EET",
+        "mz": 343.2271,
+        "ccs": 187.0666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "8S-HETE",
+        "mz": 343.2243502,
+        "ccs": 187.1666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Kaempferol",
+        "mz": 309.036954,
+        "ccs": 187.2008813,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Isoliquiritigenin",
+        "mz": 279.0627732,
+        "ccs": 187.3684438,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pendimethalin",
+        "mz": 304.1267674,
+        "ccs": 187.770594,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "11(12)-EET",
+        "mz": 343.2243502,
+        "ccs": 187.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Ampicillin",
+        "mz": 372.1042,
+        "ccs": 187.9333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5S-HETE",
+        "mz": 343.2236862,
+        "ccs": 188.2062566,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Eicosenoic Acid",
+        "mz": 333.2764,
+        "ccs": 188.5748942,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "9-HODE",
+        "mz": 319.2249022,
+        "ccs": 189.1446069,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "14(S)-HDHA",
+        "mz": 367.2255,
+        "ccs": 190.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "17(S)-HDHA",
+        "mz": 367.2243502,
+        "ccs": 191.5239951,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Stearic Acid",
+        "mz": 307.2608,
+        "ccs": 191.8256077,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "13-HODE",
+        "mz": 319.2243502,
+        "ccs": 191.8256077,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Secologanin",
+        "mz": 411.1261584,
+        "ccs": 191.9596577,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Trehalose 6-Phosphate",
+        "mz": 445.0717568,
+        "ccs": 192.4288329,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adrenic Acid",
+        "mz": 355.2606216,
+        "ccs": 192.830983,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "12S-HETE",
+        "mz": 343.2236862,
+        "ccs": 193.3336706,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "13-OxoODE",
+        "mz": 317.20925,
+        "ccs": 193.3666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Myricetin",
+        "mz": 341.026784,
+        "ccs": 193.9033833,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "12R-HETE",
+        "mz": 343.2263,
+        "ccs": 194.4,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "7R Maresin-1",
+        "mz": 383.21982,
+        "ccs": 194.5,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Loganin",
+        "mz": 413.1418076,
+        "ccs": 195.6460338,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Isorhamnetin",
+        "mz": 339.0475182,
+        "ccs": 195.9141339,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "7S Maresin-1",
+        "mz": 383.21982,
+        "ccs": 195.9333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Indomethacin",
+        "mz": 380.0659986,
+        "ccs": 195.9811589,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Leukotriene B4",
+        "mz": 359.2186012,
+        "ccs": 196.0481839,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin D2",
+        "mz": 375.2147322,
+        "ccs": 196.6333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin I2",
+        "mz": 375.2147322,
+        "ccs": 196.6666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adenosine 5' Diphosphate",
+        "mz": 450.018633,
+        "ccs": 196.9195092,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thromboxane B3",
+        "mz": 391.20965,
+        "ccs": 197.3333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Resolvin D1",
+        "mz": 399.21473,
+        "ccs": 197.8666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lipoxin A4",
+        "mz": 375.2141802,
+        "ccs": 197.891372,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin E2",
+        "mz": 375.2141802,
+        "ccs": 198.5281432,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "8-iso-Prostaglandin F2 alpha",
+        "mz": 377.2298294,
+        "ccs": 199.0307973,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin G2",
+        "mz": 391.2096472,
+        "ccs": 199.3,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Riboflavin",
+        "mz": 399.127496,
+        "ccs": 199.399435,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "9-OxoODE",
+        "mz": 317.20925,
+        "ccs": 199.5,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Arachidic Acid",
+        "mz": 335.2921,
+        "ccs": 199.9691476,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-Methyltetrahydrofolate",
+        "mz": 482.17573,
+        "ccs": 200.0361726,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "11B-Prostaglandin F2 alpha",
+        "mz": 377.2373,
+        "ccs": 200.2,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Resolvin D2",
+        "mz": 399.21473,
+        "ccs": 200.6,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "8-iso-15R-Prostaglandin F2 alpha",
+        "mz": 377.2298294,
+        "ccs": 200.7666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Halosulfuron-methyl",
+        "mz": 457.030361,
+        "ccs": 201.4101856,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "2-Methoxyestrone",
+        "mz": 323.1617534,
+        "ccs": 201.7117981,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thromboxane B2",
+        "mz": 393.2240804,
+        "ccs": 202.0804358,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin H2",
+        "mz": 375.2147322,
+        "ccs": 202.6333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Melezitose",
+        "mz": 527.1582452,
+        "ccs": 203.2333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Carbocyclic Thromboxane A2",
+        "mz": 371.2556486,
+        "ccs": 203.6,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Aldosterone",
+        "mz": 383.1828818,
+        "ccs": 204.0911864,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "6-keto Prostaglandin F1_",
+        "mz": 393.2252964,
+        "ccs": 204.1666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "B-Cortol",
+        "mz": 391.2454786,
+        "ccs": 204.593874,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Adenosine 5' Triphosphate (ATP)",
+        "mz": 529.9849656,
+        "ccs": 204.593874,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Androstenedione",
+        "mz": 309.1824876,
+        "ccs": 204.7279241,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cytidine 5' Triphosphate",
+        "mz": 505.9737326,
+        "ccs": 204.8954866,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "1-Kestose",
+        "mz": 527.1582452,
+        "ccs": 205.4316868,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-iPF2_-VI",
+        "mz": 377.2316,
+        "ccs": 205.5333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin F2a",
+        "mz": 377.2303814,
+        "ccs": 205.7,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Testosterone",
+        "mz": 311.1981368,
+        "ccs": 206.0684245,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "15R-Prostaglandin F2 alpha",
+        "mz": 377.23038,
+        "ccs": 207.3333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Prostaglandin F2 alpha",
+        "mz": 377.2303814,
+        "ccs": 207.3333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Thymidine 5' Triphosphate",
+        "mz": 504.9790352,
+        "ccs": 207.4089249,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Tangeritin",
+        "mz": 395.110115,
+        "ccs": 208.1462001,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Raffinose",
+        "mz": 527.1582452,
+        "ccs": 208.7159128,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cytidine 5'-diphosphocholine",
+        "mz": 511.0969812,
+        "ccs": 208.9840128,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "5-7-Dihydroxy-3-4-5-Trimethoxyflavone",
+        "mz": 367.0788166,
+        "ccs": 209.9893881,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "17_-Hydroxyprogesterone",
+        "mz": 353.2085856,
+        "ccs": 210.2574882,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "17_-Hydroxypregnenolone",
+        "mz": 355.2242348,
+        "ccs": 210.4920758,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Riboflavin 5'-Monophosphate",
+        "mz": 479.0938286,
+        "ccs": 210.6596383,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Isomaltotriose",
+        "mz": 527.1582452,
+        "ccs": 210.8272009,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Tetracycline",
+        "mz": 467.1482,
+        "ccs": 212.5,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Maltotriose",
+        "mz": 527.1582452,
+        "ccs": 212.5363389,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Astilbin",
+        "mz": 473.1054242,
+        "ccs": 212.6368764,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Rotenone",
+        "mz": 417.1308492,
+        "ccs": 213.1730766,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cortisol",
+        "mz": 385.199083,
+        "ccs": 213.9103518,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cellotriose",
+        "mz": 527.1582452,
+        "ccs": 215.6865148,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Pregnenolone",
+        "mz": 339.2294352,
+        "ccs": 216.15569,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lignoceric Acid",
+        "mz": 391.3547,
+        "ccs": 216.8594527,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lauroyl-L-carnitine",
+        "mz": 366.2626,
+        "ccs": 217.5,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cellotetraose",
+        "mz": 689.2110662,
+        "ccs": 225.0029927,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC 13:0",
+        "mz": 476.2746304,
+        "ccs": 225.4051428,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC 14:0",
+        "mz": 490.2909436,
+        "ccs": 225.7666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "_-Nicotinamide Adenine Dinucleotide (_-NAD+)",
+        "mz": 686.0983362,
+        "ccs": 226.2429555,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Leukotriene E4",
+        "mz": 462.2290012,
+        "ccs": 227.9,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Oleoylcarnitine",
+        "mz": 448.3412,
+        "ccs": 228.6,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPS (16:0/0:0)",
+        "mz": 520.265009,
+        "ccs": 228.6893688,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Palmitoylcarnitine",
+        "mz": 422.3256,
+        "ccs": 230.3666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Maltotetraose",
+        "mz": 689.2110662,
+        "ccs": 230.4655318,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Nicotinamide Hypoxanthine Dinucleotide",
+        "mz": 688.089509,
+        "ccs": 232.0071073,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Naringin",
+        "mz": 603.16839,
+        "ccs": 234.0178579,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Mannotetraose",
+        "mz": 689.2110662,
+        "ccs": 234.1183954,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "_-Nicotinamide Adenine Dinucleotide (_-NAD+)",
+        "mz": 686.0983362,
+        "ccs": 234.6545956,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "16:0 Lyso PC",
+        "mz": 518.32224,
+        "ccs": 235.7666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Stachyose",
+        "mz": 689.2084,
+        "ccs": 236.4,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC 18:1",
+        "mz": 544.3372272,
+        "ccs": 237.3355964,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC(p18:0)",
+        "mz": 530.3586254,
+        "ccs": 238.3666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Leukotriene D4",
+        "mz": 519.25046,
+        "ccs": 238.7,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-Tetraose",
+        "mz": 730.237614,
+        "ccs": 239.1787844,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "18:1 Lyso PC",
+        "mz": 544.33789,
+        "ccs": 239.5333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-Neotetraose",
+        "mz": 730.237614,
+        "ccs": 240.5863098,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "18:0 Lyso PC",
+        "mz": 546.3535404,
+        "ccs": 243.0666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC 19:0",
+        "mz": 560.3691896,
+        "ccs": 244.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PS(14:0/14:0)",
+        "mz": 702.4320652,
+        "ccs": 247.825012,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Biliverdin",
+        "mz": 605.2356,
+        "ccs": 248.8333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cellopentaose",
+        "mz": 851.2638872,
+        "ccs": 251.042213,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC(20:0)",
+        "mz": 574.38484,
+        "ccs": 251.1333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Rutin",
+        "mz": 633.142596,
+        "ccs": 251.6119257,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Maltopentaose",
+        "mz": 851.2638872,
+        "ccs": 257.0409523,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Leukotriene C4",
+        "mz": 648.29306,
+        "ccs": 260.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PC(11:0/11:0)",
+        "mz": 616.394739,
+        "ccs": 260.5932784,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "LPC(24:0)",
+        "mz": 630.4474356,
+        "ccs": 262.4333333,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Acetyl coenzyme A",
+        "mz": 832.1149868,
+        "ccs": 263.0732376,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "GalCer(d18:1/12:0)",
+        "mz": 666.4913974,
+        "ccs": 266.8266052,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-Fucopentaose 3",
+        "mz": 876.29552,
+        "ccs": 267.798468,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-Fucopentaose 2",
+        "mz": 876.29552,
+        "ccs": 269.0384309,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-Fucopentaose 1",
+        "mz": 876.29552,
+        "ccs": 274.9031202,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Maltohexaose",
+        "mz": 1013.31726,
+        "ccs": 279.6954091,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Mannohexaose",
+        "mz": 1013.31726,
+        "ccs": 281.7,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Cellohexaose",
+        "mz": 1013.31726,
+        "ccs": 283.13,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Rifampicin",
+        "mz": 845.39487,
+        "ccs": 285.07,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PG(18:1/18:1)",
+        "mz": 797.5301624,
+        "ccs": 285.2584858,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PC(16:1/16:1)",
+        "mz": 752.527372,
+        "ccs": 286.9005988,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PE(18:1/18:1)",
+        "mz": 766.5362458,
+        "ccs": 287.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PE(18:1/18:1)",
+        "mz": 766.5362458,
+        "ccs": 288.5427118,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PG(18:1/18:1)",
+        "mz": 797.5301624,
+        "ccs": 289.3134995,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "SM(d18:1/17:0)",
+        "mz": 739.5722996,
+        "ccs": 291.8939628,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PC(18:1(9Z)/16:0)",
+        "mz": 782.5668802,
+        "ccs": 293.6366133,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-neohexaose",
+        "mz": 1095.370356,
+        "ccs": 297.5666667,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PC(18:1/18:1)",
+        "mz": 808.58253,
+        "ccs": 298.0267521,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "PC(18:1/18:1)",
+        "mz": 808.5825294,
+        "ccs": 300.7412654,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Lacto-N-hexaose",
+        "mz": 1095.370356,
+        "ccs": 301.6,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Vitamin B12",
+        "mz": 1377.55659,
+        "ccs": 340.1,
+        "adduct": "[M+Na]+"
+    },
+    {
+        "name": "Choline",
+        "mz": 104.1075,
+        "ccs": 119.0,
+        "adduct": "[M]+"
+    },
+    {
+        "name": "Cyanidin",
+        "mz": 287.0556,
+        "ccs": 168.33,
+        "adduct": "[M]+"
+    },
+    {
+        "name": "Delphinidin",
+        "mz": 303.0505,
+        "ccs": 171.35,
+        "adduct": "[M]+"
+    },
+    {
+        "name": "Malvidin",
+        "mz": 331.0818,
+        "ccs": 178.55,
+        "adduct": "[M]+"
+    }
+]

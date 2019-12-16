@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module db_setup.fetch_smiles</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="db_setup.html"><font color="#ffffff">db_setup</font></a>.fetch_smiles</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/fetch_smiles.py">/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/fetch_smiles.py</a></font></td></tr></table>
+    <p><tt>fetch_smiles.py<br>
+Dylan&nbsp;H.&nbsp;Ross<br>
+2018/09/17</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-cid_from_name"><strong>cid_from_name</strong></a>(sess, name, delay=0.25)</dt><dd><tt>smi_from_cid<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;wrapper&nbsp;around&nbsp;pubchem_scrape.search_by_name&nbsp;that&nbsp;tries&nbsp;to&nbsp;get&nbsp;the&nbsp;PubChem&nbsp;CID&nbsp;for&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;compound&nbsp;by&nbsp;name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Also&nbsp;adds&nbsp;time&nbsp;delays&nbsp;between&nbsp;requests&nbsp;so&nbsp;as&nbsp;not&nbsp;to&nbsp;hammer&nbsp;the&nbsp;PubChem<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;servers&nbsp;unduly<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;per&nbsp;guidelines&nbsp;here:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://pubchemdocs.ncbi.nlm.nih.gov/programmatic-access$_RequestVolumeLimitations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no&nbsp;more&nbsp;than&nbsp;5&nbsp;requests/s&nbsp;or&nbsp;400&nbsp;requests/min&nbsp;-&gt;&nbsp;default&nbsp;delay&nbsp;of&nbsp;0.25&nbsp;s&nbsp;is&nbsp;fine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session&nbsp;(requests.Session)&nbsp;--&nbsp;requests&nbsp;session&nbsp;for&nbsp;doing&nbsp;web&nbsp;requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name&nbsp;(str)&nbsp;--&nbsp;compound&nbsp;name&nbsp;to&nbsp;search<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[delay&nbsp;(float)]&nbsp;--&nbsp;time&nbsp;delay&nbsp;(in&nbsp;seconds)&nbsp;between&nbsp;successive&nbsp;requests&nbsp;[optional,&nbsp;default=0.25]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(int&nbsp;or&nbsp;None)&nbsp;--&nbsp;PubChem&nbsp;CID&nbsp;or&nbsp;None&nbsp;if&nbsp;unsuccessful</tt></dd></dl>
+ <dl><dt><a name="-fetch_smi_byname"><strong>fetch_smi_byname</strong></a>(cursor, session, search_cache, delay=0.25, gen_lipid_smi=True)</dt><dd><tt>fetch_smi_byname<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fetches&nbsp;SMILES&nbsp;structures&nbsp;for&nbsp;the&nbsp;entries&nbsp;from&nbsp;the&nbsp;C3S.db&nbsp;using&nbsp;compound&nbsp;names.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;check&nbsp;the&nbsp;search&nbsp;cache&nbsp;and&nbsp;see&nbsp;if&nbsp;there&nbsp;is&nbsp;an&nbsp;entry&nbsp;for&nbsp;the&nbsp;compound&nbsp;name<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Next,&nbsp;if&nbsp;the&nbsp;name&nbsp;can&nbsp;be&nbsp;parsed&nbsp;as&nbsp;a&nbsp;lipid&nbsp;(lipid_parser.py):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;try&nbsp;to&nbsp;scrape&nbsp;LIPID&nbsp;MAPS&nbsp;for&nbsp;the&nbsp;SMILES&nbsp;structure&nbsp;(lmaps_scrape.py)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;or&nbsp;else&nbsp;just&nbsp;use&nbsp;the&nbsp;lipid&nbsp;SMILES&nbsp;generator&nbsp;(generate_lipid_smiles.py)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*&nbsp;try&nbsp;to&nbsp;search&nbsp;PubChem&nbsp;by&nbsp;compound&nbsp;name&nbsp;to&nbsp;get&nbsp;a&nbsp;CID&nbsp;then&nbsp;use&nbsp;that&nbsp;to&nbsp;retrieve&nbsp;a&nbsp;SMILES&nbsp;(pubchem_scrape.py)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cursor&nbsp;(sqlite3.cursor)&nbsp;--&nbsp;cursor&nbsp;for&nbsp;running&nbsp;queries&nbsp;against&nbsp;the&nbsp;drugs.db&nbsp;database<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session&nbsp;(requests.Session)&nbsp;--&nbsp;requests&nbsp;session&nbsp;for&nbsp;doing&nbsp;web&nbsp;requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_cache&nbsp;(dict(str:str))&nbsp;--&nbsp;search&nbsp;cache&nbsp;mapping&nbsp;compound&nbsp;names&nbsp;to&nbsp;SMILES&nbsp;structures<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[delay&nbsp;(float)]&nbsp;--&nbsp;time&nbsp;delay&nbsp;(in&nbsp;seconds)&nbsp;between&nbsp;successive&nbsp;requests&nbsp;[optional,&nbsp;default=0.25]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[gen_lipid_smi&nbsp;(bool)]&nbsp;--&nbsp;if&nbsp;a&nbsp;lipid&nbsp;name&nbsp;is&nbsp;able&nbsp;to&nbsp;be&nbsp;parsed&nbsp;but&nbsp;searching&nbsp;LIPID&nbsp;MAPS&nbsp;does&nbsp;not&nbsp;yield&nbsp;a<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SMILES&nbsp;structure,&nbsp;then&nbsp;use&nbsp;the&nbsp;lipid&nbsp;SMILES&nbsp;generator&nbsp;to&nbsp;generate&nbsp;a&nbsp;generic<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SMILES&nbsp;structure&nbsp;matching&nbsp;the&nbsp;lipid&nbsp;class&nbsp;and&nbsp;fatty&nbsp;acid&nbsp;composition&nbsp;[optional,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default=True]</tt></dd></dl>
+ <dl><dt><a name="-load_search_cache"><strong>load_search_cache</strong></a>(cache_name='search_cache.json')</dt><dd><tt>load_search_cache<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;open&nbsp;the&nbsp;search&nbsp;cache&nbsp;if&nbsp;one&nbsp;exists,&nbsp;return&nbsp;it&nbsp;as&nbsp;a&nbsp;dictionary<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[cache_name&nbsp;(str)]&nbsp;--&nbsp;path&nbsp;to&nbsp;the&nbsp;search&nbsp;cache&nbsp;file&nbsp;location&nbsp;[optional,&nbsp;default="search_cache.json"]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(dict(str:str))&nbsp;--&nbsp;the&nbsp;saved&nbsp;search&nbsp;cache&nbsp;mapping&nbsp;compound&nbsp;names&nbsp;to&nbsp;SMILES&nbsp;structures&nbsp;or&nbsp;an&nbsp;empty&nbsp;dict&nbsp;if&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cache&nbsp;file&nbsp;could&nbsp;not&nbsp;be&nbsp;found</tt></dd></dl>
+ <dl><dt><a name="-save_search_cache"><strong>save_search_cache</strong></a>(search_cache, cache_name='search_cache.json')</dt><dd><tt>save_search_cache<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;save&nbsp;the&nbsp;search&nbsp;cache&nbsp;to&nbsp;file&nbsp;in&nbsp;.json&nbsp;format.&nbsp;Overwrites&nbsp;any&nbsp;previous&nbsp;existing&nbsp;cache<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;search_cache&nbsp;(dict(str:str))&nbsp;--&nbsp;search&nbsp;cache&nbsp;mapping&nbsp;compound&nbsp;names&nbsp;to&nbsp;SMILES&nbsp;structures<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[cache_name&nbsp;(str)]&nbsp;--&nbsp;path&nbsp;to&nbsp;the&nbsp;search&nbsp;cache&nbsp;file&nbsp;location&nbsp;[optional,&nbsp;default="search_cache.json"]</tt></dd></dl>
+ <dl><dt><a name="-sleep"><strong>sleep</strong></a>(...)</dt><dd><tt><a href="#-sleep">sleep</a>(seconds)<br>
+&nbsp;<br>
+Delay&nbsp;execution&nbsp;for&nbsp;a&nbsp;given&nbsp;number&nbsp;of&nbsp;seconds.&nbsp;&nbsp;The&nbsp;argument&nbsp;may&nbsp;be<br>
+a&nbsp;floating&nbsp;point&nbsp;number&nbsp;for&nbsp;subsecond&nbsp;precision.</tt></dd></dl>
+ <dl><dt><a name="-smi_from_cid"><strong>smi_from_cid</strong></a>(sess, cid, delay=0.2)</dt><dd><tt>smi_from_cid<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;wrapper&nbsp;around&nbsp;pubchem_scrape.cid_fetch_smiles&nbsp;that&nbsp;tries&nbsp;to&nbsp;get&nbsp;the&nbsp;isomeric&nbsp;SMILES<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;first,&nbsp;and&nbsp;failing&nbsp;that&nbsp;it&nbsp;tries&nbsp;to&nbsp;get&nbsp;the&nbsp;canonical&nbsp;SMILES.&nbsp;Returns&nbsp;None&nbsp;if&nbsp;both&nbsp;of<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;those&nbsp;fail.&nbsp;Also&nbsp;adds&nbsp;time&nbsp;delays&nbsp;between&nbsp;requests&nbsp;so&nbsp;as&nbsp;not&nbsp;to&nbsp;hammer&nbsp;the&nbsp;PubChem<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;servers&nbsp;unduly<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;per&nbsp;guidelines&nbsp;here:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://pubchemdocs.ncbi.nlm.nih.gov/programmatic-access$_RequestVolumeLimitations<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no&nbsp;more&nbsp;than&nbsp;5&nbsp;requests/s&nbsp;or&nbsp;400&nbsp;requests/min&nbsp;-&gt;&nbsp;default&nbsp;delay&nbsp;of&nbsp;0.2&nbsp;s&nbsp;is&nbsp;fine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;session&nbsp;(requests.Session)&nbsp;--&nbsp;requests&nbsp;session&nbsp;for&nbsp;doing&nbsp;web&nbsp;requests<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cid&nbsp;(str)&nbsp;--&nbsp;PubChem&nbsp;CID<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[delay&nbsp;(float)]&nbsp;--&nbsp;time&nbsp;delay&nbsp;(in&nbsp;seconds)&nbsp;between&nbsp;successive&nbsp;requests&nbsp;[optional,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;default=0.25]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(str&nbsp;or&nbsp;None)&nbsp;--&nbsp;SMILES&nbsp;string&nbsp;or&nbsp;None&nbsp;if&nbsp;unsuccessful</tt></dd></dl>
+</td></tr></table>
+</body></html>

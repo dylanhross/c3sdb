@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module db_setup.lmaps_scrape</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="db_setup.html"><font color="#ffffff">db_setup</font></a>.lmaps_scrape</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/lmaps_scrape.py">/Users/DylanRoss/Documents/CCSML/C3SDB/db_setup/lmaps_scrape.py</a></font></td></tr></table>
+    <p><tt>fetch_lmaps_smiles.py<br>
+Dylan&nbsp;Ross<br>
+2018/10/15<br>
+&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Uses&nbsp;the&nbsp;Lipid&nbsp;MAPS&nbsp;REST&nbsp;API&nbsp;to&nbsp;search&nbsp;the&nbsp;LMSD&nbsp;for&nbsp;lipid&nbsp;SMILES&nbsp;structures.</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-search_lmaps_smiles"><strong>search_lmaps_smiles</strong></a>(sess, lipid, delay=0.1)</dt><dd><tt>search_lmaps_smiles<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uses&nbsp;the&nbsp;Lipid&nbsp;MAPS&nbsp;REST&nbsp;API&nbsp;to&nbsp;search&nbsp;the&nbsp;LMSD&nbsp;for&nbsp;lipid&nbsp;SMILES&nbsp;structures.&nbsp;Takes&nbsp;as&nbsp;input<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a&nbsp;lipid&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;dictionary&nbsp;with&nbsp;a&nbsp;structure&nbsp;reflecting&nbsp;that&nbsp;of&nbsp;lipids.db&nbsp;schema.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If&nbsp;individual&nbsp;fatty&nbsp;acid&nbsp;composition&nbsp;is&nbsp;specified,&nbsp;then&nbsp;try&nbsp;searching&nbsp;using&nbsp;the&nbsp;'abbrev_chains'<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;input&nbsp;item&nbsp;first,&nbsp;then&nbsp;the&nbsp;'abbrev'&nbsp;input&nbsp;item&nbsp;if&nbsp;that&nbsp;fails.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sess&nbsp;(requests.Session)&nbsp;--&nbsp;web&nbsp;request&nbsp;session<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lipid&nbsp;(dict(...))&nbsp;--&nbsp;dictionary&nbsp;defining&nbsp;target&nbsp;lipid&nbsp;with&nbsp;a&nbsp;structure&nbsp;reflecting&nbsp;that&nbsp;of&nbsp;the&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lipids.db&nbsp;schema<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;delay&nbsp;(float)&nbsp;--&nbsp;delay&nbsp;in&nbsp;seconds&nbsp;between&nbsp;consecutive&nbsp;web&nbsp;requests&nbsp;(so&nbsp;as&nbsp;not&nbsp;to&nbsp;hammer&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lipid&nbsp;MAPS&nbsp;servers)&nbsp;[optional,&nbsp;default=0.1]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(str)&nbsp;--&nbsp;SMILES&nbsp;structure&nbsp;or&nbsp;empty&nbsp;string&nbsp;in&nbsp;case&nbsp;of&nbsp;error</tt></dd></dl>
+ <dl><dt><a name="-sleep"><strong>sleep</strong></a>(...)</dt><dd><tt><a href="#-sleep">sleep</a>(seconds)<br>
+&nbsp;<br>
+Delay&nbsp;execution&nbsp;for&nbsp;a&nbsp;given&nbsp;number&nbsp;of&nbsp;seconds.&nbsp;&nbsp;The&nbsp;argument&nbsp;may&nbsp;be<br>
+a&nbsp;floating&nbsp;point&nbsp;number&nbsp;for&nbsp;subsecond&nbsp;precision.</tt></dd></dl>
+ <dl><dt><a name="-str_from_lipid_dict"><strong>str_from_lipid_dict</strong></a>(lipid, ign_fa_comp=False)</dt><dd><tt>str_from_lipid_dict<br>
+&nbsp;&nbsp;&nbsp;&nbsp;description:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Converts&nbsp;a&nbsp;lipid&nbsp;definition&nbsp;in&nbsp;the&nbsp;form&nbsp;of&nbsp;a&nbsp;dictionary&nbsp;reflecting&nbsp;the&nbsp;structure&nbsp;of&nbsp;the&nbsp;lipids.db<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;schema&nbsp;into&nbsp;a&nbsp;single&nbsp;string&nbsp;with&nbsp;standardized&nbsp;formatting&nbsp;such&nbsp;that&nbsp;it&nbsp;may&nbsp;be&nbsp;recognized&nbsp;by&nbsp;the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lipid&nbsp;MAPS&nbsp;structure&nbsp;database&nbsp;REST&nbsp;API.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;parameters:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lipid&nbsp;(dict(...))&nbsp;--&nbsp;dictionary&nbsp;defining&nbsp;target&nbsp;lipid&nbsp;with&nbsp;a&nbsp;structure&nbsp;reflecting&nbsp;that&nbsp;of&nbsp;the&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lipids.db&nbsp;schema<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ign_fa_comp&nbsp;(bool)]&nbsp;--&nbsp;ignore&nbsp;individual&nbsp;fatty&nbsp;acid&nbsp;composition&nbsp;and&nbsp;just&nbsp;construct&nbsp;the&nbsp;name&nbsp;using<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;total&nbsp;fatty&nbsp;acid&nbsp;composition&nbsp;[optional,&nbsp;default=False]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;returns:<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(str)&nbsp;--&nbsp;string&nbsp;version&nbsp;of&nbsp;the&nbsp;lipid&nbsp;dict</tt></dd></dl>
+</td></tr></table>
+</body></html>
