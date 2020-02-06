@@ -105,7 +105,8 @@ if __name__ == '__main__':
         "bijl0517",
         "stow0817",
         "hine0119",
-        "leap0219"
+        "leap0219",
+        "blaz0818"
     ]
 
     # CCS metadata by source
@@ -125,7 +126,8 @@ if __name__ == '__main__':
         "bijl0517": {"type": "TW", "method": "?"},
         "stow0817": {"type": "DT", "method": "stepped-field"},
         "hine0119": {"type": "TW", "method": "calibrated with phosphatidylcholines (ESI+) and phosphatidylethanolamines (ESI-), doubly charged cardiolipins calibrated with poly-DL-alanine"},
-        "leap0219": {"type": "DT", "method": "stepped-field"}
+        "leap0219": {"type": "DT", "method": "stepped-field"},
+        "blaz0818": {"type": "DT", "method": "single field"}
     }
 
     # add each src dataset

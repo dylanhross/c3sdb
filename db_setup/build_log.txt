@@ -15,6 +15,7 @@ adding cleaned datasets into C3S.db
 	adding dataset: stow0817 ... ok
 	adding dataset: hine0119 ... ok
 	adding dataset: leap0219 ... ok
+	adding dataset: blaz0818 ... ok
 
 fetching SMILES structures...
 found SMILES in search cache for compound: 1-Methylnicotinamide (g_id: 0) ... ok
@@ -380,7 +381,7 @@ found SMILES in search cache for compound: Fructose 1,6-bisphosphate (g_id: 359)
 found SMILES in search cache for compound: N-Acetyl-D-Glucosamine 6-Phosphate (g_id: 360) ... ok
 found SMILES in search cache for compound: N-Acetylaspartylglutamate (NAAG) (g_id: 361) ... ok
 found SMILES in search cache for compound: Fructose-1-phosphate (g_id: 362) ... ok
-searching PubChem by name: 'Mannose-6-phosphate' (g_id: 363) ... Failed to retrieve PubChem CID for compound: Mannose-6-phosphate Failed to retrieve PubChem CID for compound: Mannose-6-phosphate retrying ... NO CID
+searching PubChem by name: 'Mannose-6-phosphate' (g_id: 363) ... matched PubChem CID: 65127 -- fetching SMILES ... ok
 found SMILES in search cache for compound: N-Acetylmannosamine (g_id: 364) ... ok
 found SMILES in search cache for compound: D-Allose (g_id: 365) ... ok
 found SMILES in search cache for compound: Guanosine diphosphate mannose (g_id: 366) ... ok
@@ -650,7 +651,7 @@ found SMILES in search cache for compound: Deoxycytidine 5'-triphosphate (g_id: 
 found SMILES in search cache for compound: Adenosine 5'-phosphosulfate (g_id: 630) ... ok
 found SMILES in search cache for compound: Biliverdin (g_id: 631) ... ok
 found SMILES in search cache for compound: N-Formylmethionine (g_id: 632) ... ok
-searching PubChem by name: '2-Deoxyribose 5-phosphate' (g_id: 633) ... Failed to retrieve PubChem CID for compound: 2-Deoxyribose 5-phosphate Failed to retrieve PubChem CID for compound: 2-Deoxyribose 5-phosphate retrying ... NO CID
+searching PubChem by name: '2-Deoxyribose 5-phosphate' (g_id: 633) ... matched PubChem CID: 45934311 -- fetching SMILES ... ok
 found SMILES in search cache for compound: Arachidonic Acid (g_id: 634) ... ok
 found SMILES in search cache for compound: 2'-Deoxyguanosine 5'-monophosphate (g_id: 635) ... ok
 found SMILES in search cache for compound: 7,8-Dihydrofolate (g_id: 636) ... ok
@@ -1367,7 +1368,7 @@ found SMILES in search cache for compound: Cinnamaldehyde (g_id: 1346) ... ok
 found SMILES in search cache for compound: L-Valine (g_id: 1347) ... ok
 found SMILES in search cache for compound: 7-Methylguanine (g_id: 1348) ... ok
 found SMILES in search cache for compound: Theobromine (g_id: 1349) ... ok
-searching PubChem by name: 'Perinaphthenon' (g_id: 1350) ... Failed to retrieve PubChem CID for compound: Perinaphthenon Failed to retrieve PubChem CID for compound: Perinaphthenon retrying ... NO CID
+searching PubChem by name: 'Perinaphthenon' (g_id: 1350) ... matched PubChem CID: 11050 -- fetching SMILES ... ok
 found SMILES in search cache for compound: L-Leucine (g_id: 1351) ... ok
 found SMILES in search cache for compound: Pyridoxal (g_id: 1352) ... ok
 found SMILES in search cache for compound: D-Glucosamine (g_id: 1353) ... ok
@@ -1560,7 +1561,7 @@ found SMILES in search cache for compound: LPC(p18:0) (g_id: 1539) ... ok
 found SMILES in search cache for compound: Naringin (g_id: 1540) ... ok
 found SMILES in search cache for compound: LPC(18:0) (g_id: 1541) ... ok
 found SMILES in search cache for compound: LPC(19:0) (g_id: 1542) ... ok
-searching PubChem by name: 'Nicotinamide Adenine Dinucleotide (NAD+)' (g_id: 1543) ... Failed to retrieve PubChem CID for compound: Nicotinamide Adenine Dinucleotide (NAD+) Failed to retrieve PubChem CID for compound: Nicotinamide Adenine Dinucleotide (NAD+) retrying ... NO CID
+searching PubChem by name: 'Nicotinamide Adenine Dinucleotide (NAD+)' (g_id: 1543) ... matched PubChem CID: 5893 -- fetching SMILES ... ok
 found SMILES in search cache for compound: Biliverdin (g_id: 1544) ... ok
 found SMILES in search cache for compound: LPC(20:0) (g_id: 1545) ... ok
 found SMILES in search cache for compound: Acetyl coenzyme A (g_id: 1546) ... ok
@@ -1581,7 +1582,7 @@ found SMILES in search cache for compound: Vitamin B12 (g_id: 1560) ... ok
 found SMILES in search cache for compound: Acetyl Phosphate (g_id: 1561) ... ok
 found SMILES in search cache for compound: 2-Oxovaleric Acid (g_id: 1562) ... ok
 found SMILES in search cache for compound: L-Asparagine (g_id: 1563) ... ok
-searching PubChem by name: 'D-(+)-Xylose' (g_id: 1564) ... Failed to retrieve PubChem CID for compound: D-(+)-Xylose Failed to retrieve PubChem CID for compound: D-(+)-Xylose retrying ... NO CID
+searching PubChem by name: 'D-(+)-Xylose' (g_id: 1564) ... matched PubChem CID: 135191 -- fetching SMILES ... ok
 found SMILES in search cache for compound: L-Ribulose (g_id: 1565) ... ok
 found SMILES in search cache for compound: Camphene (g_id: 1566) ... ok
 found SMILES in search cache for compound: Creatinine (g_id: 1567) ... ok
@@ -1894,7 +1895,7 @@ searching PubChem by name: 'Lacto-N-Fucopentaose 2' (g_id: 1873) ... Failed to r
 searching PubChem by name: 'Lacto-N-Fucopentaose 1' (g_id: 1874) ... Failed to retrieve PubChem CID for compound: Lacto-N-Fucopentaose 1 Failed to retrieve PubChem CID for compound: Lacto-N-Fucopentaose 1 retrying ... NO CID
 found SMILES in search cache for compound: Maltohexaose (g_id: 1875) ... ok
 found SMILES in search cache for compound: Mannohexaose (g_id: 1876) ... ok
-searching PubChem by name: 'Cellohexaose' (g_id: 1877) ... Failed to retrieve PubChem CID for compound: Cellohexaose Failed to retrieve PubChem CID for compound: Cellohexaose retrying ... NO CID
+searching PubChem by name: 'Cellohexaose' (g_id: 1877) ... matched PubChem CID: 440948 -- fetching SMILES ... ok
 found SMILES in search cache for compound: Rifampicin (g_id: 1878) ... ok
 found SMILES in search cache for compound: PG(18:1/18:1) (g_id: 1879) ... ok
 found SMILES in search cache for compound: PC(16:1/16:1) (g_id: 1880) ... ok
@@ -2168,7 +2169,7 @@ found SMILES in search cache for compound: 4-IMIDAZOLEACETATE (g_id: 2147) ... o
 found SMILES in search cache for compound: 4-PYRIDOXATE (g_id: 2148) ... ok
 found SMILES in search cache for compound: 4-PYRIDOXATE (g_id: 2149) ... ok
 found SMILES in search cache for compound: 4-PYRIDOXATE (g_id: 2150) ... ok
-searching PubChem by name: '4-QUINOLINECARBOXYLATE' (g_id: 2151) ... Failed to retrieve PubChem CID for compound: 4-QUINOLINECARBOXYLATE Failed to retrieve PubChem CID for compound: 4-QUINOLINECARBOXYLATE retrying ... NO CID
+searching PubChem by name: '4-QUINOLINECARBOXYLATE' (g_id: 2151) ... matched PubChem CID: 10243 -- fetching SMILES ... ok
 found SMILES in search cache for compound: 5-AMINOLEVULINATE (g_id: 2152) ... ok
 found SMILES in search cache for compound: 5-HYDROXYINDOLEACETATE (g_id: 2153) ... ok
 found SMILES in search cache for compound: 5-HYDROXYINDOLEACETATE (g_id: 2154) ... ok
@@ -2202,8 +2203,8 @@ found SMILES in search cache for compound: ADENOSINE 3',5'-DIPHOSPHATE (g_id: 21
 found SMILES in search cache for compound: ADENOSINE 3',5'-DIPHOSPHATE (g_id: 2182) ... ok
 found SMILES in search cache for compound: ADENOSINE 5'-DIPHOSPHATE (g_id: 2183) ... ok
 found SMILES in search cache for compound: ADENOSINE 5'-DIPHOSPHATE (g_id: 2184) ... ok
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2185) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2186) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
+searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2185) ... matched PubChem CID: 192 -- fetching SMILES ... ok
+found SMILES in search cache for compound: ADENOSINE DIPHOSPHATE RIBOSE (g_id: 2186) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2187) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2188) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2189) ... ok
@@ -2732,7 +2733,7 @@ found SMILES in search cache for compound: 1-METHYLADENOSINE (g_id: 2711) ... ok
 found SMILES in search cache for compound: 10-HYDROXYDECANOATE (g_id: 2712) ... ok
 found SMILES in search cache for compound: 2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE (g_id: 2713) ... ok
 found SMILES in search cache for compound: 2-AMINOPHENOL (g_id: 2714) ... ok
-searching PubChem by name: '2-HYDROXY-4-(METHYLTHIO)BUTANOATE' (g_id: 2715) ... Failed to retrieve PubChem CID for compound: 2-HYDROXY-4-(METHYLTHIO)BUTANOATE Failed to retrieve PubChem CID for compound: 2-HYDROXY-4-(METHYLTHIO)BUTANOATE retrying ... NO CID
+searching PubChem by name: '2-HYDROXY-4-(METHYLTHIO)BUTANOATE' (g_id: 2715) ... matched PubChem CID: 107344 -- fetching SMILES ... ok
 found SMILES in search cache for compound: 2-HYDROXYBUTYRATE (g_id: 2716) ... ok
 found SMILES in search cache for compound: 2-HYDROXYPHENYLACETATE (g_id: 2717) ... ok
 found SMILES in search cache for compound: 2-METHYLGLUTARATE (g_id: 2718) ... ok
@@ -2778,7 +2779,7 @@ found SMILES in search cache for compound: 4-HYDROXYBENZALDEHYDE (g_id: 2757) ..
 found SMILES in search cache for compound: 4-HYDROXYBENZOATE (g_id: 2758) ... ok
 found SMILES in search cache for compound: 4-METHYLCATECHOL (g_id: 2759) ... ok
 found SMILES in search cache for compound: 4-PYRIDOXATE (g_id: 2760) ... ok
-searching PubChem by name: '4-QUINOLINECARBOXYLATE' (g_id: 2761) ... Failed to retrieve PubChem CID for compound: 4-QUINOLINECARBOXYLATE Failed to retrieve PubChem CID for compound: 4-QUINOLINECARBOXYLATE retrying ... NO CID
+found SMILES in search cache for compound: 4-QUINOLINECARBOXYLATE (g_id: 2761) ... ok
 found SMILES in search cache for compound: 5-HYDROXYINDOLEACETATE (g_id: 2762) ... ok
 found SMILES in search cache for compound: 5-HYDROXYLYSINE (g_id: 2763) ... ok
 found SMILES in search cache for compound: 5-HYDROXYTRYPTOPHAN (g_id: 2764) ... ok
@@ -2799,10 +2800,10 @@ found SMILES in search cache for compound: ADENOSINE 3',5'-DIPHOSPHATE (g_id: 27
 found SMILES in search cache for compound: ADENOSINE 3',5'-DIPHOSPHATE (g_id: 2779) ... ok
 found SMILES in search cache for compound: ADENOSINE 5'-DIPHOSPHATE (g_id: 2780) ... ok
 found SMILES in search cache for compound: ADENOSINE 5'-DIPHOSPHATE (g_id: 2781) ... ok
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2782) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2783) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2784) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
-searching PubChem by name: 'ADENOSINE DIPHOSPHATE RIBOSE' (g_id: 2785) ... Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE Failed to retrieve PubChem CID for compound: ADENOSINE DIPHOSPHATE RIBOSE retrying ... NO CID
+found SMILES in search cache for compound: ADENOSINE DIPHOSPHATE RIBOSE (g_id: 2782) ... ok
+found SMILES in search cache for compound: ADENOSINE DIPHOSPHATE RIBOSE (g_id: 2783) ... ok
+found SMILES in search cache for compound: ADENOSINE DIPHOSPHATE RIBOSE (g_id: 2784) ... ok
+found SMILES in search cache for compound: ADENOSINE DIPHOSPHATE RIBOSE (g_id: 2785) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2786) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2787) ... ok
 found SMILES in search cache for compound: ADENOSINE TRIPHOSPHATE (g_id: 2788) ... ok
@@ -5612,57 +5613,57 @@ found SMILES in search cache for compound: a-D-Glucose (g_id: 6309) ... ok
 found SMILES in search cache for compound: L-Cystine (g_id: 6310) ... ok
 found SMILES in search cache for compound: Pyridoxal Phosphate (g_id: 6311) ... ok
 found SMILES in search cache for compound: Hydrocortisone (g_id: 6312) ... ok
-parsed lipid: PA(36:01) (g_id: 6492) ... searching LIPID MAPS ... ok
-parsed lipid: PA(36:02) (g_id: 6493) ... searching LIPID MAPS ... ok
-parsed lipid: PA(36:03) (g_id: 6494) ... searching LIPID MAPS ... ok
-parsed lipid: PA(36:04) (g_id: 6495) ... searching LIPID MAPS ... ok
-parsed lipid: PA(38:02) (g_id: 6496) ... searching LIPID MAPS ... ok
-parsed lipid: PA(38:03) (g_id: 6497) ... searching LIPID MAPS ... ok
-parsed lipid: PA(38:04) (g_id: 6498) ... searching LIPID MAPS ... ok
-parsed lipid: PA(40:05) (g_id: 6499) ... searching LIPID MAPS ... ok
-parsed lipid: PA(35:01) (g_id: 6500) ... searching LIPID MAPS ... ok
-parsed lipid: PA(35:02) (g_id: 6501) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PA(36:01) (g_id: 6492) ... ok
+found SMILES in search cache for compound: PA(36:02) (g_id: 6493) ... ok
+found SMILES in search cache for compound: PA(36:03) (g_id: 6494) ... ok
+found SMILES in search cache for compound: PA(36:04) (g_id: 6495) ... ok
+found SMILES in search cache for compound: PA(38:02) (g_id: 6496) ... ok
+found SMILES in search cache for compound: PA(38:03) (g_id: 6497) ... ok
+found SMILES in search cache for compound: PA(38:04) (g_id: 6498) ... ok
+found SMILES in search cache for compound: PA(40:05) (g_id: 6499) ... ok
+found SMILES in search cache for compound: PA(35:01) (g_id: 6500) ... ok
+found SMILES in search cache for compound: PA(35:02) (g_id: 6501) ... ok
 found SMILES in search cache for compound: PA(36:01) (g_id: 6502) ... ok
 found SMILES in search cache for compound: PA(36:02) (g_id: 6503) ... ok
 found SMILES in search cache for compound: PA(36:03) (g_id: 6504) ... ok
 found SMILES in search cache for compound: PA(36:04) (g_id: 6505) ... ok
-parsed lipid: PA(36:05) (g_id: 6506) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PA(36:05) (g_id: 6506) ... ok
 found SMILES in search cache for compound: PA(38:03) (g_id: 6507) ... ok
 found SMILES in search cache for compound: PA(38:04) (g_id: 6508) ... ok
 found SMILES in search cache for compound: PA(40:05) (g_id: 6509) ... ok
-parsed lipid: PA(40:06) (g_id: 6510) ... searching LIPID MAPS ... ok
-parsed lipid: PE(34:01) (g_id: 6511) ... searching LIPID MAPS ... ok
-parsed lipid: PE(34:02) (g_id: 6512) ... searching LIPID MAPS ... ok
-parsed lipid: PE(34:03) (g_id: 6513) ... searching LIPID MAPS ... ok
-parsed lipid: PE(36:01) (g_id: 6514) ... searching LIPID MAPS ... ok
-parsed lipid: PE(36:02) (g_id: 6515) ... searching LIPID MAPS ... ok
-parsed lipid: PE(36:03) (g_id: 6516) ... searching LIPID MAPS ... ok
-parsed lipid: PE(32:01) (g_id: 6517) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PA(40:06) (g_id: 6510) ... ok
+found SMILES in search cache for compound: PE(34:01) (g_id: 6511) ... ok
+found SMILES in search cache for compound: PE(34:02) (g_id: 6512) ... ok
+found SMILES in search cache for compound: PE(34:03) (g_id: 6513) ... ok
+found SMILES in search cache for compound: PE(36:01) (g_id: 6514) ... ok
+found SMILES in search cache for compound: PE(36:02) (g_id: 6515) ... ok
+found SMILES in search cache for compound: PE(36:03) (g_id: 6516) ... ok
+found SMILES in search cache for compound: PE(32:01) (g_id: 6517) ... ok
 found SMILES in search cache for compound: PE(34:01) (g_id: 6518) ... ok
 found SMILES in search cache for compound: PE(34:02) (g_id: 6519) ... ok
 found SMILES in search cache for compound: PE(34:03) (g_id: 6520) ... ok
-parsed lipid: PE(35:01) (g_id: 6521) ... searching LIPID MAPS ... ok
-parsed lipid: PE(35:02) (g_id: 6522) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(35:01) (g_id: 6521) ... ok
+found SMILES in search cache for compound: PE(35:02) (g_id: 6522) ... ok
 found SMILES in search cache for compound: PE(36:01) (g_id: 6523) ... ok
 found SMILES in search cache for compound: PE(36:02) (g_id: 6524) ... ok
 found SMILES in search cache for compound: PE(36:03) (g_id: 6525) ... ok
-parsed lipid: PE(37:01) (g_id: 6526) ... searching LIPID MAPS ... ok
-parsed lipid: PE(37:02) (g_id: 6527) ... searching LIPID MAPS ... ok
-parsed lipid: PE(37:03) (g_id: 6528) ... searching LIPID MAPS ... ok
-parsed lipid: PE(38:01) (g_id: 6529) ... searching LIPID MAPS ... ok
-parsed lipid: PE(40:05) (g_id: 6530) ... searching LIPID MAPS ... ok
-parsed lipid: PE(42:08) (g_id: 6531) ... searching LIPID MAPS ... ok
-parsed lipid: PE(42:09) (g_id: 6532) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(37:01) (g_id: 6526) ... ok
+found SMILES in search cache for compound: PE(37:02) (g_id: 6527) ... ok
+found SMILES in search cache for compound: PE(37:03) (g_id: 6528) ... ok
+found SMILES in search cache for compound: PE(38:01) (g_id: 6529) ... ok
+found SMILES in search cache for compound: PE(40:05) (g_id: 6530) ... ok
+found SMILES in search cache for compound: PE(42:08) (g_id: 6531) ... ok
+found SMILES in search cache for compound: PE(42:09) (g_id: 6532) ... ok
 found SMILES in search cache for compound: PE(34:01) (g_id: 6533) ... ok
 found SMILES in search cache for compound: PE(34:02) (g_id: 6534) ... ok
 found SMILES in search cache for compound: PE(35:02) (g_id: 6535) ... ok
 found SMILES in search cache for compound: PE(36:02) (g_id: 6536) ... ok
 found SMILES in search cache for compound: PE(36:03) (g_id: 6537) ... ok
-parsed lipid: PE(36:04) (g_id: 6538) ... searching LIPID MAPS ... ok
-parsed lipid: PE(36:05) (g_id: 6539) ... searching LIPID MAPS ... ok
-parsed lipid: PE(38:04) (g_id: 6540) ... searching LIPID MAPS ... ok
-parsed lipid: PE(38:05) (g_id: 6541) ... searching LIPID MAPS ... ok
-parsed lipid: PE(42:07) (g_id: 6542) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(36:04) (g_id: 6538) ... ok
+found SMILES in search cache for compound: PE(36:05) (g_id: 6539) ... ok
+found SMILES in search cache for compound: PE(38:04) (g_id: 6540) ... ok
+found SMILES in search cache for compound: PE(38:05) (g_id: 6541) ... ok
+found SMILES in search cache for compound: PE(42:07) (g_id: 6542) ... ok
 found SMILES in search cache for compound: PE(32:01) (g_id: 6543) ... ok
 found SMILES in search cache for compound: PE(34:01) (g_id: 6544) ... ok
 found SMILES in search cache for compound: PE(34:02) (g_id: 6545) ... ok
@@ -5675,19 +5676,19 @@ found SMILES in search cache for compound: PE(36:04) (g_id: 6551) ... ok
 found SMILES in search cache for compound: PE(37:01) (g_id: 6552) ... ok
 found SMILES in search cache for compound: PE(37:02) (g_id: 6553) ... ok
 found SMILES in search cache for compound: PE(37:03) (g_id: 6554) ... ok
-parsed lipid: PE(38:02) (g_id: 6555) ... searching LIPID MAPS ... ok
-parsed lipid: PE(38:03) (g_id: 6556) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(38:02) (g_id: 6555) ... ok
+found SMILES in search cache for compound: PE(38:03) (g_id: 6556) ... ok
 found SMILES in search cache for compound: PE(38:04) (g_id: 6557) ... ok
 found SMILES in search cache for compound: PE(38:05) (g_id: 6558) ... ok
-parsed lipid: PE(38:06) (g_id: 6559) ... searching LIPID MAPS ... ok
-parsed lipid: PE(39:02) (g_id: 6560) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(38:06) (g_id: 6559) ... ok
+found SMILES in search cache for compound: PE(39:02) (g_id: 6560) ... ok
 found SMILES in search cache for compound: PE(40:05) (g_id: 6561) ... ok
-parsed lipid: PE(40:06) (g_id: 6562) ... searching LIPID MAPS ... ok
-parsed lipid: PE(40:07) (g_id: 6563) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(40:06) (g_id: 6562) ... ok
+found SMILES in search cache for compound: PE(40:07) (g_id: 6563) ... ok
 found SMILES in search cache for compound: PE(34:01) (g_id: 6564) ... ok
 found SMILES in search cache for compound: PE(34:02) (g_id: 6565) ... ok
 found SMILES in search cache for compound: PE(34:03) (g_id: 6566) ... ok
-parsed lipid: PE(36:00) (g_id: 6567) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(36:00) (g_id: 6567) ... ok
 found SMILES in search cache for compound: PE(36:01) (g_id: 6568) ... ok
 found SMILES in search cache for compound: PE(36:02) (g_id: 6569) ... ok
 found SMILES in search cache for compound: PE(36:03) (g_id: 6570) ... ok
@@ -5698,35 +5699,35 @@ found SMILES in search cache for compound: PE(38:05) (g_id: 6574) ... ok
 found SMILES in search cache for compound: PE(38:06) (g_id: 6575) ... ok
 found SMILES in search cache for compound: PE(40:05) (g_id: 6576) ... ok
 found SMILES in search cache for compound: PE(40:06) (g_id: 6577) ... ok
-parsed lipid: PC(32:00) (g_id: 6578) ... searching LIPID MAPS ... ok
-parsed lipid: PC(32:01) (g_id: 6579) ... searching LIPID MAPS ... ok
-parsed lipid: PC(34:01) (g_id: 6580) ... searching LIPID MAPS ... ok
-parsed lipid: PC(34:02) (g_id: 6581) ... searching LIPID MAPS ... ok
-parsed lipid: PC(34:03) (g_id: 6582) ... searching LIPID MAPS ... ok
-parsed lipid: PC(35:01) (g_id: 6583) ... searching LIPID MAPS ... ok
-parsed lipid: PC(36:01) (g_id: 6584) ... searching LIPID MAPS ... ok
-parsed lipid: PC(36:02) (g_id: 6585) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(32:00) (g_id: 6578) ... ok
+found SMILES in search cache for compound: PC(32:01) (g_id: 6579) ... ok
+found SMILES in search cache for compound: PC(34:01) (g_id: 6580) ... ok
+found SMILES in search cache for compound: PC(34:02) (g_id: 6581) ... ok
+found SMILES in search cache for compound: PC(34:03) (g_id: 6582) ... ok
+found SMILES in search cache for compound: PC(35:01) (g_id: 6583) ... ok
+found SMILES in search cache for compound: PC(36:01) (g_id: 6584) ... ok
+found SMILES in search cache for compound: PC(36:02) (g_id: 6585) ... ok
 found SMILES in search cache for compound: PC(32:00) (g_id: 6586) ... ok
 found SMILES in search cache for compound: PC(32:01) (g_id: 6587) ... ok
-parsed lipid: PC(32:02) (g_id: 6588) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(32:02) (g_id: 6588) ... ok
 found SMILES in search cache for compound: PC(34:01) (g_id: 6589) ... ok
 found SMILES in search cache for compound: PC(34:02) (g_id: 6590) ... ok
 found SMILES in search cache for compound: PC(34:03) (g_id: 6591) ... ok
 found SMILES in search cache for compound: PC(35:01) (g_id: 6592) ... ok
-parsed lipid: PC(35:02) (g_id: 6593) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(35:02) (g_id: 6593) ... ok
 found SMILES in search cache for compound: PC(36:01) (g_id: 6594) ... ok
 found SMILES in search cache for compound: PC(36:02) (g_id: 6595) ... ok
-parsed lipid: PC(36:03) (g_id: 6596) ... searching LIPID MAPS ... ok
-parsed lipid: PC(36:04) (g_id: 6597) ... searching LIPID MAPS ... ok
-parsed lipid: PC(38:03) (g_id: 6598) ... searching LIPID MAPS ... ok
-parsed lipid: PC(40:04) (g_id: 6599) ... searching LIPID MAPS ... ok
-parsed lipid: PC(40:05) (g_id: 6600) ... searching LIPID MAPS ... ok
-parsed lipid: PC(40:06) (g_id: 6601) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(36:03) (g_id: 6596) ... ok
+found SMILES in search cache for compound: PC(36:04) (g_id: 6597) ... ok
+found SMILES in search cache for compound: PC(38:03) (g_id: 6598) ... ok
+found SMILES in search cache for compound: PC(40:04) (g_id: 6599) ... ok
+found SMILES in search cache for compound: PC(40:05) (g_id: 6600) ... ok
+found SMILES in search cache for compound: PC(40:06) (g_id: 6601) ... ok
 found SMILES in search cache for compound: PC(34:01) (g_id: 6602) ... ok
 found SMILES in search cache for compound: PC(34:02) (g_id: 6603) ... ok
 found SMILES in search cache for compound: PC(36:01) (g_id: 6604) ... ok
 found SMILES in search cache for compound: PC(36:02) (g_id: 6605) ... ok
-parsed lipid: PC(34:00) (g_id: 6606) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(34:00) (g_id: 6606) ... ok
 found SMILES in search cache for compound: PC(34:01) (g_id: 6607) ... ok
 found SMILES in search cache for compound: PC(36:01) (g_id: 6608) ... ok
 found SMILES in search cache for compound: PC(36:02) (g_id: 6609) ... ok
@@ -5738,11 +5739,11 @@ found SMILES in search cache for compound: PC(36:01) (g_id: 6614) ... ok
 found SMILES in search cache for compound: PC(36:02) (g_id: 6615) ... ok
 found SMILES in search cache for compound: PC(36:03) (g_id: 6616) ... ok
 found SMILES in search cache for compound: PC(36:04) (g_id: 6617) ... ok
-parsed lipid: PC(38:02) (g_id: 6618) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(38:02) (g_id: 6618) ... ok
 found SMILES in search cache for compound: PC(38:03) (g_id: 6619) ... ok
-parsed lipid: PC(38:04) (g_id: 6620) ... searching LIPID MAPS ... ok
-parsed lipid: PC(38:05) (g_id: 6621) ... searching LIPID MAPS ... ok
-parsed lipid: PC(38:06) (g_id: 6622) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(38:04) (g_id: 6620) ... ok
+found SMILES in search cache for compound: PC(38:05) (g_id: 6621) ... ok
+found SMILES in search cache for compound: PC(38:06) (g_id: 6622) ... ok
 found SMILES in search cache for compound: PC(32:00) (g_id: 6623) ... ok
 found SMILES in search cache for compound: PC(32:01) (g_id: 6624) ... ok
 found SMILES in search cache for compound: PC(34:01) (g_id: 6625) ... ok
@@ -5755,28 +5756,28 @@ found SMILES in search cache for compound: PC(36:04) (g_id: 6631) ... ok
 found SMILES in search cache for compound: PC(38:04) (g_id: 6632) ... ok
 found SMILES in search cache for compound: PC(38:05) (g_id: 6633) ... ok
 found SMILES in search cache for compound: PC(38:06) (g_id: 6634) ... ok
-parsed lipid: PS(36:01) (g_id: 6635) ... searching LIPID MAPS ... ok
-parsed lipid: PS(36:02) (g_id: 6636) ... searching LIPID MAPS ... ok
-parsed lipid: PS(38:01) (g_id: 6637) ... searching LIPID MAPS ... ok
-parsed lipid: PS(38:02) (g_id: 6638) ... searching LIPID MAPS ... ok
-parsed lipid: PS(38:04) (g_id: 6639) ... searching LIPID MAPS ... ok
-parsed lipid: PS(38:05) (g_id: 6640) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:01) (g_id: 6641) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:02) (g_id: 6642) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:03) (g_id: 6643) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:04) (g_id: 6644) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:05) (g_id: 6645) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:06) (g_id: 6646) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:01) (g_id: 6647) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:02) (g_id: 6648) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:03) (g_id: 6649) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:04) (g_id: 6650) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:05) (g_id: 6651) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(36:01) (g_id: 6635) ... ok
+found SMILES in search cache for compound: PS(36:02) (g_id: 6636) ... ok
+found SMILES in search cache for compound: PS(38:01) (g_id: 6637) ... ok
+found SMILES in search cache for compound: PS(38:02) (g_id: 6638) ... ok
+found SMILES in search cache for compound: PS(38:04) (g_id: 6639) ... ok
+found SMILES in search cache for compound: PS(38:05) (g_id: 6640) ... ok
+found SMILES in search cache for compound: PS(40:01) (g_id: 6641) ... ok
+found SMILES in search cache for compound: PS(40:02) (g_id: 6642) ... ok
+found SMILES in search cache for compound: PS(40:03) (g_id: 6643) ... ok
+found SMILES in search cache for compound: PS(40:04) (g_id: 6644) ... ok
+found SMILES in search cache for compound: PS(40:05) (g_id: 6645) ... ok
+found SMILES in search cache for compound: PS(40:06) (g_id: 6646) ... ok
+found SMILES in search cache for compound: PS(42:01) (g_id: 6647) ... ok
+found SMILES in search cache for compound: PS(42:02) (g_id: 6648) ... ok
+found SMILES in search cache for compound: PS(42:03) (g_id: 6649) ... ok
+found SMILES in search cache for compound: PS(42:04) (g_id: 6650) ... ok
+found SMILES in search cache for compound: PS(42:05) (g_id: 6651) ... ok
 found SMILES in search cache for compound: PS(40:03) (g_id: 6652) ... ok
 found SMILES in search cache for compound: PS(40:04) (g_id: 6653) ... ok
 found SMILES in search cache for compound: PS(40:05) (g_id: 6654) ... ok
 found SMILES in search cache for compound: PS(40:06) (g_id: 6655) ... ok
-parsed lipid: PS(40:07) (g_id: 6656) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(40:07) (g_id: 6656) ... ok
 found SMILES in search cache for compound: PS(42:01) (g_id: 6657) ... ok
 found SMILES in search cache for compound: PS(42:02) (g_id: 6658) ... ok
 found SMILES in search cache for compound: PS(42:04) (g_id: 6659) ... ok
@@ -5789,44 +5790,44 @@ found SMILES in search cache for compound: PS(38:05) (g_id: 6665) ... ok
 found SMILES in search cache for compound: PS(40:04) (g_id: 6666) ... ok
 found SMILES in search cache for compound: PS(40:05) (g_id: 6667) ... ok
 found SMILES in search cache for compound: PS(40:06) (g_id: 6668) ... ok
-parsed lipid: PS(42:09) (g_id: 6669) ... searching LIPID MAPS ... ok
-parsed lipid: PS(34:01) (g_id: 6670) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(42:09) (g_id: 6669) ... ok
+found SMILES in search cache for compound: PS(34:01) (g_id: 6670) ... ok
 found SMILES in search cache for compound: PS(36:01) (g_id: 6671) ... ok
 found SMILES in search cache for compound: PS(36:02) (g_id: 6672) ... ok
-parsed lipid: PS(36:04) (g_id: 6673) ... searching LIPID MAPS ... ok
-parsed lipid: PS(37:01) (g_id: 6674) ... searching LIPID MAPS ... ok
-parsed lipid: PS(37:02) (g_id: 6675) ... searching LIPID MAPS ... ok
-parsed lipid: PS(37:04) (g_id: 6676) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(36:04) (g_id: 6673) ... ok
+found SMILES in search cache for compound: PS(37:01) (g_id: 6674) ... ok
+found SMILES in search cache for compound: PS(37:02) (g_id: 6675) ... ok
+found SMILES in search cache for compound: PS(37:04) (g_id: 6676) ... ok
 found SMILES in search cache for compound: PS(38:01) (g_id: 6677) ... ok
 found SMILES in search cache for compound: PS(38:02) (g_id: 6678) ... ok
 found SMILES in search cache for compound: PS(38:04) (g_id: 6679) ... ok
 found SMILES in search cache for compound: PS(38:05) (g_id: 6680) ... ok
-parsed lipid: PS(39:04) (g_id: 6681) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(39:04) (g_id: 6681) ... ok
 found SMILES in search cache for compound: PS(40:01) (g_id: 6682) ... ok
 found SMILES in search cache for compound: PS(40:02) (g_id: 6683) ... ok
 found SMILES in search cache for compound: PS(40:04) (g_id: 6684) ... ok
 found SMILES in search cache for compound: PS(40:05) (g_id: 6685) ... ok
 found SMILES in search cache for compound: PS(40:06) (g_id: 6686) ... ok
 found SMILES in search cache for compound: PS(40:07) (g_id: 6687) ... ok
-parsed lipid: PS(40:08) (g_id: 6688) ... searching LIPID MAPS ... ok
-parsed lipid: PS(40:09) (g_id: 6689) ... searching LIPID MAPS ... ok
-parsed lipid: PS(41:05) (g_id: 6690) ... searching LIPID MAPS ... ok
-parsed lipid: PS(41:06) (g_id: 6691) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(40:08) (g_id: 6688) ... ok
+found SMILES in search cache for compound: PS(40:09) (g_id: 6689) ... ok
+found SMILES in search cache for compound: PS(41:05) (g_id: 6690) ... ok
+found SMILES in search cache for compound: PS(41:06) (g_id: 6691) ... ok
 found SMILES in search cache for compound: PS(42:02) (g_id: 6692) ... ok
 found SMILES in search cache for compound: PS(42:04) (g_id: 6693) ... ok
 found SMILES in search cache for compound: PS(42:05) (g_id: 6694) ... ok
-parsed lipid: PS(42:06) (g_id: 6695) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:07) (g_id: 6696) ... searching LIPID MAPS ... ok
-parsed lipid: PS(42:08) (g_id: 6697) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(42:06) (g_id: 6695) ... ok
+found SMILES in search cache for compound: PS(42:07) (g_id: 6696) ... ok
+found SMILES in search cache for compound: PS(42:08) (g_id: 6697) ... ok
 found SMILES in search cache for compound: PS(42:09) (g_id: 6698) ... ok
-parsed lipid: PS(44:05) (g_id: 6699) ... searching LIPID MAPS ... ok
-parsed lipid: PS(44:07) (g_id: 6700) ... searching LIPID MAPS ... ok
-parsed lipid: PS(44:08) (g_id: 6701) ... searching LIPID MAPS ... ok
-parsed lipid: PS(36:00) (g_id: 6702) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(44:05) (g_id: 6699) ... ok
+found SMILES in search cache for compound: PS(44:07) (g_id: 6700) ... ok
+found SMILES in search cache for compound: PS(44:08) (g_id: 6701) ... ok
+found SMILES in search cache for compound: PS(36:00) (g_id: 6702) ... ok
 found SMILES in search cache for compound: PS(36:01) (g_id: 6703) ... ok
 found SMILES in search cache for compound: PS(36:02) (g_id: 6704) ... ok
 found SMILES in search cache for compound: PS(38:02) (g_id: 6705) ... ok
-parsed lipid: PS(38:03) (g_id: 6706) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(38:03) (g_id: 6706) ... ok
 found SMILES in search cache for compound: PS(38:04) (g_id: 6707) ... ok
 found SMILES in search cache for compound: PS(38:05) (g_id: 6708) ... ok
 found SMILES in search cache for compound: PS(40:04) (g_id: 6709) ... ok
@@ -5987,36 +5988,465 @@ parsed lipid: Cer(42:01) (g_id: 6863) ... searching LIPID MAPS ... generating ge
 parsed lipid: Cer(42:02) (g_id: 6864) ... searching LIPID MAPS ... generating generic SMILES ... ok
 parsed lipid: Cer(42:03) (g_id: 6865) ... searching LIPID MAPS ... generating generic SMILES ... ok
 parsed lipid: Cer(42:00) (g_id: 6866) ... searching LIPID MAPS ... generating generic SMILES ... ok
-parsed lipid: PE(o36:01) (g_id: 6867) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o36:02) (g_id: 6868) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o36:03) (g_id: 6869) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o34:01) (g_id: 6870) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o34:02) (g_id: 6871) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o34:03) (g_id: 6872) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(o36:01) (g_id: 6867) ... ok
+found SMILES in search cache for compound: PE(o36:02) (g_id: 6868) ... ok
+found SMILES in search cache for compound: PE(o36:03) (g_id: 6869) ... ok
+found SMILES in search cache for compound: PE(o34:01) (g_id: 6870) ... ok
+found SMILES in search cache for compound: PE(o34:02) (g_id: 6871) ... ok
+found SMILES in search cache for compound: PE(o34:03) (g_id: 6872) ... ok
 found SMILES in search cache for compound: PE(o36:01) (g_id: 6873) ... ok
 found SMILES in search cache for compound: PE(o36:02) (g_id: 6874) ... ok
 found SMILES in search cache for compound: PE(o36:03) (g_id: 6875) ... ok
-parsed lipid: PE(o38:03) (g_id: 6876) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o32:01) (g_id: 6877) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(o38:03) (g_id: 6876) ... ok
+found SMILES in search cache for compound: PE(o32:01) (g_id: 6877) ... ok
 found SMILES in search cache for compound: PE(o34:01) (g_id: 6878) ... ok
 found SMILES in search cache for compound: PE(o34:02) (g_id: 6879) ... ok
 found SMILES in search cache for compound: PE(o34:03) (g_id: 6880) ... ok
 found SMILES in search cache for compound: PE(o36:01) (g_id: 6881) ... ok
 found SMILES in search cache for compound: PE(o36:02) (g_id: 6882) ... ok
 found SMILES in search cache for compound: PE(o36:03) (g_id: 6883) ... ok
-parsed lipid: PE(o36:04) (g_id: 6884) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o38:02) (g_id: 6885) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(o36:04) (g_id: 6884) ... ok
+found SMILES in search cache for compound: PE(o38:02) (g_id: 6885) ... ok
 found SMILES in search cache for compound: PE(o38:03) (g_id: 6886) ... ok
-parsed lipid: PE(o38:04) (g_id: 6887) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o38:05) (g_id: 6888) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o38:06) (g_id: 6889) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o40:04) (g_id: 6890) ... searching LIPID MAPS ... ok
-parsed lipid: PE(o40:06) (g_id: 6891) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(o38:04) (g_id: 6887) ... ok
+found SMILES in search cache for compound: PE(o38:05) (g_id: 6888) ... ok
+found SMILES in search cache for compound: PE(o38:06) (g_id: 6889) ... ok
+found SMILES in search cache for compound: PE(o40:04) (g_id: 6890) ... ok
+found SMILES in search cache for compound: PE(o40:06) (g_id: 6891) ... ok
 found SMILES in search cache for compound: PE(o34:01) (g_id: 6892) ... ok
-parsed lipid: PE(o36:00) (g_id: 6893) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PE(o36:00) (g_id: 6893) ... ok
 found SMILES in search cache for compound: PE(o36:01) (g_id: 6894) ... ok
 found SMILES in search cache for compound: PE(o36:02) (g_id: 6895) ... ok
-parsed lipid: PS(o35:02) (g_id: 6896) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PS(o35:02) (g_id: 6896) ... ok
+parsed lipid: DG(32:0) (g_id: 6897) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: DG(34:1) (g_id: 6898) ... ok
+found SMILES in search cache for compound: DG(34:2) (g_id: 6899) ... ok
+parsed lipid: DG(35:5) (g_id: 6900) ... searching LIPID MAPS ... ok
+parsed lipid: DG(36:7) (g_id: 6901) ... searching LIPID MAPS ... ok
+parsed lipid: DG(38:7) (g_id: 6902) ... searching LIPID MAPS ... ok
+parsed lipid: DG(40:7) (g_id: 6903) ... searching LIPID MAPS ... ok
+parsed lipid: DG(47:5) (g_id: 6904) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: DG(48:5) (g_id: 6905) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: PC(24:1) (g_id: 6906) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: PC(25:1) (g_id: 6907) ... searching LIPID MAPS ... generating generic SMILES ... ok
+found SMILES in search cache for compound: PC(30:0) (g_id: 6908) ... ok
+found SMILES in search cache for compound: PC(32:0) (g_id: 6909) ... ok
+found SMILES in search cache for compound: PC(32:1) (g_id: 6910) ... ok
+found SMILES in search cache for compound: PC(34:0) (g_id: 6911) ... ok
+found SMILES in search cache for compound: PC(34:1) (g_id: 6912) ... ok
+found SMILES in search cache for compound: PC(34:2) (g_id: 6913) ... ok
+found SMILES in search cache for compound: PC(36:2) (g_id: 6914) ... ok
+parsed lipid: SM(32:1) (g_id: 6915) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(34:1) (g_id: 6916) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(35:1) (g_id: 6917) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(36:1) (g_id: 6918) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(38:1) (g_id: 6919) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(40:1) (g_id: 6920) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(40:2) (g_id: 6921) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(41:1) (g_id: 6922) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(42:1) (g_id: 6923) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(42:2) (g_id: 6924) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(43:1) (g_id: 6925) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(43:5) (g_id: 6926) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: SM(45:1) (g_id: 6927) ... searching LIPID MAPS ... generating generic SMILES ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 6928) ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 6929) ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 6930) ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 6931) ... ok
+parsed lipid: TG(40:1) (g_id: 6932) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(40:1) (g_id: 6933) ... ok
+parsed lipid: TG(42:0) (g_id: 6934) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(42:0) (g_id: 6935) ... ok
+found SMILES in search cache for compound: TG(42:0) (g_id: 6936) ... ok
+found SMILES in search cache for compound: TG(42:0) (g_id: 6937) ... ok
+found SMILES in search cache for compound: TG(42:1) (g_id: 6938) ... ok
+found SMILES in search cache for compound: TG(42:1) (g_id: 6939) ... ok
+found SMILES in search cache for compound: TG(42:1) (g_id: 6940) ... ok
+parsed lipid: TG(42:2) (g_id: 6941) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(42:2) (g_id: 6942) ... ok
+parsed lipid: TG(44:1) (g_id: 6943) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(44:1) (g_id: 6944) ... ok
+found SMILES in search cache for compound: TG(44:1) (g_id: 6945) ... ok
+found SMILES in search cache for compound: TG(44:2) (g_id: 6946) ... ok
+found SMILES in search cache for compound: TG(44:2) (g_id: 6947) ... ok
+found SMILES in search cache for compound: TG(44:2) (g_id: 6948) ... ok
+parsed lipid: TG(46:0) (g_id: 6949) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(46:0) (g_id: 6950) ... ok
+found SMILES in search cache for compound: TG(46:0) (g_id: 6951) ... ok
+parsed lipid: TG(46:1) (g_id: 6952) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(46:1) (g_id: 6953) ... ok
+found SMILES in search cache for compound: TG(46:1) (g_id: 6954) ... ok
+found SMILES in search cache for compound: TG(46:2) (g_id: 6955) ... ok
+found SMILES in search cache for compound: TG(46:2) (g_id: 6956) ... ok
+found SMILES in search cache for compound: TG(46:3) (g_id: 6957) ... ok
+found SMILES in search cache for compound: TG(46:3) (g_id: 6958) ... ok
+parsed lipid: TG(48:0) (g_id: 6959) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(48:0) (g_id: 6960) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 6961) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 6962) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 6963) ... ok
+found SMILES in search cache for compound: TG(48:2) (g_id: 6964) ... ok
+found SMILES in search cache for compound: TG(48:2) (g_id: 6965) ... ok
+found SMILES in search cache for compound: TG(48:3) (g_id: 6966) ... ok
+found SMILES in search cache for compound: TG(48:3) (g_id: 6967) ... ok
+parsed lipid: TG(49:0) (g_id: 6968) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(49:0) (g_id: 6969) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 6970) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 6971) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 6972) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 6973) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 6974) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 6975) ... ok
+found SMILES in search cache for compound: TG(49:3) (g_id: 6976) ... ok
+parsed lipid: TG(50:0) (g_id: 6977) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(50:0) (g_id: 6978) ... ok
+parsed lipid: TG(50:1) (g_id: 6979) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 6980) ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 6981) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 6982) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 6983) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 6984) ... ok
+found SMILES in search cache for compound: TG(50:3) (g_id: 6985) ... ok
+found SMILES in search cache for compound: TG(50:3) (g_id: 6986) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 6987) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 6988) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 6989) ... ok
+parsed lipid: TG(50:5) (g_id: 6990) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(50:5) (g_id: 6991) ... ok
+parsed lipid: TG(51:0) (g_id: 6992) ... searching LIPID MAPS ... ok
+parsed lipid: TG(51:1) (g_id: 6993) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(51:1) (g_id: 6994) ... ok
+found SMILES in search cache for compound: TG(51:1) (g_id: 6995) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 6996) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 6997) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 6998) ... ok
+found SMILES in search cache for compound: TG(51:3) (g_id: 6999) ... ok
+found SMILES in search cache for compound: TG(51:3) (g_id: 7000) ... ok
+found SMILES in search cache for compound: TG(51:4) (g_id: 7001) ... ok
+found SMILES in search cache for compound: TG(52:0) (g_id: 7002) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7003) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7004) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7005) ... ok
+parsed lipid: TG(52:2) (g_id: 7006) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7007) ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7008) ... ok
+found SMILES in search cache for compound: TG(52:3) (g_id: 7009) ... ok
+found SMILES in search cache for compound: TG(52:3) (g_id: 7010) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7011) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7012) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7013) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7014) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7015) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7016) ... ok
+parsed lipid: TG(52:6) (g_id: 7017) ... searching LIPID MAPS ... ok
+parsed lipid: TG(53:0) (g_id: 7018) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(53:1) (g_id: 7019) ... ok
+found SMILES in search cache for compound: TG(53:1) (g_id: 7020) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7021) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7022) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7023) ... ok
+parsed lipid: TG(53:3) (g_id: 7024) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(53:3) (g_id: 7025) ... ok
+found SMILES in search cache for compound: TG(53:3) (g_id: 7026) ... ok
+found SMILES in search cache for compound: TG(53:4) (g_id: 7027) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7028) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7029) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7030) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7031) ... ok
+parsed lipid: TG(54:2) (g_id: 7032) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(54:2) (g_id: 7033) ... ok
+found SMILES in search cache for compound: TG(54:2) (g_id: 7034) ... ok
+found SMILES in search cache for compound: TG(54:3) (g_id: 7035) ... ok
+found SMILES in search cache for compound: TG(54:3) (g_id: 7036) ... ok
+parsed lipid: TG(54:4) (g_id: 7037) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(54:4) (g_id: 7038) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7039) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7040) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7041) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7042) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7043) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7044) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7045) ... ok
+parsed lipid: TG(55:1) (g_id: 7046) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(55:2) (g_id: 7047) ... ok
+found SMILES in search cache for compound: TG(55:3) (g_id: 7048) ... ok
+found SMILES in search cache for compound: TG(55:4) (g_id: 7049) ... ok
+found SMILES in search cache for compound: TG(56:1) (g_id: 7050) ... ok
+found SMILES in search cache for compound: TG(56:1) (g_id: 7051) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7052) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7053) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7054) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7055) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7056) ... ok
+found SMILES in search cache for compound: TG(56:4) (g_id: 7057) ... ok
+parsed lipid: TG(56:5) (g_id: 7058) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(56:5) (g_id: 7059) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7060) ... ok
+parsed lipid: TG(56:7) (g_id: 7061) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(56:7) (g_id: 7062) ... ok
+parsed lipid: TG(57:1) (g_id: 7063) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(57:2) (g_id: 7064) ... ok
+found SMILES in search cache for compound: TG(57:3) (g_id: 7065) ... ok
+parsed lipid: TG(57:4) (g_id: 7066) ... searching LIPID MAPS ... ok
+parsed lipid: TG(58:1) (g_id: 7067) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(58:2) (g_id: 7068) ... ok
+found SMILES in search cache for compound: TG(58:3) (g_id: 7069) ... ok
+parsed lipid: TG(59:2) (g_id: 7070) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(59:3) (g_id: 7071) ... ok
+parsed lipid: TG(59:4) (g_id: 7072) ... searching LIPID MAPS ... ok
+parsed lipid: TG(59:5) (g_id: 7073) ... searching LIPID MAPS ... ok
+parsed lipid: TG(60:2) (g_id: 7074) ... searching LIPID MAPS ... ok
+parsed lipid: TG(60:3) (g_id: 7075) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(60:4) (g_id: 7076) ... ok
+parsed lipid: DG(31:2) (g_id: 7077) ... searching LIPID MAPS ... ok
+parsed lipid: DG(32:1) (g_id: 7078) ... searching LIPID MAPS ... ok
+parsed lipid: DG(32:2) (g_id: 7079) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: DG(34:1) (g_id: 7080) ... ok
+found SMILES in search cache for compound: DG(34:2) (g_id: 7081) ... ok
+found SMILES in search cache for compound: DG(35:5) (g_id: 7082) ... ok
+parsed lipid: DG(36:2) (g_id: 7083) ... searching LIPID MAPS ... ok
+parsed lipid: DG(36:3) (g_id: 7084) ... searching LIPID MAPS ... ok
+parsed lipid: DG(36:4) (g_id: 7085) ... searching LIPID MAPS ... ok
+parsed lipid: DG(36:5) (g_id: 7086) ... searching LIPID MAPS ... ok
+parsed lipid: DG(37:7) (g_id: 7087) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: DG(40:7) (g_id: 7088) ... ok
+found SMILES in search cache for compound: DG(40:7) (g_id: 7089) ... ok
+parsed lipid: DG(40:8) (g_id: 7090) ... searching LIPID MAPS ... ok
+parsed lipid: DG(52:1) (g_id: 7091) ... searching LIPID MAPS ... generating generic SMILES ... ok
+parsed lipid: DG(52:2) (g_id: 7092) ... searching LIPID MAPS ... generating generic SMILES ... ok
+found SMILES in search cache for compound: PC(30:0) (g_id: 7093) ... ok
+parsed lipid: PC(31:0) (g_id: 7094) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(31:1) (g_id: 7095) ... ok
+found SMILES in search cache for compound: PC(31:2) (g_id: 7096) ... ok
+found SMILES in search cache for compound: PC(32:0) (g_id: 7097) ... ok
+parsed lipid: PC(33:0) (g_id: 7098) ... searching LIPID MAPS ... ok
+parsed lipid: PC(33:1) (g_id: 7099) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: PC(33:1) (g_id: 7100) ... ok
+found SMILES in search cache for compound: PC(33:2) (g_id: 7101) ... ok
+found SMILES in search cache for compound: PC(34:0) (g_id: 7102) ... ok
+found SMILES in search cache for compound: PC(34:0) (g_id: 7103) ... ok
+found SMILES in search cache for compound: PC(34:1) (g_id: 7104) ... ok
+found SMILES in search cache for compound: PC(34:2) (g_id: 7105) ... ok
+found SMILES in search cache for compound: PC(36:1) (g_id: 7106) ... ok
+found SMILES in search cache for compound: PC(36:1) (g_id: 7107) ... ok
+found SMILES in search cache for compound: PC(36:2) (g_id: 7108) ... ok
+found SMILES in search cache for compound: PC(36:2) (g_id: 7109) ... ok
+parsed lipid: PC(44:11) (g_id: 7110) ... searching LIPID MAPS ... generating generic SMILES ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 7111) ... ok
+found SMILES in search cache for compound: TG(40:0) (g_id: 7112) ... ok
+found SMILES in search cache for compound: TG(40:1) (g_id: 7113) ... ok
+found SMILES in search cache for compound: TG(40:1) (g_id: 7114) ... ok
+found SMILES in search cache for compound: TG(42:0) (g_id: 7115) ... ok
+found SMILES in search cache for compound: TG(42:0) (g_id: 7116) ... ok
+found SMILES in search cache for compound: TG(42:1) (g_id: 7117) ... ok
+found SMILES in search cache for compound: TG(42:1) (g_id: 7118) ... ok
+found SMILES in search cache for compound: TG(42:2) (g_id: 7119) ... ok
+found SMILES in search cache for compound: TG(42:2) (g_id: 7120) ... ok
+found SMILES in search cache for compound: TG(44:1) (g_id: 7121) ... ok
+found SMILES in search cache for compound: TG(44:1) (g_id: 7122) ... ok
+found SMILES in search cache for compound: TG(44:2) (g_id: 7123) ... ok
+found SMILES in search cache for compound: TG(44:2) (g_id: 7124) ... ok
+found SMILES in search cache for compound: TG(46:0) (g_id: 7125) ... ok
+found SMILES in search cache for compound: TG(46:0) (g_id: 7126) ... ok
+found SMILES in search cache for compound: TG(46:0) (g_id: 7127) ... ok
+found SMILES in search cache for compound: TG(46:1) (g_id: 7128) ... ok
+found SMILES in search cache for compound: TG(46:1) (g_id: 7129) ... ok
+found SMILES in search cache for compound: TG(46:1) (g_id: 7130) ... ok
+found SMILES in search cache for compound: TG(46:2) (g_id: 7131) ... ok
+found SMILES in search cache for compound: TG(46:2) (g_id: 7132) ... ok
+found SMILES in search cache for compound: TG(46:3) (g_id: 7133) ... ok
+found SMILES in search cache for compound: TG(46:3) (g_id: 7134) ... ok
+found SMILES in search cache for compound: TG(48:0) (g_id: 7135) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 7136) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 7137) ... ok
+found SMILES in search cache for compound: TG(48:1) (g_id: 7138) ... ok
+found SMILES in search cache for compound: TG(48:2) (g_id: 7139) ... ok
+found SMILES in search cache for compound: TG(48:2) (g_id: 7140) ... ok
+found SMILES in search cache for compound: TG(48:2) (g_id: 7141) ... ok
+found SMILES in search cache for compound: TG(48:3) (g_id: 7142) ... ok
+found SMILES in search cache for compound: TG(48:3) (g_id: 7143) ... ok
+found SMILES in search cache for compound: TG(49:0) (g_id: 7144) ... ok
+found SMILES in search cache for compound: TG(49:0) (g_id: 7145) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 7146) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 7147) ... ok
+found SMILES in search cache for compound: TG(49:1) (g_id: 7148) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 7149) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 7150) ... ok
+found SMILES in search cache for compound: TG(49:2) (g_id: 7151) ... ok
+found SMILES in search cache for compound: TG(49:3) (g_id: 7152) ... ok
+found SMILES in search cache for compound: TG(49:3) (g_id: 7153) ... ok
+found SMILES in search cache for compound: TG(49:3) (g_id: 7154) ... ok
+parsed lipid: TG(49:4) (g_id: 7155) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(50:0) (g_id: 7156) ... ok
+found SMILES in search cache for compound: TG(50:0) (g_id: 7157) ... ok
+found SMILES in search cache for compound: TG(50:0) (g_id: 7158) ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 7159) ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 7160) ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 7161) ... ok
+found SMILES in search cache for compound: TG(50:1) (g_id: 7162) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 7163) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 7164) ... ok
+found SMILES in search cache for compound: TG(50:2) (g_id: 7165) ... ok
+found SMILES in search cache for compound: TG(50:3) (g_id: 7166) ... ok
+found SMILES in search cache for compound: TG(50:3) (g_id: 7167) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 7168) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 7169) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 7170) ... ok
+found SMILES in search cache for compound: TG(50:4) (g_id: 7171) ... ok
+found SMILES in search cache for compound: TG(50:5) (g_id: 7172) ... ok
+found SMILES in search cache for compound: TG(50:5) (g_id: 7173) ... ok
+found SMILES in search cache for compound: TG(50:5) (g_id: 7174) ... ok
+found SMILES in search cache for compound: TG(50:5) (g_id: 7175) ... ok
+found SMILES in search cache for compound: TG(51:0) (g_id: 7176) ... ok
+found SMILES in search cache for compound: TG(51:1) (g_id: 7177) ... ok
+found SMILES in search cache for compound: TG(51:1) (g_id: 7178) ... ok
+found SMILES in search cache for compound: TG(51:1) (g_id: 7179) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 7180) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 7181) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 7182) ... ok
+found SMILES in search cache for compound: TG(51:2) (g_id: 7183) ... ok
+found SMILES in search cache for compound: TG(51:3) (g_id: 7184) ... ok
+found SMILES in search cache for compound: TG(51:3) (g_id: 7185) ... ok
+found SMILES in search cache for compound: TG(51:3) (g_id: 7186) ... ok
+found SMILES in search cache for compound: TG(51:4) (g_id: 7187) ... ok
+found SMILES in search cache for compound: TG(51:4) (g_id: 7188) ... ok
+found SMILES in search cache for compound: TG(51:4) (g_id: 7189) ... ok
+parsed lipid: TG(51:5) (g_id: 7190) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(52:0) (g_id: 7191) ... ok
+found SMILES in search cache for compound: TG(52:0) (g_id: 7192) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7193) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7194) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7195) ... ok
+found SMILES in search cache for compound: TG(52:1) (g_id: 7196) ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7197) ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7198) ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7199) ... ok
+found SMILES in search cache for compound: TG(52:2) (g_id: 7200) ... ok
+found SMILES in search cache for compound: TG(52:3) (g_id: 7201) ... ok
+found SMILES in search cache for compound: TG(52:3) (g_id: 7202) ... ok
+found SMILES in search cache for compound: TG(52:3) (g_id: 7203) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7204) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7205) ... ok
+found SMILES in search cache for compound: TG(52:4) (g_id: 7206) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7207) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7208) ... ok
+found SMILES in search cache for compound: TG(52:5) (g_id: 7209) ... ok
+found SMILES in search cache for compound: TG(52:6) (g_id: 7210) ... ok
+found SMILES in search cache for compound: TG(52:6) (g_id: 7211) ... ok
+found SMILES in search cache for compound: TG(52:6) (g_id: 7212) ... ok
+parsed lipid: TG(52:7) (g_id: 7213) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(53:1) (g_id: 7214) ... ok
+found SMILES in search cache for compound: TG(53:1) (g_id: 7215) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7216) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7217) ... ok
+found SMILES in search cache for compound: TG(53:2) (g_id: 7218) ... ok
+found SMILES in search cache for compound: TG(53:3) (g_id: 7219) ... ok
+found SMILES in search cache for compound: TG(53:3) (g_id: 7220) ... ok
+found SMILES in search cache for compound: TG(53:3) (g_id: 7221) ... ok
+found SMILES in search cache for compound: TG(53:4) (g_id: 7222) ... ok
+found SMILES in search cache for compound: TG(53:4) (g_id: 7223) ... ok
+found SMILES in search cache for compound: TG(53:4) (g_id: 7224) ... ok
+found SMILES in search cache for compound: TG(53:5) (g_id: 7225) ... ok
+found SMILES in search cache for compound: TG(53:5) (g_id: 7226) ... ok
+found SMILES in search cache for compound: TG(53:5) (g_id: 7227) ... ok
+parsed lipid: TG(54:0) (g_id: 7228) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7229) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7230) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7231) ... ok
+found SMILES in search cache for compound: TG(54:1) (g_id: 7232) ... ok
+found SMILES in search cache for compound: TG(54:2) (g_id: 7233) ... ok
+found SMILES in search cache for compound: TG(54:2) (g_id: 7234) ... ok
+found SMILES in search cache for compound: TG(54:2) (g_id: 7235) ... ok
+found SMILES in search cache for compound: TG(54:3) (g_id: 7236) ... ok
+found SMILES in search cache for compound: TG(54:3) (g_id: 7237) ... ok
+found SMILES in search cache for compound: TG(54:3) (g_id: 7238) ... ok
+found SMILES in search cache for compound: TG(54:4) (g_id: 7239) ... ok
+found SMILES in search cache for compound: TG(54:4) (g_id: 7240) ... ok
+found SMILES in search cache for compound: TG(54:4) (g_id: 7241) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7242) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7243) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7244) ... ok
+found SMILES in search cache for compound: TG(54:5) (g_id: 7245) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7246) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7247) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7248) ... ok
+found SMILES in search cache for compound: TG(54:6) (g_id: 7249) ... ok
+found SMILES in search cache for compound: TG(54:7) (g_id: 7250) ... ok
+found SMILES in search cache for compound: TG(54:7) (g_id: 7251) ... ok
+found SMILES in search cache for compound: TG(54:7) (g_id: 7252) ... ok
+parsed lipid: TG(54:8) (g_id: 7253) ... searching LIPID MAPS ... ok
+parsed lipid: TG(55:0) (g_id: 7254) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(55:1) (g_id: 7255) ... ok
+found SMILES in search cache for compound: TG(55:1) (g_id: 7256) ... ok
+found SMILES in search cache for compound: TG(55:2) (g_id: 7257) ... ok
+found SMILES in search cache for compound: TG(55:3) (g_id: 7258) ... ok
+found SMILES in search cache for compound: TG(55:3) (g_id: 7259) ... ok
+found SMILES in search cache for compound: TG(55:4) (g_id: 7260) ... ok
+found SMILES in search cache for compound: TG(55:4) (g_id: 7261) ... ok
+found SMILES in search cache for compound: TG(56:1) (g_id: 7262) ... ok
+found SMILES in search cache for compound: TG(56:1) (g_id: 7263) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7264) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7265) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7266) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7267) ... ok
+found SMILES in search cache for compound: TG(56:2) (g_id: 7268) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7269) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7270) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7271) ... ok
+found SMILES in search cache for compound: TG(56:3) (g_id: 7272) ... ok
+found SMILES in search cache for compound: TG(56:4) (g_id: 7273) ... ok
+found SMILES in search cache for compound: TG(56:4) (g_id: 7274) ... ok
+found SMILES in search cache for compound: TG(56:4) (g_id: 7275) ... ok
+found SMILES in search cache for compound: TG(56:5) (g_id: 7276) ... ok
+found SMILES in search cache for compound: TG(56:5) (g_id: 7277) ... ok
+found SMILES in search cache for compound: TG(56:5) (g_id: 7278) ... ok
+found SMILES in search cache for compound: TG(56:5) (g_id: 7279) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7280) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7281) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7282) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7283) ... ok
+found SMILES in search cache for compound: TG(56:6) (g_id: 7284) ... ok
+found SMILES in search cache for compound: TG(56:7) (g_id: 7285) ... ok
+found SMILES in search cache for compound: TG(56:7) (g_id: 7286) ... ok
+found SMILES in search cache for compound: TG(56:7) (g_id: 7287) ... ok
+found SMILES in search cache for compound: TG(56:8) (g_id: 7288) ... ok
+found SMILES in search cache for compound: TG(56:8) (g_id: 7289) ... ok
+parsed lipid: TG(56:9) (g_id: 7290) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(57:1) (g_id: 7291) ... ok
+found SMILES in search cache for compound: TG(57:2) (g_id: 7292) ... ok
+found SMILES in search cache for compound: TG(57:3) (g_id: 7293) ... ok
+found SMILES in search cache for compound: TG(57:4) (g_id: 7294) ... ok
+parsed lipid: TG(57:5) (g_id: 7295) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(58:1) (g_id: 7296) ... ok
+found SMILES in search cache for compound: TG(58:1) (g_id: 7297) ... ok
+found SMILES in search cache for compound: TG(58:10) (g_id: 7298) ... ok
+found SMILES in search cache for compound: TG(58:2) (g_id: 7299) ... ok
+found SMILES in search cache for compound: TG(58:2) (g_id: 7300) ... ok
+found SMILES in search cache for compound: TG(58:3) (g_id: 7301) ... ok
+found SMILES in search cache for compound: TG(58:3) (g_id: 7302) ... ok
+found SMILES in search cache for compound: TG(58:4) (g_id: 7303) ... ok
+found SMILES in search cache for compound: TG(58:4) (g_id: 7304) ... ok
+found SMILES in search cache for compound: TG(58:5) (g_id: 7305) ... ok
+parsed lipid: TG(58:6) (g_id: 7306) ... searching LIPID MAPS ... ok
+parsed lipid: TG(58:7) (g_id: 7307) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(58:7) (g_id: 7308) ... ok
+found SMILES in search cache for compound: TG(58:7) (g_id: 7309) ... ok
+parsed lipid: TG(58:8) (g_id: 7310) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(58:8) (g_id: 7311) ... ok
+found SMILES in search cache for compound: TG(58:9) (g_id: 7312) ... ok
+found SMILES in search cache for compound: TG(58:9) (g_id: 7313) ... ok
+found SMILES in search cache for compound: TG(58:9) (g_id: 7314) ... ok
+parsed lipid: TG(59:1) (g_id: 7315) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(59:2) (g_id: 7316) ... ok
+found SMILES in search cache for compound: TG(59:3) (g_id: 7317) ... ok
+found SMILES in search cache for compound: TG(59:4) (g_id: 7318) ... ok
+found SMILES in search cache for compound: TG(59:5) (g_id: 7319) ... ok
+parsed lipid: TG(59:6) (g_id: 7320) ... searching LIPID MAPS ... ok
+parsed lipid: TG(59:7) (g_id: 7321) ... searching LIPID MAPS ... ok
+found SMILES in search cache for compound: TG(60:3) (g_id: 7322) ... ok
+found SMILES in search cache for compound: TG(60:3) (g_id: 7323) ... ok
+found SMILES in search cache for compound: TG(60:4) (g_id: 7324) ... ok
+found SMILES in search cache for compound: TG(60:5) (g_id: 7325) ... ok
 adding (rough) chemical class labels ...
 (g_id:    0) 1-Methylnicotinamide                     looks like a small molecule
 (g_id:    1) 7-Methylguanosine                        looks like a small molecule
@@ -12915,3 +13345,432 @@ adding (rough) chemical class labels ...
 (g_id: 6894) PE(o36:01)                               looks like a lipid
 (g_id: 6895) PE(o36:02)                               looks like a lipid
 (g_id: 6896) PS(o35:02)                               looks like a lipid
+(g_id: 6897) DG(32:0)                                 looks like a lipid
+(g_id: 6898) DG(34:1)                                 looks like a lipid
+(g_id: 6899) DG(34:2)                                 looks like a lipid
+(g_id: 6900) DG(35:5)                                 looks like a lipid
+(g_id: 6901) DG(36:7)                                 looks like a lipid
+(g_id: 6902) DG(38:7)                                 looks like a lipid
+(g_id: 6903) DG(40:7)                                 looks like a lipid
+(g_id: 6904) DG(47:5)                                 looks like a lipid
+(g_id: 6905) DG(48:5)                                 looks like a lipid
+(g_id: 6906) PC(24:1)                                 looks like a lipid
+(g_id: 6907) PC(25:1)                                 looks like a lipid
+(g_id: 6908) PC(30:0)                                 looks like a lipid
+(g_id: 6909) PC(32:0)                                 looks like a lipid
+(g_id: 6910) PC(32:1)                                 looks like a lipid
+(g_id: 6911) PC(34:0)                                 looks like a lipid
+(g_id: 6912) PC(34:1)                                 looks like a lipid
+(g_id: 6913) PC(34:2)                                 looks like a lipid
+(g_id: 6914) PC(36:2)                                 looks like a lipid
+(g_id: 6915) SM(32:1)                                 looks like a lipid
+(g_id: 6916) SM(34:1)                                 looks like a lipid
+(g_id: 6917) SM(35:1)                                 looks like a lipid
+(g_id: 6918) SM(36:1)                                 looks like a lipid
+(g_id: 6919) SM(38:1)                                 looks like a lipid
+(g_id: 6920) SM(40:1)                                 looks like a lipid
+(g_id: 6921) SM(40:2)                                 looks like a lipid
+(g_id: 6922) SM(41:1)                                 looks like a lipid
+(g_id: 6923) SM(42:1)                                 looks like a lipid
+(g_id: 6924) SM(42:2)                                 looks like a lipid
+(g_id: 6925) SM(43:1)                                 looks like a lipid
+(g_id: 6926) SM(43:5)                                 looks like a lipid
+(g_id: 6927) SM(45:1)                                 looks like a lipid
+(g_id: 6928) TG(40:0)                                 looks like a lipid
+(g_id: 6929) TG(40:0)                                 looks like a lipid
+(g_id: 6930) TG(40:0)                                 looks like a lipid
+(g_id: 6931) TG(40:0)                                 looks like a lipid
+(g_id: 6932) TG(40:1)                                 looks like a lipid
+(g_id: 6933) TG(40:1)                                 looks like a lipid
+(g_id: 6934) TG(42:0)                                 looks like a lipid
+(g_id: 6935) TG(42:0)                                 looks like a lipid
+(g_id: 6936) TG(42:0)                                 looks like a lipid
+(g_id: 6937) TG(42:0)                                 looks like a lipid
+(g_id: 6938) TG(42:1)                                 looks like a lipid
+(g_id: 6939) TG(42:1)                                 looks like a lipid
+(g_id: 6940) TG(42:1)                                 looks like a lipid
+(g_id: 6941) TG(42:2)                                 looks like a lipid
+(g_id: 6942) TG(42:2)                                 looks like a lipid
+(g_id: 6943) TG(44:1)                                 looks like a lipid
+(g_id: 6944) TG(44:1)                                 looks like a lipid
+(g_id: 6945) TG(44:1)                                 looks like a lipid
+(g_id: 6946) TG(44:2)                                 looks like a lipid
+(g_id: 6947) TG(44:2)                                 looks like a lipid
+(g_id: 6948) TG(44:2)                                 looks like a lipid
+(g_id: 6949) TG(46:0)                                 looks like a lipid
+(g_id: 6950) TG(46:0)                                 looks like a lipid
+(g_id: 6951) TG(46:0)                                 looks like a lipid
+(g_id: 6952) TG(46:1)                                 looks like a lipid
+(g_id: 6953) TG(46:1)                                 looks like a lipid
+(g_id: 6954) TG(46:1)                                 looks like a lipid
+(g_id: 6955) TG(46:2)                                 looks like a lipid
+(g_id: 6956) TG(46:2)                                 looks like a lipid
+(g_id: 6957) TG(46:3)                                 looks like a lipid
+(g_id: 6958) TG(46:3)                                 looks like a lipid
+(g_id: 6959) TG(48:0)                                 looks like a lipid
+(g_id: 6960) TG(48:0)                                 looks like a lipid
+(g_id: 6961) TG(48:1)                                 looks like a lipid
+(g_id: 6962) TG(48:1)                                 looks like a lipid
+(g_id: 6963) TG(48:1)                                 looks like a lipid
+(g_id: 6964) TG(48:2)                                 looks like a lipid
+(g_id: 6965) TG(48:2)                                 looks like a lipid
+(g_id: 6966) TG(48:3)                                 looks like a lipid
+(g_id: 6967) TG(48:3)                                 looks like a lipid
+(g_id: 6968) TG(49:0)                                 looks like a lipid
+(g_id: 6969) TG(49:0)                                 looks like a lipid
+(g_id: 6970) TG(49:1)                                 looks like a lipid
+(g_id: 6971) TG(49:1)                                 looks like a lipid
+(g_id: 6972) TG(49:1)                                 looks like a lipid
+(g_id: 6973) TG(49:2)                                 looks like a lipid
+(g_id: 6974) TG(49:2)                                 looks like a lipid
+(g_id: 6975) TG(49:2)                                 looks like a lipid
+(g_id: 6976) TG(49:3)                                 looks like a lipid
+(g_id: 6977) TG(50:0)                                 looks like a lipid
+(g_id: 6978) TG(50:0)                                 looks like a lipid
+(g_id: 6979) TG(50:1)                                 looks like a lipid
+(g_id: 6980) TG(50:1)                                 looks like a lipid
+(g_id: 6981) TG(50:1)                                 looks like a lipid
+(g_id: 6982) TG(50:2)                                 looks like a lipid
+(g_id: 6983) TG(50:2)                                 looks like a lipid
+(g_id: 6984) TG(50:2)                                 looks like a lipid
+(g_id: 6985) TG(50:3)                                 looks like a lipid
+(g_id: 6986) TG(50:3)                                 looks like a lipid
+(g_id: 6987) TG(50:4)                                 looks like a lipid
+(g_id: 6988) TG(50:4)                                 looks like a lipid
+(g_id: 6989) TG(50:4)                                 looks like a lipid
+(g_id: 6990) TG(50:5)                                 looks like a lipid
+(g_id: 6991) TG(50:5)                                 looks like a lipid
+(g_id: 6992) TG(51:0)                                 looks like a lipid
+(g_id: 6993) TG(51:1)                                 looks like a lipid
+(g_id: 6994) TG(51:1)                                 looks like a lipid
+(g_id: 6995) TG(51:1)                                 looks like a lipid
+(g_id: 6996) TG(51:2)                                 looks like a lipid
+(g_id: 6997) TG(51:2)                                 looks like a lipid
+(g_id: 6998) TG(51:2)                                 looks like a lipid
+(g_id: 6999) TG(51:3)                                 looks like a lipid
+(g_id: 7000) TG(51:3)                                 looks like a lipid
+(g_id: 7001) TG(51:4)                                 looks like a lipid
+(g_id: 7002) TG(52:0)                                 looks like a lipid
+(g_id: 7003) TG(52:1)                                 looks like a lipid
+(g_id: 7004) TG(52:1)                                 looks like a lipid
+(g_id: 7005) TG(52:1)                                 looks like a lipid
+(g_id: 7006) TG(52:2)                                 looks like a lipid
+(g_id: 7007) TG(52:2)                                 looks like a lipid
+(g_id: 7008) TG(52:2)                                 looks like a lipid
+(g_id: 7009) TG(52:3)                                 looks like a lipid
+(g_id: 7010) TG(52:3)                                 looks like a lipid
+(g_id: 7011) TG(52:4)                                 looks like a lipid
+(g_id: 7012) TG(52:4)                                 looks like a lipid
+(g_id: 7013) TG(52:4)                                 looks like a lipid
+(g_id: 7014) TG(52:5)                                 looks like a lipid
+(g_id: 7015) TG(52:5)                                 looks like a lipid
+(g_id: 7016) TG(52:5)                                 looks like a lipid
+(g_id: 7017) TG(52:6)                                 looks like a lipid
+(g_id: 7018) TG(53:0)                                 looks like a lipid
+(g_id: 7019) TG(53:1)                                 looks like a lipid
+(g_id: 7020) TG(53:1)                                 looks like a lipid
+(g_id: 7021) TG(53:2)                                 looks like a lipid
+(g_id: 7022) TG(53:2)                                 looks like a lipid
+(g_id: 7023) TG(53:2)                                 looks like a lipid
+(g_id: 7024) TG(53:3)                                 looks like a lipid
+(g_id: 7025) TG(53:3)                                 looks like a lipid
+(g_id: 7026) TG(53:3)                                 looks like a lipid
+(g_id: 7027) TG(53:4)                                 looks like a lipid
+(g_id: 7028) TG(54:1)                                 looks like a lipid
+(g_id: 7029) TG(54:1)                                 looks like a lipid
+(g_id: 7030) TG(54:1)                                 looks like a lipid
+(g_id: 7031) TG(54:1)                                 looks like a lipid
+(g_id: 7032) TG(54:2)                                 looks like a lipid
+(g_id: 7033) TG(54:2)                                 looks like a lipid
+(g_id: 7034) TG(54:2)                                 looks like a lipid
+(g_id: 7035) TG(54:3)                                 looks like a lipid
+(g_id: 7036) TG(54:3)                                 looks like a lipid
+(g_id: 7037) TG(54:4)                                 looks like a lipid
+(g_id: 7038) TG(54:4)                                 looks like a lipid
+(g_id: 7039) TG(54:5)                                 looks like a lipid
+(g_id: 7040) TG(54:5)                                 looks like a lipid
+(g_id: 7041) TG(54:5)                                 looks like a lipid
+(g_id: 7042) TG(54:5)                                 looks like a lipid
+(g_id: 7043) TG(54:6)                                 looks like a lipid
+(g_id: 7044) TG(54:6)                                 looks like a lipid
+(g_id: 7045) TG(54:6)                                 looks like a lipid
+(g_id: 7046) TG(55:1)                                 looks like a lipid
+(g_id: 7047) TG(55:2)                                 looks like a lipid
+(g_id: 7048) TG(55:3)                                 looks like a lipid
+(g_id: 7049) TG(55:4)                                 looks like a lipid
+(g_id: 7050) TG(56:1)                                 looks like a lipid
+(g_id: 7051) TG(56:1)                                 looks like a lipid
+(g_id: 7052) TG(56:2)                                 looks like a lipid
+(g_id: 7053) TG(56:2)                                 looks like a lipid
+(g_id: 7054) TG(56:2)                                 looks like a lipid
+(g_id: 7055) TG(56:3)                                 looks like a lipid
+(g_id: 7056) TG(56:3)                                 looks like a lipid
+(g_id: 7057) TG(56:4)                                 looks like a lipid
+(g_id: 7058) TG(56:5)                                 looks like a lipid
+(g_id: 7059) TG(56:5)                                 looks like a lipid
+(g_id: 7060) TG(56:6)                                 looks like a lipid
+(g_id: 7061) TG(56:7)                                 looks like a lipid
+(g_id: 7062) TG(56:7)                                 looks like a lipid
+(g_id: 7063) TG(57:1)                                 looks like a lipid
+(g_id: 7064) TG(57:2)                                 looks like a lipid
+(g_id: 7065) TG(57:3)                                 looks like a lipid
+(g_id: 7066) TG(57:4)                                 looks like a lipid
+(g_id: 7067) TG(58:1)                                 looks like a lipid
+(g_id: 7068) TG(58:2)                                 looks like a lipid
+(g_id: 7069) TG(58:3)                                 looks like a lipid
+(g_id: 7070) TG(59:2)                                 looks like a lipid
+(g_id: 7071) TG(59:3)                                 looks like a lipid
+(g_id: 7072) TG(59:4)                                 looks like a lipid
+(g_id: 7073) TG(59:5)                                 looks like a lipid
+(g_id: 7074) TG(60:2)                                 looks like a lipid
+(g_id: 7075) TG(60:3)                                 looks like a lipid
+(g_id: 7076) TG(60:4)                                 looks like a lipid
+(g_id: 7077) DG(31:2)                                 looks like a lipid
+(g_id: 7078) DG(32:1)                                 looks like a lipid
+(g_id: 7079) DG(32:2)                                 looks like a lipid
+(g_id: 7080) DG(34:1)                                 looks like a lipid
+(g_id: 7081) DG(34:2)                                 looks like a lipid
+(g_id: 7082) DG(35:5)                                 looks like a lipid
+(g_id: 7083) DG(36:2)                                 looks like a lipid
+(g_id: 7084) DG(36:3)                                 looks like a lipid
+(g_id: 7085) DG(36:4)                                 looks like a lipid
+(g_id: 7086) DG(36:5)                                 looks like a lipid
+(g_id: 7087) DG(37:7)                                 looks like a lipid
+(g_id: 7088) DG(40:7)                                 looks like a lipid
+(g_id: 7089) DG(40:7)                                 looks like a lipid
+(g_id: 7090) DG(40:8)                                 looks like a lipid
+(g_id: 7091) DG(52:1)                                 looks like a lipid
+(g_id: 7092) DG(52:2)                                 looks like a lipid
+(g_id: 7093) PC(30:0)                                 looks like a lipid
+(g_id: 7094) PC(31:0)                                 looks like a lipid
+(g_id: 7095) PC(31:1)                                 looks like a lipid
+(g_id: 7096) PC(31:2)                                 looks like a lipid
+(g_id: 7097) PC(32:0)                                 looks like a lipid
+(g_id: 7098) PC(33:0)                                 looks like a lipid
+(g_id: 7099) PC(33:1)                                 looks like a lipid
+(g_id: 7100) PC(33:1)                                 looks like a lipid
+(g_id: 7101) PC(33:2)                                 looks like a lipid
+(g_id: 7102) PC(34:0)                                 looks like a lipid
+(g_id: 7103) PC(34:0)                                 looks like a lipid
+(g_id: 7104) PC(34:1)                                 looks like a lipid
+(g_id: 7105) PC(34:2)                                 looks like a lipid
+(g_id: 7106) PC(36:1)                                 looks like a lipid
+(g_id: 7107) PC(36:1)                                 looks like a lipid
+(g_id: 7108) PC(36:2)                                 looks like a lipid
+(g_id: 7109) PC(36:2)                                 looks like a lipid
+(g_id: 7110) PC(44:11)                                looks like a lipid
+(g_id: 7111) TG(40:0)                                 looks like a lipid
+(g_id: 7112) TG(40:0)                                 looks like a lipid
+(g_id: 7113) TG(40:1)                                 looks like a lipid
+(g_id: 7114) TG(40:1)                                 looks like a lipid
+(g_id: 7115) TG(42:0)                                 looks like a lipid
+(g_id: 7116) TG(42:0)                                 looks like a lipid
+(g_id: 7117) TG(42:1)                                 looks like a lipid
+(g_id: 7118) TG(42:1)                                 looks like a lipid
+(g_id: 7119) TG(42:2)                                 looks like a lipid
+(g_id: 7120) TG(42:2)                                 looks like a lipid
+(g_id: 7121) TG(44:1)                                 looks like a lipid
+(g_id: 7122) TG(44:1)                                 looks like a lipid
+(g_id: 7123) TG(44:2)                                 looks like a lipid
+(g_id: 7124) TG(44:2)                                 looks like a lipid
+(g_id: 7125) TG(46:0)                                 looks like a lipid
+(g_id: 7126) TG(46:0)                                 looks like a lipid
+(g_id: 7127) TG(46:0)                                 looks like a lipid
+(g_id: 7128) TG(46:1)                                 looks like a lipid
+(g_id: 7129) TG(46:1)                                 looks like a lipid
+(g_id: 7130) TG(46:1)                                 looks like a lipid
+(g_id: 7131) TG(46:2)                                 looks like a lipid
+(g_id: 7132) TG(46:2)                                 looks like a lipid
+(g_id: 7133) TG(46:3)                                 looks like a lipid
+(g_id: 7134) TG(46:3)                                 looks like a lipid
+(g_id: 7135) TG(48:0)                                 looks like a lipid
+(g_id: 7136) TG(48:1)                                 looks like a lipid
+(g_id: 7137) TG(48:1)                                 looks like a lipid
+(g_id: 7138) TG(48:1)                                 looks like a lipid
+(g_id: 7139) TG(48:2)                                 looks like a lipid
+(g_id: 7140) TG(48:2)                                 looks like a lipid
+(g_id: 7141) TG(48:2)                                 looks like a lipid
+(g_id: 7142) TG(48:3)                                 looks like a lipid
+(g_id: 7143) TG(48:3)                                 looks like a lipid
+(g_id: 7144) TG(49:0)                                 looks like a lipid
+(g_id: 7145) TG(49:0)                                 looks like a lipid
+(g_id: 7146) TG(49:1)                                 looks like a lipid
+(g_id: 7147) TG(49:1)                                 looks like a lipid
+(g_id: 7148) TG(49:1)                                 looks like a lipid
+(g_id: 7149) TG(49:2)                                 looks like a lipid
+(g_id: 7150) TG(49:2)                                 looks like a lipid
+(g_id: 7151) TG(49:2)                                 looks like a lipid
+(g_id: 7152) TG(49:3)                                 looks like a lipid
+(g_id: 7153) TG(49:3)                                 looks like a lipid
+(g_id: 7154) TG(49:3)                                 looks like a lipid
+(g_id: 7155) TG(49:4)                                 looks like a lipid
+(g_id: 7156) TG(50:0)                                 looks like a lipid
+(g_id: 7157) TG(50:0)                                 looks like a lipid
+(g_id: 7158) TG(50:0)                                 looks like a lipid
+(g_id: 7159) TG(50:1)                                 looks like a lipid
+(g_id: 7160) TG(50:1)                                 looks like a lipid
+(g_id: 7161) TG(50:1)                                 looks like a lipid
+(g_id: 7162) TG(50:1)                                 looks like a lipid
+(g_id: 7163) TG(50:2)                                 looks like a lipid
+(g_id: 7164) TG(50:2)                                 looks like a lipid
+(g_id: 7165) TG(50:2)                                 looks like a lipid
+(g_id: 7166) TG(50:3)                                 looks like a lipid
+(g_id: 7167) TG(50:3)                                 looks like a lipid
+(g_id: 7168) TG(50:4)                                 looks like a lipid
+(g_id: 7169) TG(50:4)                                 looks like a lipid
+(g_id: 7170) TG(50:4)                                 looks like a lipid
+(g_id: 7171) TG(50:4)                                 looks like a lipid
+(g_id: 7172) TG(50:5)                                 looks like a lipid
+(g_id: 7173) TG(50:5)                                 looks like a lipid
+(g_id: 7174) TG(50:5)                                 looks like a lipid
+(g_id: 7175) TG(50:5)                                 looks like a lipid
+(g_id: 7176) TG(51:0)                                 looks like a lipid
+(g_id: 7177) TG(51:1)                                 looks like a lipid
+(g_id: 7178) TG(51:1)                                 looks like a lipid
+(g_id: 7179) TG(51:1)                                 looks like a lipid
+(g_id: 7180) TG(51:2)                                 looks like a lipid
+(g_id: 7181) TG(51:2)                                 looks like a lipid
+(g_id: 7182) TG(51:2)                                 looks like a lipid
+(g_id: 7183) TG(51:2)                                 looks like a lipid
+(g_id: 7184) TG(51:3)                                 looks like a lipid
+(g_id: 7185) TG(51:3)                                 looks like a lipid
+(g_id: 7186) TG(51:3)                                 looks like a lipid
+(g_id: 7187) TG(51:4)                                 looks like a lipid
+(g_id: 7188) TG(51:4)                                 looks like a lipid
+(g_id: 7189) TG(51:4)                                 looks like a lipid
+(g_id: 7190) TG(51:5)                                 looks like a lipid
+(g_id: 7191) TG(52:0)                                 looks like a lipid
+(g_id: 7192) TG(52:0)                                 looks like a lipid
+(g_id: 7193) TG(52:1)                                 looks like a lipid
+(g_id: 7194) TG(52:1)                                 looks like a lipid
+(g_id: 7195) TG(52:1)                                 looks like a lipid
+(g_id: 7196) TG(52:1)                                 looks like a lipid
+(g_id: 7197) TG(52:2)                                 looks like a lipid
+(g_id: 7198) TG(52:2)                                 looks like a lipid
+(g_id: 7199) TG(52:2)                                 looks like a lipid
+(g_id: 7200) TG(52:2)                                 looks like a lipid
+(g_id: 7201) TG(52:3)                                 looks like a lipid
+(g_id: 7202) TG(52:3)                                 looks like a lipid
+(g_id: 7203) TG(52:3)                                 looks like a lipid
+(g_id: 7204) TG(52:4)                                 looks like a lipid
+(g_id: 7205) TG(52:4)                                 looks like a lipid
+(g_id: 7206) TG(52:4)                                 looks like a lipid
+(g_id: 7207) TG(52:5)                                 looks like a lipid
+(g_id: 7208) TG(52:5)                                 looks like a lipid
+(g_id: 7209) TG(52:5)                                 looks like a lipid
+(g_id: 7210) TG(52:6)                                 looks like a lipid
+(g_id: 7211) TG(52:6)                                 looks like a lipid
+(g_id: 7212) TG(52:6)                                 looks like a lipid
+(g_id: 7213) TG(52:7)                                 looks like a lipid
+(g_id: 7214) TG(53:1)                                 looks like a lipid
+(g_id: 7215) TG(53:1)                                 looks like a lipid
+(g_id: 7216) TG(53:2)                                 looks like a lipid
+(g_id: 7217) TG(53:2)                                 looks like a lipid
+(g_id: 7218) TG(53:2)                                 looks like a lipid
+(g_id: 7219) TG(53:3)                                 looks like a lipid
+(g_id: 7220) TG(53:3)                                 looks like a lipid
+(g_id: 7221) TG(53:3)                                 looks like a lipid
+(g_id: 7222) TG(53:4)                                 looks like a lipid
+(g_id: 7223) TG(53:4)                                 looks like a lipid
+(g_id: 7224) TG(53:4)                                 looks like a lipid
+(g_id: 7225) TG(53:5)                                 looks like a lipid
+(g_id: 7226) TG(53:5)                                 looks like a lipid
+(g_id: 7227) TG(53:5)                                 looks like a lipid
+(g_id: 7228) TG(54:0)                                 looks like a lipid
+(g_id: 7229) TG(54:1)                                 looks like a lipid
+(g_id: 7230) TG(54:1)                                 looks like a lipid
+(g_id: 7231) TG(54:1)                                 looks like a lipid
+(g_id: 7232) TG(54:1)                                 looks like a lipid
+(g_id: 7233) TG(54:2)                                 looks like a lipid
+(g_id: 7234) TG(54:2)                                 looks like a lipid
+(g_id: 7235) TG(54:2)                                 looks like a lipid
+(g_id: 7236) TG(54:3)                                 looks like a lipid
+(g_id: 7237) TG(54:3)                                 looks like a lipid
+(g_id: 7238) TG(54:3)                                 looks like a lipid
+(g_id: 7239) TG(54:4)                                 looks like a lipid
+(g_id: 7240) TG(54:4)                                 looks like a lipid
+(g_id: 7241) TG(54:4)                                 looks like a lipid
+(g_id: 7242) TG(54:5)                                 looks like a lipid
+(g_id: 7243) TG(54:5)                                 looks like a lipid
+(g_id: 7244) TG(54:5)                                 looks like a lipid
+(g_id: 7245) TG(54:5)                                 looks like a lipid
+(g_id: 7246) TG(54:6)                                 looks like a lipid
+(g_id: 7247) TG(54:6)                                 looks like a lipid
+(g_id: 7248) TG(54:6)                                 looks like a lipid
+(g_id: 7249) TG(54:6)                                 looks like a lipid
+(g_id: 7250) TG(54:7)                                 looks like a lipid
+(g_id: 7251) TG(54:7)                                 looks like a lipid
+(g_id: 7252) TG(54:7)                                 looks like a lipid
+(g_id: 7253) TG(54:8)                                 looks like a lipid
+(g_id: 7254) TG(55:0)                                 looks like a lipid
+(g_id: 7255) TG(55:1)                                 looks like a lipid
+(g_id: 7256) TG(55:1)                                 looks like a lipid
+(g_id: 7257) TG(55:2)                                 looks like a lipid
+(g_id: 7258) TG(55:3)                                 looks like a lipid
+(g_id: 7259) TG(55:3)                                 looks like a lipid
+(g_id: 7260) TG(55:4)                                 looks like a lipid
+(g_id: 7261) TG(55:4)                                 looks like a lipid
+(g_id: 7262) TG(56:1)                                 looks like a lipid
+(g_id: 7263) TG(56:1)                                 looks like a lipid
+(g_id: 7264) TG(56:2)                                 looks like a lipid
+(g_id: 7265) TG(56:2)                                 looks like a lipid
+(g_id: 7266) TG(56:2)                                 looks like a lipid
+(g_id: 7267) TG(56:2)                                 looks like a lipid
+(g_id: 7268) TG(56:2)                                 looks like a lipid
+(g_id: 7269) TG(56:3)                                 looks like a lipid
+(g_id: 7270) TG(56:3)                                 looks like a lipid
+(g_id: 7271) TG(56:3)                                 looks like a lipid
+(g_id: 7272) TG(56:3)                                 looks like a lipid
+(g_id: 7273) TG(56:4)                                 looks like a lipid
+(g_id: 7274) TG(56:4)                                 looks like a lipid
+(g_id: 7275) TG(56:4)                                 looks like a lipid
+(g_id: 7276) TG(56:5)                                 looks like a lipid
+(g_id: 7277) TG(56:5)                                 looks like a lipid
+(g_id: 7278) TG(56:5)                                 looks like a lipid
+(g_id: 7279) TG(56:5)                                 looks like a lipid
+(g_id: 7280) TG(56:6)                                 looks like a lipid
+(g_id: 7281) TG(56:6)                                 looks like a lipid
+(g_id: 7282) TG(56:6)                                 looks like a lipid
+(g_id: 7283) TG(56:6)                                 looks like a lipid
+(g_id: 7284) TG(56:6)                                 looks like a lipid
+(g_id: 7285) TG(56:7)                                 looks like a lipid
+(g_id: 7286) TG(56:7)                                 looks like a lipid
+(g_id: 7287) TG(56:7)                                 looks like a lipid
+(g_id: 7288) TG(56:8)                                 looks like a lipid
+(g_id: 7289) TG(56:8)                                 looks like a lipid
+(g_id: 7290) TG(56:9)                                 looks like a lipid
+(g_id: 7291) TG(57:1)                                 looks like a lipid
+(g_id: 7292) TG(57:2)                                 looks like a lipid
+(g_id: 7293) TG(57:3)                                 looks like a lipid
+(g_id: 7294) TG(57:4)                                 looks like a lipid
+(g_id: 7295) TG(57:5)                                 looks like a lipid
+(g_id: 7296) TG(58:1)                                 looks like a lipid
+(g_id: 7297) TG(58:1)                                 looks like a lipid
+(g_id: 7298) TG(58:10)                                looks like a lipid
+(g_id: 7299) TG(58:2)                                 looks like a lipid
+(g_id: 7300) TG(58:2)                                 looks like a lipid
+(g_id: 7301) TG(58:3)                                 looks like a lipid
+(g_id: 7302) TG(58:3)                                 looks like a lipid
+(g_id: 7303) TG(58:4)                                 looks like a lipid
+(g_id: 7304) TG(58:4)                                 looks like a lipid
+(g_id: 7305) TG(58:5)                                 looks like a lipid
+(g_id: 7306) TG(58:6)                                 looks like a lipid
+(g_id: 7307) TG(58:7)                                 looks like a lipid
+(g_id: 7308) TG(58:7)                                 looks like a lipid
+(g_id: 7309) TG(58:7)                                 looks like a lipid
+(g_id: 7310) TG(58:8)                                 looks like a lipid
+(g_id: 7311) TG(58:8)                                 looks like a lipid
+(g_id: 7312) TG(58:9)                                 looks like a lipid
+(g_id: 7313) TG(58:9)                                 looks like a lipid
+(g_id: 7314) TG(58:9)                                 looks like a lipid
+(g_id: 7315) TG(59:1)                                 looks like a lipid
+(g_id: 7316) TG(59:2)                                 looks like a lipid
+(g_id: 7317) TG(59:3)                                 looks like a lipid
+(g_id: 7318) TG(59:4)                                 looks like a lipid
+(g_id: 7319) TG(59:5)                                 looks like a lipid
+(g_id: 7320) TG(59:6)                                 looks like a lipid
+(g_id: 7321) TG(59:7)                                 looks like a lipid
+(g_id: 7322) TG(60:3)                                 looks like a lipid
+(g_id: 7323) TG(60:3)                                 looks like a lipid
+(g_id: 7324) TG(60:4)                                 looks like a lipid
+(g_id: 7325) TG(60:5)                                 looks like a lipid
