@@ -106,7 +106,9 @@ if __name__ == '__main__':
         "stow0817",
         "hine0119",
         "leap0219",
-        "blaz0818"
+        "blaz0818", 
+        "vasi0120",
+        "tsug0220"
     ]
 
     # CCS metadata by source
@@ -127,7 +129,9 @@ if __name__ == '__main__':
         "stow0817": {"type": "DT", "method": "stepped-field"},
         "hine0119": {"type": "TW", "method": "calibrated with phosphatidylcholines (ESI+) and phosphatidylethanolamines (ESI-), doubly charged cardiolipins calibrated with poly-DL-alanine"},
         "leap0219": {"type": "DT", "method": "stepped-field"},
-        "blaz0818": {"type": "DT", "method": "single field"}
+        "blaz0818": {"type": "DT", "method": "single field"},
+        'vasi0120': {'type': 'TIMS', 'method': 'calibrated with 4 ions from ESI LC/MS tuning mix (Agilent)'},
+        'tsug0220': {'type': 'TIMS', 'method': 'single field, calibrated'}
     }
 
     # add each src dataset
