@@ -23,7 +23,10 @@ src_tag_to_reference = {
     'leap0219': 'Leaptrot, K. L., May, J. C., Dodds, J. N. & McLean, J. A. Ion mobility conformational lipid atlas for high confidence lipidomics. Nature Communications 1–9 (2019).',
     'blaz0818': 'Blaženović, I. et al. Increasing Compound Identification Rates in Untargeted Lipidomics Research with Liquid Chromatography Drift Time–Ion Mobility Mass Spectrometry. Anal. Chem. 90, 10758–10764 (2018).',
     'vasi0120': 'Vasilopoulou, C. G. et al. Trapped ion mobility spectrometry and PASEF enable in-depth lipidomics from minimal sample amounts. Nature Communications 1–11 (2020).',
-    'tsug0220': 'Tsugawa, H. et al. MS-DIAL 4: accelerating lipidomics using an MS/MS, CCS, and retention time atlas. bioRxiv 37, 513 (2020).'
+    'tsug0220': 'Tsugawa, H. et al. MS-DIAL 4: accelerating lipidomics using an MS/MS, CCS, and retention time atlas. bioRxiv 37, 513 (2020).',
+    'lian0118': 'Lian, R. et al. Ion mobility derived collision cross section as an additional measure to support the rapid analysis of abused drugs and toxic compounds using electrospray ion mobility time-of-flight mass spectrometry. Anal. Methods 10, 749–756 (2018).',
+    'teja0918': 'Tejada-Casado, C. et al. Collision cross section (CCS) as a complementary parameter to characterize human and veterinary drugs. Analytica Chimica Acta 1043, 52–63 (2018).',
+    'pola0620': 'Poland, J. C. et al. Collision Cross Section Conformational Analyses of Bile Acids via Ion Mobility–Mass Spectrometry. Journal of the American Society for Mass Spectrometry 31, 1625–1631 (2020).'
 }
 
 
@@ -43,14 +46,17 @@ src_tags_ordered = [
     'zhou0817',
     'zhen0917',
     'hine1217',
+    'lian0118',
     'moll0218',
     'righ0218',
+    'teja0918',
     'nich1118',
     'hine0119',
     'leap0219',
     'blaz0818',
     'vasi0120',
-    'tsug0220'
+    'tsug0220',
+    'pola0620'
 ]
 
 references_ordered = [
@@ -65,14 +71,17 @@ references_ordered = [
     'Zhou, Z., Tu, J., Xiong, X., Shen, X. & Zhu, Z.-J. LipidCCS: Prediction of Collision Cross-Section Values for Lipids with High Precision To Support Ion Mobility–Mass Spectrometry-Based Lipidomics. Anal. Chem. 89, 9559–9566 (2017).',
     'Zheng, X. et al. A structural examination and collision cross section database for over 500 metabolites and xenobiotics using drift tube ion mobility spectrometry. Chem. Sci. 8, 7724–7736 (2017).',
     'Hines, K. M. et al. Characterization of the Mechanisms of Daptomycin Resistance among Gram-Positive Bacterial Pathogens by Multidimensional Lipidomics. mSphere 2, 99–16 (2017).',
+    'Lian, R. et al. Ion mobility derived collision cross section as an additional measure to support the rapid analysis of abused drugs and toxic compounds using electrospray ion mobility time-of-flight mass spectrometry. Anal. Methods 10, 749–756 (2018).',
     'Mollerup, C. B., Mardal, M., Dalsgaard, P. W., Linnet, K. & Barron, L. P. Prediction of collision cross section and retention time for broad scope screening in gradient reversed-phase liquid chromatography-ion mobility-high resolution accurate mass spectrometry. Journal of Chromatography A 1542, 82–88 (2018).',
     'Righetti, L. et al. Ion mobility-derived collision cross section database: Application to mycotoxin analysis. Analytica Chimica Acta 1014, 50–57 (2018).',
+    'Tejada-Casado, C. et al. Collision cross section (CCS) as a complementary parameter to characterize human and veterinary drugs. Analytica Chimica Acta 1043, 52–63 (2018).',
     'Nichols, C. M. et al. Untargeted Molecular Discovery in Primary Metabolism: Collision Cross Section as a Molecular Descriptor in Ion Mobility-Mass Spectrometry. Anal. Chem. 90, 14484–14492 (2018).',
     'Hines, K. M. & Xu, L. Lipidomic consequences of phospholipid synthesis defects in Escherichia coli revealed by HILIC-ion mobility-mass spectrometry. Chemistry and Physics of Lipids 219, 15–22 (2019).',
     'Leaptrot, K. L., May, J. C., Dodds, J. N. & McLean, J. A. Ion mobility conformational lipid atlas for high confidence lipidomics. Nature Communications 1–9 (2019).',
     'Blaženović, I. et al. Increasing Compound Identification Rates in Untargeted Lipidomics Research with Liquid Chromatography Drift Time–Ion Mobility Mass Spectrometry. Anal. Chem. 90, 10758–10764 (2018).'
     'Vasilopoulou, C. G. et al. Trapped ion mobility spectrometry and PASEF enable in-depth lipidomics from minimal sample amounts. Nature Communications 1–11 (2020).',
-    'Tsugawa, H. et al. MS-DIAL 4: accelerating lipidomics using an MS/MS, CCS, and retention time atlas. bioRxiv 37, 513 (2020).'
+    'Tsugawa, H. et al. MS-DIAL 4: accelerating lipidomics using an MS/MS, CCS, and retention time atlas. bioRxiv 37, 513 (2020).',
+    'Poland, J. C. et al. Collision Cross Section Conformational Analyses of Bile Acids via Ion Mobility–Mass Spectrometry. Journal of the American Society for Mass Spectrometry 31, 1625–1631 (2020).'
 ]
 
 reference_links_ordered = [
@@ -87,14 +96,17 @@ reference_links_ordered = [
     'https://pubs.acs.org/doi/abs/10.1021/acs.analchem.7b02625',
     'https://pubs.rsc.org/en/content/articlelanding/2017/sc/c7sc03464d',
     'https://msphere.asm.org/content/2/6/e00492-17',
+    'https://pubs.rsc.org/en/content/articlelanding/2018/ay/c7ay02808c',
     'https://www.sciencedirect.com/science/article/pii/S0021967318301894',
     'https://www.sciencedirect.com/science/article/pii/S0003267018301521',
+    'https://www.sciencedirect.com/science/article/abs/pii/S0003267018311693',
     'https://pubs.acs.org/doi/abs/10.1021/acs.analchem.8b04322',
     'https://www.sciencedirect.com/science/article/pii/S0009308418302238',
     'https://www.nature.com/articles/s41467-019-08897-5',
     'https://pubs.acs.org/doi/10.1021/acs.analchem.8b01527',
     'https://www.nature.com/articles/s41467-019-14044-x',
-    'https://www.biorxiv.org/content/10.1101/2020.02.11.944900v1'
+    'https://www.biorxiv.org/content/10.1101/2020.02.11.944900v1',
+    'https://pubs.acs.org/doi/10.1021/jasms.0c00015'
 ]
 
 
