@@ -60,10 +60,11 @@ add_src_dataset
             "M+NH4]+": "[M+NH4]+",
             "[M+H]+*": "[M+H]+",
             "[M+Na]+*": "[M+Na]+",
-            "[M+H20-H]-": "[M+H2O-H]-"
+            "[M+H20-H]-": "[M+H2O-H]-",
+            "[M+H]+*": "[M+H]+",
+            "[M+Na]+*": "[M+Na]+"
         }
-        if adduct in fixed_adducts:
-            adduct = fixed_adducts[adduct]
+        adduct = fixed_adducts[adduct] if adduct in fixed_adducts else adduct
 
         # check for multiple charges
         mz = float(cmpd["mz"])
