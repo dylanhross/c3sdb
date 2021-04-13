@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
+#!/usr/local/Cellar/python@3.9/3.9.1_6/bin/python3
 """
     generate_mqns.py
     Dylan Ross

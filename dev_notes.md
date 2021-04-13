@@ -1,5 +1,12 @@
 # Development Notes
 
+##### __2021-04-13__
+
+_Updates:_
+*  Added perfluoro- compounds dataset from Dodds _et al._ (src_tag: `dodd0220`), there are only about 50 compounds but they are worth including because there are not many perfluoro- compounds in the database.
+* Ran database setup, there are now __14056__ compounds in the database, __13065__ (92.9 %) of which have MQNs.
+
+---
 ##### __2019-09-16__
 
 _Updates:_

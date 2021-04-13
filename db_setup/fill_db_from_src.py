@@ -18,9 +18,8 @@ import hashlib
 def gen_id(name, adduct, ccs, ccs_type, src_tag):
     """ computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag """
     s = '{}{}{}{}{}'.format(name, adduct, ccs, ccs_type, src_tag)
-    h = hashlib.sha1(s.encode()).hexdigest()[-10:].upper()
+    h = hashlib.sha1(s.encode()).hexdigest()[-8:].upper()
     return 'CCSBASE_' + h
-
 
 
 def add_src_dataset(cursor, src_tag, metadata):
@@ -61,14 +60,11 @@ add_src_dataset
             "[M+H]+*": "[M+H]+",
             "[M+Na]+*": "[M+Na]+",
             "[M+H20-H]-": "[M+H2O-H]-",
-            "[M+H]+*": "[M+H]+",
-            "[M+Na]+*": "[M+Na]+"
         }
         adduct = fixed_adducts[adduct] if adduct in fixed_adducts else adduct
 
         # check for multiple charges
         mz = float(cmpd["mz"])
-        adduct = cmpd["adduct"]
         is_multi = multi_z.match(adduct)
         z = 1
         if is_multi:
@@ -101,11 +97,9 @@ add_src_dataset
             print('\t\tID: {} already present ({}, {}, {}, {}, {})'.format(g_id, name, adduct, ccs, ccs_type, src_tag))
 
 
-
 if __name__ == '__main__':
 
     from sqlite3 import connect
-
 
     # connect to database
     con = connect("C3S.db")
@@ -134,7 +128,8 @@ if __name__ == '__main__':
         "tsug0220",
         "lian0118",
         "teja0918",
-        "pola0620"
+        "pola0620",
+        "dodd0220"
     ]
 
     # CCS metadata by source
@@ -160,7 +155,8 @@ if __name__ == '__main__':
         'tsug0220': {'type': 'TIMS', 'method': 'single field, calibrated'},
         'lian0118': {'type': 'DT', 'method': 'single field, calibrated'},
         'teja0918': {'type': 'TW', 'method': 'calibrated with Waters Major Mix'},
-        'pola0620': {'type': 'DT', 'method': 'single field, calibrated'}
+        'pola0620': {'type': 'DT', 'method': 'single field, calibrated'},
+        'dodd0220': {'type': 'DT', 'method': 'single field, calibrated'}
     }
 
     # add each src dataset
