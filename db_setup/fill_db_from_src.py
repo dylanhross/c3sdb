@@ -12,9 +12,18 @@
 
 from json import load as jload
 import re
+import hashlib
 
 
-def add_src_dataset(cursor, src_tag, metadata, gid_start=0):
+def gen_id(name, adduct, ccs, ccs_type, src_tag):
+    """ computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag """
+    s = '{}{}{}{}{}'.format(name, adduct, ccs, ccs_type, src_tag)
+    h = hashlib.sha1(s.encode()).hexdigest()[-10:].upper()
+    return 'CCSBASE_' + h
+
+
+
+def add_src_dataset(cursor, src_tag, metadata):
     """
 add_src_dataset
     description:
@@ -35,9 +44,14 @@ add_src_dataset
     # query string
     # g_id, name, adduct, mz, ccs, smi, src_tag
     qry = "INSERT INTO master VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"
-    # s_id starts at 0 and goes up from there
-    g_id = gid_start
+
+    # keep track of identifiers, skip the compound if there is a collision
+    g_ids = []
+    
     for cmpd in jdata:
+
+        # strip whitespace off of the name
+        name = cmpd["name"].strip()
 
         # fix messed up adducts on the fly...
         adduct = cmpd["adduct"]
@@ -46,13 +60,14 @@ add_src_dataset
             "M+NH4]+": "[M+NH4]+",
             "[M+H]+*": "[M+H]+",
             "[M+Na]+*": "[M+Na]+",
-            "[M+H20-H]-": "[M+H2O-H]-"
+            "[M+H20-H]-": "[M+H2O-H]-",
+            "[M+H]+*": "[M+H]+",
+            "[M+Na]+*": "[M+Na]+"
         }
-        if adduct in fixed_adducts:
-            adduct = fixed_adducts[adduct]
+        adduct = fixed_adducts[adduct] if adduct in fixed_adducts else adduct
 
         # check for multiple charges
-        mz = cmpd["mz"]
+        mz = float(cmpd["mz"])
         adduct = cmpd["adduct"]
         is_multi = multi_z.match(adduct)
         z = 1
@@ -67,16 +82,24 @@ add_src_dataset
         if "smi" in cmpd:
             smi = cmpd["smi"]
         
+        # make sure CCS is a float
+        ccs = float(cmpd["ccs"])
+
         # CCS metadata
         ccs_type, ccs_method = metadata["type"], metadata["method"]
 
-        qdata = (
-            g_id, cmpd["name"].strip(), adduct, mass, z, mz, cmpd["ccs"], smi, None, src_tag, ccs_type, ccs_method
-        )
-        cursor.execute(qry, qdata)
-        g_id += 1
+        # unique identifier
+        g_id = gen_id(name, adduct, ccs, ccs_type, src_tag)
 
-    return g_id
+        if g_id not in g_ids:
+            qdata = (
+                g_id, name, adduct, mass, z, mz, ccs, smi, None, src_tag, ccs_type, ccs_method
+            )
+            cursor.execute(qry, qdata)
+            g_ids.append(g_id)
+        else:
+            print('\t\tID: {} already present ({}, {}, {}, {}, {})'.format(g_id, name, adduct, ccs, ccs_type, src_tag))
+
 
 
 if __name__ == '__main__':
@@ -108,7 +131,10 @@ if __name__ == '__main__':
         "leap0219",
         "blaz0818", 
         "vasi0120",
-        "tsug0220"
+        "tsug0220",
+        "lian0118",
+        "teja0918",
+        "pola0620"
     ]
 
     # CCS metadata by source
@@ -131,15 +157,17 @@ if __name__ == '__main__':
         "leap0219": {"type": "DT", "method": "stepped-field"},
         "blaz0818": {"type": "DT", "method": "single field"},
         'vasi0120': {'type': 'TIMS', 'method': 'calibrated with 4 ions from ESI LC/MS tuning mix (Agilent)'},
-        'tsug0220': {'type': 'TIMS', 'method': 'single field, calibrated'}
+        'tsug0220': {'type': 'TIMS', 'method': 'single field, calibrated'},
+        'lian0118': {'type': 'DT', 'method': 'single field, calibrated'},
+        'teja0918': {'type': 'TW', 'method': 'calibrated with Waters Major Mix'},
+        'pola0620': {'type': 'DT', 'method': 'single field, calibrated'}
     }
 
     # add each src dataset
     print("adding cleaned datasets into C3S.db")
-    gid_next = 0
     for dset in dsets:
         print("\tadding dataset: {} ...".format(dset), end=" ")
-        gid_next = add_src_dataset(cur, dset, metadata[dset], gid_start=gid_next)
+        add_src_dataset(cur, dset, metadata[dset])
         print("ok")
     print()
 

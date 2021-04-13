@@ -37,7 +37,7 @@ label_class_byname
     qry = "SELECT g_id, name FROM master WHERE chem_class_label IS NULL"
     for g_id, name in cursor.execute(qry).fetchall():
         
-        print('(g_id: {:4d}) {:40s} looks like a'.format(g_id, name), end=' ')
+        print('(g_id: {}) {:40s} looks like a'.format(g_id, name), end=' ')
 
         if parse_lipid(name):
             label = 'lipid'

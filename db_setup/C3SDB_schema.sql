@@ -7,8 +7,8 @@
 
 -- master table in which to combine all of the datasets
 CREATE TABLE master (
-    -- global unique integer identifier
-    g_id INTEGER UNIQUE NOT NULL,
+    -- global unique string identifier
+    g_id TEXT UNIQUE NOT NULL,
     -- compound name
     name TEXT NOT NULL,
     -- MS adduct
