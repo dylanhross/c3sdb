@@ -129,7 +129,8 @@ if __name__ == '__main__':
         "lian0118",
         "teja0918",
         "pola0620",
-        "dodd0220"
+        "dodd0220",
+        "celm1120"
     ]
 
     # CCS metadata by source
@@ -156,7 +157,8 @@ if __name__ == '__main__':
         'lian0118': {'type': 'DT', 'method': 'single field, calibrated'},
         'teja0918': {'type': 'TW', 'method': 'calibrated with Waters Major Mix'},
         'pola0620': {'type': 'DT', 'method': 'single field, calibrated'},
-        'dodd0220': {'type': 'DT', 'method': 'single field, calibrated'}
+        'dodd0220': {'type': 'DT', 'method': 'single field, calibrated'},
+        'celm1120': {'type': 'TW', 'method': 'calibrated with small molecules, "System Suitability Test" mix'}
     }
 
     # add each src dataset

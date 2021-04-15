@@ -1,5 +1,12 @@
 # Development Notes
 
+##### __2021-04-14__
+
+_Updates:_
+*  Added organic micropollutants dataset from Celma _et al._ (src_tag: `celm1120`), there are about 970 compounds
+* Ran database setup, there are now __15026__ compounds in the database, __14035__ (93.4 %) of which have MQNs.
+
+---
 ##### __2021-04-13__
 
 _Updates:_
