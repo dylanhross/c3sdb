@@ -117,7 +117,7 @@ def main(tstamp):
     data.featurize()
     data.train_test_split('ccs')
     data.center_and_scale()
-    kmcm_svr_p_grid = kmcm_p_grid([4, 5], {'C': [1000, 3000], 'gamma': [0.0001, 0.001]})
+    kmcm_svr_p_grid = kmcm_p_grid([5], {'C': [100, 1000], 'gamma': [0.001, 0.01]})
     kmcm_svr_gs = GridSearchCV(KMCMulti(seed=2345, use_estimator=SVR(cache_size=2048, tol=5e-4)),
                                param_grid=kmcm_svr_p_grid, n_jobs=-1, cv=5, scoring='neg_mean_squared_error')
     kmcm_svr_gs.fit(data.X_train_ss_, data.y_train_)
