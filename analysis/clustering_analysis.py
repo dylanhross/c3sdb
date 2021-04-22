@@ -1,5 +1,4 @@
 #!/Library/Frameworks/Python.framework/Versions/3.8/bin/python3
-#!/usr/local/Cellar/python@3.9/3.9.1_6/bin/python3
 from numpy import array, arange, median, mean, abs
 from numpy.linalg import norm
 from pickle import load
@@ -100,6 +99,29 @@ ax.set_xlim([0, 20])
 ax.set_xlabel('dist. to center')
 ax.set_ylabel('abs. prediction error (%)')
 plt.savefig('center_distance_vs_error.png', dpi=400, bbox_inches='tight')
+plt.close()
+
+
+# plot distance to nearest neighbor against prediction error
+# determine the nearest neighbors for each of the training data points
+neighbor_dists = []
+for i in range(data.N_):
+    nds = []
+    for j in range(data.N_):
+        if j != i:
+            nds.append(norm(X_scaled[i] - X_scaled[j]))
+    neighbor_dists.append(min(nds))
+fig = plt.figure(figsize=(3.33, 3.33))
+ax = fig.add_subplot(111)
+ax.scatter(neighbor_dists, percent_error, s=0.5, alpha=0.2, c='k', edgecolors='none')
+for d in ['top', 'right']:
+    ax.spines[d].set_visible(False)
+ax.set_ylim([-0.05, 10])
+ax.set_yticks([_ for _ in range(11)])
+ax.set_xlim([0, 5])
+ax.set_xlabel('dist. to nearest neighbor')
+ax.set_ylabel('abs. prediction error (%)')
+plt.savefig('neighbor_distance_vs_error.png', dpi=400, bbox_inches='tight')
 plt.close()
 
 
@@ -208,12 +230,12 @@ ax = fig.add_subplot(111)
 ccs_by_cluster = [[], [], [], [], []]
 for l, cc in zip(kmc.kmeans_.labels_, data.ccs_):
     ccs_by_cluster[l].append(cc)
-mean_cluster_ccs = [mean(_) for _ in ccs_by_cluster]
+mean_cluster_ccs = [median(_) for _ in ccs_by_cluster]
 print(mean_cluster_ccs)
 mz_by_cluster = [[], [], [], [], []]
 for l, m in zip(kmc.kmeans_.labels_, data.mz_):
     mz_by_cluster[l].append(m)
-mean_cluster_mz = [mean(_) for _ in mz_by_cluster]
+mean_cluster_mz = [median(_) for _ in mz_by_cluster]
 print(mean_cluster_mz)
 ax.scatter(data.mz_, data.ccs_, c=c, s=1, alpha=0.2, edgecolors='none')
 for d in ['top', 'right']:
