@@ -1,5 +1,14 @@
 # Development Notes
 
+
+##### __2021-04-23__
+
+_Updates:_
+*  Added compounds of emerging concern (CEC) dataset from Belova _et al._ (src_tag: `belo0321`), there are about 320 compounds
+* Ran database setup, there are now __15337__ compounds in the database, __14346__ (93.5 %) of which have MQNs.
+* retrained predictive model
+
+
 ##### __2021-04-14__
 
 _Updates:_

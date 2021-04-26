@@ -18,7 +18,7 @@ import hashlib
 def gen_id(name, adduct, ccs, ccs_type, src_tag):
     """ computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag """
     s = '{}{}{}{}{}'.format(name, adduct, ccs, ccs_type, src_tag)
-    h = hashlib.sha1(s.encode()).hexdigest()[-8:].upper()
+    h = hashlib.sha1(s.encode()).hexdigest()[-10:].upper()
     return 'CCSBASE_' + h
 
 
@@ -130,7 +130,8 @@ if __name__ == '__main__':
         "teja0918",
         "pola0620",
         "dodd0220",
-        "celm1120"
+        "celm1120",
+        "belo0321"
     ]
 
     # CCS metadata by source
@@ -158,7 +159,8 @@ if __name__ == '__main__':
         'teja0918': {'type': 'TW', 'method': 'calibrated with Waters Major Mix'},
         'pola0620': {'type': 'DT', 'method': 'single field, calibrated'},
         'dodd0220': {'type': 'DT', 'method': 'single field, calibrated'},
-        'celm1120': {'type': 'TW', 'method': 'calibrated with small molecules, "System Suitability Test" mix'}
+        'celm1120': {'type': 'TW', 'method': 'calibrated with small molecules, "System Suitability Test" mix'},
+        'belo0321': {'type': 'DT', 'method': 'single field, calibrated'}
     }
 
     # add each src dataset
