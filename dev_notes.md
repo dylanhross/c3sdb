@@ -1,6 +1,14 @@
 # Development Notes
 
 
+##### __2021-08-10__
+
+_Updates:_
+* Removed Vasilopoulou _et al._ (src_tag: `vasi0120`) due to concerns raised in https://www.nature.com/articles/s41467-021-24984-y
+* Ran database setup, there are now __12577__ compounds in the database, __11676__ (92.8 %) of which have MQNs.
+* retrained predictive model
+
+
 ##### __2021-04-23__
 
 _Updates:_

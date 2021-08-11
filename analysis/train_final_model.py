@@ -141,5 +141,5 @@ def main(tstamp):
 
 
 if __name__ == '__main__':
-    tstamp = '20210423'
+    tstamp = '20210810'
     main(tstamp)
