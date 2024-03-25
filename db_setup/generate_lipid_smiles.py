@@ -179,6 +179,39 @@ glycero_smiles
     return base_smi.format(carbon_chain(nc_a, nu_a), carbon_chain(nc_b, nu_b))
 
 
+def tg_smiles(n_carbon, n_unsat, fa_mod):
+    """
+tg_smiles
+    description:
+        Returns a SMILES structure (str) for a TG using a base SMILES structure (includes head group)
+    parameters:
+        c (str) -- lipid class
+        n_carbon (int) -- fatty acid carbons
+        n_unsat (int) -- fatty acid unsaturation
+        fa_mod (str) -- fatty acid modifier
+    returns:
+        (str) -- SMILES structure, None if anything goes wrong
+"""
+    # check fatty acid modifier
+    if fa_mod:
+        # return None for unimplemented fa_mod
+        return None
+    # base SMILES structure (includes head group and positions for fatty acids)
+    base_smi = '{}C(=O)OCC(COC(=O){})OC(=O){}'
+    # split the fatty acid carbons and unsaturations evenly between the three fatty acids
+    nc, nu = n_carbon - 3, n_unsat
+    # NC needs to be at least 3 (so at least 6 in input)
+    if nc < 3:
+        return None
+    nc_a = nc // 3 + nc % 3
+    nc_b = nc // 3
+    nc_c = nc // 3
+    nu_a = nu // 3 + nu % 3
+    nu_b = nu // 3
+    nu_c = nu // 3
+    return base_smi.format(carbon_chain(nc_a, nu_a), carbon_chain(nc_b, nu_b), carbon_chain(nc_c, nu_c))
+
+
 def generate_lipid_smiles(lipid_cls, n_carbon, n_unsat, fa_mod=None):
     """
 generate_lipid_smiles
@@ -215,6 +248,10 @@ generate_lipid_smiles
     # glycerolipids
     elif lipid_cls in glycero_cls:
         smi = glycero_smiles(lipid_cls, n_carbon, n_unsat, fa_mod)
+
+    # TG
+    elif lipid_cls == 'TG':
+        smi = tg_smiles(n_carbon, n_unsat, fa_mod)
 
     return smi
 

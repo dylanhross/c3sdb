@@ -22,7 +22,6 @@ def gen_id(name, adduct, ccs, ccs_type, src_tag):
     return 'CCSBASE_' + h
 
 
-
 def add_src_dataset(cursor, src_tag, metadata):
     """
 add_src_dataset
@@ -61,14 +60,11 @@ add_src_dataset
             "[M+H]+*": "[M+H]+",
             "[M+Na]+*": "[M+Na]+",
             "[M+H20-H]-": "[M+H2O-H]-",
-            "[M+H]+*": "[M+H]+",
-            "[M+Na]+*": "[M+Na]+"
         }
         adduct = fixed_adducts[adduct] if adduct in fixed_adducts else adduct
 
         # check for multiple charges
         mz = float(cmpd["mz"])
-        adduct = cmpd["adduct"]
         is_multi = multi_z.match(adduct)
         z = 1
         if is_multi:
@@ -101,15 +97,29 @@ add_src_dataset
             print('\t\tID: {} already present ({}, {}, {}, {}, {})'.format(g_id, name, adduct, ccs, ccs_type, src_tag))
 
 
-
 if __name__ == '__main__':
 
     from sqlite3 import connect
 
-
     # connect to database
     con = connect("C3S.db")
     cur = con.cursor()
+
+    """
+     NOTE:
+        Vasilopoulou et al. data excluded from database build and CCS predictive model
+        based on issues raised in:
+        Nat. Comm. (2021) 12:4771
+        Quality control requirements for the correctannotation of lipidomics data
+        Harald C. Köfeler, Thomas O. Eichmann, Robert Ahrends, John A. Bowden,
+        Niklas Danne-Rasche, Edward A. Dennis, Maria Fedorova, William J. Griffiths,
+        Xianlin Han, Jürgen Hartler, Michal Holčapek, Robert Jirásko, Jeremy P.
+        Koelmel, Christer S. Ejsing, Gerhard Liebisch, Zhixu Ni,
+        Valerie B. O’Donnell, Oswald Quehenberger, Dominik Schwudke
+        Andrej Shevchenko, Michael J. O. Wakelam, Markus R. Wenk, Denise Wolrab
+        & Kim Ekroos
+        ARISING  FROM M. Mann et al. Nature  Communications https://doi.org/10.1038/s41467-019-14044-x(2020).
+    """
 
     # source datasets
     dsets = [
@@ -130,11 +140,14 @@ if __name__ == '__main__':
         "hine0119",
         "leap0219",
         "blaz0818", 
-        "vasi0120",
+        #"vasi0120",
         "tsug0220",
         "lian0118",
         "teja0918",
-        "pola0620"
+        "pola0620",
+        "dodd0220",
+        "celm1120",
+        "belo0321"
     ]
 
     # CCS metadata by source
@@ -160,7 +173,10 @@ if __name__ == '__main__':
         'tsug0220': {'type': 'TIMS', 'method': 'single field, calibrated'},
         'lian0118': {'type': 'DT', 'method': 'single field, calibrated'},
         'teja0918': {'type': 'TW', 'method': 'calibrated with Waters Major Mix'},
-        'pola0620': {'type': 'DT', 'method': 'single field, calibrated'}
+        'pola0620': {'type': 'DT', 'method': 'single field, calibrated'},
+        'dodd0220': {'type': 'DT', 'method': 'single field, calibrated'},
+        'celm1120': {'type': 'TW', 'method': 'calibrated with small molecules, "System Suitability Test" mix'},
+        'belo0321': {'type': 'DT', 'method': 'single field, calibrated'}
     }
 
     # add each src dataset
