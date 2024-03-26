@@ -114,7 +114,7 @@ def parse_lipid(name: str
     parsed = {}
     # compile regex pattern
     s = (r"^(?P<cls>[A-Za-z]+)\((?P<mod>[pdoe]*)(?P<fc1>[0-9]+):(?P<fu1>[0-9]+)"
-          "/*((?P<fc2>[0-9]+):(?P<fu2>[0-9]+))*/*((?P<fc3>[0-9]+):(?P<fu3>[0-9]+))*\)")
+         r"[/_]*((?P<fc2>[0-9]+):(?P<fu2>[0-9]+))*[/_]*((?P<fc3>[0-9]+):(?P<fu3>[0-9]+))*\)")
     l_pat = re.compile(s)
     # parse the name using regex
     l_res = l_pat.match(name)
