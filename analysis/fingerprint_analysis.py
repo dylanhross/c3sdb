@@ -5,7 +5,7 @@ from matplotlib import rcParams
 from pickle import load
 from numpy import array, mean, argwhere, savetxt
 
-from C3SData.data import C3SD
+from c3sdb.ml.data import C3SD
 
 rcParams['font.size'] = 8
 

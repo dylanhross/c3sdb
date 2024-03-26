@@ -15,3 +15,8 @@ instruments. The basic criteria for inclusion in the database are:
 The purpose of this database is to be able to use large-scale CCS collections, 
 either individually or in user-defined combinations, for building predictive CCS 
 models using machine learning or other techniques. 
+
+
+## `c3sdb` Python package
+The `c3sdb` Python package has utilities for building the __C3SDB__ database from 
+source datasets and training the CCS prediction model

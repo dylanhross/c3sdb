@@ -11,7 +11,7 @@ from numpy import mean, median, abs, sum, cumsum, histogram, sqrt
 
 rcParams['font.size'] = 6
 
-from C3SData.data import C3SD
+from c3sdb.ml.data import C3SD
 from kmcm import KMCMulti, kmcm_p_grid
 
 

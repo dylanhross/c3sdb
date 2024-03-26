@@ -1,0 +1,29 @@
+-- rdk_features_schema.sql
+-- Dylan H. Ross
+-- 2019/04/09
+--
+--      defines structure of the mqns table
+
+
+CREATE TABLE mqns (
+    -- global unique integer identifier (same as in master)
+    g_id INTEGER UNIQUE NOT NULL,
+    -- atom counts (12)
+    c INTEGER NOT NULL, f INTEGER NOT NULL, cl INTEGER NOT NULL, br INTEGER NOT NULL,
+    i INTEGER NOT NULL, s INTEGER NOT NULL, p INTEGER NOT NULL, an INTEGER NOT NULL,
+    cn INTEGER NOT NULL, ao INTEGER NOT NULL, co INTEGER NOT NULL, hac INTEGER NOT NULL,
+    -- polarity counts (6)
+    hbam INTEGER NOT NULL, hba INTEGER NOT NULL, hbdm INTEGER NOT NULL,
+    hbd INTEGER NOT NULL, neg INTEGER NOT NULL, pos INTEGER NOT NULL,
+    -- bond counts (7)
+    asb INTEGER NOT NULL, adb INTEGER NOT NULL, atb INTEGER NOT NULL, csb INTEGER NOT NULL,
+    cdb INTEGER NOT NULL, ctb INTEGER NOT NULL, rbc INTEGER NOT NULL,
+    -- topology counts (17)
+    asv INTEGER NOT NULL, adv INTEGER NOT NULL, atv INTEGER NOT NULL, aqv INTEGER NOT NULL,
+    cdv INTEGER NOT NULL, ctv INTEGER NOT NULL, cqv INTEGER NOT NULL, r3 INTEGER NOT NULL,
+    r4 INTEGER NOT NULL, r5 INTEGER NOT NULL, r6 INTEGER NOT NULL, r7 INTEGER NOT NULL,
+    r8 INTEGER NOT NULL, r9 INTEGER NOT NULL, rg10 INTEGER NOT NULL, afr INTEGER NOT NULL,
+    bfr INTEGER NOT NULL
+);
+
+

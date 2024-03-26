@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 from matplotlib import rcParams
 from sklearn.decomposition import PCA
 
-from C3SData.data import C3SD
+from c3sdb.ml.data import C3SD
 
 rcParams['font.size'] = 8
 
