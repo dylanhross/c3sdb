@@ -12,8 +12,10 @@ import os
 from json import dump as jdump, load as jload
 from time import sleep
 
-
 from c3sdb.build_utils.parsing import parse_carbohydrate, parse_lipid, parse_peptide
+from c3sdb.build_utils.remote import (
+    pubchem_cid_fetch_smiles, pubchem_search_by_name, lmaps_fetch_smiles
+)
 
 
 # change how we import other tools/build scripts depending upon whether this is being called directly
