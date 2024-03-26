@@ -6,5 +6,6 @@
     Python package with code for building C3SDB and training CCS prediction model
 """
 
+
 # release.major.minor
-__version__ = "1.0.2"
+__version__ = "1.0.3"
