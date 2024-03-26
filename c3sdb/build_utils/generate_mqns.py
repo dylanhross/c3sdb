@@ -46,8 +46,7 @@ if __name__ == '__main__':
             gid_to_mqn[g_id] = mqn
             
     # update the database with the generated MQNs
-    qry = "INSERT INTO mqns VALUES " + \
-          "(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
+    qry = f"INSERT INTO mqns VALUES ({','.join('?' * 43)})" 
     for g_id in gid_to_mqn:
         qdata = (g_id, *gid_to_mqn[g_id])
         cur.execute(qry, qdata)

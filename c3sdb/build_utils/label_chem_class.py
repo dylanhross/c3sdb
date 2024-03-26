@@ -8,17 +8,7 @@
 """
 
 
-# change how we import other tools/build scripts depending upon whether this is being called directly
-# or being used in the context of the db_setup module (i.e. to generate documentation)
-if __name__ == '__main__':
-    from lipid_parser import parse_lipid
-    from peptide_parser import parse_peptide
-    from carbohydrate_parser import parse_carbohydrate
-
-else:
-    from db_setup.lipid_parser import parse_lipid
-    from db_setup.peptide_parser import parse_peptide
-    from db_setup.carbohydrate_parser import parse_carbohydrate
+from c3sdb.build_utils.parsing import parse_carbohydrate, parse_lipid, parse_peptide
 
 
 def label_class_byname(cursor):

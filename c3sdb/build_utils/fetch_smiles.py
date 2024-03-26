@@ -13,6 +13,9 @@ from json import dump as jdump, load as jload
 from time import sleep
 
 
+from c3sdb.build_utils.parsing import parse_carbohydrate, parse_lipid, parse_peptide
+
+
 # change how we import other tools/build scripts depending upon whether this is being called directly
 # or being used in the context of the db_setup module (i.e. to generate documentation)
 if __name__ == '__main__':
