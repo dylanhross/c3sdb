@@ -40,13 +40,21 @@ def _get_mqns(smi: str
 
 
 def add_mqns_to_db(cursor: sqlite3.Cursor
-                   ) -> None :
+                   ) -> int :
     """
-    
+    Computes the complete set of 42 MQNs as described in:
+        Nguyen et al. ChemMedChem 4:1803-5 (2009)
+    And adds them to the database in the mqns table
+
     Parameters
     ----------
     cursor : ``sqlite3.Cursor``
         C3S.db database cursor
+
+    Returns
+    -------
+    n_mqns : ``int``
+        number of entries with MQNs
     """
     # generate the rdk features and MQNs
     qry = "SELECT g_id, smi FROM master WHERE smi IS NOT NULL"
@@ -60,4 +68,5 @@ def add_mqns_to_db(cursor: sqlite3.Cursor
     for g_id in gid_to_mqn:
         qdata = (g_id, *gid_to_mqn[g_id])
         cursor.execute(qry, qdata)
-
+    # return the number of entries that had MQNs added
+    return len(gid_to_mqn)
