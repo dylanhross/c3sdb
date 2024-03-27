@@ -17,6 +17,10 @@ from time import sleep
 import requests
 
 
+# delay (in seconds) before sending any request 
+_REQUEST_DELAY: float = 0.25
+
+
 def pubchem_search_by_name(session: requests.Session, 
                            name: str
                            ) -> Optional[List[int]] :
@@ -47,6 +51,7 @@ def pubchem_search_by_name(session: requests.Session,
     url_output = "TXT"
     url = url_prolog + url_input + name + url_command + url_output
     try:
+        sleep(_REQUEST_DELAY)
         resp = session.get(url).text
         # check for a failed search response
         if resp.split()[0] == "Status:":
@@ -94,6 +99,7 @@ def pubchem_cid_fetch_smiles(session: requests.Session,
     url_output = "TXT"
     url = url_prolog + url_input + str(cid) + url_command + url_output
     try:
+        sleep(_REQUEST_DELAY)
         resp = session.get(url).text
         # check for a failed search response
         if resp.split()[0] == "Status:":
@@ -144,8 +150,7 @@ def _str_from_lipid_dict(lipid: Dict[Any],
     
 
 def lmaps_fetch_smiles(session: requests.Session, 
-                       lipid: Dict[Any], 
-                       delay: float = 0.1
+                       lipid: Dict[Any]
                        ) -> Optional[str] :
     """
     Uses the Lipid MAPS REST API to search the LMSD for lipid SMILES structures. 
@@ -174,7 +179,7 @@ def lmaps_fetch_smiles(session: requests.Session,
     if "_" in lipid_name or "/" in lipid_name:
         # includes individual fatty acid composition
         try:
-            sleep(delay)
+            sleep(_REQUEST_DELAY)
             result = session.get(url.format("_chains", lipid_name)).json()
         except:
             msg = "fetch_lipid_smiles: search with 'abbrev_chains' for lipid {} failed".format(lipid_name)
@@ -182,7 +187,7 @@ def lmaps_fetch_smiles(session: requests.Session,
         # try again with 
         if not result:
             try:
-                sleep(delay)
+                sleep(_REQUEST_DELAY)
                 result = session.get(url.format("", lipid_name)).json()
             except Exception as e:
                 print(e)
@@ -192,7 +197,7 @@ def lmaps_fetch_smiles(session: requests.Session,
         lipid_name = _str_from_lipid_dict(lipid, True)
     if not result:
         try:
-            sleep(delay)
+            sleep(_REQUEST_DELAY)
             result = session.get(url.format("", lipid_name)).json()
         except:
             msg = "fetch_lipid_smiles: search with 'abbrev' for lipid {} failed".format(lipid_name)

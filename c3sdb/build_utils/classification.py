@@ -25,7 +25,7 @@ def label_class_byname(cursor: sqlite3.Cursor
     ----------
     cursor : ``sqlite3.Cursor``
         cursor for C3S.db database
-"""
+    """
     # map global identifiers to class labels
     gid_to_lab = {}
     qry = "SELECT g_id, name FROM master WHERE chem_class_label IS NULL"
