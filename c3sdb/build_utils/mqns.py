@@ -33,7 +33,9 @@ def _get_mqns(smi: str
     try:
         features = Descriptors.rdMolDescriptors.MQNs_(Chem.MolFromSmiles(smi))
         return features
-    except Exception as e:
+    except Exception as e:  
+        # TODO (Dylan Ross): really need to catch specific exceptions here, this blanket
+        #                    catch is not good form
         return None
 
 

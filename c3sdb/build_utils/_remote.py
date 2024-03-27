@@ -11,7 +11,7 @@
 """
 
 
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict, Any, Tuple
 from time import sleep
 
 import requests
@@ -23,7 +23,7 @@ _REQUEST_DELAY: float = 0.25
 
 def pubchem_search_by_name(session: requests.Session, 
                            name: str
-                           ) -> Optional[List[int]] :
+                           ) -> Tuple[Optional[List[int]], int] :
     """
     Searches for a PubChem CID using a compound name, returning a list of results,
     returns None if any errors
@@ -37,12 +37,10 @@ def pubchem_search_by_name(session: requests.Session,
     
     Returns
     -------
-    pubchem_cids
-        parameters:
-            session (requests.Session) -- requests session
-            name (str) -- name of the compound to search
-        returns:
-            (list(int) or None) -- list of PubChem CID(s) matching the search name or None if unsuccessful
+    pubchem_cids ``list(int)`` or ``None``
+        list of PubChem CID(s) matching the search name or None if unsuccessful
+    n_requests : ``int``
+        number of web requests sent
     """
     # construct the request URL per REST API documentation
     url_prolog = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/"
@@ -50,23 +48,19 @@ def pubchem_search_by_name(session: requests.Session,
     url_command = "/cids/"
     url_output = "TXT"
     url = url_prolog + url_input + name + url_command + url_output
-    try:
-        sleep(_REQUEST_DELAY)
-        resp = session.get(url).text
-        # check for a failed search response
-        if resp.split()[0] == "Status:":
-            raise RuntimeError(resp)
-        # split response on whitespace
-        return [int(_) for _ in resp.split()]
-    except:
-        print("Failed to retrieve PubChem CID for compound: {}".format(name), end=" ")
-        return None
+    sleep(_REQUEST_DELAY)
+    resp = session.get(url).text
+    # check for a failed search response
+    if resp.split()[0] == "Status:":
+        return None, 1
+    # split response on whitespace
+    return [int(_) for _ in resp.split()], 1
 
 
 def pubchem_cid_fetch_smiles(session: requests.Session, 
                              cid: int, 
                              canonical: bool = True
-                             ) -> Optional[str] :
+                             ) -> Tuple[Optional[str], int] :
     """
     Fetche the SMILES structure from the record with the specified PubChem CID
 
@@ -80,37 +74,33 @@ def pubchem_cid_fetch_smiles(session: requests.Session,
         requests session
     cid : ``int``
         PubChem CID
-    cannonical : ``bool``, default=True
+    canonical : ``bool``, default=True
         Whether to fetch the canonical SMILES (True) or the isomeric SMILES (False)
 
     Returns
     -------
     smiles : ``str`` or None
         SMILES structure or None if no results
+    n_requests : ``int``
+        number of web requests sent
     """
     # construct the request URL per REST API documentation
     url_prolog = "https://pubchem.ncbi.nlm.nih.gov/rest/pug/"
     url_input = "compound/cid/"
     # option to search for Isomeric SMILES
-    stype = "Canonical"
-    if not canonical:
-        stype = "Isomeric"
+    stype = "Canonical" if canonical else "Isomeric"
     url_command = "/property/{}SMILES/".format(stype)
     url_output = "TXT"
     url = url_prolog + url_input + str(cid) + url_command + url_output
-    try:
-        sleep(_REQUEST_DELAY)
-        resp = session.get(url).text
-        # check for a failed search response
-        if resp.split()[0] == "Status:":
-            raise RuntimeError(resp)
-        return resp.strip()
-    except:
-        print("Failed to retrieve {} SMILES for PubChem CID: {}".format(stype, cid), end=" ")
-        return None
+    sleep(_REQUEST_DELAY)
+    resp = session.get(url).text
+    # check for a failed search response
+    if resp.split()[0] == "Status:":
+        return None, 1
+    return resp.strip(), 1
 
 
-def _str_from_lipid_dict(lipid: Dict[Any], 
+def _str_from_lipid_dict(lipid: Dict[Any, Any], 
                          ign_fa_comp: bool
                          ) -> str :
     """
@@ -150,8 +140,8 @@ def _str_from_lipid_dict(lipid: Dict[Any],
     
 
 def lmaps_fetch_smiles(session: requests.Session, 
-                       lipid: Dict[Any]
-                       ) -> Optional[str] :
+                       lipid: Dict[Any, Any]
+                       ) -> Tuple[Optional[str], int] :
     """
     Uses the Lipid MAPS REST API to search the LMSD for lipid SMILES structures. 
     
@@ -172,36 +162,43 @@ def lmaps_fetch_smiles(session: requests.Session,
     -------
     smiles : ``str`` or ``None``
         SMILES structure or None in case of error
+    n_requests : ``int``
+        number of web requests sent
     """
+    # track number of web requests sent
+    n_requests = 0
     url = "https://lipidmaps.org/rest/compound/abbrev{}/{}/smiles/"
     lipid_name = _str_from_lipid_dict(lipid, False)
     result = None
     if "_" in lipid_name or "/" in lipid_name:
         # includes individual fatty acid composition
-        try:
-            sleep(_REQUEST_DELAY)
-            result = session.get(url.format("_chains", lipid_name)).json()
-        except:
-            msg = "fetch_lipid_smiles: search with 'abbrev_chains' for lipid {} failed".format(lipid_name)
-            print(msg, end=" ")
+        #try:
+        sleep(_REQUEST_DELAY)
+        result = session.get(url.format("_chains", lipid_name)).json()
+        n_requests += 1
+        #except:
+        #    msg = "fetch_lipid_smiles: search with 'abbrev_chains' for lipid {} failed".format(lipid_name)
+        #    print(msg, end=" ")
         # try again with 
         if not result:
-            try:
-                sleep(_REQUEST_DELAY)
-                result = session.get(url.format("", lipid_name)).json()
-            except Exception as e:
-                print(e)
-                msg = "fetch_lipid_smiles: search with 'abbrev' for lipid {} failed".format(lipid_name)
-                print(msg, end=" ")
+            #try:
+            sleep(_REQUEST_DELAY)
+            result = session.get(url.format("", lipid_name)).json()
+            n_requests += 1
+            #except Exception as e:
+            #    print(e)
+            #    msg = "fetch_lipid_smiles: search with 'abbrev' for lipid {} failed".format(lipid_name)
+            #    print(msg, end=" ")
         # regenerate the name but with total fatty acid composition in case the above did not work
         lipid_name = _str_from_lipid_dict(lipid, True)
     if not result:
-        try:
-            sleep(_REQUEST_DELAY)
-            result = session.get(url.format("", lipid_name)).json()
-        except:
-            msg = "fetch_lipid_smiles: search with 'abbrev' for lipid {} failed".format(lipid_name)
-            print(msg, end=" ")
+        #try:
+        sleep(_REQUEST_DELAY)
+        result = session.get(url.format("", lipid_name)).json()
+        n_requests += 1
+        #except:
+        #    msg = "fetch_lipid_smiles: search with 'abbrev' for lipid {} failed".format(lipid_name)
+        #    print(msg, end=" ")
     # if there was a result, just return the first one
     smi = None
     if result:
@@ -209,5 +206,5 @@ def lmaps_fetch_smiles(session: requests.Session,
             smi = result['Row1']['smiles']
         elif 'smiles' in result:
             smi = result['smiles']
-    return smi
+    return smi, n_requests
 

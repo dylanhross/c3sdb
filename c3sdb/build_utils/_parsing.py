@@ -191,7 +191,7 @@ def parse_peptide(name: str,
         flag indicating if the name matches the peptide regex pattern
     """
     expats = [
-        re.compile(pat for pat in PEPTIDE_EXCLUSION_PATS)
+        re.compile(pat) for pat in PEPTIDE_EXCLUSION_PATS
     ]    
     if exclude:
         excluded = False
