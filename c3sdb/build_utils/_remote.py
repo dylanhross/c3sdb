@@ -1,5 +1,5 @@
 """
-    c3sdb/build_utils/remote.py
+    c3sdb/build_utils/_remote.py
 
     Dylan Ross (dylan.ross@pnnl.gov)
 

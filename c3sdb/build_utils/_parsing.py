@@ -1,5 +1,5 @@
 """
-    c3sdb/build_utils/parsing.py
+    c3sdb/build_utils/_parsing.py
 
     Dylan Ross (dylan.ross@pnnl.gov)
 

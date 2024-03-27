@@ -14,8 +14,8 @@ import os
 
 import requests
 
-from c3sdb.build_utils.parsing import parse_lipid, parse_peptide
-from c3sdb.build_utils.remote import (
+from c3sdb.build_utils._parsing import parse_lipid, parse_peptide
+from c3sdb.build_utils._remote import (
     pubchem_cid_fetch_smiles, pubchem_search_by_name, lmaps_fetch_smiles
 )
 

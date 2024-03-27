@@ -9,7 +9,7 @@
 
 import sqlite3
 
-from c3sdb.build_utils.parsing import parse_carbohydrate, parse_lipid, parse_peptide
+from c3sdb.build_utils._parsing import parse_carbohydrate, parse_lipid, parse_peptide
 
 
 def label_class_byname(cursor: sqlite3.Cursor
