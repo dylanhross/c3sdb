@@ -9,6 +9,8 @@
 
 import hashlib
 import re
+import json
+import sqlite3
 
 
 def _gen_id(name: str, 
@@ -20,84 +22,62 @@ def _gen_id(name: str,
     """ 
     computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag
     """
-    s = '{}{}{}{}{}'.format(name, adduct, ccs, ccs_type, src_tag)
+    s = f"{name}{adduct}{ccs}{ccs_type}{src_tag}"
     h = hashlib.sha1(s.encode()).hexdigest()[-10:].upper()
     return 'CCSBASE_' + h
 
 
-def add_dataset(cursor, src_tag, metadata):
+def add_dataset(cursor: sqlite3.Cursor, 
+                src_dset_file: str
+                ) -> None :
     """
     Adds values from a source dataset to the database, specified by a source tag
     
     Parameters
     ----------
-        cursor (sqlite3.cursor) -- cursor for running queries against the drugs.db database
-        src_tag (str) -- source tag 
-        metadata (dict(...)) -- CCS metadata: CCS type and method
-        [gid_start (int)] -- starting number for g_id integer identifier [optional, default=0]
-    
-    Returns
-    -------
-    (int) -- the next available g_id value
-"""
+    cursor : ``sqlite3.cursor``
+        cursor for running queries against the drugs.db database
+    src_dset : ``str``
+        source dataset (JSON file)
+    """
+    with open(src_dset_file, "r") as j:
+        jdata = json.load(j)
     # regex for identifying multiple charges
     multi_z = re.compile('.*\]([0-9])[+-]')
-
-    with open("cleaned_data/{}.json".format(src_tag), "r") as j:
-        jdata = jload(j)
     # query string
     # g_id, name, adduct, mz, ccs, smi, src_tag
     qry = "INSERT INTO master VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"
-
-    # keep track of identifiers, skip the compound if there is a collision
-    g_ids = []
-    
-    for cmpd in jdata:
-
+    for cmpd in jdata["data"]:
         # strip whitespace off of the name
         name = cmpd["name"].strip()
-
-        # fix messed up adducts on the fly...
+        # fix messed up adducts on the fly
         adduct = cmpd["adduct"]
-        fixed_adducts = {
+        adduct = {
             "[M+]+": "[M]+", 
             "M+NH4]+": "[M+NH4]+",
             "[M+H]+*": "[M+H]+",
             "[M+Na]+*": "[M+Na]+",
             "[M+H20-H]-": "[M+H2O-H]-",
-        }
-        adduct = fixed_adducts[adduct] if adduct in fixed_adducts else adduct
-
+        }.get(adduct, adduct)
         # check for multiple charges
         mz = float(cmpd["mz"])
         is_multi = multi_z.match(adduct)
         z = 1
         if is_multi:
             z = int(is_multi.group(1))
-
         # calculate the mass
         mass = mz * z
-
         # use smi if included
-        smi = None
-        if "smi" in cmpd:
-            smi = cmpd["smi"]
-        
+        smi = cmpd.get("smi")
         # make sure CCS is a float
         ccs = float(cmpd["ccs"])
-
-        # CCS metadata
-        ccs_type, ccs_method = metadata["type"], metadata["method"]
-
+        # metadata
+        ccs_type, ccs_method = jdata["metadata"]["type"], jdata["metadata"]["method"]
+        src_tag = jdata["metadata"]["src_tag"]
         # unique identifier
-        g_id = gen_id(name, adduct, ccs, ccs_type, src_tag)
-
-        if g_id not in g_ids:
-            qdata = (
-                g_id, name, adduct, mass, z, mz, ccs, smi, None, src_tag, ccs_type, ccs_method
-            )
-            cursor.execute(qry, qdata)
-            g_ids.append(g_id)
-        else:
-            print('\t\tID: {} already present ({}, {}, {}, {}, {})'.format(g_id, name, adduct, ccs, ccs_type, src_tag))
+        qdata = (
+            _gen_id(name, adduct, ccs, ccs_type, src_tag), 
+            name, adduct, mass, z, mz, ccs, smi, None, src_tag, ccs_type, ccs_method
+        )
+        cursor.execute(qry, qdata)
 
