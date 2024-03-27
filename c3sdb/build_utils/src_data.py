@@ -31,12 +31,12 @@ def add_dataset(cursor: sqlite3.Cursor,
                 src_dset_file: str
                 ) -> None :
     """
-    Adds values from a source dataset to the database, specified by a source tag
+    Adds values from a source dataset (a JSON file) to the database
     
     Parameters
     ----------
     cursor : ``sqlite3.cursor``
-        cursor for running queries against the drugs.db database
+        cursor for C3S.db
     src_dset : ``str``
         source dataset (JSON file)
     """
