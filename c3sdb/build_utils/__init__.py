@@ -37,3 +37,32 @@ cat mqn_schema.sql | sqlite3 C3S.db
 # add the predicted CCS table to the database
 cat pred_CCS_schema.sql | sqlite3 C3S.db
 """
+
+# source datasets
+dsets = [
+    "zhou1016",
+    "zhou0817",
+    "zhen0917",
+    "pagl0314",
+    "righ0218",
+    "nich1118",
+    "may_0114",
+    "moll0218",
+    "hine1217",
+    "hine0217",
+    "hine0817",
+    "groe0815",
+    "bijl0517",
+    "stow0817",
+    "hine0119",
+    "leap0219",
+    "blaz0818", 
+    #"vasi0120",
+    "tsug0220",
+    "lian0118",
+    "teja0918",
+    "pola0620",
+    "dodd0220",
+    "celm1120",
+    "belo0321"
+]

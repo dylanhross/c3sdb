@@ -1,39 +1,44 @@
-#!/usr/bin/python3
 """
-    fill_db_from_src.py
-    Dylan H. Ross
-    2018/10/04
+    c3sdb/build_utils/src_data.py
 
-        Initializes the C3S.db Sqlite3 database, filling it with values from the the cleaned datasets.
-        After this script runs, the database will contain only _relevant_ information contained in the 
-        original source datasets (name, adduct, mz, ccs, and smi if provided).
+    Dylan Ross (dylan.ross@pnnl.gov)
+
+    Module for adding source datasets to the database
 """
 
 
-from json import load as jload
-import re
 import hashlib
+import re
 
 
-def gen_id(name, adduct, ccs, ccs_type, src_tag):
-    """ computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag """
+def _gen_id(name: str, 
+            adduct: str, 
+            ccs: float, 
+            ccs_type: str, 
+            src_tag: str
+            ) -> str :
+    """ 
+    computes a unique string identifier for an entry by hashing on name+adduct+ccs+ccs_type+src_tag
+    """
     s = '{}{}{}{}{}'.format(name, adduct, ccs, ccs_type, src_tag)
     h = hashlib.sha1(s.encode()).hexdigest()[-10:].upper()
     return 'CCSBASE_' + h
 
 
-def add_src_dataset(cursor, src_tag, metadata):
+def add_dataset(cursor, src_tag, metadata):
     """
-add_src_dataset
-    description:
-        Adds values from a source dataset to the database, specified by a source tag
-    parameters:
+    Adds values from a source dataset to the database, specified by a source tag
+    
+    Parameters
+    ----------
         cursor (sqlite3.cursor) -- cursor for running queries against the drugs.db database
         src_tag (str) -- source tag 
         metadata (dict(...)) -- CCS metadata: CCS type and method
         [gid_start (int)] -- starting number for g_id integer identifier [optional, default=0]
-    returns:
-        (int) -- the next available g_id value
+    
+    Returns
+    -------
+    (int) -- the next available g_id value
 """
     # regex for identifying multiple charges
     multi_z = re.compile('.*\]([0-9])[+-]')
@@ -95,5 +100,4 @@ add_src_dataset
             g_ids.append(g_id)
         else:
             print('\t\tID: {} already present ({}, {}, {}, {}, {})'.format(g_id, name, adduct, ccs, ccs_type, src_tag))
-
 
