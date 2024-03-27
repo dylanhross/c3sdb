@@ -37,19 +37,19 @@ def _get_mqns(smi: str
         return None
 
 
-def add_mqns_to_db(cur: sqlite3.Cursor
+def add_mqns_to_db(cursor: sqlite3.Cursor
                    ) -> None :
     """
     
     Parameters
     ----------
-    cur : ``sqlite3.Cursor``
+    cursor : ``sqlite3.Cursor``
         C3S.db database cursor
     """
     # generate the rdk features and MQNs
     qry = "SELECT g_id, smi FROM master WHERE smi IS NOT NULL"
     gid_to_mqn = {}
-    for g_id, n_smi in cur.execute(qry).fetchall():
+    for g_id, n_smi in cursor.execute(qry).fetchall():
         mqn = _get_mqns(n_smi)
         if mqn:
             gid_to_mqn[g_id] = mqn
@@ -57,5 +57,5 @@ def add_mqns_to_db(cur: sqlite3.Cursor
     qry = f"INSERT INTO mqns VALUES ({','.join('?' * 43)})" 
     for g_id in gid_to_mqn:
         qdata = (g_id, *gid_to_mqn[g_id])
-        cur.execute(qry, qdata)
+        cursor.execute(qry, qdata)
 
