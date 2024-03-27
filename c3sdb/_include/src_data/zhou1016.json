@@ -1,12 +1,12 @@
 {
-    "data": {
+    "metadata": {
         "src_tag": "zhou1016",
         "url": "https://pubs.acs.org/doi/abs/10.1021/acs.analchem.6b03091",
         "reference": "Zhou, Z., Shen, X., Tu, J. & Zhu, Z.-J. Large-Scale Prediction of Collision Cross-Section Values for Metabolites in Ion Mobility-Mass Spectrometry. Anal. Chem. 88, 11084–11091 (2016).",
         "ccs_type": "DT",
         "ccs_method": "single field, calibrated with Agilent tune mix (Agilent)"
     },
-    "metadata": [
+    "data": [
         {
             "name": "1-Methylnicotinamide",
             "mz": 137.0715,

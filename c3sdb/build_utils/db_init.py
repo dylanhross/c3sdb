@@ -12,7 +12,7 @@ import sqlite3
 
 
 # store path to _include directory in this package
-_INCLUDE_PATH: str = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../_include/")
+_INCLUDE_PATH: str = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_include/")
 
 
 def create_db(f: str
