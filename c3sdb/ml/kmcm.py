@@ -8,11 +8,11 @@
 """
 
 
+from itertools import product
+
 from sklearn.base import BaseEstimator, RegressorMixin, clone
 from sklearn.cluster import KMeans
 from numpy import argwhere, array
-from itertools import product
-
 
 
 class KMCMulti(BaseEstimator, RegressorMixin):
