@@ -8,6 +8,7 @@
 """
 
 
+from typing import List, Any, Optional
 from sqlite3 import connect
 
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
@@ -15,16 +16,20 @@ from sklearn.model_selection import StratifiedShuffleSplit
 from numpy import concatenate, percentile, digitize, array
 
 
-def all_dset(db_path):
+def _all_dset(db_path: str
+              ) -> List[str] :
     """
-all_dset
-    description:
-        Returns a list of all src_tags in the C3S.db
-    parameters:
-        db_path (str) -- path to C3S.db database file
-    returns:
-        (list(str)) -- list of src_tags in C3S.db
-"""
+    Returns a list of all src_tags in the C3S.db
+    
+    Parameters
+    ----------
+    db_path : ``str``
+        path to C3S.db database file
+    
+    Returns
+    -------
+    src_tags : (list(str)) -- list of src_tags in C3S.db
+    """
     con = connect(db_path)
     cur = con.cursor()
     qry = 'SELECT DISTINCT src_tag FROM master'
@@ -33,17 +38,24 @@ all_dset
     return src_tags
 
 
-def fetch_single_dset(db_path, src_tag):
+def _fetch_single_dset(db_path: str, 
+                       src_tag: str
+                       ) -> Any :
     """
-fetch_single_dset
-    description:
-        fetch name, mz, adduct, ccs, src_tag, smi, and chem_class_label for a dataset based on the provided src_tag
-    parameters:
-        db_path (str) -- path to C3S.db database file
-        src_tag (str) -- specify the source dataset
-    returns:
-        (numpy.array, ...) -- arrays of the desired attributes
-"""
+    fetch name, mz, adduct, ccs, src_tag, smi, and chem_class_label for a dataset using
+    the provided src_tag
+
+    Parameters
+    ----------
+    db_path : ``str`` 
+        path to C3S.db database file
+    src_tag : ``str``
+        specify the source dataset
+    
+    Returns
+    -------
+    names, mzs, adducts, ccss, srcs, smis, mqns, cls_labs : ``numpy.ndarray(...)``
+    """
     con = connect(db_path)
     cur = con.cursor()
     qryA = 'SELECT g_id, name, mz, adduct, ccs, src_tag, smi, chem_class_label FROM master WHERE src_tag="{}"'.format(src_tag) + \
@@ -67,20 +79,24 @@ fetch_single_dset
     return array(names), array(mzs), array(adducts), array(ccss), array(srcs), array(smis), array(mqns), array(cls_labs)
 
 
-def fetch_multi_dset(db_path, src_tags):
+def _fetch_multi_dset(db_path: str, 
+                      src_tags: List[str]
+                      ) -> Any : 
     """
-fetch_multi_dset
-    description:
-        fetch name, mz, adduct, ccs, src_tag, smi and chem_class_label for a dataset based on the provided list of 
-        src_tags. 
-        * Internally, this function does not use multiple calls to fetch_single_dset, rather, it structures a 
-        single SQL query to fetch all of the data at once for sake of efficiency. *
-    parameters:
-        db_path (str) -- path to C3S.db database file
-        src_tags (list(str)) -- list of src_tags to specify source datasets
-    returns:
-        (numpy.array, ...) -- arrays of the desired attributes
-"""
+    fetch name, mz, adduct, ccs, src_tag, smi, and chem_class_label for a set of datasets using
+    the provided src_tag
+
+    Parameters
+    ----------
+    db_path : ``str`` 
+        path to C3S.db database file
+    src_tags : ``list(str)``
+        specify the source dataset
+    
+    Returns
+    -------
+    names, mzs, adducts, ccss, srcs, smis, mqns, cls_labs : ``numpy.ndarray(...)``
+    """
     con = connect(db_path)
     cur = con.cursor()
     qryA = 'SELECT g_id, name, mz, adduct, ccs, src_tag, smi, chem_class_label FROM master WHERE src_tag IN ('
@@ -108,84 +124,88 @@ fetch_multi_dset
     return array(names), array(mzs), array(adducts), array(ccss), array(srcs), array(smis), array(mqns), array(cls_labs)
 
 
-
-
-
-
 class C3SD:
     """
-C3SD
-    description:
-        Object for interfacing with the C3S.db database and retrieving data from it. Responsible for filtering data
-        on various criteria (notably, data source), producing features for ML, handling test/train set splitting, 
-        and data transfomations (normalization/centering/scaling)
-"""
+    Object for interfacing with the C3S.db database and retrieving data from it. Responsible for filtering data
+    on various criteria (notably, data source), producing features for ML, handling test/train set splitting, 
+    and data transfomations (normalization/centering/scaling)
+    """
 
-    def __init__(self, db_path, datasets=[], seed=69):
+    def __init__(self, 
+                 db_path: str, 
+                 datasets: str | List[str] = [], 
+                 seed: int = 69
+                 ) -> None :
         """
-C3SD.__init__
-    description:
         Initializes a new C3SD object using the path to the C3S.db database file. Uses the datasets specified in the
         datasets parameter to filter the database and build a combined dataset. If no datasets parameter is defined, 
         the default behavior is to use all of the datasets in the database. 
         The database path and pRNG seed are stored in instance variables, respectively:
-            self.db_path_
-            self.seed_
+        - self.db_path_
+        - self.seed_
+        
         The compound names, m/z, MS adduct, CCS, dataset source, SMILES structures, MQNs, and (rough) class labels are 
         all fetched and stored as numpy.ndarray in instance variables, respectively: 
-            self.cmpd_
-            self.mz_ 
-            self.adduct_
-            self.ccs_ 
-            self.src_
-            self.smi_
-            self.mqn_
-            self.cls_lab_
+        - self.cmpd_
+        - self.mz_ 
+        - self.adduct_
+        - self.ccs_ 
+        - self.src_
+        - self.smi_
+        - self.mqn_
+        - self.cls_lab_
+        
         An instance variable is created to hold individual datasets that make up the combined dataset. In the case of
         datasets=None or datasets=[...], this will be a list of C3SD objects, each containing individual datasets. Some
         methods will propagate transformations to the objects in this list, while others will not. In the case of an 
         initialization with datasets='...', this will simply be the str provided with the datasets parameter and 
         certain methods will become unavailable.
-            self.datasets_
+        - self.datasets_
+        
         The total number of compounds in the dataset is stored in an instance variable:
-            self.N_
+        - self.N_
+        
         The following instance variables are initialized as None (must be set by calls to other methods):
-            self.X_             (full array of features -> set by self.featurize(...))
-            self.y_             (full array of labels -> set by self.featurize(...))
-            self.n_features_    (number of features -> set by self.featurize(...))
-            self.LEncoder_      (LabelEncoder instance -> set by self.featurize(...))
-            self.OHEncoder_     (OneHotEncoder instance -> set by self.featurize(...))
-            self.X_train_       (training set split of features -> set by self.train_test_split(...))
-            self.y_train_       (training set split of labels -> set by self.train_test_split(...))
-            self.N_train_       (training set size -> set by self.train_test_split(...)) 
-            self.X_test_        (test set split of features -> set by self.train_test_split(...))
-            self.y_test_        (test set split of labels -> set by self.train_test_split(...))
-            self.N_test_        (test set size -> set by self.train_test_split(...))
-            self.SSSplit_       (StratifiedShuffleSplit instance -> set by self.train_test_split(...))
-            self.SScaler_       (StandardScaler instance -> set by self.center_and_scale(...))
-            self.X_train_ss_    (centered/scaled training set features -> set by self.center_and_scale(...))
-            self.X_test_ss_     (centered/scaled test set features -> set by self.center_and_scale(...))
+        - self.X_             (full array of features -> set by self.featurize(...))
+        - self.y_             (full array of labels -> set by self.featurize(...))
+        - self.n_features_    (number of features -> set by self.featurize(...))
+        - self.LEncoder_      (LabelEncoder instance -> set by self.featurize(...))
+        - self.OHEncoder_     (OneHotEncoder instance -> set by self.featurize(...))
+        - self.X_train_       (training set split of features -> set by self.train_test_split(...))
+        - self.y_train_       (training set split of labels -> set by self.train_test_split(...))
+        - self.N_train_       (training set size -> set by self.train_test_split(...)) 
+        - self.X_test_        (test set split of features -> set by self.train_test_split(...))
+        - self.y_test_        (test set split of labels -> set by self.train_test_split(...))
+        - self.N_test_        (test set size -> set by self.train_test_split(...))
+        - self.SSSplit_       (StratifiedShuffleSplit instance -> set by self.train_test_split(...))
+        - self.SScaler_       (StandardScaler instance -> set by self.center_and_scale(...))
+        - self.X_train_ss_    (centered/scaled training set features -> set by self.center_and_scale(...))
+        - self.X_test_ss_     (centered/scaled test set features -> set by self.center_and_scale(...))
 
-    parameters:
-        db_path (str) -- path to C3S.db database file  
-        [datasets (str, or list(str))] -- a list of datasets to include in the combined dataset to be fetched 
-                                                from the database, if empty list include all datasets, if a str then 
-                                                fetch only a single dataset [optional, default=[]]
-        [seed (int)] -- pRNG seed to use for any data preparation steps with a stochastic component, stored in the
-                        self.seed_ instance variable [optional, default=69]
-"""
+        Parameters
+        ----------
+        db_path : ``str``
+            path to C3S.db database file  
+        datasets ``str`` or ``list(str)``, default=[]
+            a list of datasets to include in the combined dataset to be fetched 
+            from the database, if empty list include all datasets, if a str then 
+            fetch only a single dataset 
+        seed : ``int``, default=69
+            pRNG seed to use for any data preparation steps with a stochastic component, stored in the
+            self.seed_ instance variable 
+        """
         # store database file path and pRNG seed
         self.db_path_, self.seed_ = db_path, seed
         # fetch data from the database
         if type(datasets) == str:
             # fetch a single dataset
-            self.cmpd_, self.mz_, self.adduct_, self.ccs_, self.src_, self.smi_, self.mqn_, self.cls_lab_ = fetch_single_dset(self.db_path_, datasets) 
+            self.cmpd_, self.mz_, self.adduct_, self.ccs_, self.src_, self.smi_, self.mqn_, self.cls_lab_ = _fetch_single_dset(self.db_path_, datasets) 
             self.datasets_ = datasets
         elif type(datasets) == list:
             if not datasets:
-                datasets = all_dset(self.db_path_)
+                datasets = _all_dset(self.db_path_)
             # fetch either a subset of datasets or all datasets
-            self.cmpd_, self.mz_, self.adduct_, self.ccs_, self.src_, self.smi_, self.mqn_, self.cls_lab_ = fetch_multi_dset(self.db_path_, datasets)
+            self.cmpd_, self.mz_, self.adduct_, self.ccs_, self.src_, self.smi_, self.mqn_, self.cls_lab_ = _fetch_multi_dset(self.db_path_, datasets)
             self.datasets_ = [C3SD(self.db_path_, datasets=dset, seed=self.seed_) for dset in datasets]
         # total number of compounds
         self.N_ = self.cmpd_.shape[0]
@@ -206,10 +226,11 @@ C3SD.__init__
         self.X_train_ss_ = None
         self.X_test_ss_ = None
 
-    def featurize(self, encoded_adduct=True, mqn_indices='all'):
+    def featurize(self, 
+                  encoded_adduct: bool = True, 
+                  mqn_indices: Optional[List[int]] = None
+                  ) -> None :
         """
-C3SD.featurize
-    description:
         Converts SMILES structures (self.smi_) into features for ML using a combination of m/z, encoded MS adduct 
         (using 1-hot encoding), and MQNs. The full concatenated feature set is stored in the self.X_ instance variable
         and self.ccs_ is simply copied into self.y_ instance variable. The self.n_features_ instance variable is also
@@ -224,16 +245,20 @@ C3SD.featurize
         these objects using the same parameters. 
 
         Sets the following instance variables:
-            self.X_             (full array of features)
-            self.y_             (full array of labels)
-            self.n_features_    (number of features)
-            self.LEncoder_      (LabelEncoder instance)
-            self.OHEncoder_     (OneHotEncoder instance)
-    parameters:
-        [encoded_adduct (bool)] -- include encoded MS adduct in the feature set [optional, default=True]
-        [mqn_indices ('all' or array-like(int))] -- individually specify MQNs to include in the feature set [optional, 
-                                                    default='all']
-"""
+        - self.X_             (full array of features)
+        - self.y_             (full array of labels)
+        - self.n_features_    (number of features)
+        - self.LEncoder_      (LabelEncoder instance)
+        - self.OHEncoder_     (OneHotEncoder instance)
+        
+        Parameters
+        ----------
+        encoded_adduct : ``bool``, default=True
+            include encoded MS adduct in the feature set
+        mqn_indices : ``List[int]`` or ``None``, default=None
+            individually specify indices of MQNs to include in the feature set,
+            or None to include all
+        """
         ohe_adducts = None
         if encoded_adduct:
             # first encode the adducts as integers, then convert those to OneHot vectors

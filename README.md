@@ -2,6 +2,11 @@
 __Dylan H. Ross__
  
 
+TODO
+citation 
+license
+
+
 ## Overview
 __C3SDB__ is an aggregation of large collision cross section (CCS) collections 
 covering many diverse chemical classes and measured on a number of different 
@@ -41,4 +46,4 @@ source datasets and training the CCS prediction model
     then modify and invoke (`python3 ./custom_build.py`) that to customize the build.
 
 ### Training Prediction Model
-__#TODO__
+TODO

@@ -8,4 +8,4 @@
 
 
 # release.major.minor
-__version__ = "2.0.19"
+__version__ = "2.0.20"
