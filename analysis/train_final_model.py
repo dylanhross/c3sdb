@@ -114,7 +114,7 @@ summary_figure
 
 def main(tstamp):
     data = C3SD('C3S.db', seed=2345)
-    data.featurize()
+    data.assemble_features()
     data.train_test_split('ccs')
     data.center_and_scale()
     kmcm_svr_p_grid = kmcm_p_grid([5], {'C': [100, 1000], 'gamma': [0.001, 0.01]})

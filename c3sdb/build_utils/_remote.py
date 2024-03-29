@@ -112,7 +112,7 @@ def _str_from_lipid_dict(lipid: Dict[Any, Any],
     ----------
     lipid : ``dict(...)``
         dict defining target lipid with structure reflecting that of the lipids.db schema
-        TODO (Dylan Ross): What is this referring to?
+        TODO: What is this referring to?
     ign_fa_comp : ``bool``
         flag indicating whether to ignore individual fatty acid composition and just construct
         the name using the sum composition
@@ -156,7 +156,7 @@ def lmaps_fetch_smiles(session: requests.Session,
         requests session
     lipid : ``dict(...)``
         dict defining target lipid with structure reflecting that of the lipids.db schema
-        TODO (Dylan Ross): What is this referring to?
+        TODO: What is this referring to?
     
     Returns
     -------

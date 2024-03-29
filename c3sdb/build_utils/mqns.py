@@ -14,8 +14,8 @@ from rdkit import Chem
 from rdkit.Chem import Descriptors
 
 
-def _get_mqns(smi: str
-              ) -> Optional[List[float]] :
+def compute_mqns(smi: str
+                 ) -> Optional[List[float]] :
     """
     Computes the complete set of 42 MQNs as described in:
     Nguyen et al. ChemMedChem 4:1803-5 (2009)
@@ -34,8 +34,8 @@ def _get_mqns(smi: str
         features = Descriptors.rdMolDescriptors.MQNs_(Chem.MolFromSmiles(smi))
         return features
     except Exception as e:  
-        # TODO (Dylan Ross): really need to catch specific exceptions here, this blanket
-        #                    catch is not good form
+        # TODO: really need to catch specific exceptions here, this blanket
+        #       catch is not good form
         return None
 
 
@@ -60,7 +60,7 @@ def add_mqns_to_db(cursor: sqlite3.Cursor
     qry = "SELECT g_id, smi FROM master WHERE smi IS NOT NULL"
     gid_to_mqn = {}
     for g_id, n_smi in cursor.execute(qry).fetchall():
-        mqn = _get_mqns(n_smi)
+        mqn = compute_mqns(n_smi)
         if mqn:
             gid_to_mqn[g_id] = mqn
     # update the database with the generated MQNs

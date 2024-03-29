@@ -18,7 +18,7 @@ with open('kmcm_svr_final_20210414.pickle', 'rb') as pf:
 
 # load the dataset
 data = C3SD('C3S.db', seed=2345)
-data.featurize()
+data.assemble_features()
 data.train_test_split('ccs')
 data.center_and_scale()
 

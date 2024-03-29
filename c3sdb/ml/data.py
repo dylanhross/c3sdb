@@ -8,12 +8,29 @@
 """
 
 
-from typing import List, Any, Optional
+import os
+from typing import List, Any, Optional, Tuple
 from sqlite3 import connect
+import pickle
 
-from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.model_selection import StratifiedShuffleSplit
+# TODO: replace all of the calls to these functions with np.function(...)
+#       and get rid of this itemized import in favor of the more typical
+#       import numpy as np
 from numpy import concatenate, percentile, digitize, array
+import numpy as np
+from numpy import typing as npt
+
+from c3sdb.build_utils.mqns import compute_mqns
+
+
+# define adducts with sufficient representation in the database
+# to justify explicitly encoding them as features
+_EXPLICIT_ADDUCTS = [
+    "[M+H]+", "[M+Na]+", "[M-H]-", "[M+NH4]+", "[M+K]+",
+    "[M+H-H2O]+", "[M+HCOO]-", "[M+CH3COO]-", "[M+Na-2H]-"
+]
 
 
 def _all_dset(db_path: str
@@ -124,6 +141,30 @@ def _fetch_multi_dset(db_path: str,
     return array(names), array(mzs), array(adducts), array(ccss), array(srcs), array(smis), array(mqns), array(cls_labs)
 
 
+def _filter_common_adducts(adducts: npt.ArrayLike
+                           ) -> npt.ArrayLike :
+        """
+        To reduce the number of adducts that have to get OneHot encoded, filter through an array of
+        adducts and change any adduct that is not among common adducts (defined in _EXPLICIT_ADDUCTS
+        constant) to a single label: 'other' 
+        
+        Parameters
+        ----------
+        adducts : ``np.ndarray(str)``
+            numpy array containing adducts for the dataset
+        
+        Returns
+        -------
+        common_adducts : ``np.ndarrray(str)``
+            numpy array containing adducts with uncommon adducts replaced with 'other'
+        """
+        common = adducts.copy()
+        for i in range(common.shape[0]):
+            if common[i] not in _EXPLICIT_ADDUCTS:
+                common[i] = 'other'
+        return common
+
+
 class C3SD:
     """
     Object for interfacing with the C3S.db database and retrieving data from it. Responsible for filtering data
@@ -213,7 +254,6 @@ class C3SD:
         self.X_ = None
         self.y_ = None
         self.n_features_ = None
-        self.LEncoder_ = None
         self.OHEncoder_ = None
         self.X_train_ = None
         self.y_train_ = None
@@ -226,13 +266,14 @@ class C3SD:
         self.X_train_ss_ = None
         self.X_test_ss_ = None
 
-    def featurize(self, 
-                  encoded_adduct: bool = True, 
-                  mqn_indices: Optional[List[int]] = None
-                  ) -> None :
+    def assemble_features(self, 
+                          encoded_adduct: bool = True, 
+                          mqn_indices: Optional[str | List[int]] = "all"
+                          ) -> Any :
         """
-        Converts SMILES structures (self.smi_) into features for ML using a combination of m/z, encoded MS adduct 
-        (using 1-hot encoding), and MQNs. The full concatenated feature set is stored in the self.X_ instance variable
+        Assembles features for ML using a combination of m/z, encoded MS adduct (using 1-hot encoding), and MQNs. 
+
+        The full concatenated feature set is stored in the self.X_ instance variable
         and self.ccs_ is simply copied into self.y_ instance variable. The self.n_features_ instance variable is also
         set accordingly. 
         The 1-hot encoder for MS adducts is stored in the self.OHEncoder_ instance variable (or just None if 1-hot 
@@ -255,19 +296,18 @@ class C3SD:
         ----------
         encoded_adduct : ``bool``, default=True
             include encoded MS adduct in the feature set
-        mqn_indices : ``List[int]`` or ``None``, default=None
+        mqn_indices : ``str`` or ``List[int]`` or ``None``, default="all"
             individually specify indices of MQNs to include in the feature set,
-            or None to include all
+            or "all" to include all or None to exclude
         """
         ohe_adducts = None
         if encoded_adduct:
-            # first encode the adducts as integers, then convert those to OneHot vectors
+            # convert adducts to OneHot vectors
             # To reduce the number of adducts that have to get OneHot encoded, filter through the adducts list and
             # convert any adduct that is not among the top common adducts to a single label: 'other' 
-            self.LEncoder_ = LabelEncoder()
-            le_adducts = self.LEncoder_.fit_transform(self.filter_common_adducts(self.adduct_))
-            self.OHEncoder_ = OneHotEncoder(sparse=False, categories='auto')
-            ohe_adducts = self.OHEncoder_.fit_transform(le_adducts.reshape(-1, 1)).T
+            self.OHEncoder_ = OneHotEncoder(sparse_output=False, categories='auto')
+            common_adducts = _filter_common_adducts(self.adduct_).reshape(-1, 1)
+            ohe_adducts = self.OHEncoder_.fit_transform(common_adducts).T
         use_mqns = None
         if mqn_indices:
             if mqn_indices == 'all':
@@ -287,31 +327,13 @@ class C3SD:
         # call featurize on all of the C3SD objects in self.datasets_ (if there are any)
         if type(self.datasets_) == list:
             for dset in self.datasets_:
-                dset.featurize(encoded_adduct=encoded_adduct, mqn_indices=mqn_indices)
+                dset.assemble_features(encoded_adduct=encoded_adduct, mqn_indices=mqn_indices)
 
-    def filter_common_adducts(self, adducts):
+    def train_test_split(self, 
+                         stratify: str, 
+                         test_frac: float = 0.2
+                         ) -> None :
         """
-C3SD.filter_common_adducts
-    description:
-        To reduce the number of adducts that have to get OneHot encoded, filter through the adducts list and convert 
-        any adduct that is not among the top common adducts to a single label: 'other' 
-    parameters:
-        adducts (np.ndarray(str)) -- numpy array containing adducts for the dataset
-    returns:
-        (np.ndarrray(str)) -- numpy array containing adducts with uncommon adducts replaced with 'other'
-"""
-        # all of these adducts had >100 examples in the combined CCS database
-        ref = ['[M+NH4]+', '[M+Na-2H]-', '[M+K]+', '[M-H]-', '[M+Na]+', '[M+H]+']
-        common = adducts.copy()
-        for i in range(common.shape[0]):
-            if common[i] not in ref:
-                common[i] = 'other'
-        return common
-
-    def train_test_split(self, stratify, test_frac=0.2):
-        """
-C3SD.train_test_split
-    description:
         Shuffles the data then splits it into a training set and a test set, storing each in self.X_train_,
         self.y_train_, self.X_test_, self.y_test_ instance variables. The splitting is done in a stratified manner
         based on either CCS or dataset source. In the former case, the CCS distribution in the complete dataset is
@@ -321,21 +343,27 @@ C3SD.train_test_split
         This method DOES NOT get called on C3SD objects in the self.datasets_ instance variable.
 
         Sets the following instance variables:
-            self.X_train_       (training set split of features)
-            self.y_train_       (training set split of labels)
-            self.N_train_       (training set size) 
-            self.X_test_        (test set split of features)
-            self.y_test_        (test set split of labels)
-            self.N_test_        (test set size)
-            self.SSSplit_       (StratifiedShuffleSplit instance)
+        - self.X_train_       (training set split of features)
+        - self.y_train_       (training set split of labels)
+        - self.N_train_       (training set size) 
+        - self.X_test_        (test set split of features)
+        - self.y_test_        (test set split of labels)
+        - self.N_test_        (test set size)
+        - self.SSSplit_       (StratifiedShuffleSplit instance)
 
-        ! self.featurize(...) must be called first to generate the features and labels (self.X_, self.y_) !
-    parameters:
-        stratify (str) -- specifies the method of stratification to use when splitting the train/test sets: 'source' 
-                          for stratification on data source, or 'ccs' for stratification on CCS 
-        [test_frac (float)] -- fraction of the complete dataset to reserve as a test set, defaults to an 80 % / 20 %
-                               split for the train / test sets, respectively [optional, default=0.2]
-"""
+        .. note:: 
+            
+            self.featurize(...) must be called first to generate the features and labels (self.X_, self.y_)
+
+        Parameters
+        ----------
+        stratify : ``str``
+            specifies the method of stratification to use when splitting the train/test sets: 'source' 
+            for stratification on data source, or 'ccs' for stratification on CCS 
+        test_frac : ``float``, default=0.2
+            fraction of the complete dataset to reserve as a test set, defaults to an 80 % / 20 %
+            split for the train / test sets, respectively
+        """
         # make sure self.featurize(...) has been called
         if self.X_ is None:
             msg = 'C3SD: train_test_split: self.X_ is not initialized, self.featurize(...) must be called before ' + \
@@ -349,7 +377,7 @@ C3SD.train_test_split
             # stratify on dataset source
             y_cat = self.src_
         else:
-            y_cat = self.get_categorical_y()
+            y_cat = self._get_categorical_y()
         # initialize StratifiedShuffleSplit
         self.SSSplit_ = StratifiedShuffleSplit(n_splits=1, test_size=test_frac, random_state=self.seed_)
         # split and store the X and y train/test sets as instance variables
@@ -360,10 +388,9 @@ C3SD.train_test_split
         self.N_train_ = self.X_train_.shape[0] 
         self.N_test_ = self.X_test_.shape[0] 
 
-    def get_categorical_y(self):
+    def _get_categorical_y(self
+                           ) -> Any :
         """
-C3SD.get_categorical_y
-    description:
         transforms the labels into 'categorical' data (required by StratifiedShuffleSplit) by performing a binning
         operation on the continuous label data. The binning is performed using the rough distribution of label values
         with the following bounds (based on quartiles):
@@ -374,9 +401,12 @@ C3SD.get_categorical_y
               (Q2 - Q1 / 2) + Q1     |
                             (Q3 - Q2 / 2) + Q2
         Uses labels stored in the self.y_ instance variable
-    returns:
-        (np.ndarray(int)) -- categorical (binned) label data
-"""
+        
+        Returns
+        -------
+        cat_y : ``np.ndarray(int)``
+            categorical (binned) label data
+        """
         # get the quartiles from the label distribution
         q1, q2, q3 = percentile(self.y_, [25, 50, 75])
         # get midpoints
@@ -386,10 +416,9 @@ C3SD.get_categorical_y
         bounds = [q1, mp12, q2, mp23, q3]
         return digitize(self.y_, bounds)
 
-    def center_and_scale(self):
+    def center_and_scale(self
+                         ) -> None :
         """
-C3SD.center_and_scale
-    description:
         Centers and scales the training set features such that each has an average of 0 and variance of 1. Applies
         this transformation to the training and testing features, storing the results in the self.X_train_ss_ and 
         self.X_test_ss_ instance variables, respectively. Also stores a reference to the fitted StandardScaler
@@ -401,22 +430,108 @@ C3SD.center_and_scale
             self.X_train_ss_    (centered/scaled training set features)
             self.X_test_ss_     (centered/scaled test set features)
 
-        ! self.train_test_split(...) must be called first to generate the training features and labels (self.X_train_, 
-        self.y_train_) that are used to initialize the StandardScaler !
-"""
+        .. note:: 
+            
+            self.train_test_split(...) must be called first to generate the training features and 
+            labels (self.X_train_, self.y_train_) that are used to initialize the StandardScaler
+        """
         if self.X_train_ is None:
             msg = 'C3SD: center_and_scale: self.X_train_ is not initialized, self.train_test_split(...) must be ' + \
                   'called before calling self.center_and_scale(...)'
             raise RuntimeError(msg)
-
         # perform the scaling
         self.SScaler_ = StandardScaler()
         self.X_train_ss_ = self.SScaler_.fit_transform(self.X_train_)
         self.X_test_ss_ = self.SScaler_.transform(self.X_test_)
 
+    def save_encoder_and_scaler(self,
+                                encoder_f: str = "c3sdb_OHEncoder.pkl",
+                                scaler_f: str = "c3sdb_SScaler.pkl"
+                                ) -> None :
+        """
+        save the fitted instances of the encoder and scaler objects in pickle format
+        for loading later
+
+        Parameters
+        ----------
+        encoder_f : ``str``, default="c3sdb_OHEncoder.pkl"
+        scaler_f : ``str``, default="c3sdb_SScaler.pkl"
+            file names to save the encoder and scaler instances to, respectively
+        """
+        # ensure both the encoder and scaler instances are present
+        # TODO: check for these and raise RuntimeErrors with descriptive error messages
+        assert self.OHEncoder_ is not None
+        assert self.SScaler_ is not None
+        with open(encoder_f, "wb") as pf:
+            pickle.dump(self.OHEncoder_, pf)
+        with open(scaler_f, "wb") as pf:
+            pickle.dump(self.SScaler_)
 
 
+def data_for_inference(mzs: npt.ArrayLike, 
+                       adducts: npt.ArrayLike, 
+                       smis: npt.ArrayLike, 
+                       encoder_f: str, 
+                       scaler_f: str
+                       ) -> Tuple[npt.NDArray[np.float64], npt.NDArray[np.bool]] :
+    """
+    generate data for inference using lists of m/zs, adducts, smiles structures
+    and fitted instances of OneHotEncoder and StandardScaler
 
+    .. note::
+        
+        This function assumes you are just using the full feature set of m/z + encoded 
+        adduct + all standard 42 MQNs. This function would need to be modified or other
+        functions would need to be implemented in order to support other feature sets.
 
+    Parameters
+    ----------
+    mzs : ``arraylike(float)``
+        input m/zs
+    adducts : ``arraylike(str)``
+        input adducts (will be run through `_filter_common_adducts` first to ensure 
+        they are all encodable)
+    smis : ``arraylike(str)``
+        input SMILES structures
+    encoder_f : ``str``
+    scaler_f : ``str``
+        paths to pickle files with
+        fitted instances of OneHotEncoder and StandardScaler for encoding adducts and 
+        scaling features, respectively
+    
+    Returns
+    -------
+    data : ``numpy.ndarray(float)``
+        scaled data ready for inference
+    included : ``numpy.ndarray(bool)``
+        array of booleans (same shape as input arrays) indicating which rows from the 
+        original input data were able to have MQNs computed for them and thus were 
+        included in the output data array
+    """
+    # ensure the encoder and scaler pickle files exist
+    # TODO: run these checks and raise appropriate errors with descriptive error messages
+    assert os.path.isfile(encoder_f)
+    assert os.path.isfile(scaler_f)
+    # load the encoder and the scaler instances from pickle files
+    with open(encoder_f, "rb") as pf:
+        encoder = pickle.load(pf)
+    with open(scaler_f, "rb") as pf:
+        scaler = pickle.load(pf)
+    # ensure mzs, adducts, and smis have the same shape
+    # TODO: run these checks and raise ValueErrors with descriptive error messages
+    assert len(mzs) == len(adducts)
+    assert len(adducts) == len(smis)
+    # filter and encode the adducts
+    enc_adducts = encoder.transform(_filter_common_adducts(np.array(adducts)).reshape(-1, 1))
+    # add features row-by-row, skip any for which generating MQNs fails
+    features = []
+    included = []
+    for mz, enc_adduct, smi in zip(mzs, enc_adducts, smis):
+        if (mqns := compute_mqns(smi)) is not None:
+            features.append([mz] + enc_adduct.tolist() + mqns)
+            included.append(True)
+        else:
+            included.append(False)
+    return scaler.transform(np.array(features)), included
 
 

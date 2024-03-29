@@ -105,13 +105,10 @@ kmcm_p_grid
     keys, values = zip(*est_params.items())
     for v in product(*values):
         perms.append(dict(zip(keys, v)))
- 
     # parameter grid
     pg = []
     for nc in n_clusters: 
         n_perms = [perms for _ in range(nc)]
         pg.append({'n_clusters': [nc], 'estimator_params': [list(_) for _ in product(*n_perms)]})             
-    
     return pg
     
-
