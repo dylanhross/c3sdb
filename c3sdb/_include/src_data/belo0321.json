@@ -1,0 +1,2188 @@
+{
+    "metadata": {
+        "src_tag": "belo0321",
+        "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.1c00142",
+        "reference": "Belova, L. et al. Ion Mobility-High-Resolution Mass Spectrometry (IM-HRMS) for the Analysis of Contaminants of Emerging Concern (CECs): Database Compilation and Application to Urine Samples. Anal. Chem. XXX, XXXX-XXXX (2021)",
+        "ccs_type": "DT", 
+        "ccs_method": "single field, calibrated"
+    },
+    "data": [
+        {
+            "name": "10:2 Fluorotelomer unsaturated carboxylate",
+            "adduct": "[M-H]-",
+            "smi": "C(=C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F)C(=O)O",
+            "mz": 556.9663,
+            "ccs": 189.84
+        },
+        {
+            "name": "10:2 Fluorotelomer unsaturated carboxylate",
+            "adduct": "[2M-H]-",
+            "smi": "C(=C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F)C(=O)O",
+            "mz": 1114.9398,
+            "ccs": 265.53
+        },
+        {
+            "name": "1H,1H,2H,2H-Perfluorododecanesulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 626.9551,
+            "ccs": 204.21
+        },
+        {
+            "name": "1H,1H,2H,2H-Perfluorododecanesulfonic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 1254.9175,
+            "ccs": 288.72
+        },
+        {
+            "name": "2-(Methylthio)benzothiazole",
+            "adduct": "[M+H]+",
+            "smi": "CSC1=NC2=CC=CC=C2S1",
+            "mz": 182.0093,
+            "ccs": 131.32
+        },
+        {
+            "name": "2,4-Di-(2-ethylhexyl) trimellitate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCC(CC)COC(=O)c1ccc(C(=O)O)c(C(=O)OCC(CC)CCCC)c1",
+            "mz": 435.2741,
+            "ccs": 218.39
+        },
+        {
+            "name": "2,4-Di-(2-ethylhexyl) trimellitate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)c1ccc(C(=O)O)c(C(=O)OCC(CC)CCCC)c1",
+            "mz": 457.2561,
+            "ccs": 233.33
+        },
+        {
+            "name": "2,4-Di-(2-ethylhexyl) trimellitate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(CC)COC(=O)c1ccc(C(=O)O)c(C(=O)OCC(CC)CCCC)c1",
+            "mz": 433.2596,
+            "ccs": 222.86
+        },
+        {
+            "name": "2-Aminobenzothiazole",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C2C(=C1)N=C(S2)N",
+            "mz": 151.0324,
+            "ccs": 128.6
+        },
+        {
+            "name": "2-Aminobenzothiazole",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C2C(=C1)N=C(S2)N",
+            "mz": 149.0179,
+            "ccs": 122.71
+        },
+        {
+            "name": "2-Benzothiazolol",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C2C(=C1)NC(=O)S2",
+            "mz": 150.0019,
+            "ccs": 123.75
+        },
+        {
+            "name": "2-Ethylhexyl diphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 385.1539,
+            "ccs": 202.7
+        },
+        {
+            "name": "2-Ethylhexyl diphenyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CCCCC(CC)COP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 725.3367,
+            "ccs": 269.03
+        },
+        {
+            "name": "2-Ethylhexyl diphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCC(CC)COP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 747.3186,
+            "ccs": 278.58
+        },
+        {
+            "name": "2-ethylhexyl phenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COP(=O)(O)OC1=CC=CC=C1",
+            "mz": 309.1226,
+            "ccs": 183.41
+        },
+        {
+            "name": "2-ethylhexyl phenyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CCCCC(CC)COP(=O)(O)OC1=CC=CC=C1",
+            "mz": 573.2741,
+            "ccs": 240.74
+        },
+        {
+            "name": "2-ethylhexyl phenyl phosphate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(CC)COP(=O)(O)OC1=CC=CC=C1",
+            "mz": 285.1261,
+            "ccs": 170.46
+        },
+        {
+            "name": "2-ethylhexyl phenyl phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "CCCCC(CC)COP(=O)(O)OC1=CC=CC=C1",
+            "mz": 571.2595,
+            "ccs": 236.38
+        },
+        {
+            "name": "3,5,6-Trichloro-2-pyridinol",
+            "adduct": "[M+H]+",
+            "smi": "C1=C(C(=O)NC(=C1Cl)Cl)Cl",
+            "mz": 197.92747,
+            "ccs": 130.45
+        },
+        {
+            "name": "3,5-ditert-butyl-4-hydroxybenzaldehyde",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)C=O",
+            "mz": 235.16926,
+            "ccs": 165.21
+        },
+        {
+            "name": "3,5-ditert-butyl-4-hydroxybenzaldehyde",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)(C)C1=CC(=CC(=C1O)C(C)(C)C)C=O",
+            "mz": 257.1512,
+            "ccs": 185.31
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 343.073,
+            "ccs": 180.35
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 365.0549,
+            "ccs": 189.06
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 685.1387,
+            "ccs": 246.58
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 707.1206,
+            "ccs": 252.85
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 341.0584,
+            "ccs": 180.46
+        },
+        {
+            "name": "3-Hydroxyphenyl diphenyl phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC(=C3)O",
+            "mz": 683.1241,
+            "ccs": 241.97
+        },
+        {
+            "name": "3-Phenoxybenzoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C(C=C1)OC2=CC=CC(=C2)C(=O)O",
+            "mz": 213.05572,
+            "ccs": 155.84
+        },
+        {
+            "name": "4-((4-(Benzyloxy)phenyl)sulfonyl)phenol",
+            "adduct": "[M-H]-",
+            "smi": "C=CCOC1=CC=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)O",
+            "mz": 289.054,
+            "ccs": 172.68
+        },
+        {
+            "name": "4-((4-Isopropoxyphenyl)sulfonyl)phenol",
+            "adduct": "[M-H]-",
+            "smi": "CC(C)OC1=CC=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)O",
+            "mz": 291.0697,
+            "ccs": 174.81
+        },
+        {
+            "name": "4-((4-Isopropoxyphenyl)sulfonyl)phenol",
+            "adduct": "[2M-H]-",
+            "smi": "CC(C)OC1=CC=C(C=C1)S(=O)(=O)C2=CC=C(C=C2)O",
+            "mz": 583.1466,
+            "ccs": 226.14
+        },
+        {
+            "name": "4-(4-hydroxy-3-prop-2-enylphenyl)sulfonyl-2-prop-2-enylphenol",
+            "adduct": "[M-H]-",
+            "smi": "C=CCC1=C(C=CC(=C1)S(=O)(=O)C2=CC(=C(C=C2)O)CC=C)O",
+            "mz": 329.0853,
+            "ccs": 180.0
+        },
+        {
+            "name": "4-(4-hydroxy-3-prop-2-enylphenyl)sulfonyl-2-prop-2-enylphenol",
+            "adduct": "[2M-H]-",
+            "smi": "C=CCC1=C(C=CC(=C1)S(=O)(=O)C2=CC(=C(C=C2)O)CC=C)O",
+            "mz": 659.1779,
+            "ccs": 240.99
+        },
+        {
+            "name": "4-Hydroxyphenyl phenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=C(C=C2)O",
+            "mz": 267.0417,
+            "ccs": 162.44
+        },
+        {
+            "name": "4-Hydroxyphenyl phenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=C(C=C2)O",
+            "mz": 289.0236,
+            "ccs": 169.02
+        },
+        {
+            "name": "4-Hydroxyphenyl phenyl phosphate",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=C(C=C2)O",
+            "mz": 265.0271,
+            "ccs": 157.56
+        },
+        {
+            "name": "4-Methylbenzotriazole",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC=CC2=NNN=C12",
+            "mz": 134.0713,
+            "ccs": 126.79
+        },
+        {
+            "name": "4-Methylbenzotriazole",
+            "adduct": "[M-H]-",
+            "smi": "CC1=CC=CC2=NNN=C12",
+            "mz": 132.0567,
+            "ccs": 123.7
+        },
+        {
+            "name": "4-n-Octylphenol",
+            "adduct": "[M-H]-",
+            "smi": "CCCCCCCCC1=CC=C(C=C1)O",
+            "mz": 205.15979,
+            "ccs": 160.03
+        },
+        {
+            "name": "4-Nonylphenol",
+            "adduct": "[M-H]-",
+            "smi": "CCCCCCCCCC1=CC=C(C=C1)O",
+            "mz": 219.17544,
+            "ccs": 161.07
+        },
+        {
+            "name": "4-t-Octylphenol",
+            "adduct": "[M-H]-",
+            "smi": "CC(C)(C)CC(C)(C)C1=CC=C(C=C1)O",
+            "mz": 205.15979,
+            "ccs": 156.73
+        },
+        {
+            "name": "5,6-Dimethylbenzotriazole",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC2=NNN=C2C=C1C",
+            "mz": 148.0869,
+            "ccs": 131.25
+        },
+        {
+            "name": "5,6-Dimethylbenzotriazole",
+            "adduct": "[M-H]-",
+            "smi": "CC1=CC2=NNN=C2C=C1C",
+            "mz": 146.0724,
+            "ccs": 130.84
+        },
+        {
+            "name": "5-Chlorobenzotriazole",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC2=NNN=C2C=C1Cl",
+            "mz": 154.0167,
+            "ccs": 131.88
+        },
+        {
+            "name": "5-Chlorobenzotriazole",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC2=NNN=C2C=C1Cl",
+            "mz": 152.0021,
+            "ccs": 122.49
+        },
+        {
+            "name": "5-Hydroxy-2-ethylhexyl diphenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(O)CCC(CC)COP(=O)(Oc1ccccc1)Oc1ccccc1",
+            "mz": 379.1669,
+            "ccs": 186.66
+        },
+        {
+            "name": "5-Hydroxy-2-ethylhexyl diphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(O)CCC(CC)COP(=O)(Oc1ccccc1)Oc1ccccc1",
+            "mz": 401.1488,
+            "ccs": 194.97
+        },
+        {
+            "name": "5-Hydroxy-2-ethylhexyl diphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(O)CCC(CC)COP(=O)(Oc1ccccc1)Oc1ccccc1",
+            "mz": 779.3084,
+            "ccs": 268.4
+        },
+        {
+            "name": "5-methyl-1H-benzotriazole",
+            "adduct": "[M-H]-",
+            "smi": "CC1=CC2=NNN=C2C=C1",
+            "mz": 132.0567,
+            "ccs": 124.64
+        },
+        {
+            "name": "6:2 chlorinated polyfluorinated ether sulfonate",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(F)(F)Cl)(F)F)(F)F)(C(C(OC(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F",
+            "mz": 531.90286,
+            "ccs": 170.98
+        },
+        {
+            "name": "6-Chloroperfluorohexylphosphonic acid",
+            "adduct": "[M-H]-",
+            "smi": "O=P(O)(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)Cl",
+            "mz": 414.9166,
+            "ccs": 157.41
+        },
+        {
+            "name": "6-Hydroxy Monopropylheptylphthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCC(CCCC(C)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 345.1672,
+            "ccs": 181.9
+        },
+        {
+            "name": "6-Hydroxy Monopropylheptylphthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCC(CCCC(C)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 321.1707,
+            "ccs": 178.62
+        },
+        {
+            "name": "8:2 Fluorotelomer sulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 526.96172,
+            "ccs": 186.39
+        },
+        {
+            "name": "8:2 Fluorotelomer sulfonic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 1054.93072,
+            "ccs": 263.38
+        },
+        {
+            "name": "8:2 Fluorotelomer unsaturated carboxylate",
+            "adduct": "[M-H]-",
+            "smi": "C(=C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F)C(=O)O",
+            "mz": 456.9727,
+            "ccs": 172.63
+        },
+        {
+            "name": "8:2 Fluorotelomer unsaturated carboxylate",
+            "adduct": "[2M-H]-",
+            "smi": "C(=C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)F)C(=O)O",
+            "mz": 914.9526,
+            "ccs": 239.96
+        },
+        {
+            "name": "8-Chloroperfluorooctylphosponic acid",
+            "adduct": "[M-H]-",
+            "smi": "O=P(O)(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)Cl",
+            "mz": 514.9102,
+            "ccs": 175.27
+        },
+        {
+            "name": "Acetyltriethyl citrate",
+            "adduct": "[M+Na]+",
+            "smi": "CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)OC(=O)C",
+            "mz": 341.1207,
+            "ccs": 174.36
+        },
+        {
+            "name": "Acetyltriethyl citrate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCOC(=O)CC(CC(=O)OCC)(C(=O)OCC)OC(=O)C",
+            "mz": 659.2522,
+            "ccs": 244.35
+        },
+        {
+            "name": "Antiblaze V6",
+            "adduct": "[M+H]+",
+            "smi": "C(CCl)OP(=O)(OCCCl)OCC(COP(=O)(OCCCl)OCCCl)(CCl)CCl",
+            "mz": 580.915,
+            "ccs": 211.37
+        },
+        {
+            "name": "Antiblaze V6",
+            "adduct": "[M+Na]+",
+            "smi": "C(CCl)OP(=O)(OCCCl)OCC(COP(=O)(OCCCl)OCCCl)(CCl)CCl",
+            "mz": 602.897,
+            "ccs": 216.57
+        },
+        {
+            "name": "Antiblaze V6",
+            "adduct": "[2M+Na]+",
+            "smi": "C(CCl)OP(=O)(OCCCl)OCC(COP(=O)(OCCCl)OCCCl)(CCl)CCl",
+            "mz": 1182.8047,
+            "ccs": 304.65
+        },
+        {
+            "name": "Atrazine",
+            "adduct": "[M+H]+",
+            "smi": "CCNC1=NC(=NC(=N1)Cl)NC(C)C",
+            "mz": 216.10105,
+            "ccs": 149.53
+        },
+        {
+            "name": "benzothiazole",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C2C(=C1)N=CS2",
+            "mz": 158.0035,
+            "ccs": 134.7
+        },
+        {
+            "name": "Benzotriazole",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC2=NNN=C2C=C1",
+            "mz": 118.0411,
+            "ccs": 118.3
+        },
+        {
+            "name": "Benzotriazole",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC2=NNN=C2C=C1",
+            "mz": 120.0556,
+            "ccs": 122.42
+        },
+        {
+            "name": "Bis (1H,1H,2H,2H-perflurodecyl) phosphate - 8:2 Fluorotelomer phosphate diester",
+            "adduct": "[M-H]-",
+            "smi": "C(COP(=O)(O)OCCC(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 988.9623,
+            "ccs": 261.61
+        },
+        {
+            "name": "bis(1,3-dichloro-2-propyl) phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C(C(CCl)OP(=O)(O)OC(CCl)CCl)Cl",
+            "mz": 318.9222,
+            "ccs": 178.72
+        },
+        {
+            "name": "bis(1,3-dichloro-2-propyl) phosphate",
+            "adduct": "[M-H]-",
+            "smi": "C(C(CCl)OP(=O)(O)OC(CCl)CCl)Cl",
+            "mz": 316.9076,
+            "ccs": 157.71
+        },
+        {
+            "name": "bis(1,3-dichloro-2-propyl) phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "C(C(CCl)OP(=O)(O)OC(CCl)CCl)Cl",
+            "mz": 634.8225,
+            "ccs": 220.13
+        },
+        {
+            "name": "bis(1-chloro-2-propyl) 1-hydroxy-2-propyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(CO)OP(=O)(OC(C)CCl)OC(C)CCl",
+            "mz": 309.042,
+            "ccs": 160.61
+        },
+        {
+            "name": "bis(1-chloro-2-propyl) 1-hydroxy-2-propyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(CO)OP(=O)(OC(C)CCl)OC(C)CCl",
+            "mz": 331.0239,
+            "ccs": 168.89
+        },
+        {
+            "name": "bis(2-butoxyethyl) 2-hydroxyethyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOCCOP(=O)(OCCO)OCCOCCCC",
+            "mz": 343.188,
+            "ccs": 179.27
+        },
+        {
+            "name": "bis(2-butoxyethyl) 2-hydroxyethyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOCCOP(=O)(OCCO)OCCOCCCC",
+            "mz": 365.17,
+            "ccs": 182.29
+        },
+        {
+            "name": "bis(2-butoxyethyl) 2-hydroxyethyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCOCCOP(=O)(OCCO)OCCOCCCC",
+            "mz": 707.3507,
+            "ccs": 259.02
+        },
+        {
+            "name": "Bis(2-butoxyethyl) 3?-hydroxy-2-butoxyethyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOCCOP(=O)(OCCOCCCC)OCCOCCC(C)O",
+            "mz": 415.2456,
+            "ccs": 195.45
+        },
+        {
+            "name": "Bis(2-butoxyethyl) 3?-hydroxy-2-butoxyethyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOCCOP(=O)(OCCOCCCC)OCCOCCC(C)O",
+            "mz": 437.2275,
+            "ccs": 200.38
+        },
+        {
+            "name": "Bis(2-butoxyethyl) 3?-hydroxy-2-butoxyethyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCOCCOP(=O)(OCCOCCCC)OCCOCCC(C)O",
+            "mz": 851.4658,
+            "ccs": 286.24
+        },
+        {
+            "name": "Bis(2-butoxyethyl) hydrogen phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOCCOP(=O)(O)OCCOCCCC",
+            "mz": 299.1618,
+            "ccs": 171.77
+        },
+        {
+            "name": "Bis(2-butoxyethyl) hydrogen phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOCCOP(=O)(O)OCCOCCCC",
+            "mz": 321.1437,
+            "ccs": 175.66
+        },
+        {
+            "name": "Bis(2-butoxyethyl) hydrogen phosphate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCOCCOP(=O)(O)OCCOCCCC",
+            "mz": 297.1472,
+            "ccs": 175.92
+        },
+        {
+            "name": "Bis(2-chloroethyl) phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C(CCl)OP(=O)(O)OCCCl",
+            "mz": 222.9688,
+            "ccs": 138.08
+        },
+        {
+            "name": "Bis(2-chloroethyl) phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C(CCl)OP(=O)(O)OCCCl",
+            "mz": 244.9508,
+            "ccs": 149.04
+        },
+        {
+            "name": "Bis(2-chloroethyl) phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "C(CCl)OP(=O)(O)OCCCl",
+            "mz": 442.9158,
+            "ccs": 189.12
+        },
+        {
+            "name": "bis(2-chloropropyl) hydrogen phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(COP(=O)(O)OCC(C)Cl)Cl",
+            "mz": 272.9821,
+            "ccs": 156.45
+        },
+        {
+            "name": "bis(2-chloropropyl) hydrogen phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "CC(COP(=O)(O)OCC(C)Cl)Cl",
+            "mz": 498.9784,
+            "ccs": 203.44
+        },
+        {
+            "name": "Bis(3,5,5-trimethylhexyl)phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(CCOP(=O)(O)OCCC(C)CC(C)(C)C)CC(C)(C)C",
+            "mz": 351.2659,
+            "ccs": 202.09
+        },
+        {
+            "name": "Bis(3,5,5-trimethylhexyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(CCOP(=O)(O)OCCC(C)CC(C)(C)C)CC(C)(C)C",
+            "mz": 373.2478,
+            "ccs": 210.41
+        },
+        {
+            "name": "Bisphenol A",
+            "adduct": "[M-H]-",
+            "smi": "CC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O",
+            "mz": 227.1078,
+            "ccs": 163.5
+        },
+        {
+            "name": "Bisphenol A bis(diphenyl phosphate)",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)(C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3)C4=CC=C(C=C4)OP(=O)(OC5=CC=CC=C5)OC6=CC=CC=C6",
+            "mz": 693.1802,
+            "ccs": 246.33
+        },
+        {
+            "name": "Bisphenol A bis(diphenyl phosphate)",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)(C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3)C4=CC=C(C=C4)OP(=O)(OC5=CC=CC=C5)OC6=CC=CC=C6",
+            "mz": 715.1621,
+            "ccs": 256.61
+        },
+        {
+            "name": "Bisphenol AF",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=CC=C1C(C2=CC=C(C=C2)O)(C(F)(F)F)C(F)(F)F)O",
+            "mz": 335.0512,
+            "ccs": 166.06
+        },
+        {
+            "name": "Bisphenol AF",
+            "adduct": "[2M-H]-",
+            "smi": "C1=CC(=CC=C1C(C2=CC=C(C=C2)O)(C(F)(F)F)C(F)(F)F)O",
+            "mz": 671.1097,
+            "ccs": 230.13
+        },
+        {
+            "name": "Bisphenol AP",
+            "adduct": "[M-H]-",
+            "smi": "CC(C1=CC=CC=C1)(C2=CC=C(C=C2)O)C3=CC=C(C=C3)O",
+            "mz": 289.1234,
+            "ccs": 179.95
+        },
+        {
+            "name": "Bisphenol B",
+            "adduct": "[M-H]-",
+            "smi": "CCC(C)(C1=CC=C(C=C1)O)C2=CC=C(C=C2)O",
+            "mz": 241.1234,
+            "ccs": 167.17
+        },
+        {
+            "name": "Bisphenol C",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=CC=C1C(=C(Cl)Cl)C2=CC=C(C=C2)O)O",
+            "mz": 278.9985,
+            "ccs": 165.3
+        },
+        {
+            "name": "Bisphenol F",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=CC=C1CC2=CC=C(C=C2)O)O",
+            "mz": 199.0764,
+            "ccs": 155.05
+        },
+        {
+            "name": "Bisphenol P",
+            "adduct": "[M-H]-",
+            "smi": "CC(C)(C1=CC=C(C=C1)C(C)(C)C2=CC=C(C=C2)O)C3=CC=C(C=C3)O",
+            "mz": 345.186,
+            "ccs": 180.64
+        },
+        {
+            "name": "Bisphenol S",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=CC=C1O)S(=O)(=O)C2=CC=C(C=C2)O",
+            "mz": 249.0227,
+            "ccs": 155.49
+        },
+        {
+            "name": "Bisphenol S",
+            "adduct": "[2M-H]-",
+            "smi": "C1=CC(=CC=C1O)S(=O)(=O)C2=CC=C(C=C2)O",
+            "mz": 499.0527,
+            "ccs": 202.35
+        },
+        {
+            "name": "Bisphenol Z",
+            "adduct": "[M-H]-",
+            "smi": "C1CCC(CC1)(C2=CC=C(C=C2)O)C3=CC=C(C=C3)O",
+            "mz": 267.139,
+            "ccs": 174.21
+        },
+        {
+            "name": "Butyryl trihexyl citrate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCCCOC(=O)CC(CC(=O)OCCCCCC)(C(=O)OCCCCCC)OC(=O)CCC",
+            "mz": 515.3578,
+            "ccs": 240.45
+        },
+        {
+            "name": "Butyryl trihexyl citrate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCCCOC(=O)CC(CC(=O)OCCCCCC)(C(=O)OCCCCCC)OC(=O)CCC",
+            "mz": 537.3398,
+            "ccs": 245.25
+        },
+        {
+            "name": "Butyryl trihexyl citrate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCCCOC(=O)CC(CC(=O)OCCCCCC)(C(=O)OCCCCCC)OC(=O)CCC",
+            "mz": 1051.6904,
+            "ccs": 348.02
+        },
+        {
+            "name": "Cyclohexane-1,2-dicarboxylic mono carboxyisooctyl ester",
+            "adduct": "[M+Na]+",
+            "smi": "CC(CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O)CCCC(=O)O",
+            "mz": 351.1778,
+            "ccs": 179.93
+        },
+        {
+            "name": "Cyclohexane-1,2-dicarboxylic mono carboxyisooctyl ester",
+            "adduct": "[M-H]-",
+            "smi": "CC(CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O)CCCC(=O)O",
+            "mz": 327.1813,
+            "ccs": 176.73
+        },
+        {
+            "name": "Cyclohexane-1,2-dicarboxylic mono hydroxyisononyl ester",
+            "adduct": "[M+Na]+",
+            "smi": "CC(O)CCC(C)CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O",
+            "mz": 337.1985,
+            "ccs": 178.57
+        },
+        {
+            "name": "Cyclohexane-1,2-dicarboxylic mono hydroxyisononyl ester",
+            "adduct": "[M-H]-",
+            "smi": "CC(O)CCC(C)CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O",
+            "mz": 313.202,
+            "ccs": 175.32
+        },
+        {
+            "name": "Di(2-ethylhexyl) adipate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC",
+            "mz": 371.3156,
+            "ccs": 209.38
+        },
+        {
+            "name": "Di(2-ethylhexyl) adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC",
+            "mz": 393.2975,
+            "ccs": 218.46
+        },
+        {
+            "name": "Di(2-ethylhexyl) adipate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)CCCCC(=O)OCC(CC)CCCC",
+            "mz": 763.6058,
+            "ccs": 294.67
+        },
+        {
+            "name": "Di(2-ethylhexyl) phthalate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCC(CC)COC(C1=CC=CC=C1C(=O)OCC(CC)CCCC)=O",
+            "mz": 391.2843,
+            "ccs": 211.0
+        },
+        {
+            "name": "Di(2-ethylhexyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(C1=CC=CC=C1C(=O)OCC(CC)CCCC)=O",
+            "mz": 413.2662,
+            "ccs": 215.33
+        },
+        {
+            "name": "Di(2-ethylhexyl) phthalate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCC(CC)COC(C1=CC=CC=C1C(=O)OCC(CC)CCCC)=O",
+            "mz": 803.5432,
+            "ccs": 299.81
+        },
+        {
+            "name": "Di(2-ethylhexyl) terephthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)C1=CC=C(C=C1)C(=O)OCC(CC)CCCC",
+            "mz": 413.26623,
+            "ccs": 215.81
+        },
+        {
+            "name": "Diazinon",
+            "adduct": "[M+H]+",
+            "smi": "CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C",
+            "mz": 305.10833,
+            "ccs": 173.15
+        },
+        {
+            "name": "Diazinon",
+            "adduct": "[M+Na]+",
+            "smi": "CCOP(=S)(OCC)OC1=NC(=NC(=C1)C)C(C)C",
+            "mz": 327.09027,
+            "ccs": 177.72
+        },
+        {
+            "name": "Dibutyl sebacate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOC(=O)CCCCCCCCC(=O)OCCCC",
+            "mz": 315.25299,
+            "ccs": 183.89
+        },
+        {
+            "name": "Dibutyl sebacate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOC(=O)CCCCCCCCC(=O)OCCCC",
+            "mz": 337.23493,
+            "ccs": 193.48
+        },
+        {
+            "name": "Diisobutyl adipate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)COC(=O)CCCCC(=O)OCC(C)C",
+            "mz": 259.1904,
+            "ccs": 167.82
+        },
+        {
+            "name": "Diisobutyl adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)COC(=O)CCCCC(=O)OCC(C)C",
+            "mz": 281.1723,
+            "ccs": 180.16
+        },
+        {
+            "name": "Diisobutyl adipate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)COC(=O)CCCCC(=O)OCC(C)C",
+            "mz": 539.3554,
+            "ccs": 235.89
+        },
+        {
+            "name": "Diisodecyl phthalate ",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)CCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC(C)C",
+            "mz": 447.3469,
+            "ccs": 227.85
+        },
+        {
+            "name": "Diisodecyl phthalate ",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)CCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC(C)C",
+            "mz": 469.3288,
+            "ccs": 226.42
+        },
+        {
+            "name": "Diisodecyl phthalate ",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)CCCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCCC(C)C",
+            "mz": 915.6684,
+            "ccs": 325.43
+        },
+        {
+            "name": "Diisononyl hexahydrophthalate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1CCCCC1C(=O)OCCCCCCC(C)C",
+            "mz": 425.3625,
+            "ccs": 224.82
+        },
+        {
+            "name": "Diisononyl hexahydrophthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1CCCCC1C(=O)OCCCCCCC(C)C",
+            "mz": 447.3445,
+            "ccs": 222.03
+        },
+        {
+            "name": "Diisononyl hexahydrophthalate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1CCCCC1C(=O)OCCCCCCC(C)C",
+            "mz": 871.6997,
+            "ccs": 316.74
+        },
+        {
+            "name": "Diisononyl phthalate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+            "mz": 419.3156,
+            "ccs": 220.6
+        },
+        {
+            "name": "Diisononyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+            "mz": 441.2975,
+            "ccs": 220.94
+        },
+        {
+            "name": "Diisononyl phthalate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)CCCCCCOC(=O)C1=CC=CC=C1C(=O)OCCCCCCC(C)C",
+            "mz": 859.6058,
+            "ccs": 313.44
+        },
+        {
+            "name": "Dimethyl azelate",
+            "adduct": "[M+Na]+",
+            "smi": "COC(=O)CCCCCCCC(=O)OC",
+            "mz": 239.1254,
+            "ccs": 155.54
+        },
+        {
+            "name": "Dimethylsebacate",
+            "adduct": "[M+Na]+",
+            "smi": "COC(=O)CCCCCCCCC(=O)OC",
+            "mz": 253.14103,
+            "ccs": 159.71
+        },
+        {
+            "name": "Di-n-butyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOP(=O)(O)OCCCC",
+            "mz": 233.0913,
+            "ccs": 167.54
+        },
+        {
+            "name": "Di-n-butyl phosphate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCOP(=O)(O)OCCCC",
+            "mz": 209.0948,
+            "ccs": 150.89
+        },
+        {
+            "name": "Di-O-cresylphosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(O)OC2=CC=CC=C2C",
+            "mz": 279.0781,
+            "ccs": 163.59
+        },
+        {
+            "name": "Di-O-cresylphosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(O)OC2=CC=CC=C2C",
+            "mz": 301.06,
+            "ccs": 169.4
+        },
+        {
+            "name": "Di-O-cresylphosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(O)OC2=CC=CC=C2C",
+            "mz": 557.1489,
+            "ccs": 218.36
+        },
+        {
+            "name": "Di-O-cresylphosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(O)OC2=CC=CC=C2C",
+            "mz": 579.1308,
+            "ccs": 225.36
+        },
+        {
+            "name": "Diphenyl hydrogen phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=CC=C2",
+            "mz": 251.0468,
+            "ccs": 157.41
+        },
+        {
+            "name": "Diphenyl hydrogen phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=CC=C2",
+            "mz": 273.0287,
+            "ccs": 164.38
+        },
+        {
+            "name": "Diphenyl hydrogen phosphate",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(O)OC2=CC=CC=C2",
+            "mz": 249.0322,
+            "ccs": 152.82
+        },
+        {
+            "name": "Diphenyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "O=C(OC1=CC=CC=C1)C1=CC=CC=C1C(=O)OC1=CC=CC=C1",
+            "mz": 341.0784,
+            "ccs": 181.27
+        },
+        {
+            "name": "Diphenyl phthalate",
+            "adduct": "[2M+Na]+",
+            "smi": "O=C(OC1=CC=CC=C1)C1=CC=CC=C1C(=O)OC1=CC=CC=C1",
+            "mz": 659.1676,
+            "ccs": 238.24
+        },
+        {
+            "name": "Diphenylcresyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 341.0937,
+            "ccs": 180.48
+        },
+        {
+            "name": "Diphenylcresyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 363.0757,
+            "ccs": 190.53
+        },
+        {
+            "name": "Diphenylcresyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 681.1802,
+            "ccs": 250.72
+        },
+        {
+            "name": "Diphenylcresyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 703.1621,
+            "ccs": 257.29
+        },
+        {
+            "name": "Dipropyleneglycol dibenzoate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(COC(C)COC(=O)C1=CC=CC=C1)OC(=O)C2=CC=CC=C2",
+            "mz": 365.13594,
+            "ccs": 186.32
+        },
+        {
+            "name": "Hexafluoropropylene oxide dimer acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(F)(F)F)(OC(C(C(F)(F)F)(F)F)(F)F)F)O",
+            "mz": 658.94273,
+            "ccs": 198.61
+        },
+        {
+            "name": "Hexafluoropropylene oxide dimer acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(F)(F)F)(OC(C(C(F)(F)F)(F)F)(F)F)F)O",
+            "mz": 284.9779,
+            "ccs": 126.89
+        },
+        {
+            "name": "Isodecyl diphenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)CCCCCCCOP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 391.2033,
+            "ccs": 200.2
+        },
+        {
+            "name": "Isodecyl diphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)CCCCCCCOP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 413.1852,
+            "ccs": 207.3
+        },
+        {
+            "name": "Isodecyl diphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)CCCCCCCOP(=O)(OC1=CC=CC=C1)OC2=CC=CC=C2",
+            "mz": 803.3812,
+            "ccs": 290.51
+        },
+        {
+            "name": "Isooctyl-2-phenoxyethyl terephthalate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)CCCCCOC(=O)C1=CC=C(C=C1)C(=O)OCCOC2=CC=CC=C2",
+            "mz": 399.2166,
+            "ccs": 218.61
+        },
+        {
+            "name": "Isooctyl-2-phenoxyethyl terephthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)CCCCCOC(=O)C1=CC=C(C=C1)C(=O)OCCOC2=CC=CC=C2",
+            "mz": 421.1985,
+            "ccs": 227.37
+        },
+        {
+            "name": "Mono(2-ethyl-5-carboxypentyl) adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCCC(=O)O)COC(=O)CCCCC(=O)O",
+            "mz": 311.1465,
+            "ccs": 170.01
+        },
+        {
+            "name": "Mono(2-ethyl-5-carboxypentyl) adipate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCCC(=O)O)COC(=O)CCCCC(=O)O",
+            "mz": 287.15,
+            "ccs": 167.03
+        },
+        {
+            "name": "Mono-(2-ethyl-5-carboxypentyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCCC(=O)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 331.1152,
+            "ccs": 174.45
+        },
+        {
+            "name": "Mono-(2-ethyl-5-carboxypentyl) phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCCC(=O)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 307.1187,
+            "ccs": 169.87
+        },
+        {
+            "name": "Mono(2-ethyl-5-carboxypentyl) terephthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCCC(=O)O)COC(=O)C1=CC=C(C=C1)C(=O)O",
+            "mz": 307.1187,
+            "ccs": 168.42
+        },
+        {
+            "name": "Mono(2-ethyl-5-hydroxyhexyl) adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCC(C)O)COC(=O)CCCCC(=O)O",
+            "mz": 297.1672,
+            "ccs": 168.7
+        },
+        {
+            "name": "Mono(2-ethyl-5-hydroxyhexyl) adipate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(C)O)COC(=O)CCCCC(=O)O",
+            "mz": 273.1708,
+            "ccs": 165.79
+        },
+        {
+            "name": "Mono(2-ethyl-5-hydroxyhexyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCC(C)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 317.1359,
+            "ccs": 172.92
+        },
+        {
+            "name": "Mono(2-ethyl-5-hydroxyhexyl) phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(C)O)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 293.1394,
+            "ccs": 168.99
+        },
+        {
+            "name": "Mono(2-ethyl-5-hydroxyhexyl) terephthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(C)O)COC(=O)c1ccc(C(=O)O)cc1",
+            "mz": 293.1394,
+            "ccs": 185.08
+        },
+        {
+            "name": "Mono(2-ethyl-5-oxohexyl) adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCC(=O)C)COC(=O)CCCCC(=O)O",
+            "mz": 295.1516,
+            "ccs": 165.91
+        },
+        {
+            "name": "Mono(2-ethyl-5-oxohexyl) adipate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(=O)C)COC(=O)CCCCC(=O)O",
+            "mz": 271.1551,
+            "ccs": 165.29
+        },
+        {
+            "name": "Mono(2-ethyl-5-oxohexyl)phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(=O)C)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 291.1238,
+            "ccs": 168.35
+        },
+        {
+            "name": "Mono(2-ethyl-5-oxohexyl)phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCC(=O)C)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 315.1203,
+            "ccs": 170.18
+        },
+        {
+            "name": "Mono(2-ethylhexyl) adipate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)CCCCC(=O)O",
+            "mz": 281.1723,
+            "ccs": 177.32
+        },
+        {
+            "name": "Mono(2-ethylhexyl) adipate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(CC)COC(=O)CCCCC(=O)O",
+            "mz": 257.1758,
+            "ccs": 166.76
+        },
+        {
+            "name": "Mono(2-ethylhexyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 301.141,
+            "ccs": 182.27
+        },
+        {
+            "name": "Mono(2-ethylhexyl) phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(CC)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 277.1445,
+            "ccs": 168.91
+        },
+        {
+            "name": "Mono(2-ethylhexyl) terephthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(CC)COC(=O)C1=CC=C(C=C1)C(=O)O",
+            "mz": 277.1445,
+            "ccs": 183.54
+        },
+        {
+            "name": "Mono(2-ethyl-oxo-hexyl) trimelliate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCC(C)=O)COC(=O)c1cc(C(=O)O)ccc1C(=O)O",
+            "mz": 335.1136,
+            "ccs": 178.84
+        },
+        {
+            "name": "Mono(2-propyl-6-carboxyhexyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCC(CCCCC(=O)O)COC(=O)c1ccccc1C(=O)O",
+            "mz": 359.1465,
+            "ccs": 183.65
+        },
+        {
+            "name": "Mono(2-propyl-6-carboxyhexyl) phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCC(CCCCC(=O)O)COC(=O)c1ccccc1C(=O)O",
+            "mz": 335.15,
+            "ccs": 179.64
+        },
+        {
+            "name": "Mono-(3-carboxypropyl) phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C(=C1)C(=O)O)C(=O)OCCCC(=O)O",
+            "mz": 275.0526,
+            "ccs": 156.95
+        },
+        {
+            "name": "Mono-1-(2-ethyl-5-carboxyhexyl)trimellitate",
+            "adduct": "[M+Na]+",
+            "smi": "CCC(CCCC(=O)O)COC(=O)c1cc(C(=O)O)ccc1C(=O)O",
+            "mz": 375.105,
+            "ccs": 187.56
+        },
+        {
+            "name": "Mono-1-(2-ethyl-5-carboxyhexyl)trimellitate",
+            "adduct": "[M-H]-",
+            "smi": "CCC(CCCC(=O)O)COC(=O)c1cc(C(=O)O)ccc1C(=O)O",
+            "mz": 351.1085,
+            "ccs": 180.56
+        },
+        {
+            "name": "Mono-1-[2(carboxymethyl)hexyl] trimellitate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(COC(=O)c1cc(C(=O)O)ccc1C(=O)O)CC(=O)O",
+            "mz": 375.105,
+            "ccs": 189.84
+        },
+        {
+            "name": "Mono-1-[2(carboxymethyl)hexyl] trimellitate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(COC(=O)c1cc(C(=O)O)ccc1C(=O)O)CC(=O)O",
+            "mz": 351.1085,
+            "ccs": 182.23
+        },
+        {
+            "name": "Mono-2-(propyl-6-oxoheptyl)-phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCC(CCCC(C)=O)COC(=O)c1ccccc1C(=O)O",
+            "mz": 343.1516,
+            "ccs": 180.2
+        },
+        {
+            "name": "Mono-2-(propyl-6-oxoheptyl)-phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCC(CCCC(C)=O)COC(=O)c1ccccc1C(=O)O",
+            "mz": 319.1551,
+            "ccs": 177.7
+        },
+        {
+            "name": "Mono-carboxy-isononyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(CCCCCCCC(=O)O)OC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 359.1465,
+            "ccs": 182.64
+        },
+        {
+            "name": "Mono-carboxy-isononyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CC(CCCCCCCC(=O)O)OC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 335.15,
+            "ccs": 177.47
+        },
+        {
+            "name": "Monocyclohexyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "C1CCC(CC1)OC(=O)C2=CC=CC=C2C(=O)O",
+            "mz": 247.0976,
+            "ccs": 159.72
+        },
+        {
+            "name": "Mono-ethyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCOC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 193.0506,
+            "ccs": 141.67
+        },
+        {
+            "name": "Mono-hydroxy-isononyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(O)CCC(C)CCCOC(=O)C1=CC=CC=C1C(O)=O",
+            "mz": 331.1516,
+            "ccs": 176.6
+        },
+        {
+            "name": "Mono-hydroxy-isononyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CC(O)CCC(C)CCCOC(=O)C1=CC=CC=C1C(O)=O",
+            "mz": 307.1551,
+            "ccs": 172.5
+        },
+        {
+            "name": "Mono-iso-butyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 245.0784,
+            "ccs": 163.43
+        },
+        {
+            "name": "Mono-iso-butyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CC(C)COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 221.0819,
+            "ccs": 151.83
+        },
+        {
+            "name": "Mono-isononyl-cyclohexane-1,2-dicarboxylate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(C)CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O",
+            "mz": 321.2036,
+            "ccs": 185.87
+        },
+        {
+            "name": "Mono-isononyl-cyclohexane-1,2-dicarboxylate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCC(C)CCCOC(=O)[C@@H]1CCCC[C@@H]1C(=O)O",
+            "mz": 297.2071,
+            "ccs": 175.48
+        },
+        {
+            "name": "Mono-methyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 203.0315,
+            "ccs": 146.13
+        },
+        {
+            "name": "Mono-methyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "COC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 179.035,
+            "ccs": 137.01
+        },
+        {
+            "name": "Mono-n-butyl phthalate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 245.0784,
+            "ccs": 163.94
+        },
+        {
+            "name": "Mono-n-butyl phthalate",
+            "adduct": "[M-H]-",
+            "smi": "CCCCOC(=O)C1=CC=CC=C1C(=O)O",
+            "mz": 221.0819,
+            "ccs": 151.11
+        },
+        {
+            "name": "N-ethylperfluorooctane sulfonamido acetic acid",
+            "adduct": "[M-H]-",
+            "smi": "CCN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 583.983,
+            "ccs": 196.81
+        },
+        {
+            "name": "N-ethylperfluorooctane sulfonamido acetic acid",
+            "adduct": "[2M-H]-",
+            "smi": "CCN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 1168.9732,
+            "ccs": 283.56
+        },
+        {
+            "name": "N-ethylperfluorooctanesulfonamide",
+            "adduct": "[M-H]-",
+            "smi": "CCNS(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 525.9775,
+            "ccs": 178.42
+        },
+        {
+            "name": "N-Methylperfluorooctane sulfonamide",
+            "adduct": "[M-H]-",
+            "smi": "CNS(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 511.9619,
+            "ccs": 173.97
+        },
+        {
+            "name": "N-methylperfluorooctane sulfonamido acetic acid",
+            "adduct": "[M-H]-",
+            "smi": "CN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 569.9673,
+            "ccs": 193.17
+        },
+        {
+            "name": "N-methylperfluorooctane sulfonamido acetic acid",
+            "adduct": "[2M-H]-",
+            "smi": "CN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 1140.9419,
+            "ccs": 275.84
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 341.0584,
+            "ccs": 181.9
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[2M-H]-",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 683.1241,
+            "ccs": 251.3
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 343.073,
+            "ccs": 178.12
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 365.0549,
+            "ccs": 188.5
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 685.1387,
+            "ccs": 248.96
+        },
+        {
+            "name": "Para-hydroxy triphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=C(C=C3)O",
+            "mz": 707.1206,
+            "ccs": 254.81
+        },
+        {
+            "name": "perfluorobutanesulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(F)(F)S(=O)(=O)O)(F)F)(C(F)(F)F)(F)F",
+            "mz": 298.943,
+            "ccs": 133.28
+        },
+        {
+            "name": "perfluorobutanesulfonic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(C(C(F)(F)S(=O)(=O)O)(F)F)(C(F)(F)F)(F)F",
+            "mz": 598.8933,
+            "ccs": 196.88
+        },
+        {
+            "name": "perfluorodecane sulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 598.9238,
+            "ccs": 186.91
+        },
+        {
+            "name": "Perfluorodecylphosponic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(C(C(F)(F)P(=O)(O)O)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 598.9333,
+            "ccs": 188.25
+        },
+        {
+            "name": "perfluorohexanesulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(C(C(F)(F)F)(F)F)(F)F",
+            "mz": 398.9366,
+            "ccs": 150.81
+        },
+        {
+            "name": "perfluorohexanesulfonic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(C(C(F)(F)F)(F)F)(F)F",
+            "mz": 798.8805,
+            "ccs": 228.66
+        },
+        {
+            "name": "Perfluoro-n-butanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(F)(F)F)(F)F)(F)F)O",
+            "mz": 168.9894,
+            "ccs": 109.53
+        },
+        {
+            "name": "Perfluoro-n-decanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 512.96,
+            "ccs": 174.29
+        },
+        {
+            "name": "Perfluoro-n-decanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1026.9273,
+            "ccs": 254.24
+        },
+        {
+            "name": "Perfluoro-n-decanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 468.9702,
+            "ccs": 155.63
+        },
+        {
+            "name": "Perfluoro-n-dodecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 612.9536,
+            "ccs": 192.16
+        },
+        {
+            "name": "Perfluoro-n-dodecanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1226.9145,
+            "ccs": 278.8
+        },
+        {
+            "name": "Perfluoro-n-dodecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 568.9638,
+            "ccs": 172.25
+        },
+        {
+            "name": "Perfluoro-n-heptanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 362.9696,
+            "ccs": 147.61
+        },
+        {
+            "name": "Perfluoro-n-heptanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 726.9465,
+            "ccs": 211.59
+        },
+        {
+            "name": "Perfluoro-n-heptanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 318.9798,
+            "ccs": 132.3
+        },
+        {
+            "name": "Perfluoro-n-hexadecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 812.9409,
+            "ccs": 227.34
+        },
+        {
+            "name": "Perfluoro-n-hexadecanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1626.8891,
+            "ccs": 325.43
+        },
+        {
+            "name": "Perfluoro-n-hexadecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 768.9511,
+            "ccs": 204.5
+        },
+        {
+            "name": "Perfluoro-n-hexanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 626.9529,
+            "ccs": 195.94
+        },
+        {
+            "name": "Perfluoro-n-hexanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 268.983,
+            "ccs": 124.47
+        },
+        {
+            "name": "Perfluoro-n-nonanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 462.9632,
+            "ccs": 165.06
+        },
+        {
+            "name": "Perfluoro-n-nonanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 926.9337,
+            "ccs": 240.71
+        },
+        {
+            "name": "Perfluoro-n-nonanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 418.9734,
+            "ccs": 147.05
+        },
+        {
+            "name": "Perfluoro-n-octadecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 912.9345,
+            "ccs": 243.53
+        },
+        {
+            "name": "Perfluoro-n-octadecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 868.9447,
+            "ccs": 220.15
+        },
+        {
+            "name": "Perfluoro-n-octanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 412.9664,
+            "ccs": 156.37
+        },
+        {
+            "name": "Perfluoro-n-octanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 826.9401,
+            "ccs": 226.58
+        },
+        {
+            "name": "Perfluoro-n-octanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 368.9766,
+            "ccs": 139.44
+        },
+        {
+            "name": "Perfluoro-n-tetradecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 712.9472,
+            "ccs": 209.91
+        },
+        {
+            "name": "Perfluoro-n-tetradecanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1426.9017,
+            "ccs": 302.02
+        },
+        {
+            "name": "Perfluoro-n-tetradecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 668.95739,
+            "ccs": 188.43
+        },
+        {
+            "name": "Perfluoro-n-tridecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 662.9504,
+            "ccs": 201.05
+        },
+        {
+            "name": "Perfluoro-n-tridecanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1326.9081,
+            "ccs": 290.64
+        },
+        {
+            "name": "Perfluoro-n-tridecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 618.9606,
+            "ccs": 180.3
+        },
+        {
+            "name": "Perfluoro-n-undecanoic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 562.9568,
+            "ccs": 182.86
+        },
+        {
+            "name": "Perfluoro-n-undecanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 1126.9209,
+            "ccs": 266.81
+        },
+        {
+            "name": "Perfluoro-n-undecanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 518.967,
+            "ccs": 163.84
+        },
+        {
+            "name": "Perfluorooctane sulfonamide",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(C(F)(F)S(=O)(=O)N)(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 497.9462,
+            "ccs": 170.13
+        },
+        {
+            "name": "perfluorooctylsulfonic acid",
+            "adduct": "[M-H]-",
+            "smi": "C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 498.9302,
+            "ccs": 168.89
+        },
+        {
+            "name": "perfluorooctylsulfonic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(C(C(C(C(F)(F)S(=O)(=O)O)(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 998.8677,
+            "ccs": 257.72
+        },
+        {
+            "name": "Perfluoropentanoic acid",
+            "adduct": "[2M-H]-",
+            "smi": "C(=O)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 526.9593,
+            "ccs": 179.96
+        },
+        {
+            "name": "Perfluoropentanoic acid",
+            "adduct": "[M-H-CO2]-",
+            "smi": "C(=O)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)O",
+            "mz": 218.9862,
+            "ccs": 116.78
+        },
+        {
+            "name": "p-Nitrophenol",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=CC=C1[N+](=O)[O-])O",
+            "mz": 138.01967,
+            "ccs": 119.78
+        },
+        {
+            "name": "Resorcinol bis(diphenyl phosphate)",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC(=CC=C3)OP(=O)(OC4=CC=CC=C4)OC5=CC=CC=C5",
+            "mz": 575.1019,
+            "ccs": 228.77
+        },
+        {
+            "name": "Resorcinol bis(diphenyl phosphate)",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC(=CC=C3)OP(=O)(OC4=CC=CC=C4)OC5=CC=CC=C5",
+            "mz": 597.0839,
+            "ccs": 231.58
+        },
+        {
+            "name": "Sodium 1H,1H,2H,2H-perfluorooctane sulfonate",
+            "adduct": "[M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 426.9679,
+            "ccs": 168.47
+        },
+        {
+            "name": "Sodium 1H,1H,2H,2H-perfluorooctane sulfonate",
+            "adduct": "[2M-H]-",
+            "smi": "C(CS(=O)(=O)O)C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F",
+            "mz": 854.9431,
+            "ccs": 236.24
+        },
+        {
+            "name": "Triamylphosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCCOP(=O)(OCCCCC)OCCCCC",
+            "mz": 309.2189,
+            "ccs": 183.21
+        },
+        {
+            "name": "Triamylphosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCCOP(=O)(OCCCCC)OCCCCC",
+            "mz": 331.2009,
+            "ccs": 199.96
+        },
+        {
+            "name": "Triamylphosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CCCCCOP(=O)(OCCCCC)OCCCCC",
+            "mz": 617.4306,
+            "ccs": 262.51
+        },
+        {
+            "name": "Triamylphosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCCOP(=O)(OCCCCC)OCCCCC",
+            "mz": 639.4125,
+            "ccs": 275.71
+        },
+        {
+            "name": "Tributyl acetylcitrate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(=O)C",
+            "mz": 403.2326,
+            "ccs": 199.82
+        },
+        {
+            "name": "Tributyl acetylcitrate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(=O)C",
+            "mz": 425.2146,
+            "ccs": 205.77
+        },
+        {
+            "name": "Tributyl acetylcitrate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCOC(=O)CC(CC(=O)OCCCC)(C(=O)OCCCC)OC(=O)C",
+            "mz": 827.44,
+            "ccs": 291.52
+        },
+        {
+            "name": "Triclosan",
+            "adduct": "[M-H]-",
+            "smi": "C1=CC(=C(C=C1Cl)O)OC2=C(C=C(C=C2)Cl)Cl",
+            "mz": 286.94389,
+            "ccs": 158.94
+        },
+        {
+            "name": "Triethylphosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCOP(=O)(OCC)OCC",
+            "mz": 183.0781,
+            "ccs": 132.63
+        },
+        {
+            "name": "Triethylphosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCOP(=O)(OCC)OCC",
+            "mz": 205.06,
+            "ccs": 150.93
+        },
+        {
+            "name": "Triethylphosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCOP(=O)(OCC)OCC",
+            "mz": 387.1308,
+            "ccs": 192.65
+        },
+        {
+            "name": "Triisobutyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)COP(=O)(OCC(C)C)OCC(C)C",
+            "mz": 267.172,
+            "ccs": 165.44
+        },
+        {
+            "name": "Triisobutyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)COP(=O)(OCC(C)C)OCC(C)C",
+            "mz": 289.1539,
+            "ccs": 183.19
+        },
+        {
+            "name": "Triisobutyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CC(C)COP(=O)(OCC(C)C)OCC(C)C",
+            "mz": 533.3367,
+            "ccs": 234.54
+        },
+        {
+            "name": "Triisobutyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC(C)COP(=O)(OCC(C)C)OCC(C)C",
+            "mz": 555.3186,
+            "ccs": 248.38
+        },
+        {
+            "name": "tri-m-tolyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC(=CC=C1)OP(=O)(OC2=CC=CC(=C2)C)OC3=CC=CC(=C3)C",
+            "mz": 369.125,
+            "ccs": 188.56
+        },
+        {
+            "name": "tri-m-tolyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC1=CC(=CC=C1)OP(=O)(OC2=CC=CC(=C2)C)OC3=CC=CC(=C3)C",
+            "mz": 391.107,
+            "ccs": 198.56
+        },
+        {
+            "name": "tri-m-tolyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC1=CC(=CC=C1)OP(=O)(OC2=CC=CC(=C2)C)OC3=CC=CC(=C3)C",
+            "mz": 759.2247,
+            "ccs": 272.51
+        },
+        {
+            "name": "Tri-n-butyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOP(=O)(OCCCC)OCCCC",
+            "mz": 267.172,
+            "ccs": 166.73
+        },
+        {
+            "name": "Tri-n-butyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOP(=O)(OCCCC)OCCCC",
+            "mz": 289.1539,
+            "ccs": 184.54
+        },
+        {
+            "name": "Tri-n-butyl phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CCCCOP(=O)(OCCCC)OCCCC",
+            "mz": 533.3367,
+            "ccs": 236.49
+        },
+        {
+            "name": "Tri-n-butyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCOP(=O)(OCCCC)OCCCC",
+            "mz": 555.3186,
+            "ccs": 250.03
+        },
+        {
+            "name": "TRI-N-HEXYLTRIMELLITATE",
+            "adduct": "[M+H]+",
+            "smi": "CCCCCCOC(=O)C1=CC(=C(C=C1)C(=O)OCCCCCC)C(=O)OCCCCCC",
+            "mz": 463.3054,
+            "ccs": 236.57
+        },
+        {
+            "name": "TRI-N-HEXYLTRIMELLITATE",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCCCOC(=O)C1=CC(=C(C=C1)C(=O)OCCCCCC)C(=O)OCCCCCC",
+            "mz": 485.2874,
+            "ccs": 247.49
+        },
+        {
+            "name": "tri-o-tolyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C)OC3=CC=CC=C3C",
+            "mz": 369.125,
+            "ccs": 182.39
+        },
+        {
+            "name": "tri-o-tolyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C)OC3=CC=CC=C3C",
+            "mz": 391.107,
+            "ccs": 192.43
+        },
+        {
+            "name": "tri-o-tolyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C)OC3=CC=CC=C3C",
+            "mz": 759.2247,
+            "ccs": 263.75
+        },
+        {
+            "name": "triphenyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 327.0781,
+            "ccs": 174.74
+        },
+        {
+            "name": "triphenyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 349.06,
+            "ccs": 184.96
+        },
+        {
+            "name": "triphenyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "C1=CC=C(C=C1)OP(=O)(OC2=CC=CC=C2)OC3=CC=CC=C3",
+            "mz": 675.1308,
+            "ccs": 249.8
+        },
+        {
+            "name": "tri-p-tolyl phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC1=CC=C(C=C1)OP(=O)(OC2=CC=C(C=C2)C)OC3=CC=C(C=C3)C",
+            "mz": 369.125,
+            "ccs": 190.02
+        },
+        {
+            "name": "tri-p-tolyl phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC1=CC=C(C=C1)OP(=O)(OC2=CC=C(C=C2)C)OC3=CC=C(C=C3)C",
+            "mz": 391.107,
+            "ccs": 200.02
+        },
+        {
+            "name": "tri-p-tolyl phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CC1=CC=C(C=C1)OP(=O)(OC2=CC=C(C=C2)C)OC3=CC=C(C=C3)C",
+            "mz": 759.2247,
+            "ccs": 273.74
+        },
+        {
+            "name": "tris(1,3-dichloro-2-propyl)phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C(C(CCl)OP(=O)(OC(CCl)CCl)OC(CCl)CCl)Cl",
+            "mz": 428.8912,
+            "ccs": 178.56
+        },
+        {
+            "name": "tris(1,3-dichloro-2-propyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C(C(CCl)OP(=O)(OC(CCl)CCl)OC(CCl)CCl)Cl",
+            "mz": 450.8731,
+            "ccs": 191.22
+        },
+        {
+            "name": "tris(2,3-dibromopropyl)phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C(C(CBr)Br)OP(=O)(OCC(CBr)Br)OCC(CBr)Br",
+            "mz": 696.584,
+            "ccs": 197.25
+        },
+        {
+            "name": "tris(2,3-dibromopropyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C(C(CBr)Br)OP(=O)(OCC(CBr)Br)OCC(CBr)Br",
+            "mz": 714.57,
+            "ccs": 206.37
+        },
+        {
+            "name": "tris(2,3-dibromopropyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C(C(CBr)Br)OP(=O)(OCC(CBr)Br)OCC(CBr)Br",
+            "mz": 716.568,
+            "ccs": 206.9
+        },
+        {
+            "name": "tris(2-butoxyethyl) phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC",
+            "mz": 399.2506,
+            "ccs": 196.44
+        },
+        {
+            "name": "tris(2-butoxyethyl) phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCOCCOP(=O)(OCCOCCCC)OCCOCCCC",
+            "mz": 421.2326,
+            "ccs": 199.36
+        },
+        {
+            "name": "tris(2-chloroethyl) phosphate",
+            "adduct": "[M+H]+",
+            "smi": "C(CCl)OP(=O)(OCCCl)OCCCl",
+            "mz": 284.9612,
+            "ccs": 151.31
+        },
+        {
+            "name": "tris(2-chloroethyl) phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "C(CCl)OP(=O)(OCCCl)OCCCl",
+            "mz": 306.9431,
+            "ccs": 161.39
+        },
+        {
+            "name": "Tris(2-chloroisopropyl)phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(CCl)OP(=O)(OC(C)CCl)OC(C)CCl",
+            "mz": 327.0081,
+            "ccs": 161.66
+        },
+        {
+            "name": "Tris(2-chloroisopropyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(CCl)OP(=O)(OC(C)CCl)OC(C)CCl",
+            "mz": 348.99,
+            "ccs": 171.33
+        },
+        {
+            "name": "tris(2-ethylhexyl)phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+            "mz": 435.3598,
+            "ccs": 219.15
+        },
+        {
+            "name": "tris(2-ethylhexyl)phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+            "mz": 457.3417,
+            "ccs": 231.8
+        },
+        {
+            "name": "tris(2-ethylhexyl)phosphate",
+            "adduct": "[2M+H]+",
+            "smi": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+            "mz": 869.7123,
+            "ccs": 315.91
+        },
+        {
+            "name": "tris(2-ethylhexyl)phosphate",
+            "adduct": "[2M+Na]+",
+            "smi": "CCCCC(CC)COP(=O)(OCC(CC)CCCC)OCC(CC)CCCC",
+            "mz": 891.6942,
+            "ccs": 327.65
+        },
+        {
+            "name": "Tris(2-ethylhexyl)trimellitate",
+            "adduct": "[M+Na]+",
+            "smi": "CCCCC(CC)COC(=O)C1=CC(=C(C=C1)C(=O)OCC(CC)CCCC)C(=O)OCC(CC)CCCC",
+            "mz": 569.3813,
+            "ccs": 264.41
+        },
+        {
+            "name": "tris(tert-butylphenyl) phosphate",
+            "adduct": "[M+H]+",
+            "smi": "CC(C)(C)C1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C(C)(C)C)OC3=CC=CC=C3C(C)(C)C",
+            "mz": 495.2659,
+            "ccs": 237.14
+        },
+        {
+            "name": "tris(tert-butylphenyl) phosphate",
+            "adduct": "[M+Na]+",
+            "smi": "CC(C)(C)C1=CC=CC=C1OP(=O)(OC2=CC=CC=C2C(C)(C)C)OC3=CC=CC=C3C(C)(C)C",
+            "mz": 517.2478,
+            "ccs": 243.95
+        }
+    ]
+}

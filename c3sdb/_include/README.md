@@ -1,0 +1,1 @@
+This folder is for non-Python files that should be included in the package

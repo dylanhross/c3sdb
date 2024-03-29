@@ -1,0 +1,3108 @@
+{
+    "metadata": {
+        "src_tag": "may_0114",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/ac4038448",
+        "reference": "May, J. C. et al. Conformational Ordering of Biomolecules in the Gas Phase: Nitrogen Collision Cross Sections Measured on a Prototype High Resolution Drift Tube Ion Mobility-Mass Spectrometer. Anal. Chem. 86, 2107–2116 (2014).",
+        "ccs_type": "DT",
+        "ccs_method": "stepped-field"
+    },
+    "data": [
+        {
+            "name": "GlcCer(34:0)",
+            "adduct": "[M+Na]+",
+            "mz": 724.57,
+            "ccs": 281.7
+        },
+        {
+            "name": "GlcCer(34:1)",
+            "adduct": "[M+Na]+",
+            "mz": 722.55,
+            "ccs": 277.3
+        },
+        {
+            "name": "GlcCer(36:1)",
+            "adduct": "[M+Na]+",
+            "mz": 750.59,
+            "ccs": 286.7
+        },
+        {
+            "name": "GlcCer(36:1)",
+            "adduct": "[M+Na]+",
+            "mz": 766.58,
+            "ccs": 291.5
+        },
+        {
+            "name": "GlcCer(36:2)",
+            "adduct": "[M+Na]+",
+            "mz": 748.57,
+            "ccs": 282.6
+        },
+        {
+            "name": "GlcCer(37:1)",
+            "adduct": "[M+Na]+",
+            "mz": 764.6,
+            "ccs": 286.8
+        },
+        {
+            "name": "GlcCer(38:0)",
+            "adduct": "[M+Na]+",
+            "mz": 780.63,
+            "ccs": 295.6
+        },
+        {
+            "name": "GlcCer(38:1)",
+            "adduct": "[M+Na]+",
+            "mz": 778.62,
+            "ccs": 293.8
+        },
+        {
+            "name": "GlcCer(38:1)",
+            "adduct": "[M+Na]+",
+            "mz": 794.61,
+            "ccs": 297.7
+        },
+        {
+            "name": "GlcCer(38:2)",
+            "adduct": "[M+Na]+",
+            "mz": 776.6,
+            "ccs": 291.4
+        },
+        {
+            "name": "GlcCer(38:2)",
+            "adduct": "[M+Na]+",
+            "mz": 792.6,
+            "ccs": 296.6
+        },
+        {
+            "name": "GlcCer(40:0)",
+            "adduct": "[M+Na]+",
+            "mz": 808.66,
+            "ccs": 302.3
+        },
+        {
+            "name": "GlcCer(40:0)",
+            "adduct": "[M+Na]+",
+            "mz": 824.66,
+            "ccs": 306.1
+        },
+        {
+            "name": "GlcCer(40:1)",
+            "adduct": "[M+Na]+",
+            "mz": 806.65,
+            "ccs": 301.1
+        },
+        {
+            "name": "GlcCer(40:1)",
+            "adduct": "[M+Na]+",
+            "mz": 822.64,
+            "ccs": 303.4
+        },
+        {
+            "name": "GlcCer(40:2)",
+            "adduct": "[M+Na]+",
+            "mz": 804.63,
+            "ccs": 297.1
+        },
+        {
+            "name": "GlcCer(40:3)",
+            "adduct": "[M+Na]+",
+            "mz": 802.62,
+            "ccs": 295.8
+        },
+        {
+            "name": "GlcCer(41:1)",
+            "adduct": "[M+Na]+",
+            "mz": 820.66,
+            "ccs": 302.5
+        },
+        {
+            "name": "GlcCer(41:2)",
+            "adduct": "[M+Na]+",
+            "mz": 818.65,
+            "ccs": 299.6
+        },
+        {
+            "name": "GlcCer(42:0)",
+            "adduct": "[M+Na]+",
+            "mz": 836.7,
+            "ccs": 308.2
+        },
+        {
+            "name": "GlcCer(42:1)",
+            "adduct": "[M+Na]+",
+            "mz": 834.68,
+            "ccs": 307.5
+        },
+        {
+            "name": "GlcCer(42:1)",
+            "adduct": "[M+Na]+",
+            "mz": 850.67,
+            "ccs": 312.7
+        },
+        {
+            "name": "GlcCer(42:2)",
+            "adduct": "[M+Na]+",
+            "mz": 832.66,
+            "ccs": 305.2
+        },
+        {
+            "name": "GlcCer(42:2)",
+            "adduct": "[M+Na]+",
+            "mz": 848.66,
+            "ccs": 309.0
+        },
+        {
+            "name": "GlcCer(42:3)",
+            "adduct": "[M+Na]+",
+            "mz": 830.65,
+            "ccs": 302.3
+        },
+        {
+            "name": "GlcCer(43:1)",
+            "adduct": "[M+Na]+",
+            "mz": 864.69,
+            "ccs": 313.7
+        },
+        {
+            "name": "GlcCer(43:2)",
+            "adduct": "[M+Na]+",
+            "mz": 846.68,
+            "ccs": 307.8
+        },
+        {
+            "name": "GlcCer(43:2)",
+            "adduct": "[M+Na]+",
+            "mz": 862.67,
+            "ccs": 314.6
+        },
+        {
+            "name": "GlcCer(43:3)",
+            "adduct": "[M+Na]+",
+            "mz": 844.66,
+            "ccs": 306.1
+        },
+        {
+            "name": "GlcCer(44:1)",
+            "adduct": "[M+Na]+",
+            "mz": 878.71,
+            "ccs": 319.5
+        },
+        {
+            "name": "GlcCer(44:2)",
+            "adduct": "[M+Na]+",
+            "mz": 860.7,
+            "ccs": 315.3
+        },
+        {
+            "name": "GlcCer(44:2)",
+            "adduct": "[M+Na]+",
+            "mz": 876.69,
+            "ccs": 318.4
+        },
+        {
+            "name": "GlcCer(44:2)",
+            "adduct": "[M+Na]+",
+            "mz": 892.66,
+            "ccs": 321.1
+        },
+        {
+            "name": "GlcCer(44:3)",
+            "adduct": "[M+Na]+",
+            "mz": 858.68,
+            "ccs": 310.7
+        },
+        {
+            "name": "GlcCer(44:3)",
+            "adduct": "[M+Na]+",
+            "mz": 874.67,
+            "ccs": 314.0
+        },
+        {
+            "name": "GlcCer(44:4)",
+            "adduct": "[M+Na]+",
+            "mz": 872.66,
+            "ccs": 314.7
+        },
+        {
+            "name": "GlcCer(46:2)",
+            "adduct": "[M+Na]+",
+            "mz": 904.72,
+            "ccs": 323.8
+        },
+        {
+            "name": "GlcCer(47:9)",
+            "adduct": "[M+K]+",
+            "mz": 904.61,
+            "ccs": 316.4
+        },
+        {
+            "name": "GlcCer(47:10)",
+            "adduct": "[M+Na]+",
+            "mz": 918.59,
+            "ccs": 318.6
+        },
+        {
+            "name": "PC(31:1)",
+            "adduct": "[M+K]+",
+            "mz": 756.49,
+            "ccs": 286.5
+        },
+        {
+            "name": "PC(31:2)",
+            "adduct": "[M+K]+",
+            "mz": 754.48,
+            "ccs": 283.6
+        },
+        {
+            "name": "PC(32:2)",
+            "adduct": "[M+K]+",
+            "mz": 768.49,
+            "ccs": 289.2
+        },
+        {
+            "name": "PC(32:3)",
+            "adduct": "[M+K]+",
+            "mz": 766.48,
+            "ccs": 288.9
+        },
+        {
+            "name": "PC(33:2)",
+            "adduct": "[M+K]+",
+            "mz": 782.51,
+            "ccs": 291.5
+        },
+        {
+            "name": "PC(33:3)",
+            "adduct": "[M+K]+",
+            "mz": 780.49,
+            "ccs": 290.1
+        },
+        {
+            "name": "PC(33:4)",
+            "adduct": "[M+K]+",
+            "mz": 778.48,
+            "ccs": 287.5
+        },
+        {
+            "name": "PC(34:2)",
+            "adduct": "[M+K]+",
+            "mz": 796.53,
+            "ccs": 291.3
+        },
+        {
+            "name": "PC(34:3)",
+            "adduct": "[M+K]+",
+            "mz": 794.51,
+            "ccs": 292.4
+        },
+        {
+            "name": "PC(34:4)",
+            "adduct": "[M+K]+",
+            "mz": 792.49,
+            "ccs": 289.0
+        },
+        {
+            "name": "PC(35:2)",
+            "adduct": "[M+K]+",
+            "mz": 810.54,
+            "ccs": 297.7
+        },
+        {
+            "name": "PC(35:3)",
+            "adduct": "[M+K]+",
+            "mz": 808.53,
+            "ccs": 296.1
+        },
+        {
+            "name": "PC(35:4)",
+            "adduct": "[M+K]+",
+            "mz": 806.51,
+            "ccs": 294.5
+        },
+        {
+            "name": "PC(35:5)",
+            "adduct": "[M+K]+",
+            "mz": 804.49,
+            "ccs": 293.8
+        },
+        {
+            "name": "PC(35:6)",
+            "adduct": "[M+K]+",
+            "mz": 802.48,
+            "ccs": 291.8
+        },
+        {
+            "name": "PC(36:7)",
+            "adduct": "[M+Na]+",
+            "mz": 798.5,
+            "ccs": 292.5
+        },
+        {
+            "name": "PC(37:5)",
+            "adduct": "[M+K]+",
+            "mz": 832.53,
+            "ccs": 299.0
+        },
+        {
+            "name": "PC(37:6)",
+            "adduct": "[M+K]+",
+            "mz": 830.51,
+            "ccs": 298.2
+        },
+        {
+            "name": "PC(37:7)",
+            "adduct": "[M+K]+",
+            "mz": 828.49,
+            "ccs": 296.6
+        },
+        {
+            "name": "PC(38:8)",
+            "adduct": "[M+Na]+",
+            "mz": 824.52,
+            "ccs": 299.9
+        },
+        {
+            "name": "PC(38:9)",
+            "adduct": "[M+Na]+",
+            "mz": 822.5,
+            "ccs": 297.8
+        },
+        {
+            "name": "PC(38:10)",
+            "adduct": "[M+Na]+",
+            "mz": 820.49,
+            "ccs": 295.9
+        },
+        {
+            "name": "PC(39:5)",
+            "adduct": "[M+K]+",
+            "mz": 860.56,
+            "ccs": 304.7
+        },
+        {
+            "name": "PC(39:6)",
+            "adduct": "[M+K]+",
+            "mz": 858.54,
+            "ccs": 303.4
+        },
+        {
+            "name": "PC(39:7)",
+            "adduct": "[M+K]+",
+            "mz": 856.53,
+            "ccs": 303.8
+        },
+        {
+            "name": "PC(40:10)",
+            "adduct": "[M+Na]+",
+            "mz": 848.52,
+            "ccs": 301.5
+        },
+        {
+            "name": "PC(40:10)",
+            "adduct": "[M+Na]+",
+            "mz": 850.54,
+            "ccs": 302.2
+        },
+        {
+            "name": "PC(40:11)",
+            "adduct": "[M+Na]+",
+            "mz": 846.5,
+            "ccs": 300.7
+        },
+        {
+            "name": "PC(40:12)",
+            "adduct": "[M+Na]+",
+            "mz": 844.49,
+            "ccs": 300.6
+        },
+        {
+            "name": "PC(40:13)",
+            "adduct": "[M+Na]+",
+            "mz": 842.47,
+            "ccs": 296.6
+        },
+        {
+            "name": "PC(40:14)",
+            "adduct": "[M+Na]+",
+            "mz": 840.46,
+            "ccs": 293.3
+        },
+        {
+            "name": "PC(40:15)",
+            "adduct": "[M+Na]+",
+            "mz": 838.44,
+            "ccs": 293.5
+        },
+        {
+            "name": "PC(42:12)",
+            "adduct": "[M+Na]+",
+            "mz": 872.52,
+            "ccs": 303.9
+        },
+        {
+            "name": "PC(42:13)",
+            "adduct": "[M+Na]+",
+            "mz": 870.5,
+            "ccs": 304.9
+        },
+        {
+            "name": "PC(42:14)",
+            "adduct": "[M+Na]+",
+            "mz": 868.49,
+            "ccs": 299.0
+        },
+        {
+            "name": "PC(42:15)",
+            "adduct": "[M+Na]+",
+            "mz": 866.47,
+            "ccs": 301.9
+        },
+        {
+            "name": "PC(43:16)",
+            "adduct": "[M+K]+",
+            "mz": 894.45,
+            "ccs": 304.1
+        },
+        {
+            "name": "PC(43:17)",
+            "adduct": "[M+K]+",
+            "mz": 892.43,
+            "ccs": 303.5
+        },
+        {
+            "name": "PE(21:2)",
+            "adduct": "[M+K]+",
+            "mz": 572.28,
+            "ccs": 229.3
+        },
+        {
+            "name": "PE(21:3)",
+            "adduct": "[M+K]+",
+            "mz": 570.26,
+            "ccs": 227.8
+        },
+        {
+            "name": "PE(26:4)",
+            "adduct": "[M+K]+",
+            "mz": 638.32,
+            "ccs": 245.4
+        },
+        {
+            "name": "PE(26:5)",
+            "adduct": "[M+K]+",
+            "mz": 636.31,
+            "ccs": 242.6
+        },
+        {
+            "name": "PE(26:6)",
+            "adduct": "[M+K]+",
+            "mz": 634.29,
+            "ccs": 241.7
+        },
+        {
+            "name": "PE(28:5)",
+            "adduct": "[M+K]+",
+            "mz": 664.34,
+            "ccs": 250.9
+        },
+        {
+            "name": "PE(28:6)",
+            "adduct": "[M+K]+",
+            "mz": 662.32,
+            "ccs": 248.7
+        },
+        {
+            "name": "PE(28:7)",
+            "adduct": "[M+K]+",
+            "mz": 660.31,
+            "ccs": 244.4
+        },
+        {
+            "name": "PE(32:1)",
+            "adduct": "[M+Na]+",
+            "mz": 712.49,
+            "ccs": 274.1
+        },
+        {
+            "name": "PE(33:0)",
+            "adduct": "[M+K]+",
+            "mz": 744.49,
+            "ccs": 277.2
+        },
+        {
+            "name": "PE(34:1)",
+            "adduct": "[M+Na]+",
+            "mz": 740.52,
+            "ccs": 281.3
+        },
+        {
+            "name": "PE(34:2)",
+            "adduct": "[M+Na]+",
+            "mz": 738.5,
+            "ccs": 278.3
+        },
+        {
+            "name": "PE(34:3)",
+            "adduct": "[M+Na]+",
+            "mz": 736.49,
+            "ccs": 276.1
+        },
+        {
+            "name": "PE(34:4)",
+            "adduct": "[M+Na]+",
+            "mz": 734.47,
+            "ccs": 273.6
+        },
+        {
+            "name": "PE(35:0)",
+            "adduct": "[M+K]+",
+            "mz": 772.53,
+            "ccs": 286.2
+        },
+        {
+            "name": "PE(35:1)",
+            "adduct": "[M+Na]+",
+            "mz": 754.54,
+            "ccs": 282.9
+        },
+        {
+            "name": "PE(35:1)",
+            "adduct": "[M+K]+",
+            "mz": 770.51,
+            "ccs": 283.6
+        },
+        {
+            "name": "PE(35:2)",
+            "adduct": "[M+Na]+",
+            "mz": 752.52,
+            "ccs": 281.3
+        },
+        {
+            "name": "PE(35:2)",
+            "adduct": "[M+K]+",
+            "mz": 768.49,
+            "ccs": 282.5
+        },
+        {
+            "name": "PE(36:1)",
+            "adduct": "[M+Na]+",
+            "mz": 768.55,
+            "ccs": 288.5
+        },
+        {
+            "name": "PE(36:2)",
+            "adduct": "[M+Na]+",
+            "mz": 766.54,
+            "ccs": 285.7
+        },
+        {
+            "name": "PE(36:4)",
+            "adduct": "[M+Na]+",
+            "mz": 762.5,
+            "ccs": 280.6
+        },
+        {
+            "name": "PE(36:5)",
+            "adduct": "[M+Na]+",
+            "mz": 760.49,
+            "ccs": 278.2
+        },
+        {
+            "name": "PE(36:6)",
+            "adduct": "[M+Na]+",
+            "mz": 758.47,
+            "ccs": 276.3
+        },
+        {
+            "name": "PE(37:0)",
+            "adduct": "[M+K]+",
+            "mz": 800.56,
+            "ccs": 297.8
+        },
+        {
+            "name": "PE(37:1)",
+            "adduct": "[M+Na]+",
+            "mz": 782.57,
+            "ccs": 292.2
+        },
+        {
+            "name": "PE(37:1)",
+            "adduct": "[M+K]+",
+            "mz": 798.54,
+            "ccs": 295.0
+        },
+        {
+            "name": "PE(37:2)",
+            "adduct": "[M+Na]+",
+            "mz": 780.55,
+            "ccs": 288.2
+        },
+        {
+            "name": "PE(37:2)",
+            "adduct": "[M+K]+",
+            "mz": 796.53,
+            "ccs": 289.8
+        },
+        {
+            "name": "PE(37:3)",
+            "adduct": "[M+Na]+",
+            "mz": 778.54,
+            "ccs": 286.2
+        },
+        {
+            "name": "PE(37:3)",
+            "adduct": "[M+K]+",
+            "mz": 794.51,
+            "ccs": 286.5
+        },
+        {
+            "name": "PE(37:4)",
+            "adduct": "[M+K]+",
+            "mz": 792.49,
+            "ccs": 284.7
+        },
+        {
+            "name": "PE(38:3)",
+            "adduct": "[M+Na]+",
+            "mz": 792.55,
+            "ccs": 289.3
+        },
+        {
+            "name": "PE(38:4)",
+            "adduct": "[M+Na]+",
+            "mz": 790.54,
+            "ccs": 290.0
+        },
+        {
+            "name": "PE(38:4)",
+            "adduct": "[M+K]+",
+            "mz": 850.5,
+            "ccs": 300.5
+        },
+        {
+            "name": "PE(38:5)",
+            "adduct": "[M+Na]+",
+            "mz": 788.52,
+            "ccs": 287.2
+        },
+        {
+            "name": "PE(38:6)",
+            "adduct": "[M+Na]+",
+            "mz": 786.5,
+            "ccs": 285.0
+        },
+        {
+            "name": "PE(38:6)",
+            "adduct": "[M+K]+",
+            "mz": 802.48,
+            "ccs": 288.7
+        },
+        {
+            "name": "PE(38:7)",
+            "adduct": "[M+Na]+",
+            "mz": 784.49,
+            "ccs": 283.7
+        },
+        {
+            "name": "PE(38:7)",
+            "adduct": "[M+K]+",
+            "mz": 800.46,
+            "ccs": 287.0
+        },
+        {
+            "name": "PE(38:8)",
+            "adduct": "[M+Na]+",
+            "mz": 782.47,
+            "ccs": 281.9
+        },
+        {
+            "name": "PE(39:2)",
+            "adduct": "[M+K]+",
+            "mz": 824.56,
+            "ccs": 295.9
+        },
+        {
+            "name": "PE(39:3)",
+            "adduct": "[M+K]+",
+            "mz": 822.54,
+            "ccs": 293.4
+        },
+        {
+            "name": "PE(39:4)",
+            "adduct": "[M+Na]+",
+            "mz": 804.55,
+            "ccs": 292.8
+        },
+        {
+            "name": "PE(39:6)",
+            "adduct": "[M+Na]+",
+            "mz": 800.52,
+            "ccs": 286.4
+        },
+        {
+            "name": "PE(40:5)",
+            "adduct": "[M+Na]+",
+            "mz": 816.55,
+            "ccs": 294.8
+        },
+        {
+            "name": "PE(40:6)",
+            "adduct": "[M+K]+",
+            "mz": 830.51,
+            "ccs": 294.7
+        },
+        {
+            "name": "PE(40:7)",
+            "adduct": "[M+Na]+",
+            "mz": 812.52,
+            "ccs": 290.8
+        },
+        {
+            "name": "PE(40:8)",
+            "adduct": "[M+Na]+",
+            "mz": 810.5,
+            "ccs": 289.2
+        },
+        {
+            "name": "PE(40:9)",
+            "adduct": "[M+Na]+",
+            "mz": 808.49,
+            "ccs": 286.6
+        },
+        {
+            "name": "PE(42:8)",
+            "adduct": "[M+Na]+",
+            "mz": 838.54,
+            "ccs": 297.3
+        },
+        {
+            "name": "PE(42:8)",
+            "adduct": "[M+K]+",
+            "mz": 852.49,
+            "ccs": 296.1
+        },
+        {
+            "name": "PE(42:9)",
+            "adduct": "[M+Na]+",
+            "mz": 836.52,
+            "ccs": 295.6
+        },
+        {
+            "name": "PE(42:10)",
+            "adduct": "[M+Na]+",
+            "mz": 834.5,
+            "ccs": 291.0
+        },
+        {
+            "name": "PE(42:10)",
+            "adduct": "[M+K]+",
+            "mz": 848.46,
+            "ccs": 290.8
+        },
+        {
+            "name": "PE(44:11)",
+            "adduct": "[M+Na]+",
+            "mz": 860.52,
+            "ccs": 300.3
+        },
+        {
+            "name": "PE(44:11)",
+            "adduct": "[M+K]+",
+            "mz": 876.49,
+            "ccs": 299.3
+        },
+        {
+            "name": "PE(44:12)",
+            "adduct": "[M+Na]+",
+            "mz": 858.5,
+            "ccs": 299.7
+        },
+        {
+            "name": "PE(46:11)",
+            "adduct": "[M+K]+",
+            "mz": 904.53,
+            "ccs": 302.4
+        },
+        {
+            "name": "PE(o18:3)",
+            "adduct": "[M+Na]+",
+            "mz": 498.26,
+            "ccs": 220.5
+        },
+        {
+            "name": "PE(o20:3)",
+            "adduct": "[M+Na]+",
+            "mz": 526.29,
+            "ccs": 228.7
+        },
+        {
+            "name": "PE(o20:4)",
+            "adduct": "[M+Na]+",
+            "mz": 524.28,
+            "ccs": 226.9
+        },
+        {
+            "name": "PE(o20:5)",
+            "adduct": "[M+Na]+",
+            "mz": 522.26,
+            "ccs": 216.8
+        },
+        {
+            "name": "PE(o22:6)",
+            "adduct": "[M+Na]+",
+            "mz": 548.28,
+            "ccs": 228.1
+        },
+        {
+            "name": "PE(o22:7)",
+            "adduct": "[M+Na]+",
+            "mz": 546.26,
+            "ccs": 220.6
+        },
+        {
+            "name": "PE(o26:5)",
+            "adduct": "[M+K]+",
+            "mz": 622.33,
+            "ccs": 242.4
+        },
+        {
+            "name": "PE(o31:6)",
+            "adduct": "[M+K]+",
+            "mz": 690.39,
+            "ccs": 257.8
+        },
+        {
+            "name": "PE(o34:2)",
+            "adduct": "[M+Na]+",
+            "mz": 724.53,
+            "ccs": 279.7
+        },
+        {
+            "name": "PE(o34:3)",
+            "adduct": "[M+Na]+",
+            "mz": 722.51,
+            "ccs": 278.0
+        },
+        {
+            "name": "PE(o34:4)",
+            "adduct": "[M+Na]+",
+            "mz": 720.49,
+            "ccs": 275.9
+        },
+        {
+            "name": "PE(o36:2)",
+            "adduct": "[M+Na]+",
+            "mz": 752.56,
+            "ccs": 287.3
+        },
+        {
+            "name": "PE(o36:3)",
+            "adduct": "[M+Na]+",
+            "mz": 750.54,
+            "ccs": 285.4
+        },
+        {
+            "name": "PE(o36:4)",
+            "adduct": "[M+Na]+",
+            "mz": 748.53,
+            "ccs": 281.6
+        },
+        {
+            "name": "PE(o36:5)",
+            "adduct": "[M+Na]+",
+            "mz": 746.51,
+            "ccs": 279.2
+        },
+        {
+            "name": "PE(o38:5)",
+            "adduct": "[M+Na]+",
+            "mz": 774.54,
+            "ccs": 287.7
+        },
+        {
+            "name": "PE(o39:6)",
+            "adduct": "[M+K]+",
+            "mz": 802.52,
+            "ccs": 290.9
+        },
+        {
+            "name": "PE(o45:12)",
+            "adduct": "[M+K]+",
+            "mz": 874.52,
+            "ccs": 299.3
+        },
+        {
+            "name": "PE(o46:13)",
+            "adduct": "[M+K]+",
+            "mz": 886.52,
+            "ccs": 306.0
+        },
+        {
+            "name": "PE(o46:14)",
+            "adduct": "[M+K]+",
+            "mz": 884.5,
+            "ccs": 299.8
+        },
+        {
+            "name": "PE(o47:13)",
+            "adduct": "[M+K]+",
+            "mz": 900.53,
+            "ccs": 299.9
+        },
+        {
+            "name": "PE(o47:14)",
+            "adduct": "[M+K]+",
+            "mz": 898.52,
+            "ccs": 301.2
+        },
+        {
+            "name": "PE(o47:16)",
+            "adduct": "[M+Na]+",
+            "mz": 878.51,
+            "ccs": 299.7
+        },
+        {
+            "name": "PE(o48:16)",
+            "adduct": "[M+K]+",
+            "mz": 908.5,
+            "ccs": 303.5
+        },
+        {
+            "name": "PE(o49:14)",
+            "adduct": "[M+K]+",
+            "mz": 926.55,
+            "ccs": 308.1
+        },
+        {
+            "name": "PE(o49:15)",
+            "adduct": "[M+K]+",
+            "mz": 924.53,
+            "ccs": 304.7
+        },
+        {
+            "name": "PE(o49:16)",
+            "adduct": "[M+K]+",
+            "mz": 922.52,
+            "ccs": 300.6
+        },
+        {
+            "name": "PE(o49:17)",
+            "adduct": "[M+K]+",
+            "mz": 920.5,
+            "ccs": 304.7
+        },
+        {
+            "name": "PE(o50:17)",
+            "adduct": "[M+K]+",
+            "mz": 934.52,
+            "ccs": 311.2
+        },
+        {
+            "name": "PE(o51:16)",
+            "adduct": "[M+K]+",
+            "mz": 950.55,
+            "ccs": 311.0
+        },
+        {
+            "name": "PE(o36:4)",
+            "adduct": "[M+Na]+",
+            "mz": 734.55,
+            "ccs": 279.3
+        },
+        {
+            "name": "PE(o38:5)",
+            "adduct": "[M+K]+",
+            "mz": 776.54,
+            "ccs": 285.6
+        },
+        {
+            "name": "PE(o40:6)",
+            "adduct": "[M+K]+",
+            "mz": 802.55,
+            "ccs": 293.3
+        },
+        {
+            "name": "PE(o42:8)",
+            "adduct": "[M+K]+",
+            "mz": 826.55,
+            "ccs": 297.0
+        },
+        {
+            "name": "PE(o42:10)",
+            "adduct": "[M+K]+",
+            "mz": 820.5,
+            "ccs": 292.6
+        },
+        {
+            "name": "PE(o42:11)",
+            "adduct": "[M+K]+",
+            "mz": 818.49,
+            "ccs": 289.8
+        },
+        {
+            "name": "PE(o44:11)",
+            "adduct": "[M+K]+",
+            "mz": 848.54,
+            "ccs": 297.1
+        },
+        {
+            "name": "PE(o44:12)",
+            "adduct": "[M+Na]+",
+            "mz": 828.53,
+            "ccs": 290.4
+        },
+        {
+            "name": "PE(o44:12)",
+            "adduct": "[M+K]+",
+            "mz": 846.52,
+            "ccs": 297.0
+        },
+        {
+            "name": "PE(o44:13)",
+            "adduct": "[M+Na]+",
+            "mz": 826.52,
+            "ccs": 289.4
+        },
+        {
+            "name": "PE(o44:13)",
+            "adduct": "[M+K]+",
+            "mz": 844.5,
+            "ccs": 294.7
+        },
+        {
+            "name": "PE(o44:14)",
+            "adduct": "[M+Na]+",
+            "mz": 824.5,
+            "ccs": 288.2
+        },
+        {
+            "name": "PE(o44:14)",
+            "adduct": "[M+K]+",
+            "mz": 842.49,
+            "ccs": 291.4
+        },
+        {
+            "name": "PE(o45:14)",
+            "adduct": "[M+K]+",
+            "mz": 856.5,
+            "ccs": 297.2
+        },
+        {
+            "name": "PE(o46:14)",
+            "adduct": "[M+K]+",
+            "mz": 870.52,
+            "ccs": 302.9
+        },
+        {
+            "name": "PE(o46:15)",
+            "adduct": "[M+Na]+",
+            "mz": 850.52,
+            "ccs": 292.7
+        },
+        {
+            "name": "PE(o46:15)",
+            "adduct": "[M+K]+",
+            "mz": 868.5,
+            "ccs": 300.8
+        },
+        {
+            "name": "PE(o46:16)",
+            "adduct": "[M+K]+",
+            "mz": 866.49,
+            "ccs": 297.7
+        },
+        {
+            "name": "PE(o47:16)",
+            "adduct": "[M+K]+",
+            "mz": 880.5,
+            "ccs": 301.3
+        },
+        {
+            "name": "PE(o48:16)",
+            "adduct": "[M+K]+",
+            "mz": 894.52,
+            "ccs": 305.1
+        },
+        {
+            "name": "PE(o49:15)",
+            "adduct": "[M+K]+",
+            "mz": 910.52,
+            "ccs": 306.1
+        },
+        {
+            "name": "PE(o49:17)",
+            "adduct": "[M+K]+",
+            "mz": 906.52,
+            "ccs": 304.9
+        },
+        {
+            "name": "PE(o62:18)",
+            "adduct": "[M+K]+",
+            "mz": 1086.71,
+            "ccs": 341.8
+        },
+        {
+            "name": "PE(o62:19)",
+            "adduct": "[M+K]+",
+            "mz": 1084.69,
+            "ccs": 340.5
+        },
+        {
+            "name": "PE(o64:19)",
+            "adduct": "[M+K]+",
+            "mz": 1112.72,
+            "ccs": 347.3
+        },
+        {
+            "name": "PE(o66:21)",
+            "adduct": "[M+K]+",
+            "mz": 1136.72,
+            "ccs": 348.9
+        },
+        {
+            "name": "PS(36:4)",
+            "adduct": "[M+Na]+",
+            "mz": 806.49,
+            "ccs": 287.8
+        },
+        {
+            "name": "PS(37:2)",
+            "adduct": "[M+K]+",
+            "mz": 840.52,
+            "ccs": 293.0
+        },
+        {
+            "name": "PS(37:4)",
+            "adduct": "[M+Na]+",
+            "mz": 820.51,
+            "ccs": 295.0
+        },
+        {
+            "name": "PS(38:5)",
+            "adduct": "[M+Na]+",
+            "mz": 834.53,
+            "ccs": 294.2
+        },
+        {
+            "name": "PS(38:6)",
+            "adduct": "[M+Na]+",
+            "mz": 832.51,
+            "ccs": 294.0
+        },
+        {
+            "name": "PS(38:7)",
+            "adduct": "[M+Na]+",
+            "mz": 828.48,
+            "ccs": 290.2
+        },
+        {
+            "name": "PS(39:5)",
+            "adduct": "[M+Na]+",
+            "mz": 848.54,
+            "ccs": 303.3
+        },
+        {
+            "name": "PS(39:6)",
+            "adduct": "[M+Na]+",
+            "mz": 846.53,
+            "ccs": 297.7
+        },
+        {
+            "name": "PS(39:7)",
+            "adduct": "[M+Na]+",
+            "mz": 842.49,
+            "ccs": 293.1
+        },
+        {
+            "name": "PS(40:5)",
+            "adduct": "[M+Na]+",
+            "mz": 862.56,
+            "ccs": 302.2
+        },
+        {
+            "name": "PS(40:6)",
+            "adduct": "[M+Na]+",
+            "mz": 860.54,
+            "ccs": 299.9
+        },
+        {
+            "name": "PS(40:7)",
+            "adduct": "[M+Na]+",
+            "mz": 856.51,
+            "ccs": 295.6
+        },
+        {
+            "name": "PS(40:8)",
+            "adduct": "[M+Na]+",
+            "mz": 854.49,
+            "ccs": 293.6
+        },
+        {
+            "name": "PS(41:6)",
+            "adduct": "[M+Na]+",
+            "mz": 872.54,
+            "ccs": 303.3
+        },
+        {
+            "name": "PS(41:7)",
+            "adduct": "[M+Na]+",
+            "mz": 870.53,
+            "ccs": 299.2
+        },
+        {
+            "name": "PS(42:5)",
+            "adduct": "[M+Na]+",
+            "mz": 888.57,
+            "ccs": 307.0
+        },
+        {
+            "name": "PS(42:7)",
+            "adduct": "[M+Na]+",
+            "mz": 884.54,
+            "ccs": 304.7
+        },
+        {
+            "name": "PS(42:8)",
+            "adduct": "[M+Na]+",
+            "mz": 882.53,
+            "ccs": 301.3
+        },
+        {
+            "name": "PS(42:9)",
+            "adduct": "[M+Na]+",
+            "mz": 880.51,
+            "ccs": 302.0
+        },
+        {
+            "name": "PS(42:10)",
+            "adduct": "[M+Na]+",
+            "mz": 878.49,
+            "ccs": 297.1
+        },
+        {
+            "name": "PS(42:11)",
+            "adduct": "[M+Na]+",
+            "mz": 876.48,
+            "ccs": 294.2
+        },
+        {
+            "name": "PS(42:12)",
+            "adduct": "[M+Na]+",
+            "mz": 874.46,
+            "ccs": 293.7
+        },
+        {
+            "name": "PS(43:7)",
+            "adduct": "[M+K]+",
+            "mz": 914.53,
+            "ccs": 303.6
+        },
+        {
+            "name": "PS(43:8)",
+            "adduct": "[M+Na]+",
+            "mz": 896.54,
+            "ccs": 305.2
+        },
+        {
+            "name": "PS(43:9)",
+            "adduct": "[M+Na]+",
+            "mz": 894.53,
+            "ccs": 303.2
+        },
+        {
+            "name": "PS(44:5)",
+            "adduct": "[M+Na]+",
+            "mz": 916.6,
+            "ccs": 311.5
+        },
+        {
+            "name": "PS(44:7)",
+            "adduct": "[M+Na]+",
+            "mz": 912.57,
+            "ccs": 311.8
+        },
+        {
+            "name": "PS(44:8)",
+            "adduct": "[M+Na]+",
+            "mz": 910.56,
+            "ccs": 306.8
+        },
+        {
+            "name": "PS(44:9)",
+            "adduct": "[M+Na]+",
+            "mz": 908.54,
+            "ccs": 303.7
+        },
+        {
+            "name": "PS(44:9)",
+            "adduct": "[M+K]+",
+            "mz": 924.52,
+            "ccs": 307.0
+        },
+        {
+            "name": "PS(44:10)",
+            "adduct": "[M+Na]+",
+            "mz": 906.53,
+            "ccs": 303.5
+        },
+        {
+            "name": "PS(44:11)",
+            "adduct": "[M+Na]+",
+            "mz": 904.51,
+            "ccs": 302.1
+        },
+        {
+            "name": "PS(44:12)",
+            "adduct": "[M+Na]+",
+            "mz": 902.49,
+            "ccs": 299.7
+        },
+        {
+            "name": "PS(44:13)",
+            "adduct": "[M+Na]+",
+            "mz": 900.48,
+            "ccs": 294.9
+        },
+        {
+            "name": "PS(45:9)",
+            "adduct": "[M+K]+",
+            "mz": 938.53,
+            "ccs": 310.6
+        },
+        {
+            "name": "PS(45:10)",
+            "adduct": "[M+K]+",
+            "mz": 936.52,
+            "ccs": 313.2
+        },
+        {
+            "name": "PS(45:14)",
+            "adduct": "[M+K]+",
+            "mz": 914.47,
+            "ccs": 302.6
+        },
+        {
+            "name": "PS(45:15)",
+            "adduct": "[M+K]+",
+            "mz": 912.52,
+            "ccs": 300.2
+        },
+        {
+            "name": "PS(46:8)",
+            "adduct": "[M+Na]+",
+            "mz": 938.59,
+            "ccs": 313.2
+        },
+        {
+            "name": "PS(46:10)",
+            "adduct": "[M+Na]+",
+            "mz": 934.56,
+            "ccs": 309.2
+        },
+        {
+            "name": "PS(46:10)",
+            "adduct": "[M+K]+",
+            "mz": 950.53,
+            "ccs": 306.3
+        },
+        {
+            "name": "PS(46:11)",
+            "adduct": "[M+Na]+",
+            "mz": 932.54,
+            "ccs": 307.7
+        },
+        {
+            "name": "PS(46:12)",
+            "adduct": "[M+Na]+",
+            "mz": 930.53,
+            "ccs": 309.5
+        },
+        {
+            "name": "PS(47:11)",
+            "adduct": "[M+K]+",
+            "mz": 962.53,
+            "ccs": 311.0
+        },
+        {
+            "name": "PS(47:12)",
+            "adduct": "[M+K]+",
+            "mz": 960.52,
+            "ccs": 307.8
+        },
+        {
+            "name": "PS(48:12)",
+            "adduct": "[M+K]+",
+            "mz": 974.53,
+            "ccs": 313.6
+        },
+        {
+            "name": "PS(48:13)",
+            "adduct": "[M+K]+",
+            "mz": 972.52,
+            "ccs": 313.0
+        },
+        {
+            "name": "PS(48:14)",
+            "adduct": "[M+Na]+",
+            "mz": 954.53,
+            "ccs": 312.0
+        },
+        {
+            "name": "PS(48:14)",
+            "adduct": "[M+K]+",
+            "mz": 970.5,
+            "ccs": 311.0
+        },
+        {
+            "name": "PS(48:15)",
+            "adduct": "[M+Na]+",
+            "mz": 952.51,
+            "ccs": 307.8
+        },
+        {
+            "name": "PS(49:14)",
+            "adduct": "[M+Na]+",
+            "mz": 968.54,
+            "ccs": 314.6
+        },
+        {
+            "name": "PS(49:15)",
+            "adduct": "[M+Na]+",
+            "mz": 966.53,
+            "ccs": 312.3
+        },
+        {
+            "name": "PS(49:16)",
+            "adduct": "[M+Na]+",
+            "mz": 964.51,
+            "ccs": 309.6
+        },
+        {
+            "name": "PS(49:18)",
+            "adduct": "[M+Na]+",
+            "mz": 960.48,
+            "ccs": 307.7
+        },
+        {
+            "name": "PS(51:12)",
+            "adduct": "[M+K]+",
+            "mz": 1016.58,
+            "ccs": 321.1
+        },
+        {
+            "name": "PS(51:13)",
+            "adduct": "[M+K]+",
+            "mz": 1014.56,
+            "ccs": 326.8
+        },
+        {
+            "name": "PS(51:15)",
+            "adduct": "[M+Na]+",
+            "mz": 994.56,
+            "ccs": 322.8
+        },
+        {
+            "name": "PS(51:16)",
+            "adduct": "[M+Na]+",
+            "mz": 992.54,
+            "ccs": 317.3
+        },
+        {
+            "name": "PS(52:16)",
+            "adduct": "[M+Na]+",
+            "mz": 1006.56,
+            "ccs": 322.2
+        },
+        {
+            "name": "PS(52:17)",
+            "adduct": "[M+Na]+",
+            "mz": 1004.54,
+            "ccs": 321.4
+        },
+        {
+            "name": "PS(52:18)",
+            "adduct": "[M+Na]+",
+            "mz": 1002.53,
+            "ccs": 319.1
+        },
+        {
+            "name": "PS(52:19)",
+            "adduct": "[M+Na]+",
+            "mz": 1000.51,
+            "ccs": 316.7
+        },
+        {
+            "name": "PS(53:17)",
+            "adduct": "[M+Na]+",
+            "mz": 1018.56,
+            "ccs": 323.3
+        },
+        {
+            "name": "PS(55:18)",
+            "adduct": "[M+Na]+",
+            "mz": 1044.57,
+            "ccs": 329.3
+        },
+        {
+            "name": "PS(o36:5)",
+            "adduct": "[M+Na]+",
+            "mz": 804.52,
+            "ccs": 290.2
+        },
+        {
+            "name": "PS(o45:12)",
+            "adduct": "[M+K]+",
+            "mz": 918.51,
+            "ccs": 304.0
+        },
+        {
+            "name": "PS(o47:12)",
+            "adduct": "[M+K]+",
+            "mz": 946.54,
+            "ccs": 309.2
+        },
+        {
+            "name": "PS(o47:13)",
+            "adduct": "[M+K]+",
+            "mz": 944.52,
+            "ccs": 308.1
+        },
+        {
+            "name": "PS(o47:14)",
+            "adduct": "[M+K]+",
+            "mz": 942.51,
+            "ccs": 305.9
+        },
+        {
+            "name": "PS(o50:16)",
+            "adduct": "[M+Na]+",
+            "mz": 964.55,
+            "ccs": 312.4
+        },
+        {
+            "name": "PS(o51:10)",
+            "adduct": "[M+K]+",
+            "mz": 1006.63,
+            "ccs": 322.4
+        },
+        {
+            "name": "PS(o36:2)",
+            "adduct": "[M+Na]+",
+            "mz": 782.57,
+            "ccs": 292.2
+        },
+        {
+            "name": "PS(o36:3)",
+            "adduct": "[M+Na]+",
+            "mz": 780.55,
+            "ccs": 290.6
+        },
+        {
+            "name": "PS(o41:10)",
+            "adduct": "[M+K]+",
+            "mz": 852.49,
+            "ccs": 296.6
+        },
+        {
+            "name": "PS(o44:13)",
+            "adduct": "[M+Na]+",
+            "mz": 872.52,
+            "ccs": 298.4
+        },
+        {
+            "name": "SM(34:1)",
+            "adduct": "[M+Na]+",
+            "mz": 725.56,
+            "ccs": 285.1
+        },
+        {
+            "name": "SM(35:1)",
+            "adduct": "[M+Na]+",
+            "mz": 739.57,
+            "ccs": 289.1
+        },
+        {
+            "name": "SM(36:1)",
+            "adduct": "[M+Na]+",
+            "mz": 753.59,
+            "ccs": 292.4
+        },
+        {
+            "name": "SM(36:2)",
+            "adduct": "[M+Na]+",
+            "mz": 751.57,
+            "ccs": 290.9
+        },
+        {
+            "name": "SM(37:1)",
+            "adduct": "[M+Na]+",
+            "mz": 767.6,
+            "ccs": 294.8
+        },
+        {
+            "name": "SM(38:1)",
+            "adduct": "[M+Na]+",
+            "mz": 781.62,
+            "ccs": 298.5
+        },
+        {
+            "name": "SM(39:1)",
+            "adduct": "[M+Na]+",
+            "mz": 795.64,
+            "ccs": 301.6
+        },
+        {
+            "name": "SM(40:0)",
+            "adduct": "[M+Na]+",
+            "mz": 811.67,
+            "ccs": 305.7
+        },
+        {
+            "name": "SM(40:1)",
+            "adduct": "[M+Na]+",
+            "mz": 809.65,
+            "ccs": 303.9
+        },
+        {
+            "name": "SM(40:2)",
+            "adduct": "[M+Na]+",
+            "mz": 807.64,
+            "ccs": 301.7
+        },
+        {
+            "name": "SM(40:3)",
+            "adduct": "[M+Na]+",
+            "mz": 805.62,
+            "ccs": 299.9
+        },
+        {
+            "name": "SM(41:1)",
+            "adduct": "[M+Na]+",
+            "mz": 823.67,
+            "ccs": 306.3
+        },
+        {
+            "name": "SM(41:2)",
+            "adduct": "[M+Na]+",
+            "mz": 821.65,
+            "ccs": 303.9
+        },
+        {
+            "name": "SM(42:1)",
+            "adduct": "[M+Na]+",
+            "mz": 837.68,
+            "ccs": 309.3
+        },
+        {
+            "name": "SM(42:2)",
+            "adduct": "[M+Na]+",
+            "mz": 835.67,
+            "ccs": 308.2
+        },
+        {
+            "name": "SM(42:3)",
+            "adduct": "[M+Na]+",
+            "mz": 833.65,
+            "ccs": 305.6
+        },
+        {
+            "name": "SM(43:1)",
+            "adduct": "[M+Na]+",
+            "mz": 851.7,
+            "ccs": 312.5
+        },
+        {
+            "name": "SM(43:2)",
+            "adduct": "[M+Na]+",
+            "mz": 849.68,
+            "ccs": 311.5
+        },
+        {
+            "name": "SM(43:3)",
+            "adduct": "[M+Na]+",
+            "mz": 847.67,
+            "ccs": 309.6
+        },
+        {
+            "name": "SM(44:1)",
+            "adduct": "[M+Na]+",
+            "mz": 865.71,
+            "ccs": 315.1
+        },
+        {
+            "name": "SM(44:2)",
+            "adduct": "[M+Na]+",
+            "mz": 863.7,
+            "ccs": 313.5
+        },
+        {
+            "name": "SM(44:3)",
+            "adduct": "[M+Na]+",
+            "mz": 861.68,
+            "ccs": 312.0
+        },
+        {
+            "name": "SM(o36:3)",
+            "adduct": "[M+Na]+",
+            "mz": 735.58,
+            "ccs": 290.4
+        },
+        {
+            "name": "SM(o38:0)",
+            "adduct": "[M+Na]+",
+            "mz": 769.66,
+            "ccs": 303.9
+        },
+        {
+            "name": "SM(o40:0)",
+            "adduct": "[M+Na]+",
+            "mz": 797.69,
+            "ccs": 306.7
+        },
+        {
+            "name": "SM(o42:4)",
+            "adduct": "[M+Na]+",
+            "mz": 817.66,
+            "ccs": 311.3
+        },
+        {
+            "name": "SM(o43:1)",
+            "adduct": "[M+K]+",
+            "mz": 853.69,
+            "ccs": 318.0
+        },
+        {
+            "name": "DGDK",
+            "mz": 434.19,
+            "ccs": 195.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "YVR",
+            "mz": 437.25,
+            "ccs": 207.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DVCK",
+            "mz": 464.22,
+            "ccs": 204.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "WIR",
+            "mz": 474.27,
+            "ccs": 215.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GVFR",
+            "mz": 478.28,
+            "ccs": 214.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SDGRG",
+            "mz": 491.22,
+            "ccs": 204.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GRGDS",
+            "mz": 491.22,
+            "ccs": 205.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FGER",
+            "mz": 508.24,
+            "ccs": 217.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VYAR",
+            "mz": 508.29,
+            "ccs": 227.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SDGRG",
+            "mz": 513.2,
+            "ccs": 203.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GRGDS",
+            "mz": 513.2,
+            "ccs": 208.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADLAK",
+            "mz": 517.3,
+            "ccs": 228.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "QENK",
+            "mz": 518.26,
+            "ccs": 219.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MVIR",
+            "mz": 518.31,
+            "ccs": 228.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "WMGK",
+            "mz": 521.26,
+            "ccs": 220.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SDGRG",
+            "mz": 529.17,
+            "ccs": 205.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GRGDS",
+            "mz": 529.18,
+            "ccs": 210.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "FWGK",
+            "mz": 537.28,
+            "ccs": 231.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VASLR",
+            "mz": 545.34,
+            "ccs": 232.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "QENK",
+            "mz": 549.31,
+            "ccs": 232.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NFNR",
+            "mz": 550.27,
+            "ccs": 225.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LEYK",
+            "mz": 552.3,
+            "ccs": 239.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FQNK",
+            "mz": 559.27,
+            "ccs": 243.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FQNK",
+            "mz": 569.31,
+            "ccs": 218.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "EWTR",
+            "mz": 591.29,
+            "ccs": 233.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AMGYR",
+            "mz": 597.28,
+            "ccs": 245.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "QISVR",
+            "mz": 602.36,
+            "ccs": 241.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LWSAK",
+            "mz": 604.34,
+            "ccs": 238.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AFDEK",
+            "mz": 609.29,
+            "ccs": 238.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FSSDR",
+            "mz": 611.28,
+            "ccs": 237.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FVVPR",
+            "mz": 617.37,
+            "ccs": 254.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FVVPR",
+            "mz": 617.37,
+            "ccs": 249.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GQIVGR",
+            "mz": 629.37,
+            "ccs": 245.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VSLAEK",
+            "mz": 646.38,
+            "ccs": 249.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "IETMR",
+            "mz": 649.33,
+            "ccs": 252.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CASIQK",
+            "mz": 649.33,
+            "ccs": 252.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AAGHDGK",
+            "mz": 655.32,
+            "ccs": 249.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NVATPR",
+            "mz": 657.37,
+            "ccs": 254.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ANIDVK",
+            "mz": 659.37,
+            "ccs": 248.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VSALYK",
+            "mz": 680.4,
+            "ccs": 261.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VSALYK",
+            "mz": 680.4,
+            "ccs": 254.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "IHEYK",
+            "mz": 689.37,
+            "ccs": 258.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NIATSGK",
+            "mz": 690.38,
+            "ccs": 257.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "EELFR",
+            "mz": 693.35,
+            "ccs": 254.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DHLVGR",
+            "mz": 696.38,
+            "ccs": 249.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TVMIGGK",
+            "mz": 705.4,
+            "ccs": 262.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GVLHAVK",
+            "mz": 723.45,
+            "ccs": 269.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SVYDSR",
+            "mz": 726.34,
+            "ccs": 258.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VEDVDR",
+            "mz": 732.35,
+            "ccs": 256.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NVPLYK",
+            "mz": 733.42,
+            "ccs": 272.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "QPDLFK",
+            "mz": 745.44,
+            "ccs": 275.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LNQLLR",
+            "mz": 756.47,
+            "ccs": 275.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TNGITPR",
+            "mz": 758.41,
+            "ccs": 280.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TNGITPR",
+            "mz": 758.41,
+            "ccs": 269.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TNGITPR",
+            "mz": 758.41,
+            "ccs": 258.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HLADLSK",
+            "mz": 783.43,
+            "ccs": 273.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LVTDLTK",
+            "mz": 789.47,
+            "ccs": 276.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "YDLDFK",
+            "mz": 800.38,
+            "ccs": 272.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TFAEALR",
+            "mz": 807.43,
+            "ccs": 283.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "YVVDTSK",
+            "mz": 811.42,
+            "ccs": 275.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AADALLLK",
+            "mz": 814.5,
+            "ccs": 291.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIVGAVLK",
+            "mz": 814.5,
+            "ccs": 291.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AADALLLK",
+            "mz": 814.5,
+            "ccs": 277.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIVGAVLK",
+            "mz": 814.5,
+            "ccs": 277.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ATEEQLK",
+            "mz": 818.42,
+            "ccs": 281.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TIAQYAR",
+            "mz": 822.45,
+            "ccs": 281.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AWEVTVK",
+            "mz": 832.45,
+            "ccs": 279.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "IGDYAGIK",
+            "mz": 836.45,
+            "ccs": 285.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VLVDLER",
+            "mz": 843.49,
+            "ccs": 285.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FAAYLER",
+            "mz": 869.45,
+            "ccs": 295.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "YGNPWEK",
+            "mz": 893.41,
+            "ccs": 283.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIPVPKPK",
+            "mz": 893.54,
+            "ccs": 294.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NLAENISR",
+            "mz": 916.48,
+            "ccs": 291.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "APNDFNLK",
+            "mz": 918.46,
+            "ccs": 300.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AEFVEVTK",
+            "mz": 922.49,
+            "ccs": 295.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "YLYEIAR",
+            "mz": 927.49,
+            "ccs": 305.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VLGIDGGEGK",
+            "mz": 944.5,
+            "ccs": 291.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NNVVNTMR",
+            "mz": 947.47,
+            "ccs": 300.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "EALDFFAR",
+            "mz": 968.48,
+            "ccs": 305.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LVVSTQTALA",
+            "mz": 1002.58,
+            "ccs": 315.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ANELLINVK",
+            "mz": 1013.6,
+            "ccs": 326.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VIFLENYR",
+            "mz": 1053.57,
+            "ccs": 318.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "EIWGVEPSR",
+            "mz": 1072.54,
+            "ccs": 320.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VAAAFPGDVDR",
+            "mz": 1117.56,
+            "ccs": 326.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VAAAFPGDVDR",
+            "mz": 1117.56,
+            "ccs": 324.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GVIFYESHGK",
+            "mz": 1136.57,
+            "ccs": 332.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "IGSEVYHNLK",
+            "mz": 1159.61,
+            "ccs": 348.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LVNELTEFAK",
+            "mz": 1163.63,
+            "ccs": 344.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SISIVGSYVGNR",
+            "mz": 1251.67,
+            "ccs": 349.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VFADYEEYVK",
+            "mz": 1262.59,
+            "ccs": 366.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VNQIGTLSESIK",
+            "mz": 1288.71,
+            "ccs": 358.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SIGGEVFIDFTK",
+            "mz": 1312.68,
+            "ccs": 382.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TVMENFVAFVDK",
+            "mz": 1399.69,
+            "ccs": 390.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AVDDFLISLDGTANK",
+            "mz": 1578.8,
+            "ccs": 429.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TAGIQIVADDLTVTNPK",
+            "mz": 1755.95,
+            "ccs": 450.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "(Hex)10",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1621.54,
+            "ccs": 383.4,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)10",
+            "adduct": "[M+H]+",
+            "mz": 1639.55,
+            "ccs": 365.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)10",
+            "adduct": "[M+H]+",
+            "mz": 1639.55,
+            "ccs": 390.3,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)10",
+            "adduct": "[M+Na]+",
+            "mz": 1661.53,
+            "ccs": 365.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)10 ",
+            "adduct": "[M+Na]+",
+            "mz": 1661.53,
+            "ccs": 373.8,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1783.6,
+            "ccs": 379.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11",
+            "adduct": "[M+K]+",
+            "mz": 1839.53,
+            "ccs": 364.8,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11",
+            "adduct": "[M+K]+",
+            "mz": 1839.53,
+            "ccs": 367.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11",
+            "adduct": "[M+Rb]+",
+            "mz": 1885.48,
+            "ccs": 363.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11",
+            "adduct": "[M+Rb]+",
+            "mz": 1885.48,
+            "ccs": 369.7,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11 ",
+            "adduct": "[M+Li]+",
+            "mz": 1807.59,
+            "ccs": 369.7,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)11 ",
+            "adduct": "[M+Na]+",
+            "mz": 1823.6,
+            "ccs": 384.6,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)12",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1945.65,
+            "ccs": 400.3,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)12",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1945.65,
+            "ccs": 422.9,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)12",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 1967.63,
+            "ccs": 390.6,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)12",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 1967.63,
+            "ccs": 410.0,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)OC9C(OC(C(C9O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)OC1C(OC(C(C1O)O)O)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)2",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 347.09,
+            "ccs": 172.1,
+            "smi": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)3",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 509.15,
+            "ccs": 204.9,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)O)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)4",
+            "adduct": "[M+H-H2O]+",
+            "mz": 649.21,
+            "ccs": 234.7,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)4",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 671.2,
+            "ccs": 234.8,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)4 ",
+            "adduct": "[M+K]+",
+            "mz": 705.18,
+            "ccs": 236.6,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)O)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)5",
+            "adduct": "[M+H-H2O]+",
+            "mz": 811.27,
+            "ccs": 282.3,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)5",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 833.25,
+            "ccs": 263.1,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)5 ",
+            "adduct": "[M+Na]+",
+            "mz": 851.26,
+            "ccs": 259.5,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)O)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)8",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1297.42,
+            "ccs": 333.8,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)8",
+            "adduct": "[M+Na]+",
+            "mz": 1337.42,
+            "ccs": 320.9,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)8",
+            "adduct": "[M+Na]+",
+            "mz": 1337.42,
+            "ccs": 338.8,
+            "smi": "C(C1C(C(C(C(O1)OC2C(OC(C(C2O)O)OC3C(OC(C(C3O)O)OC4C(OC(C(C4O)O)OC5C(OC(C(C5O)O)OC6C(OC(C(C6O)O)OC7C(OC(C(C7O)O)OC8C(OC(C(C8O)O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "(Hex)9",
+            "adduct": "[M+H-H2O]+",
+            "mz": 1459.48,
+            "ccs": 356.2,
+            "smi": "C(C1C(C(C(C(O1)OCC(C(C(C(C=O)OC2C(C(C(C(O2)CO)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)OC6C(C(C(C(O6)CO)O)O)O)OC7C(C(C(C(O7)CO)O)O)O)OC8C(C(C(C(O8)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "(Hex)9",
+            "adduct": "[M+Na]+",
+            "mz": 1499.48,
+            "ccs": 340.5,
+            "smi": "C(C1C(C(C(C(O1)OCC(C(C(C(C=O)OC2C(C(C(C(O2)CO)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)OC6C(C(C(C(O6)CO)O)O)O)OC7C(C(C(C(O7)CO)O)O)O)OC8C(C(C(C(O8)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "(Hex)9",
+            "adduct": "[M+Na]+",
+            "mz": 1499.48,
+            "ccs": 351.9,
+            "smi": "C(C1C(C(C(C(O1)OCC(C(C(C(C=O)OC2C(C(C(C(O2)CO)OC3C(C(C(C(O3)CO)O)O)O)OC4C(C(C(C(O4)CO)O)O)O)OC5C(C(C(C(O5)CO)O)O)O)OC6C(C(C(C(O6)CO)O)O)O)OC7C(C(C(C(O7)CO)O)O)O)OC8C(C(C(C(O8)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "Alpha-Cyclodextrin ",
+            "adduct": "[M+H]+",
+            "mz": 973.32,
+            "ccs": 285.2,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@H](O2)[C@@H]([C@H]7O)O)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Alpha-Cyclodextrin ",
+            "adduct": "[M+Na]+",
+            "mz": 995.31,
+            "ccs": 285.5,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@H](O2)[C@@H]([C@H]7O)O)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Alpha-Cyclodextrin ",
+            "adduct": "[M+K]+",
+            "mz": 1011.28,
+            "ccs": 287.7,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@H](O2)[C@@H]([C@H]7O)O)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Beta-Cyclodextrin",
+            "adduct": "[M+H]+",
+            "mz": 1135.37,
+            "ccs": 301.3,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@H](O2)[C@@H]([C@H]8O)O)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Beta-Cyclodextrin",
+            "adduct": "[M+H]+",
+            "mz": 1135.37,
+            "ccs": 319.6,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@H](O2)[C@@H]([C@H]8O)O)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Beta-Cyclodextrin ",
+            "adduct": "[M+Na]+",
+            "mz": 1157.36,
+            "ccs": 319.7,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@H](O2)[C@@H]([C@H]8O)O)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Beta-Cyclodextrin ",
+            "adduct": "[M+K]+",
+            "mz": 1173.33,
+            "ccs": 320.3,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@H](O2)[C@@H]([C@H]8O)O)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+H]+",
+            "mz": 1297.43,
+            "ccs": 322.6,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+Li]+",
+            "mz": 1303.44,
+            "ccs": 317.7,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+Na]+",
+            "mz": 1319.42,
+            "ccs": 322.1,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+K]+",
+            "mz": 1335.39,
+            "ccs": 324.8,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+Rb]+",
+            "mz": 1381.33,
+            "ccs": 327.3,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Gamma-Cyclodextrin ",
+            "adduct": "[M+Cs]+",
+            "mz": 1429.33,
+            "ccs": 338.2,
+            "smi": "C([C@@H]1[C@@H]2[C@@H]([C@H]([C@H](O1)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O[C@@H]8[C@H](O[C@@H]([C@@H]([C@H]8O)O)O[C@@H]9[C@H](O[C@H](O2)[C@@H]([C@H]9O)O)CO)CO)CO)CO)CO)CO)CO)O)O)O"
+        },
+        {
+            "name": "Hex-(Fuc)2",
+            "adduct": "[M+H-H2O]+",
+            "mz": 455.18,
+            "ccs": 194.2,
+            "smi": "CC1C(C(C(C(O1)OC2C(C(C(OC2OC3C(C(OC(C3O)CO)O)NC(=O)C)C)O)O)O)O)O"
+        },
+        {
+            "name": "Hex-(Fuc)2",
+            "adduct": "[M+H-H2O]+",
+            "mz": 455.18,
+            "ccs": 197.6,
+            "smi": "CC1C(C(C(C(O1)OC2C(C(C(OC2OC3C(C(OC(C3O)CO)O)NC(=O)C)C)O)O)O)O)O"
+        },
+        {
+            "name": "HexNAc-(Hex)2",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 550.17,
+            "ccs": 216.3,
+            "smi": "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC(C(CO)O)C(C(C=O)O)O)CO)O)CO)O)O"
+        },
+        {
+            "name": "HexNAc-(Hex)2 ",
+            "adduct": "[M+Na]+",
+            "mz": 568.18,
+            "ccs": 220.0,
+            "smi": "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC(C(CO)O)C(C(C=O)O)O)CO)O)CO)O)O"
+        },
+        {
+            "name": "HexNAc-(Hex)3",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 712.22,
+            "ccs": 244.9,
+            "smi": "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC3C(OC(C(C3O)O)O)CO)CO)O)CO)O)OC4C(C(C(C(O4)CO)O)O)O"
+        },
+        {
+            "name": "HexNAc-(Hex)3 ",
+            "adduct": "[M+Na]+",
+            "mz": 730.23,
+            "ccs": 244.0,
+            "smi": "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC3C(OC(C(C3O)O)O)CO)CO)O)CO)O)OC4C(C(C(C(O4)CO)O)O)O"
+        },
+        {
+            "name": "HexNAc-(Hex)3 ",
+            "adduct": "[M+K]+",
+            "mz": 746.2,
+            "ccs": 248.2,
+            "smi": "CC(=O)NC1C(C(C(OC1OC2C(C(OC(C2O)OC3C(OC(C(C3O)O)O)CO)CO)O)CO)O)OC4C(C(C(C(O4)CO)O)O)O"
+        },
+        {
+            "name": "HexNAc-Fuc-(Hex)3",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 858.28,
+            "ccs": 262.0,
+            "smi": "CC1C(C(C(C(O1)OC(C(C=O)O)C(C(CO)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O)NC(=O)C)O)O)O)O"
+        },
+        {
+            "name": "HexNAc-Fuc-(Hex)3",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 858.28,
+            "ccs": 263.1,
+            "smi": "CC1C(C(C(C(O1)OC(C(C=O)O)C(C(CO)O)OC2C(C(C(C(O2)CO)O)OC3C(C(C(C(O3)CO)O)OC4C(C(C(C(O4)CO)O)O)O)NC(=O)C)O)O)O)O"
+        },
+        {
+            "name": "HexNAc-Hex",
+            "adduct": "[M+Na-H2O]+",
+            "mz": 388.12,
+            "ccs": 184.3,
+            "smi": "CC(=O)NC1C(C(C(OC1O)CO)O)OC2C(C(C(C(O2)CO)O)O)O"
+        },
+        {
+            "name": "HexNAc-Hex ",
+            "adduct": "[M+Na]+",
+            "mz": 406.14,
+            "ccs": 190.2,
+            "smi": "CC(=O)NC1C(C(C(OC1O)CO)O)OC2C(C(C(C(O2)CO)O)O)O"
+        },
+        {
+            "name": "HexNAc-Hex ",
+            "adduct": "[M+K]+",
+            "mz": 422.11,
+            "ccs": 191.1,
+            "smi": "CC(=O)NC1C(C(C(OC1O)CO)O)OC2C(C(C(C(O2)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I",
+            "adduct": "[M+Na]+",
+            "mz": 1022.35,
+            "ccs": 290.6,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I",
+            "adduct": "[M+Na]+",
+            "mz": 1022.35,
+            "ccs": 304.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I ",
+            "adduct": "[M+Li]+",
+            "mz": 1006.38,
+            "ccs": 301.4,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I ",
+            "adduct": "[M+K]+",
+            "mz": 1038.33,
+            "ccs": 303.5,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I ",
+            "adduct": "[M+Rb]+",
+            "mz": 1084.27,
+            "ccs": 303.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose I ",
+            "adduct": "[M+Cs]+",
+            "mz": 1132.27,
+            "ccs": 301.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@@H]2O[C@H]([C@@H](CO)O[C@H]3[C@H]([C@@H]([C@@H]([C@@H](O3)C)O)O)O)[C@@H]([C@H](C=O)O[C@@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O[C@@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose II ",
+            "adduct": "[M+Na]+",
+            "mz": 1022.34,
+            "ccs": 291.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)OC4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O[C@H]5[C@H]([C@@H]([C@@H]([C@@H](O5)C)O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose II ",
+            "adduct": "[M+Na]+",
+            "mz": 1022.34,
+            "ccs": 306.3,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)OC4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O[C@H]5[C@H]([C@@H]([C@@H]([C@@H](O5)C)O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Difucohexaose II ",
+            "adduct": "[M+K]+",
+            "mz": 1038.31,
+            "ccs": 305.8,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)OC4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O[C@H]5[C@H]([C@@H]([C@@H]([C@@H](O5)C)O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose I ",
+            "adduct": "[M+Li]+",
+            "mz": 860.32,
+            "ccs": 269.6,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@H]2O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@@H]5[C@H](OC([C@@H]([C@H]5O)O)O)CO)CO)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose I ",
+            "adduct": "[M+Na]+",
+            "mz": 876.29,
+            "ccs": 276.1,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@H]2O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@@H]5[C@H](OC([C@@H]([C@H]5O)O)O)CO)CO)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose I ",
+            "adduct": "[M+K]+",
+            "mz": 892.27,
+            "ccs": 274.7,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@H]2O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@@H]5[C@H](OC([C@@H]([C@H]5O)O)O)CO)CO)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose I ",
+            "adduct": "[M+Rb]+",
+            "mz": 938.21,
+            "ccs": 275.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@H]2O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@@H]5[C@H](OC([C@@H]([C@H]5O)O)O)CO)CO)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose I ",
+            "adduct": "[M+Cs]+",
+            "mz": 986.21,
+            "ccs": 275.6,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H]([C@H]([C@H](O[C@H]2O[C@@H]3[C@H]([C@@H](O[C@@H]([C@H]3O)CO)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@@H]5[C@H](OC([C@@H]([C@H]5O)O)O)CO)CO)O)NC(=O)C)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose II ",
+            "adduct": "[M+Na]+",
+            "mz": 876.29,
+            "ccs": 271.1,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose II ",
+            "adduct": "[M+K]+",
+            "mz": 892.26,
+            "ccs": 267.2,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lacto-N-Fucopentaose II ",
+            "adduct": "[M+Rb]+",
+            "mz": 938.21,
+            "ccs": 278.4,
+            "smi": "C[C@H]1[C@H]([C@H]([C@@H]([C@@H](O1)O[C@@H]2[C@H](O[C@H]([C@@H]([C@H]2O[C@H]3[C@@H]([C@H]([C@H]([C@H](O3)CO)O)O)O)NC(=O)C)O[C@H]4[C@H]([C@H](O[C@H]([C@@H]4O)O[C@H]([C@@H](CO)O)[C@@H]([C@H](C=O)O)O)CO)O)CO)O)O)O"
+        },
+        {
+            "name": "Lactose ",
+            "adduct": "[M+Li]+",
+            "mz": 349.13,
+            "ccs": 186.3,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O"
+        },
+        {
+            "name": "Lactose ",
+            "adduct": "[M+Na]+",
+            "mz": 365.1,
+            "ccs": 178.1,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltoheptaose ",
+            "adduct": "[M+H]+",
+            "mz": 1153.39,
+            "ccs": 303.3,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltoheptaose ",
+            "adduct": "[M+Na]+",
+            "mz": 1175.37,
+            "ccs": 303.1,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltoheptaose ",
+            "adduct": "[M+K]+",
+            "mz": 1191.34,
+            "ccs": 303.4,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O[C@@H]7[C@H](O[C@@H]([C@@H]([C@H]7O)O)O)CO)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltohexaose ",
+            "adduct": "[M+Na]+",
+            "mz": 1013.31,
+            "ccs": 286.4,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltohexaose ",
+            "adduct": "[M+K]+",
+            "mz": 1029.29,
+            "ccs": 293.3,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](O[C@@H]([C@@H]([C@H]4O)O)O[C@@H]5[C@H](O[C@@H]([C@@H]([C@H]5O)O)O[C@@H]6[C@H](O[C@@H]([C@@H]([C@H]6O)O)O)CO)CO)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltotetraose ",
+            "adduct": "[M+H]+",
+            "mz": 667.23,
+            "ccs": 238.3,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](OC([C@@H]([C@H]4O)O)O)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltotetraose ",
+            "adduct": "[M+Na]+",
+            "mz": 689.21,
+            "ccs": 235.3,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O[C@@H]4[C@H](OC([C@@H]([C@H]4O)O)O)CO)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltotriose ",
+            "adduct": "[M+H]+",
+            "mz": 505.18,
+            "ccs": 216.3,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltotriose ",
+            "adduct": "[M+Na]+",
+            "mz": 527.16,
+            "ccs": 212.8,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Maltotriose ",
+            "adduct": "[M+K]+",
+            "mz": 543.13,
+            "ccs": 216.8,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](O[C@@H]([C@@H]([C@H]2O)O)O[C@@H]3[C@H](O[C@@H]([C@@H]([C@H]3O)O)O)CO)CO)O)O)O)O"
+        },
+        {
+            "name": "Mannitol ",
+            "adduct": "[M+Li]+",
+            "mz": 189.1,
+            "ccs": 144.5,
+            "smi": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O"
+        },
+        {
+            "name": "Mannitol ",
+            "adduct": "[M+Na]+",
+            "mz": 205.07,
+            "ccs": 140.6,
+            "smi": "C([C@H]([C@H]([C@@H]([C@@H](CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose",
+            "adduct": "[M+Rb]+",
+            "mz": 589.08,
+            "ccs": 204.1,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+H]+",
+            "mz": 505.18,
+            "ccs": 202.6,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+Li]+",
+            "mz": 511.18,
+            "ccs": 202.9,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+Na]+",
+            "mz": 527.16,
+            "ccs": 202.7,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+K]+",
+            "mz": 543.13,
+            "ccs": 221.9,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+Rb]+",
+            "mz": 589.08,
+            "ccs": 219.2,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Melezitose ",
+            "adduct": "[M+Cs]+",
+            "mz": 637.07,
+            "ccs": 205.8,
+            "smi": "C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@H]2[C@@H]([C@H](O[C@@]2(CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)CO)O)O)O)O)O"
+        },
+        {
+            "name": "Raffinose",
+            "adduct": "[M+Rb]+",
+            "mz": 589.09,
+            "ccs": 218.7,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "Raffinose",
+            "adduct": "[M+Rb]+",
+            "mz": 589.09,
+            "ccs": 229.7,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "Raffinose ",
+            "adduct": "[M+Na]+",
+            "mz": 527.15,
+            "ccs": 210.7,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "Raffinose ",
+            "adduct": "[M+K]+",
+            "mz": 543.13,
+            "ccs": 212.7,
+            "smi": "C([C@@H]1[C@@H]([C@@H]([C@H](C(O1)OC[C@@H]2[C@H]([C@@H]([C@H](C(O2)O[C@]3([C@H]([C@@H]([C@H](O3)CO)O)O)CO)O)O)O)O)O)O)O"
+        },
+        {
+            "name": "Sorbitol ",
+            "adduct": "[M+H]+",
+            "mz": 189.09,
+            "ccs": 147.2,
+            "smi": "C([C@H]([C@H]([C@@H]([C@H](CO)O)O)O)O)O"
+        },
+        {
+            "name": "Sorbitol ",
+            "adduct": "[M+Na]+",
+            "mz": 205.07,
+            "ccs": 139.4,
+            "smi": "C([C@H]([C@H]([C@@H]([C@H](CO)O)O)O)O)O"
+        },
+        {
+            "name": "TAA3",
+            "adduct": "[M]+",
+            "mz": 186.22,
+            "ccs": 144.0,
+            "smi": "CCC[N+](CCC)(CCC)CCC"
+        },
+        {
+            "name": "TAA4",
+            "adduct": "[M]+",
+            "mz": 242.28,
+            "ccs": 166.6,
+            "smi": "CCCC[N+](CCCC)(CCCC)CCCC"
+        },
+        {
+            "name": "TAA5",
+            "adduct": "[M]+",
+            "mz": 298.35,
+            "ccs": 190.1,
+            "smi": "CCCCC[N+](CCCCC)(CCCCC)CCCCC"
+        },
+        {
+            "name": "TAA6",
+            "adduct": "[M]+",
+            "mz": 354.41,
+            "ccs": 213.5,
+            "smi": "CCCCCC[N+](CCCCCC)(CCCCCC)CCCCCC"
+        },
+        {
+            "name": "TAA7",
+            "adduct": "[M]+",
+            "mz": 410.47,
+            "ccs": 236.4,
+            "smi": "CCCCCCC[N+](CCCCCCC)(CCCCCCC)CCCCCCC"
+        },
+        {
+            "name": "TAA8",
+            "adduct": "[M]+",
+            "mz": 466.54,
+            "ccs": 256.6,
+            "smi": "CCCCCCCC[N+](CCCCCCCC)(CCCCCCCC)CCCCCCCC"
+        },
+        {
+            "name": "TAA10",
+            "adduct": "[M]+",
+            "mz": 578.66,
+            "ccs": 293.5,
+            "smi": "CCCCCCCCCC[N+](CCCCCCCCCC)(CCCCCCCCCC)CCCCCCCCCC"
+        },
+        {
+            "name": "TAA12",
+            "adduct": "[M]+",
+            "mz": 690.79,
+            "ccs": 319.0,
+            "smi": "CCCCCCCCCCCC[N+](CCCCCCCCCCCC)(CCCCCCCCCCCC)CCCCCCCCCCCC"
+        },
+        {
+            "name": "TAA16",
+            "adduct": "[M]+",
+            "mz": 915.04,
+            "ccs": 361.5,
+            "smi": "CCCCCCCCCCCCCCCC[N+](CCCCCCCCCCCCCCCC)(CCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCC"
+        },
+        {
+            "name": "TAA18",
+            "adduct": "[M]+",
+            "mz": 1027.16,
+            "ccs": 379.0,
+            "smi": "CCCCCCCCCCCCCCCCCC[N+](CCCCCCCCCCCCCCCCCC)(CCCCCCCCCCCCCCCCCC)CCCCCCCCCCCCCCCCCC"
+        }
+    ]
+}

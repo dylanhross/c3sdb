@@ -1,0 +1,6563 @@
+{
+    "metadata": {
+        "src_tag": "nich1118",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.analchem.8b04322",
+        "reference": "Nichols, C. M. et al. Untargeted Molecular Discovery in Primary Metabolism: Collision Cross Section as a Molecular Descriptor in Ion Mobility-Mass Spectrometry. Anal. Chem. 90, 14484–14492 (2018).",
+        "ccs_type": "DT",
+        "ccs_method": "single field, calibrated with ESI Low Concentration Tuning Mix (Agilent)"
+    },
+    "data": [
+        {
+            "name": "(2-AMINOETHYL)PHOSPHONATE",
+            "mz": 126.032,
+            "ccs": 129.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "(2-AMINOETHYL)PHOSPHONATE",
+            "mz": 148.0139,
+            "ccs": 136.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "1-METHYL-L-HISTIDINE",
+            "mz": 170.093,
+            "ccs": 133.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "1-METHYL-L-HISTIDINE",
+            "mz": 192.0749,
+            "ccs": 138.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "1-METHYLADENOSINE",
+            "mz": 282.1202,
+            "ccs": 160.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "1-METHYLADENOSINE",
+            "mz": 282.1202,
+            "ccs": 164.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "1-METHYLADENOSINE",
+            "mz": 304.1022,
+            "ccs": 170.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "1-METHYLNICOTINAMIDE",
+            "mz": 137.0715,
+            "ccs": 126.2,
+            "adduct": "[M+]+"
+        },
+        {
+            "name": "10-HYDROXYDECANOATE",
+            "mz": 211.131,
+            "ccs": 151.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE",
+            "mz": 243.0957,
+            "ccs": 149.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE",
+            "mz": 243.0957,
+            "ccs": 157.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-AMINOISOBUTYRATE",
+            "mz": 104.0712,
+            "ccs": 123.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-AMINOPHENOL",
+            "mz": 110.0606,
+            "ccs": 118.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-AMINOPHENOL",
+            "mz": 110.0606,
+            "ccs": 124.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-DEOXY-D-GLUCOSE",
+            "mz": 187.0582,
+            "ccs": 136.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-HYDROXYPYRIDINE",
+            "mz": 96.0449,
+            "ccs": 115.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-METHYLGLUTARATE",
+            "mz": 169.0477,
+            "ccs": 137.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-PHOSPHOGLYCERATE",
+            "mz": 187.0008,
+            "ccs": 134.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-PHOSPHOGLYCERATE",
+            "mz": 208.9827,
+            "ccs": 141.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2-QUINOLINECARBOXYLATE",
+            "mz": 174.0555,
+            "ccs": 132.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2,3-DIAMINOPROPIONATE",
+            "mz": 105.0664,
+            "ccs": 138.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2,4-DIHYDROXYPTERIDINE",
+            "mz": 165.0413,
+            "ccs": 132.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2,4-DIHYDROXYPTERIDINE",
+            "mz": 187.0232,
+            "ccs": 143.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "2,6-DIHYDROXYPYRIDINE",
+            "mz": 112.0399,
+            "ccs": 119.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2',4'-DIHYDROXYACETOPHENONE",
+            "mz": 153.0552,
+            "ccs": 127.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-AMINO-4-HYDROXYBENZOATE",
+            "mz": 154.0504,
+            "ccs": 139.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-DEHYDROSHIKIMATE",
+            "mz": 195.0269,
+            "ccs": 149.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-HYDROXY-3-METHYLGLUTARYL-COA",
+            "mz": 912.1653,
+            "ccs": 265.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-HYDROXY-3-METHYLGLUTARYL-COA",
+            "mz": 934.1472,
+            "ccs": 266.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-HYDROXYANTHRANILATE",
+            "mz": 154.0504,
+            "ccs": 131.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-HYDROXYMETHYLGLUTARATE",
+            "mz": 185.0426,
+            "ccs": 135.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-METHOXYTYRAMINE",
+            "mz": 168.1025,
+            "ccs": 146.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-METHOXYTYROSINE",
+            "mz": 212.0923,
+            "ccs": 153.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-METHOXYTYROSINE",
+            "mz": 234.0742,
+            "ccs": 150.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-METHYL-2-OXINDOLE",
+            "mz": 148.0762,
+            "ccs": 130.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-METHYLADENINE",
+            "mz": 150.078,
+            "ccs": 126.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-METHYLCROTONYL-COA",
+            "mz": 850.1649,
+            "ccs": 256.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-METHYLHISTAMINE",
+            "mz": 126.1031,
+            "ccs": 123.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-NITRO-L-TYROSINE",
+            "mz": 227.0668,
+            "ccs": 158.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-NITRO-L-TYROSINE",
+            "mz": 249.0487,
+            "ccs": 154.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-PHOSPHOGLYCERATE",
+            "mz": 187.0008,
+            "ccs": 136.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-PHOSPHOGLYCERATE",
+            "mz": 208.9827,
+            "ccs": 139.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-SULFINOALANINE",
+            "mz": 154.0174,
+            "ccs": 133.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3,5-DIIODO-L-THYRONINE",
+            "mz": 525.9012,
+            "ccs": 198.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3,5-DIIODO-L-THYRONINE",
+            "mz": 547.8832,
+            "ccs": 189.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3,5-DIIODO-L-TYROSINE",
+            "mz": 433.875,
+            "ccs": 171.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3,5-DIIODO-L-TYROSINE",
+            "mz": 455.8569,
+            "ccs": 165.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "4-ACETAMIDOBUTANOATE",
+            "mz": 168.0637,
+            "ccs": 135.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "4-AMINOBENZOATE",
+            "mz": 138.0555,
+            "ccs": 126.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "4-GUANIDINOBUTANOATE",
+            "mz": 146.093,
+            "ccs": 130.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "4-IMIDAZOLEACETATE",
+            "mz": 127.0508,
+            "ccs": 123.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "4-PYRIDOXATE",
+            "mz": 184.061,
+            "ccs": 135.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "4-PYRIDOXATE",
+            "mz": 222.0169,
+            "ccs": 147.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "4-PYRIDOXATE",
+            "mz": 206.0429,
+            "ccs": 150.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "4-QUINOLINECARBOXYLATE",
+            "mz": 174.0555,
+            "ccs": 133.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-AMINOLEVULINATE",
+            "mz": 132.0661,
+            "ccs": 130.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-HYDROXYINDOLEACETATE",
+            "mz": 192.0661,
+            "ccs": 140.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-HYDROXYINDOLEACETATE",
+            "mz": 214.048,
+            "ccs": 148.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "5-HYDROXYLYSINE",
+            "mz": 163.1083,
+            "ccs": 134.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-HYDROXYLYSINE",
+            "mz": 185.0902,
+            "ccs": 137.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "5-HYDROXYTRYPTOPHAN",
+            "mz": 221.0926,
+            "ccs": 154.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-HYDROXYTRYPTOPHAN",
+            "mz": 243.0746,
+            "ccs": 152.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "5-METHYLCYTOSINE",
+            "mz": 126.0667,
+            "ccs": 121.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-METHYLCYTOSINE",
+            "mz": 126.0667,
+            "ccs": 125.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-METHYLCYTOSINE",
+            "mz": 148.0487,
+            "ccs": 135.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "5,6-DIMETHYLBENZIMIDAZOLE",
+            "mz": 147.0922,
+            "ccs": 130.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5'-DEOXYADENOSINE",
+            "mz": 252.1097,
+            "ccs": 152.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5'-DEOXYADENOSINE",
+            "mz": 252.1097,
+            "ccs": 158.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5'-DEOXYADENOSINE",
+            "mz": 274.0916,
+            "ccs": 167.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "6-CARBOXYHEXANOATE",
+            "mz": 183.0633,
+            "ccs": 140.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "6-HYDROXYDOPAMINE",
+            "mz": 170.0817,
+            "ccs": 143.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "6-HYDROXYNICOTINATE",
+            "mz": 140.0348,
+            "ccs": 128.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "6-PHOSPHOGLUCONATE",
+            "mz": 299.0144,
+            "ccs": 157.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ACETYLCHOLINE ",
+            "mz": 146.1181,
+            "ccs": 129.5,
+            "adduct": "[M+]+"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 136.0623,
+            "ccs": 124.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 136.0623,
+            "ccs": 124.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 158.0443,
+            "ccs": 137.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 158.0443,
+            "ccs": 137.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE",
+            "mz": 268.1046,
+            "ccs": 155.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE",
+            "mz": 268.1046,
+            "ccs": 161.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE",
+            "mz": 290.0865,
+            "ccs": 165.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 330.0603,
+            "ccs": 168.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 352.0423,
+            "ccs": 175.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 352.0423,
+            "ccs": 181.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE 3',5'-DIPHOSPHATE",
+            "mz": 428.0372,
+            "ccs": 183.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE 3',5'-DIPHOSPHATE",
+            "mz": 450.0192,
+            "ccs": 188.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE 5'-DIPHOSPHATE",
+            "mz": 428.0372,
+            "ccs": 187.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE 5'-DIPHOSPHATE",
+            "mz": 450.0192,
+            "ccs": 193.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 560.0795,
+            "ccs": 212.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 582.0614,
+            "ccs": 217.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 508.0036,
+            "ccs": 196.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 508.0036,
+            "ccs": 196.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 529.9855,
+            "ccs": 204.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 529.9855,
+            "ccs": 204.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADENOSINE MONOPHOSPHATE",
+            "mz": 348.0709,
+            "ccs": 171.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADENOSINE MONOPHOSPHATE",
+            "mz": 370.0529,
+            "ccs": 177.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADIPATE",
+            "mz": 169.0477,
+            "ccs": 136.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADP-GLUCOSE",
+            "mz": 590.0901,
+            "ccs": 216.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADP-GLUCOSE",
+            "mz": 612.072,
+            "ccs": 224.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "AGMATINE SULFATE",
+            "mz": 131.1297,
+            "ccs": 128.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AICAR",
+            "mz": 339.0706,
+            "ccs": 171.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AICAR",
+            "mz": 361.0525,
+            "ccs": 168.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ALLANTOIN",
+            "mz": 181.0338,
+            "ccs": 142.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ALLOSE",
+            "mz": 203.0532,
+            "ccs": 143.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ALLOSE",
+            "mz": 203.0532,
+            "ccs": 146.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ALPHA-D-GLUCOSE",
+            "mz": 203.0532,
+            "ccs": 146.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "AMINOADIPATE",
+            "mz": 162.0766,
+            "ccs": 134.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AMINOADIPATE",
+            "mz": 184.0586,
+            "ccs": 139.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "AMINOISOBUTANOATE",
+            "mz": 104.0712,
+            "ccs": 123.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ANSERINE",
+            "mz": 241.1301,
+            "ccs": 153.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ANSERINE",
+            "mz": 263.112,
+            "ccs": 156.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ARABINOSE",
+            "mz": 173.0426,
+            "ccs": 134.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ARABITOL",
+            "mz": 175.0582,
+            "ccs": 135.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ARGININE",
+            "mz": 175.1195,
+            "ccs": 136.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ARGININE",
+            "mz": 197.1014,
+            "ccs": 148.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ASCORBATE",
+            "mz": 199.0219,
+            "ccs": 141.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ASPARAGINE",
+            "mz": 155.0433,
+            "ccs": 129.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "AZELATE",
+            "mz": 211.0946,
+            "ccs": 148.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BETA-GLYCEROPHOSPHATE",
+            "mz": 195.0034,
+            "ccs": 140.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BETA-NICOTINAMIDE ADENINE DINUCLEOTIDE",
+            "mz": 664.1169,
+            "ccs": 227.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "BETA-NICOTINAMIDE ADENINE DINUCLEOTIDE",
+            "mz": 686.0989,
+            "ccs": 222.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BETAINE",
+            "mz": 118.0868,
+            "ccs": 121.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "BETAINE",
+            "mz": 156.0427,
+            "ccs": 130.5,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "BETAINE",
+            "mz": 140.0687,
+            "ccs": 133.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BILIVERDIN",
+            "mz": 583.2557,
+            "ccs": 243.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "BILIVERDIN",
+            "mz": 605.2376,
+            "ccs": 246.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BIOTIN",
+            "mz": 245.096,
+            "ccs": 149.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "BIOTIN",
+            "mz": 283.0519,
+            "ccs": 160.1,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "BIOTIN",
+            "mz": 267.0779,
+            "ccs": 159.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "BIS(2-ETHYLHEXYL)PHTHALATE",
+            "mz": 391.2848,
+            "ccs": 212.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "BIS(2-ETHYLHEXYL)PHTHALATE",
+            "mz": 413.2668,
+            "ccs": 215.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CAFFEINE",
+            "mz": 195.0882,
+            "ccs": 140.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CARNOSINE",
+            "mz": 227.1144,
+            "ccs": 150.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CARNOSINE",
+            "mz": 249.0964,
+            "ccs": 154.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CELLOBIOSE",
+            "mz": 381.0799,
+            "ccs": 180.9,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "CELLOBIOSE",
+            "mz": 365.106,
+            "ccs": 178.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CHOLATE",
+            "mz": 431.2773,
+            "ccs": 197.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CHOLESTERYL PALMITATE",
+            "mz": 647.5743,
+            "ccs": 286.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CHOLINE",
+            "mz": 104.1075,
+            "ccs": 117.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CIS-4-HYDROXY-D-PROLINE",
+            "mz": 132.0661,
+            "ccs": 128.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CIS-4-HYDROXY-D-PROLINE",
+            "mz": 154.048,
+            "ccs": 130.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CITICOLINE",
+            "mz": 489.1152,
+            "ccs": 198.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CITICOLINE",
+            "mz": 511.0971,
+            "ccs": 207.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CITRAMALATE",
+            "mz": 171.0269,
+            "ccs": 133.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CITRATE",
+            "mz": 215.0168,
+            "ccs": 143.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CITRULLINE",
+            "mz": 176.1035,
+            "ccs": 137.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CITRULLINE",
+            "mz": 198.0855,
+            "ccs": 139.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "COENZYME A",
+            "mz": 768.123,
+            "ccs": 241.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "COENZYME A",
+            "mz": 790.105,
+            "ccs": 255.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "COENZYME Q10",
+            "mz": 885.6737,
+            "ccs": 306.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CORTEXOLONE",
+            "mz": 347.2222,
+            "ccs": 187.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CORTEXOLONE",
+            "mz": 369.2042,
+            "ccs": 211.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CORTICOSTERONE",
+            "mz": 347.2222,
+            "ccs": 186.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CORTICOSTERONE",
+            "mz": 385.1781,
+            "ccs": 208.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "CORTICOSTERONE",
+            "mz": 369.2042,
+            "ccs": 211.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CORTISOL",
+            "mz": 363.2171,
+            "ccs": 188.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CORTISOL",
+            "mz": 401.173,
+            "ccs": 210.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "CORTISOL",
+            "mz": 385.1991,
+            "ccs": 212.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CORTISOL 21-ACETATE",
+            "mz": 405.2277,
+            "ccs": 198.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CORTISOL 21-ACETATE",
+            "mz": 443.1836,
+            "ccs": 207.2,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "CORTISOL 21-ACETATE",
+            "mz": 427.2097,
+            "ccs": 203.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CORTISONE",
+            "mz": 361.2015,
+            "ccs": 188.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CORTISONE",
+            "mz": 383.1834,
+            "ccs": 213.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CREATINE",
+            "mz": 132.0773,
+            "ccs": 126.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CREATININE",
+            "mz": 114.0667,
+            "ccs": 123.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CREATININE",
+            "mz": 136.0487,
+            "ccs": 132.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 330.0603,
+            "ccs": 172.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 330.0603,
+            "ccs": 172.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 330.0603,
+            "ccs": 176.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 330.0603,
+            "ccs": 176.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 352.0423,
+            "ccs": 181.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 352.0423,
+            "ccs": 181.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 352.0423,
+            "ccs": 188.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 352.0423,
+            "ccs": 188.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYCLIC GMP",
+            "mz": 346.0553,
+            "ccs": 172.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYCLIC GMP",
+            "mz": 368.0372,
+            "ccs": 184.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYSTATHIONINE",
+            "mz": 223.0753,
+            "ccs": 147.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYSTATHIONINE",
+            "mz": 245.0572,
+            "ccs": 147.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYSTEATE",
+            "mz": 170.0123,
+            "ccs": 140.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYSTEATE",
+            "mz": 191.9943,
+            "ccs": 148.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYSTINE",
+            "mz": 241.0317,
+            "ccs": 149.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYSTINE",
+            "mz": 263.0136,
+            "ccs": 151.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE",
+            "mz": 244.0933,
+            "ccs": 151.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE",
+            "mz": 266.0753,
+            "ccs": 159.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 306.0491,
+            "ccs": 163.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 344.005,
+            "ccs": 168.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 328.0311,
+            "ccs": 167.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE DIPHOSPHATE",
+            "mz": 404.026,
+            "ccs": 175.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE DIPHOSPHATE",
+            "mz": 426.008,
+            "ccs": 179.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 324.0597,
+            "ccs": 166.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 324.0597,
+            "ccs": 167.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 346.0416,
+            "ccs": 167.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 346.0416,
+            "ccs": 168.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTIDINE TRIPHOSPHATE",
+            "mz": 483.9923,
+            "ccs": 188.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTIDINE TRIPHOSPHATE",
+            "mz": 505.9743,
+            "ccs": 192.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "CYTOSINE",
+            "mz": 112.0511,
+            "ccs": 117.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CYTOSINE",
+            "mz": 112.0511,
+            "ccs": 122.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "D-GLUCURONOLACTONE",
+            "mz": 199.0219,
+            "ccs": 145.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "D-MANNOSAMINE",
+            "mz": 180.0872,
+            "ccs": 138.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "D-MANNOSAMINE",
+            "mz": 202.0691,
+            "ccs": 141.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "D-ORNITHINE",
+            "mz": 133.0977,
+            "ccs": 128.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "D-RIBOSE 5-PHOSPHATE",
+            "mz": 253.0089,
+            "ccs": 150.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEHYDROASCORBATE",
+            "mz": 349.0407,
+            "ccs": 169.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYADENOSINE",
+            "mz": 252.1097,
+            "ccs": 152.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYADENOSINE",
+            "mz": 252.1097,
+            "ccs": 158.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYADENOSINE",
+            "mz": 274.0916,
+            "ccs": 161.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYADENOSINE MONOPHOSPHATE",
+            "mz": 332.076,
+            "ccs": 168.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYADENOSINE MONOPHOSPHATE",
+            "mz": 354.0579,
+            "ccs": 173.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYADENOSINE TRIPHOSPHATE",
+            "mz": 492.0087,
+            "ccs": 194.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYADENOSINE TRIPHOSPHATE",
+            "mz": 513.9906,
+            "ccs": 202.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYCARNITINE",
+            "mz": 146.1181,
+            "ccs": 129.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYCORTICOSTERONE ACETATE",
+            "mz": 373.2379,
+            "ccs": 196.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE",
+            "mz": 266.0543,
+            "ccs": 158.5,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE",
+            "mz": 250.0804,
+            "ccs": 155.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE MONOPHOSPHATE",
+            "mz": 330.0467,
+            "ccs": 157.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE MONOPHOSPHATE",
+            "mz": 330.0467,
+            "ccs": 164.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE-DIPHOSPHATE",
+            "mz": 388.0311,
+            "ccs": 172.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYCYTIDINE-DIPHOSPHATE",
+            "mz": 410.013,
+            "ccs": 175.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYGUANOSINE",
+            "mz": 306.0605,
+            "ccs": 171.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "DEOXYGUANOSINE",
+            "mz": 290.0865,
+            "ccs": 171.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYGUANOSINE-MONOPHOSPHATE",
+            "mz": 348.0709,
+            "ccs": 176.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEOXYGUANOSINE-MONOPHOSPHATE",
+            "mz": 370.0529,
+            "ccs": 170.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYRIBOSE",
+            "mz": 157.0477,
+            "ccs": 134.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYURIDINE",
+            "mz": 251.0644,
+            "ccs": 156.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYURIDINE TRIPHOSPHATE",
+            "mz": 490.9634,
+            "ccs": 185.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DEOXYURIDINE-MONOPHOSPHATE",
+            "mz": 331.0307,
+            "ccs": 168.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DETHIOBIOTIN",
+            "mz": 215.1396,
+            "ccs": 144.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DETHIOBIOTIN",
+            "mz": 253.0955,
+            "ccs": 155.8,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "DETHIOBIOTIN",
+            "mz": 237.1215,
+            "ccs": 155.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DGDP",
+            "mz": 428.0372,
+            "ccs": 188.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DGDP",
+            "mz": 450.0192,
+            "ccs": 185.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DIAMINOPIMELATE",
+            "mz": 191.1032,
+            "ccs": 141.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIAMINOPIMELATE",
+            "mz": 229.0591,
+            "ccs": 146.3,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "DIAMINOPIMELATE",
+            "mz": 213.0851,
+            "ccs": 145.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DIDECANOYL-GLYCEROPHOSPHOCHOLINE",
+            "mz": 566.3822,
+            "ccs": 247.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIDECANOYL-GLYCEROPHOSPHOCHOLINE",
+            "mz": 588.3641,
+            "ccs": 252.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DIETHANOLAMINE",
+            "mz": 106.0868,
+            "ccs": 121.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DIHYDROBIOPTERIN",
+            "mz": 238.094,
+            "ccs": 153.9,
+            "adduct": "[M+H]+*"
+        },
+        {
+            "name": "DIHYDROBIOPTERIN",
+            "mz": 260.076,
+            "ccs": 157.2,
+            "adduct": "[M+Na]+*"
+        },
+        {
+            "name": "DIPALMITOYLGLYCEROL",
+            "mz": 607.4704,
+            "ccs": 254.9,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "DIPALMITOYLGLYCEROL",
+            "mz": 591.4964,
+            "ccs": 252.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "DOPAMINE",
+            "mz": 154.0868,
+            "ccs": 142.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DTDP-D-GLUCOSE",
+            "mz": 587.0655,
+            "ccs": 209.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ERYTHRITOL",
+            "mz": 145.0477,
+            "ccs": 129.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ETHYL 3-INDOLEACETATE",
+            "mz": 204.1025,
+            "ccs": 145.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ETHYL 3-INDOLEACETATE",
+            "mz": 226.0844,
+            "ccs": 153.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FAD",
+            "mz": 786.165,
+            "ccs": 249.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FAD",
+            "mz": 808.1469,
+            "ccs": 250.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FOLATE",
+            "mz": 442.1475,
+            "ccs": 196.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "FOLATE",
+            "mz": 464.1295,
+            "ccs": 205.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FRUCTOSE",
+            "mz": 203.0532,
+            "ccs": 141.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FRUCTOSE 6-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 154.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "FUCOSE",
+            "mz": 187.0582,
+            "ccs": 138.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GALACTARATE",
+            "mz": 233.0273,
+            "ccs": 146.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GALACTITOL",
+            "mz": 205.0688,
+            "ccs": 142.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GALACTOSE",
+            "mz": 203.0532,
+            "ccs": 141.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GALACTOSE 1-PHOSPHATE",
+            "mz": 298.9934,
+            "ccs": 158.5,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GALACTOSE 1-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 157.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GALACTURONATE",
+            "mz": 217.0324,
+            "ccs": 145.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCONATE",
+            "mz": 219.0481,
+            "ccs": 146.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCONATE",
+            "mz": 219.0481,
+            "ccs": 146.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCONOLACTONE",
+            "mz": 201.0375,
+            "ccs": 144.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSAMINATE",
+            "mz": 196.0821,
+            "ccs": 141.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUCOSAMINATE",
+            "mz": 218.0641,
+            "ccs": 146.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSAMINE",
+            "mz": 180.0872,
+            "ccs": 138.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUCOSAMINE",
+            "mz": 180.0872,
+            "ccs": 141.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUCOSAMINE",
+            "mz": 202.0691,
+            "ccs": 143.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSAMINE",
+            "mz": 202.0691,
+            "ccs": 146.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSE 1-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 158.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSE 6-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 158.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCOSE 6-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 158.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUCURONATE",
+            "mz": 217.0324,
+            "ccs": 150.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUTAMATE",
+            "mz": 148.061,
+            "ccs": 131.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUTAMATE",
+            "mz": 186.0169,
+            "ccs": 149.8,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GLUTAMINE",
+            "mz": 147.077,
+            "ccs": 130.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUTARYLCARNITINE",
+            "mz": 276.1447,
+            "ccs": 161.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUTARYLCARNITINE",
+            "mz": 298.1267,
+            "ccs": 167.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLUTATHIONE REDUCED",
+            "mz": 308.0916,
+            "ccs": 167.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLUTATHIONE REDUCED",
+            "mz": 330.0736,
+            "ccs": 167.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLYCEROL 3-PHOSPHATE",
+            "mz": 195.0034,
+            "ccs": 137.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLYCEROL-MYRISTATE",
+            "mz": 325.2355,
+            "ccs": 183.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLYCERYL TRIMYRISTATE",
+            "mz": 745.6322,
+            "ccs": 291.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLYCOCHENODEOXYCHOLATE",
+            "mz": 450.3219,
+            "ccs": 196.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLYCOCHENODEOXYCHOLATE",
+            "mz": 472.3039,
+            "ccs": 203.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GLYCOCHOLATE",
+            "mz": 466.3169,
+            "ccs": 199.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GLYCOCHOLATE",
+            "mz": 504.2727,
+            "ccs": 208.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GLYCOCHOLATE",
+            "mz": 488.2988,
+            "ccs": 202.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANIDINOACETATE",
+            "mz": 118.0617,
+            "ccs": 124.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANIDINOACETATE",
+            "mz": 140.0436,
+            "ccs": 134.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANIDINOSUCCINATE",
+            "mz": 176.0671,
+            "ccs": 136.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANIDINOSUCCINATE",
+            "mz": 198.0491,
+            "ccs": 148.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANINE",
+            "mz": 152.0572,
+            "ccs": 129.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANINE",
+            "mz": 190.0131,
+            "ccs": 136.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GUANINE",
+            "mz": 174.0392,
+            "ccs": 137.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANOSINE",
+            "mz": 284.0995,
+            "ccs": 163.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANOSINE",
+            "mz": 322.0554,
+            "ccs": 174.3,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "GUANOSINE",
+            "mz": 306.0814,
+            "ccs": 174.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE",
+            "mz": 444.0322,
+            "ccs": 192.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE",
+            "mz": 466.0141,
+            "ccs": 188.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE MANNOSE",
+            "mz": 606.085,
+            "ccs": 227.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE MANNOSE",
+            "mz": 628.0669,
+            "ccs": 222.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GUANOSINE MONOPHOSPHATE",
+            "mz": 364.0658,
+            "ccs": 179.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GUANOSINE MONOPHOSPHATE",
+            "mz": 386.0478,
+            "ccs": 174.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HIPPURATE",
+            "mz": 202.048,
+            "ccs": 149.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HISTAMINE",
+            "mz": 112.0875,
+            "ccs": 120.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 156.0773,
+            "ccs": 131.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 156.0773,
+            "ccs": 132.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 178.0592,
+            "ccs": 134.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 178.0592,
+            "ccs": 134.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HISTIDINOL",
+            "mz": 142.098,
+            "ccs": 128.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HISTIDINOL",
+            "mz": 164.08,
+            "ccs": 131.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HOMOCYSTEINE",
+            "mz": 136.0432,
+            "ccs": 130.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HOMOCYSTINE",
+            "mz": 269.063,
+            "ccs": 158.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HOMOCYSTINE",
+            "mz": 291.0449,
+            "ccs": 158.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HOMOSERINE",
+            "mz": 120.0661,
+            "ccs": 125.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HOMOVANILLATE",
+            "mz": 205.0477,
+            "ccs": 146.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HYDROXYPHENYLLACTATE",
+            "mz": 205.0477,
+            "ccs": 144.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HYPOTAURINE",
+            "mz": 110.0276,
+            "ccs": 125.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HYPOXANTHINE",
+            "mz": 137.0463,
+            "ccs": 127.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HYPOXANTHINE",
+            "mz": 159.0283,
+            "ccs": 134.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INDOLE-3-ACETAMIDE",
+            "mz": 175.0871,
+            "ccs": 137.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INDOLE-3-ACETAMIDE",
+            "mz": 197.0691,
+            "ccs": 143.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INDOLE-3-ACETATE",
+            "mz": 176.0712,
+            "ccs": 135.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INDOLE-3-ACETATE",
+            "mz": 176.0712,
+            "ccs": 135.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INDOLE-3-ACETATE",
+            "mz": 198.0531,
+            "ccs": 143.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INDOLE-3-ACETATE",
+            "mz": 198.0531,
+            "ccs": 143.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INDOLE-3-ETHANOL",
+            "mz": 162.0919,
+            "ccs": 133.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INDOLE-3-METHYL ACETATE",
+            "mz": 190.0868,
+            "ccs": 138.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INDOLE-3-METHYL ACETATE",
+            "mz": 212.0687,
+            "ccs": 147.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INDOLEACETALDEHYDE",
+            "mz": 160.0762,
+            "ccs": 132.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INOSINE",
+            "mz": 307.0445,
+            "ccs": 170.2,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "INOSINE",
+            "mz": 291.0705,
+            "ccs": 170.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INOSINE 5'-DIPHOSPHATE",
+            "mz": 429.0213,
+            "ccs": 186.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INOSINE 5'-DIPHOSPHATE",
+            "mz": 451.0032,
+            "ccs": 184.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INOSINE MONOPHOSPHATE",
+            "mz": 349.0549,
+            "ccs": 174.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INOSINE MONOPHOSPHATE",
+            "mz": 371.0369,
+            "ccs": 170.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INOSINE TRIPHOSPHATE",
+            "mz": 508.9876,
+            "ccs": 193.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INOSINE TRIPHOSPHATE",
+            "mz": 530.9695,
+            "ccs": 197.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "INOSINE-MONOPHOSPHATE",
+            "mz": 349.0549,
+            "ccs": 174.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "INOSINE-MONOPHOSPHATE",
+            "mz": 371.0369,
+            "ccs": 170.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ISOCITRATE",
+            "mz": 215.0168,
+            "ccs": 142.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ISOLEUCINE",
+            "mz": 132.1025,
+            "ccs": 133.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ITACONATE",
+            "mz": 153.0164,
+            "ccs": 131.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "KYNURENATE",
+            "mz": 190.0504,
+            "ccs": 136.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "KYNURENATE",
+            "mz": 212.0324,
+            "ccs": 151.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "KYNURENINE",
+            "mz": 209.0926,
+            "ccs": 149.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "KYNURENINE",
+            "mz": 209.0926,
+            "ccs": 149.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "KYNURENINE",
+            "mz": 231.0746,
+            "ccs": 152.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "KYNURENINE",
+            "mz": 231.0746,
+            "ccs": 153.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "L-CARNITINE",
+            "mz": 162.113,
+            "ccs": 132.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "L-DOPA",
+            "mz": 198.0766,
+            "ccs": 149.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "L-DOPA",
+            "mz": 220.0586,
+            "ccs": 147.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "L-GULONOLACTONE",
+            "mz": 201.0375,
+            "ccs": 140.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "L-ORNITHINE",
+            "mz": 133.0977,
+            "ccs": 127.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "L-TRYPTOPHANAMIDE",
+            "mz": 204.1137,
+            "ccs": 150.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "L-TRYPTOPHANAMIDE",
+            "mz": 226.0956,
+            "ccs": 147.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LACTOSE",
+            "mz": 381.0799,
+            "ccs": 178.6,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "LACTOSE",
+            "mz": 365.106,
+            "ccs": 175.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LAUROYLCARNITINE",
+            "mz": 344.2801,
+            "ccs": 199.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LAUROYLCARNITINE",
+            "mz": 366.262,
+            "ccs": 209.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LEUCINE",
+            "mz": 132.1025,
+            "ccs": 134.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LINOLEATE",
+            "mz": 303.23,
+            "ccs": 177.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LIOTHYRONINE",
+            "mz": 651.7979,
+            "ccs": 209.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LIOTHYRONINE",
+            "mz": 673.7798,
+            "ccs": 194.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LIPOAMIDE",
+            "mz": 228.0493,
+            "ccs": 150.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LITHOCHOLYLTAURINE",
+            "mz": 506.2916,
+            "ccs": 213.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LUMICHROME",
+            "mz": 243.0882,
+            "ccs": 153.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LUMICHROME",
+            "mz": 265.0701,
+            "ccs": 167.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LYSINE",
+            "mz": 147.1134,
+            "ccs": 131.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LYSINE",
+            "mz": 147.1134,
+            "ccs": 131.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LYSINE",
+            "mz": 169.0953,
+            "ccs": 135.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "LYXOSE",
+            "mz": 173.0426,
+            "ccs": 136.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MALTOSE",
+            "mz": 381.0799,
+            "ccs": 181.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "MALTOSE",
+            "mz": 365.106,
+            "ccs": 178.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MANNITOL",
+            "mz": 205.0688,
+            "ccs": 141.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MANNOSE",
+            "mz": 203.0532,
+            "ccs": 141.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MANNOSE 6-PHOSPHATE",
+            "mz": 283.0195,
+            "ccs": 156.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MELATONIN",
+            "mz": 233.129,
+            "ccs": 153.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MELATONIN",
+            "mz": 271.0849,
+            "ccs": 158.3,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "MELATONIN",
+            "mz": 255.1109,
+            "ccs": 157.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MELIBIOSE",
+            "mz": 343.124,
+            "ccs": 180.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MELIBIOSE",
+            "mz": 381.0799,
+            "ccs": 180.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "MELIBIOSE",
+            "mz": 365.106,
+            "ccs": 177.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "METHIONINE",
+            "mz": 150.0589,
+            "ccs": 133.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "METHIONINE SULFOXIMINE",
+            "mz": 181.0647,
+            "ccs": 136.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "METHIONINE SULFOXIMINE",
+            "mz": 203.0466,
+            "ccs": 138.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "METHYGLUTARATE",
+            "mz": 169.0477,
+            "ccs": 137.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "METHYL 4-AMINOBUTYRATE",
+            "mz": 118.0868,
+            "ccs": 124.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "METHYL GALACTOSIDE",
+            "mz": 217.0688,
+            "ccs": 145.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "METHYLTHIOADENOSINE",
+            "mz": 298.0974,
+            "ccs": 162.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "METHYLTHIOADENOSINE",
+            "mz": 298.0974,
+            "ccs": 170.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "METHYLTHIOADENOSINE",
+            "mz": 320.0793,
+            "ccs": 172.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MEVALONATE",
+            "mz": 171.0633,
+            "ccs": 132.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "MYOINOSITOL",
+            "mz": 203.0532,
+            "ccs": 148.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLALANINE",
+            "mz": 154.048,
+            "ccs": 134.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLASPARTATE",
+            "mz": 198.0378,
+            "ccs": 139.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLCYSTEINE",
+            "mz": 186.0201,
+            "ccs": 140.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLGALACTOSAMINE",
+            "mz": 260.0536,
+            "ccs": 151.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "N-ACETYLGALACTOSAMINE",
+            "mz": 244.0797,
+            "ccs": 150.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLGLUCOSAMINE",
+            "mz": 244.0797,
+            "ccs": 150.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLGLUCOSAMINE",
+            "mz": 244.0797,
+            "ccs": 157.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLGLUTAMATE",
+            "mz": 212.0535,
+            "ccs": 142.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLGLYCINE ",
+            "mz": 140.0324,
+            "ccs": 133.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLLEUCINE",
+            "mz": 196.095,
+            "ccs": 149.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLMANNOSAMINE",
+            "mz": 244.0797,
+            "ccs": 150.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLMETHIONINE",
+            "mz": 214.0514,
+            "ccs": 150.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLNEURAMINATE",
+            "mz": 310.1138,
+            "ccs": 166.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-ACETYLNEURAMINATE",
+            "mz": 332.0958,
+            "ccs": 168.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLPHENYLALANINE",
+            "mz": 230.0793,
+            "ccs": 149.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLPROLINE",
+            "mz": 180.0637,
+            "ccs": 140.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLPUTRESCINE",
+            "mz": 131.1184,
+            "ccs": 128.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-ACETYLPUTRESCINE",
+            "mz": 153.1004,
+            "ccs": 134.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLSERINE",
+            "mz": 170.0429,
+            "ccs": 133.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLSEROTONIN",
+            "mz": 219.1134,
+            "ccs": 149.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-ACETYLSEROTONIN",
+            "mz": 241.0953,
+            "ccs": 153.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ACETYLTRYPTOPHAN",
+            "mz": 247.1083,
+            "ccs": 153.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-ACETYLTRYPTOPHAN",
+            "mz": 269.0902,
+            "ccs": 158.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-ALPHA-ACETYLLYSINE",
+            "mz": 189.1239,
+            "ccs": 145.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-ALPHA-ACETYLLYSINE",
+            "mz": 211.1059,
+            "ccs": 144.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-FORMYL-L-METHIONINE",
+            "mz": 200.0357,
+            "ccs": 145.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-METHYLASPARTATE",
+            "mz": 148.061,
+            "ccs": 130.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-METHYLASPARTATE",
+            "mz": 170.0429,
+            "ccs": 134.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-METHYLGLUTAMATE",
+            "mz": 162.0766,
+            "ccs": 132.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-METHYLTRYPTAMINE",
+            "mz": 175.1235,
+            "ccs": 142.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N,N-DIMETHYL-ARGININE",
+            "mz": 203.1508,
+            "ccs": 144.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N,N-DIMETHYL-ARGININE",
+            "mz": 225.1327,
+            "ccs": 158.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N,N-DIMETHYLARGININE",
+            "mz": 203.1508,
+            "ccs": 143.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N,N-DIMETHYLARGININE",
+            "mz": 225.1327,
+            "ccs": 157.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N,N,N-TRIMETHYLLYSINE",
+            "mz": 189.1603,
+            "ccs": 141.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N1-ACETYLSPERMINE",
+            "mz": 245.2341,
+            "ccs": 158.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N1-ACETYLSPERMINE",
+            "mz": 267.2161,
+            "ccs": 162.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N6-(DELTA2-ISOPENTENYL)-ADENINE",
+            "mz": 204.1249,
+            "ccs": 145.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NADP",
+            "mz": 744.0833,
+            "ccs": 232.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NADP",
+            "mz": 766.0652,
+            "ccs": 240.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "NADPH",
+            "mz": 744.0833,
+            "ccs": 232.2,
+            "adduct": "[M+]+"
+        },
+        {
+            "name": "NADPH",
+            "mz": 766.0652,
+            "ccs": 240.5,
+            "adduct": "[M+Na-H]+"
+        },
+        {
+            "name": "NERVONATE",
+            "mz": 389.3396,
+            "ccs": 204.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "NICOTINAMIDE",
+            "mz": 123.0558,
+            "ccs": 125.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NICOTINAMIDE HYPOXANTHINE DINUCLEOTIDE",
+            "mz": 665.101,
+            "ccs": 221.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NICOTINAMIDE HYPOXANTHINE DINUCLEOTIDE",
+            "mz": 687.0829,
+            "ccs": 229.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "NICOTINAMIDE MONONUCLEOTIDE",
+            "mz": 335.0644,
+            "ccs": 166.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NICOTINATE",
+            "mz": 124.0399,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NICOTINIC ACID ADENINE DINUCLEOTIDE PHOSPHATE",
+            "mz": 745.0673,
+            "ccs": 230.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NORADRENALINE",
+            "mz": 152.0712,
+            "ccs": 137.2,
+            "adduct": "[M-H2O+H]+"
+        },
+        {
+            "name": "NORLEUCINE",
+            "mz": 132.1025,
+            "ccs": 136.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NORMETANEPHRINE",
+            "mz": 206.0793,
+            "ccs": 155.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "NORSPERMIDINE",
+            "mz": 132.1501,
+            "ccs": 127.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NORSPERMIDINE",
+            "mz": 154.132,
+            "ccs": 132.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "NORVALINE",
+            "mz": 118.0868,
+            "ccs": 120.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "NORVALINE",
+            "mz": 140.0687,
+            "ccs": 133.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "O-ACETYLCARNITINE",
+            "mz": 204.1236,
+            "ccs": 143.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "O-ACETYLSERINE",
+            "mz": 148.061,
+            "ccs": 130.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "O-PHOSPHOSERINE",
+            "mz": 207.9987,
+            "ccs": 140.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "O-SUCCINYL-HOMOSERINE",
+            "mz": 220.0821,
+            "ccs": 145.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "O-SUCCINYL-HOMOSERINE",
+            "mz": 242.0641,
+            "ccs": 145.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "OLEOYL-GLYCEROL",
+            "mz": 357.3005,
+            "ccs": 202.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "OLEOYL-GLYCEROL",
+            "mz": 379.2824,
+            "ccs": 197.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "OMEGA-HYDROXYDODECANOATE",
+            "mz": 239.1623,
+            "ccs": 160.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "OPHTHALMATE",
+            "mz": 290.1352,
+            "ccs": 164.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "OPHTHALMATE",
+            "mz": 312.1172,
+            "ccs": 163.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "OXOADIPATE",
+            "mz": 183.0269,
+            "ccs": 137.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "OXOPROLINE",
+            "mz": 130.0504,
+            "ccs": 130.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "P-OCTOPAMINE",
+            "mz": 176.0687,
+            "ccs": 147.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PALATINOSE",
+            "mz": 381.0799,
+            "ccs": 177.6,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "PALATINOSE",
+            "mz": 365.106,
+            "ccs": 176.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PALMITATE",
+            "mz": 279.23,
+            "ccs": 173.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PALMITOYLCARNITINE",
+            "mz": 400.3427,
+            "ccs": 213.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PALMITOYLCARNITINE",
+            "mz": 422.3246,
+            "ccs": 219.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PANTOTHENATE",
+            "mz": 220.1185,
+            "ccs": 129.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PANTOTHENATE",
+            "mz": 242.1004,
+            "ccs": 150.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PARAXANTHINE",
+            "mz": 181.0726,
+            "ccs": 134.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PARAXANTHINE",
+            "mz": 181.0726,
+            "ccs": 138.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PARAXANTHINE",
+            "mz": 203.0545,
+            "ccs": 149.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHENYLALANINE",
+            "mz": 166.0868,
+            "ccs": 140.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PHENYLALANINE",
+            "mz": 188.0687,
+            "ccs": 138.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHOSPHOCREATINE",
+            "mz": 212.0436,
+            "ccs": 144.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PHOSPHOCREATINE",
+            "mz": 212.0436,
+            "ccs": 144.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PHOSPHOENOLPYRUVATE",
+            "mz": 190.9721,
+            "ccs": 138.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHOSPHOENOLPYRUVATE",
+            "mz": 190.9721,
+            "ccs": 138.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHOSPHONOACETATE",
+            "mz": 162.9772,
+            "ccs": 134.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHOSPHORYLCHOLINE",
+            "mz": 184.0739,
+            "ccs": 136.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PHOSPHORYLCHOLINE",
+            "mz": 206.0558,
+            "ccs": 147.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PHYTATE",
+            "mz": 660.8692,
+            "ccs": 215.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 130.0868,
+            "ccs": 127.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 130.0868,
+            "ccs": 128.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 152.0687,
+            "ccs": 138.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 152.0687,
+            "ccs": 139.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PROLINE",
+            "mz": 116.0712,
+            "ccs": 125.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PROTOPORPHYRIN",
+            "mz": 563.2658,
+            "ccs": 241.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PSICOSE",
+            "mz": 203.0532,
+            "ccs": 137.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PTERIN",
+            "mz": 164.0572,
+            "ccs": 128.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PTERIN",
+            "mz": 186.0392,
+            "ccs": 143.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PURINE",
+            "mz": 121.0514,
+            "ccs": 121.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PYRIDOXAL",
+            "mz": 168.0661,
+            "ccs": 131.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PYRIDOXAL",
+            "mz": 190.048,
+            "ccs": 142.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PYRIDOXAL-PHOSPHATE",
+            "mz": 248.0324,
+            "ccs": 151.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PYRIDOXAL-PHOSPHATE",
+            "mz": 270.0143,
+            "ccs": 160.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PYRIDOXAMINE",
+            "mz": 169.0977,
+            "ccs": 133.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PYRIDOXAMINE",
+            "mz": 191.0796,
+            "ccs": 144.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PYRIDOXINE",
+            "mz": 170.0817,
+            "ccs": 134.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PYRIDOXINE",
+            "mz": 192.0637,
+            "ccs": 144.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "PYROGLUTAMATE",
+            "mz": 130.0504,
+            "ccs": 130.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "QUINATE",
+            "mz": 215.0532,
+            "ccs": 151.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "QUINOLINATE",
+            "mz": 168.0297,
+            "ccs": 132.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "RAFFINOSE",
+            "mz": 527.1588,
+            "ccs": 208.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "RETINOATE",
+            "mz": 323.1987,
+            "ccs": 181.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "RHAMNOSE",
+            "mz": 187.0582,
+            "ccs": 142.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "RIBITOL",
+            "mz": 175.0582,
+            "ccs": 136.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "RIBOFLAVIN",
+            "mz": 377.1461,
+            "ccs": 188.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "RIBOSE",
+            "mz": 173.0426,
+            "ccs": 135.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "S-ADENOSYLHOMOCYSTEINE",
+            "mz": 385.1294,
+            "ccs": 182.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "S-ADENOSYLHOMOCYSTEINE",
+            "mz": 407.1114,
+            "ccs": 189.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "S-ADENOSYLMETHIONINE",
+            "mz": 399.1451,
+            "ccs": 185.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "S-CARBOXYMETHYLCYSTEINE",
+            "mz": 180.0331,
+            "ccs": 137.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "S-CARBOXYMETHYLCYSTEINE",
+            "mz": 202.015,
+            "ccs": 138.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "S-HEXYL-GLUTATHIONE",
+            "mz": 392.1855,
+            "ccs": 200.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "S-HEXYL-GLUTATHIONE",
+            "mz": 414.1675,
+            "ccs": 200.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SACCHARATE",
+            "mz": 249.0013,
+            "ccs": 148.8,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "SACCHARATE",
+            "mz": 233.0273,
+            "ccs": 148.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SALICYLAMIDE",
+            "mz": 138.0555,
+            "ccs": 124.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SALSOLINOL",
+            "mz": 180.1025,
+            "ccs": 142.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SEBACATE",
+            "mz": 225.1103,
+            "ccs": 152.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SELENOCYSTAMINE",
+            "mz": 248.9409,
+            "ccs": 135.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SELENOCYSTAMINE",
+            "mz": 270.9229,
+            "ccs": 138.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SELENOMETHIONINE",
+            "mz": 198.0033,
+            "ccs": 135.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SELENOMETHIONINE",
+            "mz": 219.9853,
+            "ccs": 138.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SEROTONIN",
+            "mz": 199.0847,
+            "ccs": 146.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SORBITOL",
+            "mz": 205.0688,
+            "ccs": 142.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SORBOSE",
+            "mz": 203.0532,
+            "ccs": 139.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SORBOSE",
+            "mz": 203.0532,
+            "ccs": 143.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SPERMIDINE",
+            "mz": 146.1657,
+            "ccs": 131.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SPERMIDINE",
+            "mz": 146.1657,
+            "ccs": 131.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SPERMIDINE",
+            "mz": 168.1477,
+            "ccs": 136.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SPERMIDINE",
+            "mz": 168.1477,
+            "ccs": 136.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SPERMINE",
+            "mz": 203.2236,
+            "ccs": 148.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SPERMINE",
+            "mz": 225.2055,
+            "ccs": 151.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SPHINGANINE",
+            "mz": 302.3059,
+            "ccs": 189.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SPHINGANINE",
+            "mz": 324.2878,
+            "ccs": 191.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "STACHYOSE",
+            "mz": 689.2116,
+            "ccs": 235.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SUBERATE",
+            "mz": 197.079,
+            "ccs": 144.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SUCROSE",
+            "mz": 381.0799,
+            "ccs": 175.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "SUCROSE",
+            "mz": 365.106,
+            "ccs": 173.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TARTRATE",
+            "mz": 173.0062,
+            "ccs": 137.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TAURINE",
+            "mz": 126.0225,
+            "ccs": 128.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TAURINE",
+            "mz": 126.0225,
+            "ccs": 134.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THEOBROMINE",
+            "mz": 181.0726,
+            "ccs": 131.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THEOBROMINE",
+            "mz": 181.0726,
+            "ccs": 136.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THEOPHYLLINE",
+            "mz": 181.0726,
+            "ccs": 137.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THEOPHYLLINE",
+            "mz": 203.0545,
+            "ccs": 146.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THIAMINE",
+            "mz": 265.1123,
+            "ccs": 162.8,
+            "adduct": "[M+]+"
+        },
+        {
+            "name": "THIAMINE MONOPHOSPHATE",
+            "mz": 345.0786,
+            "ccs": 171.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THIAMINE MONOPHOSPHATE",
+            "mz": 367.0606,
+            "ccs": 176.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THIAMINE PYROPHOSPHATE",
+            "mz": 425.045,
+            "ccs": 181.8,
+            "adduct": "[M+]+"
+        },
+        {
+            "name": "THIAMINE PYROPHOSPHATE",
+            "mz": 447.0269,
+            "ccs": 186.8,
+            "adduct": "[M+Na-H]+"
+        },
+        {
+            "name": "THIOPURINE S-METHYLETHER",
+            "mz": 167.0391,
+            "ccs": 129.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THIOPURINE S-METHYLETHER",
+            "mz": 189.0211,
+            "ccs": 145.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THREONINE",
+            "mz": 120.0661,
+            "ccs": 126.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THYMIDINE",
+            "mz": 265.08,
+            "ccs": 161.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 345.0464,
+            "ccs": 173.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 345.0464,
+            "ccs": 173.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "THYMINE",
+            "mz": 127.0508,
+            "ccs": 122.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THYROTROPIN RELEASING HORMONE",
+            "mz": 363.1781,
+            "ccs": 179.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "THYROTROPIN RELEASING HORMONE",
+            "mz": 385.16,
+            "ccs": 182.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 132.0661,
+            "ccs": 127.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 132.0661,
+            "ccs": 127.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 154.048,
+            "ccs": 139.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 154.048,
+            "ccs": 139.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRANS-CINNAMALDEHYDE",
+            "mz": 133.0653,
+            "ccs": 121.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TREHALOSE",
+            "mz": 381.0799,
+            "ccs": 179.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "TREHALOSE",
+            "mz": 365.106,
+            "ccs": 175.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRICOSANOATE",
+            "mz": 377.3396,
+            "ccs": 204.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRIGONELLINE",
+            "mz": 138.0555,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TRIGONELLINE",
+            "mz": 160.0374,
+            "ccs": 135.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 205.0977,
+            "ccs": 150.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 205.0977,
+            "ccs": 150.3,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 227.0796,
+            "ccs": 147.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 227.0796,
+            "ccs": 147.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "TYROSINE",
+            "mz": 182.0817,
+            "ccs": 145.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "TYROSINE",
+            "mz": 204.0637,
+            "ccs": 143.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URACIL 5-CARBOXYLATE",
+            "mz": 179.0069,
+            "ccs": 139.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URATE",
+            "mz": 169.0362,
+            "ccs": 130.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "UREIDOPROPIONATE",
+            "mz": 155.0433,
+            "ccs": 132.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE",
+            "mz": 267.0593,
+            "ccs": 160.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE 5'-DIPHOSPHATE",
+            "mz": 405.01,
+            "ccs": 176.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URIDINE 5'-DIPHOSPHATE",
+            "mz": 426.992,
+            "ccs": 178.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE 5'-DIPHOSPHATE",
+            "mz": 426.992,
+            "ccs": 181.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 589.0448,
+            "ccs": 210.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 589.0448,
+            "ccs": 210.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCURONIC ACID",
+            "mz": 603.0241,
+            "ccs": 211.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGALACTOSAMINE",
+            "mz": 608.0894,
+            "ccs": 216.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGALACTOSAMINE",
+            "mz": 630.0713,
+            "ccs": 218.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGLUCOSAMINE",
+            "mz": 608.0894,
+            "ccs": 210.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGLUCOSAMINE",
+            "mz": 630.0713,
+            "ccs": 218.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATEGALACTOSE",
+            "mz": 589.0448,
+            "ccs": 210.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE MONOPHOSPHATE",
+            "mz": 325.0437,
+            "ccs": 165.7,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URIDINE MONOPHOSPHATE",
+            "mz": 347.0256,
+            "ccs": 172.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "URIDINE TRIPHOSPHATE",
+            "mz": 484.9764,
+            "ccs": 187.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URIDINE TRIPHOSPHATE",
+            "mz": 506.9583,
+            "ccs": 188.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "UROCANATE",
+            "mz": 139.0508,
+            "ccs": 134.6,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "URSODEOXYCHOLATE",
+            "mz": 415.2824,
+            "ccs": 198.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "VALINE",
+            "mz": 118.0868,
+            "ccs": 120.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "VALINE",
+            "mz": 140.0687,
+            "ccs": 133.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "XANTHINE",
+            "mz": 153.0412,
+            "ccs": 129.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "XANTHOSINE",
+            "mz": 285.0835,
+            "ccs": 162.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "XANTHOSINE",
+            "mz": 323.0394,
+            "ccs": 173.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "XANTHOSINE",
+            "mz": 307.0655,
+            "ccs": 173.3,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "XANTHOSINE-MONOPHOSPHATE",
+            "mz": 365.0498,
+            "ccs": 175.5,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "XANTHOSINE-MONOPHOSPHATE",
+            "mz": 387.0318,
+            "ccs": 176.6,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "XANTHURENATE",
+            "mz": 206.0453,
+            "ccs": 140.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "XANTHURENATE",
+            "mz": 228.0273,
+            "ccs": 147.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "XYLITOL",
+            "mz": 175.0582,
+            "ccs": 135.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "XYLOSE",
+            "mz": 173.0426,
+            "ccs": 134.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "(2-AMINOETHYL)PHOSPHONATE",
+            "mz": 124.0164,
+            "ccs": 120.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "1-AMINOCYCLOPROPANECARBOXYLATE",
+            "mz": 100.0399,
+            "ccs": 135.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "1-METHYLADENOSINE",
+            "mz": 280.1046,
+            "ccs": 162.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "10-HYDROXYDECANOATE",
+            "mz": 187.1334,
+            "ccs": 144.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-ACETAMIDO-2-DEOXY-BETA-D-GLUCOSYLAMINE",
+            "mz": 219.0981,
+            "ccs": 155.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-AMINOPHENOL",
+            "mz": 108.0449,
+            "ccs": 118.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-HYDROXY-4-(METHYLTHIO)BUTANOATE",
+            "mz": 149.0272,
+            "ccs": 129.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-HYDROXYBUTYRATE",
+            "mz": 103.0395,
+            "ccs": 117.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-HYDROXYPHENYLACETATE",
+            "mz": 151.0395,
+            "ccs": 130.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-METHYLGLUTARATE",
+            "mz": 145.0501,
+            "ccs": 126.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-METHYLGLUTARATE",
+            "mz": 167.032,
+            "ccs": 132.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "2-METHYLMALEATE",
+            "mz": 129.0188,
+            "ccs": 118.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-PHOSPHOGLYCERATE",
+            "mz": 184.9851,
+            "ccs": 124.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2-PHOSPHOGLYCERATE",
+            "mz": 206.9671,
+            "ccs": 133.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "2,3-DIAMINOPROPIONATE",
+            "mz": 103.0508,
+            "ccs": 118.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2,3-DIHYDROXYBENZOATE",
+            "mz": 153.0188,
+            "ccs": 120.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2,4-DIHYDROXYPTERIDINE",
+            "mz": 163.0256,
+            "ccs": 125.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2,5-DIHYDROXYBENZOATE",
+            "mz": 153.0188,
+            "ccs": 124.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2,6-DIHYDROXYPYRIDINE",
+            "mz": 110.0242,
+            "ccs": 113.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "2',4'-DIHYDROXYACETOPHENONE",
+            "mz": 151.0395,
+            "ccs": 126.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-(2-HYDROXYPHENYL)PROPANOATE",
+            "mz": 165.0552,
+            "ccs": 133.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-AMINO-4-HYDROXYBENZOATE",
+            "mz": 152.0348,
+            "ccs": 125.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-DEHYDROSHIKIMATE",
+            "mz": 171.0293,
+            "ccs": 132.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-HYDROXY-3-METHYLGLUTARYL-COA",
+            "mz": 910.1497,
+            "ccs": 261.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-HYDROXY-3-METHYLGLUTARYL-COA",
+            "mz": 932.1316,
+            "ccs": 267.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3-HYDROXYANTHRANILATE",
+            "mz": 152.0348,
+            "ccs": 127.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-HYDROXYBENZALDEHYDE",
+            "mz": 121.029,
+            "ccs": 118.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-HYDROXYBENZYL ALCOHOL",
+            "mz": 123.0446,
+            "ccs": 122.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-HYDROXYMETHYLGLUTARATE",
+            "mz": 161.045,
+            "ccs": 126.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-METHOXY-4-HYDROXYMANDELATE",
+            "mz": 197.045,
+            "ccs": 143.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-METHOXYTYROSINE",
+            "mz": 210.0766,
+            "ccs": 148.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-METHOXYTYROSINE",
+            "mz": 232.0586,
+            "ccs": 150.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3-METHYL-2-OXOVALERATE",
+            "mz": 129.0552,
+            "ccs": 127.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-METHYLCROTONYL-COA",
+            "mz": 848.1492,
+            "ccs": 256.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-METHYLCROTONYL-COA",
+            "mz": 870.1312,
+            "ccs": 266.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3-NITRO-L-TYROSINE",
+            "mz": 225.0511,
+            "ccs": 148.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-NITRO-L-TYROSINE",
+            "mz": 247.0331,
+            "ccs": 147.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3-PHOSPHOGLYCERATE",
+            "mz": 184.9851,
+            "ccs": 124.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3-PHOSPHOGLYCERATE",
+            "mz": 206.9671,
+            "ccs": 133.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3-PHOSPHOGLYCERATE",
+            "mz": 206.9671,
+            "ccs": 141.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3,4 DIHYDROXYMANDELATE",
+            "mz": 183.0293,
+            "ccs": 137.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3,4-DIHYDROXYBENZOATE",
+            "mz": 153.0188,
+            "ccs": 122.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3,4-DIHYDROXYPHENYLACETATE",
+            "mz": 189.0164,
+            "ccs": 139.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "3,4-DIHYDROXYPHENYLGLYCOL",
+            "mz": 151.0395,
+            "ccs": 127.5,
+            "adduct": "[M-H2O-H]-"
+        },
+        {
+            "name": "3,5-DIIODO-L-THYRONINE",
+            "mz": 523.8856,
+            "ccs": 188.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "3,5-DIIODO-L-TYROSINE",
+            "mz": 431.8594,
+            "ccs": 159.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-ACETAMIDOBUTANOATE",
+            "mz": 144.0661,
+            "ccs": 130.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-COUMARATE",
+            "mz": 163.0395,
+            "ccs": 131.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-HYDROXYBENZALDEHYDE",
+            "mz": 121.029,
+            "ccs": 118.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-HYDROXYBENZOATE",
+            "mz": 137.0239,
+            "ccs": 121.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-METHYLCATECHOL",
+            "mz": 123.0446,
+            "ccs": 121.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-PYRIDOXATE",
+            "mz": 182.0453,
+            "ccs": 130.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "4-QUINOLINECARBOXYLATE",
+            "mz": 172.0399,
+            "ccs": 134.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5-HYDROXYINDOLEACETATE",
+            "mz": 190.0504,
+            "ccs": 137.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5-HYDROXYLYSINE",
+            "mz": 161.0926,
+            "ccs": 134.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5-HYDROXYTRYPTOPHAN",
+            "mz": 219.077,
+            "ccs": 146.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5-HYDROXYTRYPTOPHAN",
+            "mz": 219.077,
+            "ccs": 151.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5-HYDROXYTRYPTOPHAN",
+            "mz": 241.0589,
+            "ccs": 149.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "5,6-DIMETHYLBENZIMIDAZOLE",
+            "mz": 145.0766,
+            "ccs": 129.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "5'-DEOXYADENOSINE",
+            "mz": 250.094,
+            "ccs": 154.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "6-CARBOXYHEXANOATE",
+            "mz": 159.0657,
+            "ccs": 130.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "6-CARBOXYHEXANOATE",
+            "mz": 181.0477,
+            "ccs": 134.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "6-PHOSPHOGLUCONATE",
+            "mz": 275.0168,
+            "ccs": 143.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "6-PHOSPHOGLUCONATE",
+            "mz": 296.9988,
+            "ccs": 148.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 134.0467,
+            "ccs": 119.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENINE",
+            "mz": 134.0467,
+            "ccs": 119.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE",
+            "mz": 266.0889,
+            "ccs": 157.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 328.0447,
+            "ccs": 169.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 346.0553,
+            "ccs": 173.5,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "ADENOSINE 3',5'-DIPHOSPHATE",
+            "mz": 426.0216,
+            "ccs": 184.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE 3',5'-DIPHOSPHATE",
+            "mz": 448.0035,
+            "ccs": 188.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENOSINE 5'-DIPHOSPHATE",
+            "mz": 426.0216,
+            "ccs": 183.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE 5'-DIPHOSPHATE",
+            "mz": 448.0035,
+            "ccs": 187.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 558.0638,
+            "ccs": 202.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 558.0638,
+            "ccs": 207.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 576.0744,
+            "ccs": 204.5,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "ADENOSINE DIPHOSPHATE RIBOSE",
+            "mz": 580.0458,
+            "ccs": 211.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 505.9879,
+            "ccs": 188.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 505.9879,
+            "ccs": 188.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 527.9699,
+            "ccs": 193.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENOSINE TRIPHOSPHATE",
+            "mz": 527.9699,
+            "ccs": 193.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADENOSINE-MONOPHOSPHATE",
+            "mz": 346.0553,
+            "ccs": 173.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADENOSINE-MONOPHOSPHATE",
+            "mz": 368.0372,
+            "ccs": 179.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADIPATE",
+            "mz": 145.0501,
+            "ccs": 127.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADIPATE",
+            "mz": 167.032,
+            "ccs": 132.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ADP-GLUCOSE",
+            "mz": 588.0744,
+            "ccs": 217.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ADP-GLUCOSE",
+            "mz": 610.0564,
+            "ccs": 218.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "AICAR",
+            "mz": 337.0549,
+            "ccs": 170.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AICAR",
+            "mz": 359.0369,
+            "ccs": 175.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ALLANTOIN",
+            "mz": 157.0362,
+            "ccs": 125.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ALLOTHREONINE",
+            "mz": 118.0504,
+            "ccs": 119.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AMINOADIPATE",
+            "mz": 160.061,
+            "ccs": 129.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AMINOADIPATE",
+            "mz": 182.0429,
+            "ccs": 134.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ANILINE-2-SULFONATE",
+            "mz": 172.0068,
+            "ccs": 130.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ANSERINE",
+            "mz": 239.1144,
+            "ccs": 154.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ANTHRANILATE",
+            "mz": 136.0399,
+            "ccs": 125.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ARABITOL",
+            "mz": 151.0606,
+            "ccs": 124.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ARACHIDATE",
+            "mz": 311.295,
+            "ccs": 185.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ARGININE",
+            "mz": 173.1039,
+            "ccs": 136.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ASCORBATE",
+            "mz": 175.0243,
+            "ccs": 127.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ASPARAGINE",
+            "mz": 131.0457,
+            "ccs": 121.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ASPARTATE",
+            "mz": 132.0297,
+            "ccs": 118.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ASPARTATE",
+            "mz": 132.0297,
+            "ccs": 118.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AZELATE",
+            "mz": 187.097,
+            "ccs": 139.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AZELATE",
+            "mz": 209.079,
+            "ccs": 141.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "BETA-GLYCEROPHOSPHATE",
+            "mz": 171.0058,
+            "ccs": 126.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "BETA-GLYCEROPHOSPHATE",
+            "mz": 192.9878,
+            "ccs": 147.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "BETA-NICOTINAMIDE ADENINE DINUCLEOTIDE",
+            "mz": 662.1013,
+            "ccs": 223.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "BETA-NICOTINAMIDE ADENINE DINUCLEOTIDE",
+            "mz": 684.0832,
+            "ccs": 230.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "BILIVERDIN",
+            "mz": 581.24,
+            "ccs": 246.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "BIOTIN",
+            "mz": 243.0803,
+            "ccs": 155.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "BIOTIN",
+            "mz": 265.0623,
+            "ccs": 152.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "BIS(2-ETHYLHEXYL)PHTHALATE",
+            "mz": 407.2797,
+            "ccs": 203.0,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "CAFFEATE",
+            "mz": 179.0344,
+            "ccs": 132.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CARNOSINE",
+            "mz": 225.0988,
+            "ccs": 152.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CDP-ETHANOLAMINE",
+            "mz": 445.0526,
+            "ccs": 188.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CDP-ETHANOLAMINE",
+            "mz": 467.0345,
+            "ccs": 186.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CELLOBIOSE",
+            "mz": 341.1084,
+            "ccs": 179.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CHOLATE",
+            "mz": 407.2797,
+            "ccs": 203.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CIS-4-HYDROXY-D-PROLINE",
+            "mz": 130.0504,
+            "ccs": 124.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CITICOLINE",
+            "mz": 487.0995,
+            "ccs": 205.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CITICOLINE",
+            "mz": 509.0815,
+            "ccs": 210.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CITRAMALATE",
+            "mz": 147.0293,
+            "ccs": 122.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CITRATE",
+            "mz": 191.0192,
+            "ccs": 127.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CITRULLINE",
+            "mz": 174.0879,
+            "ccs": 135.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "COENZYME A",
+            "mz": 766.1074,
+            "ccs": 244.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "COENZYME A",
+            "mz": 788.0893,
+            "ccs": 246.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CORTICOSTERONE",
+            "mz": 345.2066,
+            "ccs": 186.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CORTISOL",
+            "mz": 361.2015,
+            "ccs": 191.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CORTISOL 21-ACETATE",
+            "mz": 403.2121,
+            "ccs": 196.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CORTISONE",
+            "mz": 359.1858,
+            "ccs": 191.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CREATININE",
+            "mz": 112.0511,
+            "ccs": 118.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 328.0447,
+            "ccs": 171.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYCLIC AMP",
+            "mz": 328.0447,
+            "ccs": 172.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYCLIC GMP",
+            "mz": 344.0396,
+            "ccs": 167.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYCLIC GMP",
+            "mz": 366.0216,
+            "ccs": 169.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYSTATHIONINE",
+            "mz": 221.0596,
+            "ccs": 141.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYSTATHIONINE",
+            "mz": 243.0415,
+            "ccs": 144.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYSTEATE",
+            "mz": 167.9967,
+            "ccs": 123.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYSTEATE",
+            "mz": 189.9786,
+            "ccs": 131.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYSTINE",
+            "mz": 239.016,
+            "ccs": 143.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYSTINE",
+            "mz": 260.998,
+            "ccs": 147.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYTIDINE",
+            "mz": 242.0777,
+            "ccs": 149.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 304.0335,
+            "ccs": 164.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 322.044,
+            "ccs": 167.1,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "CYTIDINE 2',3'-CYCLIC PHOSPHATE",
+            "mz": 326.0154,
+            "ccs": 165.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYTIDINE DIPHOSPHATE",
+            "mz": 402.0104,
+            "ccs": 174.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE DIPHOSPHATE",
+            "mz": 423.9923,
+            "ccs": 176.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 322.044,
+            "ccs": 164.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 322.044,
+            "ccs": 164.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 344.026,
+            "ccs": 163.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYTIDINE MONOPHOSPHATE",
+            "mz": 344.026,
+            "ccs": 163.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "CYTIDINE TRIPHOSPHATE",
+            "mz": 481.9767,
+            "ccs": 181.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "CYTIDINE TRIPHOSPHATE",
+            "mz": 503.9586,
+            "ccs": 185.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "D-ORNITHINE",
+            "mz": 131.0821,
+            "ccs": 128.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "D-RIBOSE 5-PHOSPHATE",
+            "mz": 229.0113,
+            "ccs": 139.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEHYDROASCORBATE",
+            "mz": 173.0086,
+            "ccs": 127.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYADENOSINE",
+            "mz": 250.094,
+            "ccs": 155.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYADENOSINE MONOPHOSPHATE",
+            "mz": 330.0603,
+            "ccs": 164.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYADENOSINE MONOPHOSPHATE",
+            "mz": 352.0423,
+            "ccs": 169.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYADENOSINE TRIPHOSPHATE",
+            "mz": 489.993,
+            "ccs": 186.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYADENOSINE TRIPHOSPHATE",
+            "mz": 511.975,
+            "ccs": 185.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYCHOLATE",
+            "mz": 391.2848,
+            "ccs": 202.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYCHOLATE",
+            "mz": 391.2848,
+            "ccs": 202.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYCYTIDINE",
+            "mz": 226.0828,
+            "ccs": 148.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYCYTIDINE MONOPHOSPHATE",
+            "mz": 306.0491,
+            "ccs": 162.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYCYTIDINE-DIPHOSPHATE",
+            "mz": 386.0154,
+            "ccs": 174.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYCYTIDINE-DIPHOSPHATE",
+            "mz": 407.9974,
+            "ccs": 176.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYGUANOSINE",
+            "mz": 266.0889,
+            "ccs": 159.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYGUANOSINE-MONOPHOSPHATE",
+            "mz": 346.0553,
+            "ccs": 168.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYGUANOSINE-MONOPHOSPHATE",
+            "mz": 368.0372,
+            "ccs": 170.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYURIDINE",
+            "mz": 227.0668,
+            "ccs": 148.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYURIDINE TRIPHOSPHATE",
+            "mz": 466.9658,
+            "ccs": 178.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYURIDINE TRIPHOSPHATE",
+            "mz": 488.9477,
+            "ccs": 188.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYURIDINE-MONOPHOSPHATE",
+            "mz": 307.0331,
+            "ccs": 159.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DEOXYURIDINE-MONOPHOSPHATE",
+            "mz": 329.0151,
+            "ccs": 161.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DEOXYURIDINE-MONOPHOSPHATE",
+            "mz": 329.0151,
+            "ccs": 171.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DETHIOBIOTIN",
+            "mz": 213.1239,
+            "ccs": 152.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DETHIOBIOTIN",
+            "mz": 235.1059,
+            "ccs": 148.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DGDP",
+            "mz": 426.0216,
+            "ccs": 180.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DGDP",
+            "mz": 448.0035,
+            "ccs": 177.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DGDP",
+            "mz": 448.0035,
+            "ccs": 185.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DGTP",
+            "mz": 505.9879,
+            "ccs": 191.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DGTP",
+            "mz": 527.9699,
+            "ccs": 182.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DIAMINOPIMELATE",
+            "mz": 189.0875,
+            "ccs": 136.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DIAMINOPIMELATE",
+            "mz": 211.0695,
+            "ccs": 140.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DIHYDROBIOPTERIN",
+            "mz": 236.0784,
+            "ccs": 150.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DIHYDROFOLATE",
+            "mz": 440.1319,
+            "ccs": 192.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DIHYDROFOLATE",
+            "mz": 462.1138,
+            "ccs": 201.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "DIHYDROOROTATE",
+            "mz": 157.0249,
+            "ccs": 125.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DIPALMITOYL-PHOSPHOETHANOLAMINE",
+            "mz": 690.5074,
+            "ccs": 262.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DOPAMINE",
+            "mz": 152.0712,
+            "ccs": 131.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DTDP-D-GLUCOSE",
+            "mz": 563.0679,
+            "ccs": 209.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DTDP-D-GLUCOSE",
+            "mz": 585.0499,
+            "ccs": 218.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ELAIDATE",
+            "mz": 281.2481,
+            "ccs": 176.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "EPINEPHRINE",
+            "mz": 182.0817,
+            "ccs": 140.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ETHANOLAMINE PHOSPHATE",
+            "mz": 140.0113,
+            "ccs": 123.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ETHYL 3-INDOLEACETATE",
+            "mz": 202.0868,
+            "ccs": 145.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "FAD",
+            "mz": 784.1493,
+            "ccs": 238.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "FAD",
+            "mz": 806.1313,
+            "ccs": 256.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "FERULATE",
+            "mz": 193.0501,
+            "ccs": 139.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "FOLATE",
+            "mz": 440.1319,
+            "ccs": 192.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "FOLATE",
+            "mz": 462.1138,
+            "ccs": 201.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "FRUCTOSE 6-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 144.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "FRUCTOSE 6-PHOSPHATE",
+            "mz": 281.0038,
+            "ccs": 154.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "FRUCTOSE BISPHOSPHATE",
+            "mz": 360.9702,
+            "ccs": 196.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "FUMARATE",
+            "mz": 115.0031,
+            "ccs": 116.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GALACTARATE",
+            "mz": 209.0297,
+            "ccs": 132.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GALACTARATE",
+            "mz": 231.0117,
+            "ccs": 137.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GALACTITOL",
+            "mz": 181.0712,
+            "ccs": 130.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GALACTOSE 1-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 148.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GALACTURONATE",
+            "mz": 193.0348,
+            "ccs": 131.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GAMMA-LINOLENATE",
+            "mz": 277.2168,
+            "ccs": 174.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GERANYL-PP",
+            "mz": 313.0606,
+            "ccs": 167.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GERANYL-PP",
+            "mz": 335.0425,
+            "ccs": 173.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLUCONATE",
+            "mz": 195.0505,
+            "ccs": 132.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCONATE",
+            "mz": 195.0505,
+            "ccs": 132.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCONOLACTONE",
+            "mz": 195.0505,
+            "ccs": 132.5,
+            "adduct": "[M+H20-H]-"
+        },
+        {
+            "name": "GLUCONOLACTONE",
+            "mz": 195.0505,
+            "ccs": 132.6,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "GLUCOSAMINATE",
+            "mz": 194.0665,
+            "ccs": 135.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSAMINE 6-PHOSPHATE",
+            "mz": 258.0379,
+            "ccs": 148.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSAMINE 6-SULFATE",
+            "mz": 258.0284,
+            "ccs": 149.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSE 1-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 148.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSE 6-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 146.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSE 6-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 146.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUCOSE 6-PHOSPHATE",
+            "mz": 281.0038,
+            "ccs": 156.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLUCURONATE",
+            "mz": 193.0348,
+            "ccs": 131.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTAMATE",
+            "mz": 146.0453,
+            "ccs": 123.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTAMATE",
+            "mz": 168.0273,
+            "ccs": 131.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLUTAMINE",
+            "mz": 145.0613,
+            "ccs": 127.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTARATE",
+            "mz": 131.0344,
+            "ccs": 121.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTARATE",
+            "mz": 131.0344,
+            "ccs": 121.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTARATE",
+            "mz": 153.0164,
+            "ccs": 129.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLUTARATE",
+            "mz": 153.0164,
+            "ccs": 129.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLUTARYLCARNITINE",
+            "mz": 274.1291,
+            "ccs": 165.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTATHIONE REDUCED",
+            "mz": 306.076,
+            "ccs": 162.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLUTATHIONE REDUCED",
+            "mz": 328.0579,
+            "ccs": 164.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GLYCERATE",
+            "mz": 105.0188,
+            "ccs": 112.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLYCEROL 3-PHOSPHATE",
+            "mz": 171.0058,
+            "ccs": 127.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLYCOCHENODEOXYCHOLATE",
+            "mz": 448.3063,
+            "ccs": 200.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GLYCOCHOLATE",
+            "mz": 464.3012,
+            "ccs": 202.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANIDINOSUCCINATE",
+            "mz": 174.0515,
+            "ccs": 130.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANIDINOSUCCINATE",
+            "mz": 196.0334,
+            "ccs": 147.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GUANOSINE",
+            "mz": 282.0838,
+            "ccs": 162.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE",
+            "mz": 442.0165,
+            "ccs": 182.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE",
+            "mz": 463.9985,
+            "ccs": 186.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE MANNOSE",
+            "mz": 604.0693,
+            "ccs": 209.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE MANNOSE",
+            "mz": 626.0513,
+            "ccs": 205.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GUANOSINE DIPHOSPHATE MANNOSE",
+            "mz": 626.0513,
+            "ccs": 217.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GUANOSINE MONOPHOSPHATE",
+            "mz": 362.0502,
+            "ccs": 169.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANOSINE MONOPHOSPHATE",
+            "mz": 384.0321,
+            "ccs": 172.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "GUANOSINE TRIPHOSPHATE",
+            "mz": 521.9828,
+            "ccs": 193.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "GUANOSINE TRIPHOSPHATE",
+            "mz": 543.9648,
+            "ccs": 184.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "HEPTADECANOATE",
+            "mz": 269.2481,
+            "ccs": 172.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HIPPURATE",
+            "mz": 178.0504,
+            "ccs": 142.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 154.0617,
+            "ccs": 128.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HISTIDINE",
+            "mz": 154.0617,
+            "ccs": 128.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HISTIDINOL",
+            "mz": 140.0824,
+            "ccs": 127.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HOMOCYSTEINE",
+            "mz": 134.0276,
+            "ccs": 143.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HOMOCYSTEINE",
+            "mz": 156.0095,
+            "ccs": 127.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "HOMOCYSTINE",
+            "mz": 267.0473,
+            "ccs": 151.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HOMOCYSTINE",
+            "mz": 289.0293,
+            "ccs": 154.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "HOMOGENTISATE",
+            "mz": 167.0344,
+            "ccs": 132.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HOMOSERINE",
+            "mz": 118.0504,
+            "ccs": 120.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HOMOVANILLATE",
+            "mz": 181.0501,
+            "ccs": 136.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HYDROXYPHENYLLACTATE",
+            "mz": 181.0501,
+            "ccs": 141.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HYPOTAURINE",
+            "mz": 108.0119,
+            "ccs": 132.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HYPOXANTHINE",
+            "mz": 135.0307,
+            "ccs": 116.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HYPOXANTHINE",
+            "mz": 157.0126,
+            "ccs": 134.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "INDOLE-3-ACETAMIDE",
+            "mz": 173.0715,
+            "ccs": 135.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INDOLE-3-ETHANOL",
+            "mz": 160.0762,
+            "ccs": 132.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INDOLE-3-METHYL ACETATE",
+            "mz": 188.0712,
+            "ccs": 141.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INDOLE-3-PYRUVATE",
+            "mz": 202.0504,
+            "ccs": 137.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INDOLEACETALDEHYDE",
+            "mz": 158.0606,
+            "ccs": 130.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INDOXYL SULFATE",
+            "mz": 212.0018,
+            "ccs": 143.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INOSINE",
+            "mz": 267.0729,
+            "ccs": 158.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INOSINE 5'-DIPHOSPHATE",
+            "mz": 448.9876,
+            "ccs": 180.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "INOSINE MONOPHOSPHATE",
+            "mz": 347.0393,
+            "ccs": 171.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INOSINE MONOPHOSPHATE",
+            "mz": 369.0212,
+            "ccs": 166.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "INOSINE TRIPHOSPHATE",
+            "mz": 506.9719,
+            "ccs": 189.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INOSINE TRIPHOSPHATE",
+            "mz": 528.9539,
+            "ccs": 182.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "INOSINE-MONOPHOSPHATE",
+            "mz": 347.0393,
+            "ccs": 171.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "INOSINE-MONOPHOSPHATE",
+            "mz": 369.0212,
+            "ccs": 166.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ISOCITRATE",
+            "mz": 191.0192,
+            "ccs": 127.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ISOCITRATE",
+            "mz": 213.0011,
+            "ccs": 136.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "ISOLEUCINE",
+            "mz": 130.0868,
+            "ccs": 129.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ITACONATE",
+            "mz": 129.0188,
+            "ccs": 118.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "KYNURENATE",
+            "mz": 188.0348,
+            "ccs": 133.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "L-DOPA",
+            "mz": 196.061,
+            "ccs": 140.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "L-DOPA",
+            "mz": 218.0429,
+            "ccs": 141.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "L-GULONOLACTONE",
+            "mz": 177.0399,
+            "ccs": 129.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "L-GULONOLACTONE",
+            "mz": 195.0505,
+            "ccs": 133.5,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "L-TRYPTOPHANAMIDE",
+            "mz": 202.098,
+            "ccs": 143.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LACTOSE",
+            "mz": 341.1084,
+            "ccs": 176.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LEUCINE",
+            "mz": 130.0868,
+            "ccs": 130.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LINOLEATE",
+            "mz": 279.2324,
+            "ccs": 174.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LITHOCHOLATE",
+            "mz": 375.2899,
+            "ccs": 203.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LITHOCHOLYLTAURINE",
+            "mz": 482.294,
+            "ccs": 206.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LUMICHROME",
+            "mz": 241.0726,
+            "ccs": 155.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LUMICHROME",
+            "mz": 259.0831,
+            "ccs": 160.2,
+            "adduct": "[M+H20-H]-"
+        },
+        {
+            "name": "LYSINE",
+            "mz": 145.0977,
+            "ccs": 133.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "LYSINE",
+            "mz": 145.0977,
+            "ccs": 133.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MALATE",
+            "mz": 133.0137,
+            "ccs": 115.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MALATE",
+            "mz": 133.0137,
+            "ccs": 115.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MALEATE",
+            "mz": 115.0031,
+            "ccs": 111.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MALTOSE",
+            "mz": 341.1084,
+            "ccs": 180.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MANDELATE",
+            "mz": 151.0395,
+            "ccs": 130.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MANNITOL",
+            "mz": 181.0712,
+            "ccs": 131.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MANNOSE 6-PHOSPHATE",
+            "mz": 259.0219,
+            "ccs": 146.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MANNOSE 6-PHOSPHATE",
+            "mz": 281.0038,
+            "ccs": 156.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "MELATONIN",
+            "mz": 231.1134,
+            "ccs": 155.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MELIBIOSE",
+            "mz": 341.1084,
+            "ccs": 178.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MESO-TARTRATE",
+            "mz": 149.0086,
+            "ccs": 118.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "METHIONINE",
+            "mz": 148.0432,
+            "ccs": 132.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "METHIONINE SULFOXIMINE",
+            "mz": 179.049,
+            "ccs": 136.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "METHYGLUTARATE",
+            "mz": 145.0501,
+            "ccs": 125.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "METHYLTHIOADENOSINE",
+            "mz": 296.0817,
+            "ccs": 166.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MEVALONATE",
+            "mz": 147.0657,
+            "ccs": 128.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "MYOINOSITOL",
+            "mz": 179.0556,
+            "ccs": 131.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLASPARTATE",
+            "mz": 174.0402,
+            "ccs": 131.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLGLUCOSAMINE",
+            "mz": 220.0821,
+            "ccs": 152.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLGLUTAMATE",
+            "mz": 188.0559,
+            "ccs": 136.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLGLUTAMATE",
+            "mz": 210.0378,
+            "ccs": 143.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "N-ACETYLLEUCINE",
+            "mz": 172.0974,
+            "ccs": 140.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLMETHIONINE",
+            "mz": 190.0538,
+            "ccs": 142.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLNEURAMINATE",
+            "mz": 308.0982,
+            "ccs": 158.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLNEURAMINATE",
+            "mz": 308.0982,
+            "ccs": 163.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLNEURAMINATE",
+            "mz": 330.0801,
+            "ccs": 171.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "N-ACETYLPHENYLALANINE",
+            "mz": 206.0817,
+            "ccs": 146.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLPROLINE",
+            "mz": 156.0661,
+            "ccs": 133.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLSERINE",
+            "mz": 146.0453,
+            "ccs": 127.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLSEROTONIN",
+            "mz": 217.0977,
+            "ccs": 150.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ACETYLTRYPTOPHAN",
+            "mz": 245.0926,
+            "ccs": 158.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-ALPHA-ACETYLLYSINE",
+            "mz": 187.1083,
+            "ccs": 145.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-FORMYL-L-METHIONINE",
+            "mz": 176.0381,
+            "ccs": 136.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-METHYLASPARTATE",
+            "mz": 146.0453,
+            "ccs": 124.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-METHYLGLUTAMATE",
+            "mz": 160.061,
+            "ccs": 129.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N-METHYLGLUTAMATE",
+            "mz": 182.0429,
+            "ccs": 137.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "N,N-DIMETHYL-ARGININE",
+            "mz": 201.1352,
+            "ccs": 148.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "N6-(DELTA2-ISOPENTENYL)-ADENINE",
+            "mz": 202.1093,
+            "ccs": 150.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NADP",
+            "mz": 742.0676,
+            "ccs": 230.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NADP",
+            "mz": 742.0676,
+            "ccs": 230.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NADP",
+            "mz": 760.0782,
+            "ccs": 243.9,
+            "adduct": "[M+H2O-H]-"
+        },
+        {
+            "name": "NADP",
+            "mz": 764.0496,
+            "ccs": 231.5,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "NADP",
+            "mz": 764.0496,
+            "ccs": 231.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "NADPH",
+            "mz": 744.0833,
+            "ccs": 246.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NERVONATE",
+            "mz": 365.342,
+            "ccs": 197.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NICOTINAMIDE HYPOXANTHINE DINUCLEOTIDE",
+            "mz": 663.0853,
+            "ccs": 217.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NICOTINAMIDE HYPOXANTHINE DINUCLEOTIDE",
+            "mz": 685.0673,
+            "ccs": 217.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "NICOTINATE",
+            "mz": 122.0242,
+            "ccs": 121.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NICOTINIC ACID ADENINE DINUCLEOTIDE PHOSPHATE",
+            "mz": 743.0516,
+            "ccs": 230.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NORADRENALINE",
+            "mz": 168.0661,
+            "ccs": 134.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NORLEUCINE",
+            "mz": 130.0868,
+            "ccs": 132.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "NORVALINE",
+            "mz": 116.0712,
+            "ccs": 142.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "O-PHOSPHOETHANOLAMINE",
+            "mz": 140.0113,
+            "ccs": 123.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "O-SUCCINYL-HOMOSERINE",
+            "mz": 240.0484,
+            "ccs": 145.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "OLEATE",
+            "mz": 281.2481,
+            "ccs": 175.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OMEGA-HYDROXYDODECANOATE",
+            "mz": 215.1647,
+            "ccs": 152.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OPHTHALMATE",
+            "mz": 288.1196,
+            "ccs": 160.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OPHTHALMATE",
+            "mz": 310.1015,
+            "ccs": 163.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "OROTATE",
+            "mz": 155.0093,
+            "ccs": 121.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OXOADIPATE",
+            "mz": 159.0294,
+            "ccs": 126.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OXOADIPATE",
+            "mz": 181.0113,
+            "ccs": 132.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "OXOGLUTARATE",
+            "mz": 145.0137,
+            "ccs": 120.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "OXOPROLINE",
+            "mz": 128.0348,
+            "ccs": 124.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "P-HYDROXYPHENYLACETATE",
+            "mz": 151.0395,
+            "ccs": 128.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PALATINOSE",
+            "mz": 341.1084,
+            "ccs": 177.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PALMITATE",
+            "mz": 255.2324,
+            "ccs": 169.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PALMITOLEATE",
+            "mz": 253.2168,
+            "ccs": 167.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PANTOTHENATE",
+            "mz": 218.1028,
+            "ccs": 146.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PETROSELINATE",
+            "mz": 281.248,
+            "ccs": 175.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PHENYLALANINE",
+            "mz": 164.0712,
+            "ccs": 139.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PHOSPHOCREATINE",
+            "mz": 232.0099,
+            "ccs": 142.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "PHOSPHOCREATINE",
+            "mz": 232.0099,
+            "ccs": 142.8,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "PHOSPHOSERINE",
+            "mz": 184.0011,
+            "ccs": 127.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PHOSPHOSERINE",
+            "mz": 205.983,
+            "ccs": 135.1,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "PHYTATE",
+            "mz": 658.8535,
+            "ccs": 195.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PHYTATE",
+            "mz": 680.8355,
+            "ccs": 201.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 128.0712,
+            "ccs": 128.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PIPECOLATE",
+            "mz": 128.0712,
+            "ccs": 128.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PREGNENOLONE SULFATE",
+            "mz": 395.1892,
+            "ccs": 206.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PROLINE",
+            "mz": 114.0555,
+            "ccs": 124.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PTERIN",
+            "mz": 162.0416,
+            "ccs": 128.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PURINE",
+            "mz": 119.0358,
+            "ccs": 114.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYRIDOXAL",
+            "mz": 166.0504,
+            "ccs": 129.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYRIDOXAL-PHOSPHATE",
+            "mz": 246.0167,
+            "ccs": 149.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYRIDOXAL-PHOSPHATE",
+            "mz": 267.9987,
+            "ccs": 153.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "PYRIDOXAMINE",
+            "mz": 167.0821,
+            "ccs": 133.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYRIDOXINE",
+            "mz": 168.0661,
+            "ccs": 132.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYROCATECHOL",
+            "mz": 109.029,
+            "ccs": 114.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYROGLUTAMATE",
+            "mz": 128.0348,
+            "ccs": 124.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "PYRROLE-2-CARBOXYLATE",
+            "mz": 110.0242,
+            "ccs": 113.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "QUINATE",
+            "mz": 191.0556,
+            "ccs": 134.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "QUINOLINATE",
+            "mz": 166.014,
+            "ccs": 126.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "RAFFINOSE",
+            "mz": 503.1612,
+            "ccs": 197.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "RESORCINOL MONOACETATE",
+            "mz": 151.0395,
+            "ccs": 126.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "RIBITOL",
+            "mz": 151.0606,
+            "ccs": 125.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "RIBOFLAVIN",
+            "mz": 375.1305,
+            "ccs": 186.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ROSMARINATE",
+            "mz": 359.0767,
+            "ccs": 172.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "S-ADENOSYLHOMOCYSTEINE",
+            "mz": 383.1138,
+            "ccs": 186.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "S-ADENOSYLHOMOCYSTEINE",
+            "mz": 405.0957,
+            "ccs": 180.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "S-CARBOXYMETHYLCYSTEINE",
+            "mz": 178.0174,
+            "ccs": 130.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "S-CARBOXYMETHYLCYSTEINE",
+            "mz": 199.9993,
+            "ccs": 136.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "S-HEXYL-GLUTATHIONE",
+            "mz": 390.1699,
+            "ccs": 189.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "S-HEXYL-GLUTATHIONE",
+            "mz": 412.1518,
+            "ccs": 192.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "SACCHARATE",
+            "mz": 209.0297,
+            "ccs": 133.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SACCHARATE",
+            "mz": 231.0117,
+            "ccs": 137.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "SALICYLAMIDE",
+            "mz": 136.0399,
+            "ccs": 121.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SALICYLATE",
+            "mz": 137.0239,
+            "ccs": 119.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SALSOLINOL",
+            "mz": 178.0868,
+            "ccs": 139.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SEBACATE",
+            "mz": 201.1127,
+            "ccs": 144.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SEBACATE",
+            "mz": 223.0946,
+            "ccs": 146.0,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "SELENOMETHIONINE",
+            "mz": 195.9877,
+            "ccs": 149.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SHIKIMATE",
+            "mz": 173.045,
+            "ccs": 136.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SORBITOL",
+            "mz": 181.0712,
+            "ccs": 131.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "STACHYOSE",
+            "mz": 665.214,
+            "ccs": 224.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "STEARATE",
+            "mz": 283.2637,
+            "ccs": 177.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SUBERATE",
+            "mz": 173.0814,
+            "ccs": 135.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SUBERATE",
+            "mz": 195.0633,
+            "ccs": 137.4,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "SUCCINATE",
+            "mz": 117.0188,
+            "ccs": 115.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "SUCROSE",
+            "mz": 341.1084,
+            "ccs": 168.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TARTRATE",
+            "mz": 149.0086,
+            "ccs": 117.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TARTRATE",
+            "mz": 149.0086,
+            "ccs": 118.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TAURINE",
+            "mz": 124.0068,
+            "ccs": 118.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THEOPHYLLINE",
+            "mz": 179.0569,
+            "ccs": 132.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THIAMINE MONOPHOSPHATE",
+            "mz": 365.0449,
+            "ccs": 174.3,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "THIAMINE MONOPHOSPHATE",
+            "mz": 365.0449,
+            "ccs": 180.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "THIAMINE PYROPHOSPHATE",
+            "mz": 423.0293,
+            "ccs": 178.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THIOPURINE S-METHYLETHER",
+            "mz": 165.0235,
+            "ccs": 127.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THREONINE",
+            "mz": 118.0504,
+            "ccs": 120.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYMIDINE",
+            "mz": 241.0824,
+            "ccs": 154.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 321.0488,
+            "ccs": 163.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 321.0488,
+            "ccs": 163.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 343.0307,
+            "ccs": 167.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 343.0307,
+            "ccs": 167.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "THYMIDINE-MONOPHOSPHATE",
+            "mz": 343.0307,
+            "ccs": 176.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "THYMINE",
+            "mz": 125.0351,
+            "ccs": 119.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYROTROPIN RELEASING HORMONE",
+            "mz": 361.1624,
+            "ccs": 184.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "THYROTROPIN RELEASING HORMONE",
+            "mz": 383.1444,
+            "ccs": 183.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 130.0504,
+            "ccs": 126.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TRANS-4-HYDROXY-L-PROLINE",
+            "mz": 130.0504,
+            "ccs": 126.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TREHALOSE",
+            "mz": 341.1084,
+            "ccs": 169.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TRICOSANOATE",
+            "mz": 353.342,
+            "ccs": 196.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 203.0821,
+            "ccs": 142.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 203.0821,
+            "ccs": 142.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TRYPTOPHAN",
+            "mz": 203.0821,
+            "ccs": 151.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "TYROSINE",
+            "mz": 180.0661,
+            "ccs": 143.8,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URACIL",
+            "mz": 111.0195,
+            "ccs": 112.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URACIL 5-CARBOXYLATE",
+            "mz": 155.0093,
+            "ccs": 118.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URATE",
+            "mz": 167.0205,
+            "ccs": 125.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE",
+            "mz": 243.0617,
+            "ccs": 150.7,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE 5'-DIPHOSPHATE",
+            "mz": 402.9944,
+            "ccs": 172.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE 5'-DIPHOSPHATE",
+            "mz": 424.9763,
+            "ccs": 178.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 565.0472,
+            "ccs": 207.4,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 565.0472,
+            "ccs": 207.5,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 587.0291,
+            "ccs": 215.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCOSE",
+            "mz": 587.0291,
+            "ccs": 215.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCURONIC ACID",
+            "mz": 579.0265,
+            "ccs": 211.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE GLUCURONIC ACID",
+            "mz": 601.0084,
+            "ccs": 204.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGALACTOSAMINE",
+            "mz": 606.0737,
+            "ccs": 223.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGALACTOSAMINE",
+            "mz": 628.0557,
+            "ccs": 228.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGLUCOSAMINE",
+            "mz": 606.0737,
+            "ccs": 224.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATE-N-ACETYLGLUCOSAMINE",
+            "mz": 628.0557,
+            "ccs": 227.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATEGALACTOSE",
+            "mz": 565.0472,
+            "ccs": 208.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE DIPHOSPHATEGALACTOSE",
+            "mz": 587.0291,
+            "ccs": 215.7,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE MONOPHOSPHATE",
+            "mz": 323.028,
+            "ccs": 161.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE MONOPHOSPHATE",
+            "mz": 345.01,
+            "ccs": 163.6,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "URIDINE TRIPHOSPHATE",
+            "mz": 482.9607,
+            "ccs": 180.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE TRIPHOSPHATE",
+            "mz": 482.9607,
+            "ccs": 180.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URIDINE TRIPHOSPHATE",
+            "mz": 504.9426,
+            "ccs": 190.2,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "UROCANATE",
+            "mz": 137.0351,
+            "ccs": 120.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "URSODEOXYCHOLATE",
+            "mz": 391.2848,
+            "ccs": 200.9,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "VALINE",
+            "mz": 116.0712,
+            "ccs": 124.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "XANTHINE",
+            "mz": 151.0256,
+            "ccs": 120.6,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "XANTHOSINE",
+            "mz": 283.0679,
+            "ccs": 158.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "XANTHOSINE",
+            "mz": 305.0498,
+            "ccs": 161.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "XANTHOSINE-MONOPHOSPHATE",
+            "mz": 363.0342,
+            "ccs": 166.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "XANTHOSINE-MONOPHOSPHATE",
+            "mz": 385.0161,
+            "ccs": 170.9,
+            "adduct": "[M+Na-2H]-"
+        },
+        {
+            "name": "XANTHURENATE",
+            "mz": 204.0297,
+            "ccs": 134.3,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "XYLITOL",
+            "mz": 151.0606,
+            "ccs": 124.8,
+            "adduct": "[M-H]-"
+        }
+    ]
+}

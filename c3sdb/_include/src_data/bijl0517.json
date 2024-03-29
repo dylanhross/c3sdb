@@ -1,0 +1,1446 @@
+{
+    "metadata": {
+        "src_tag": "bijl0517",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.analchem.7b00741",
+        "reference": "Bijlsma, L. et al. Prediction of Collision Cross-Section Values for Small Molecules: Application to Pesticide Residue Analysis. Anal. Chem. 89, 6583–6589 (2017).",
+        "ccs_type": "TW",
+        "ccs_method": "?"
+    },
+    "data": [
+        {
+            "name": "1,4-androstadiene-3,17-dione",
+            "mz": 285.1849,
+            "ccs": 166.5,
+            "smi": "O=C\\1\\C=C/[C@]3(/C(=C/1)CC[C@H]4[C@@H]2CCC(=O)[C@]2(CC[C@H]34)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "16B-hydroxystanozolol",
+            "mz": 345.2537,
+            "ccs": 192.1,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1C[C@@H]([C@]2(C)O)O)CC[C@@H]4[C@@]3(Cc5cn[nH]c5C4)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "17a-Methyltestosterone",
+            "mz": 303.2319,
+            "ccs": 173.7,
+            "smi": "C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2CC[C@]4([C@H]3CC[C@]4(C)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "17a-Nortestosterone",
+            "mz": 275.2006,
+            "ccs": 165.7,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@H]2O)CCC4=CC(=O)CC[C@@H]34",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "17a-Trenbolone",
+            "mz": 271.1693,
+            "ccs": 163.3,
+            "smi": "CC12C=CC3=C4CCC(=O)C=C4CCC3C1CCC2O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "17B-Nortestosterone",
+            "mz": 275.2006,
+            "ccs": 165.7,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@H]2O)CCC4=CC(=O)CC[C@@H]34",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "17B-Trenbolone",
+            "mz": 271.1693,
+            "ccs": 163.3,
+            "smi": "C[C@]12C=CC3=C4CCC(=O)C=C4CC[C@H]3[C@@H]1CC[C@@H]2O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acetamiprid",
+            "mz": 223.0745,
+            "ccs": 150.24,
+            "smi": "C/C(=N\\C#N)/N(C)CC1=CN=C(C=C1)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acetopromazine",
+            "mz": 327.1526,
+            "ccs": 160.5,
+            "smi": "CC(=O)c1ccc2c(c1)N(c3ccccc3S2)CCCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aldicarb sulfoxide",
+            "mz": 207.0798,
+            "ccs": 145.4,
+            "smi": "CC(C)(C=NOC(=O)NC)S(=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Azaperone",
+            "mz": 328.182,
+            "ccs": 180.3,
+            "smi": "C1CN(CCN1CCCC(=O)C2=CC=C(C=C2)F)C3=CC=CC=N3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Azoxystrobin",
+            "mz": 404.1241,
+            "ccs": 195.75,
+            "smi": "CO/C=C(\\C1=CC=CC=C1OC2=NC=NC(=C2)OC3=CC=CC=C3C#N)/C(=O)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Beclomethasone",
+            "mz": 409.1776,
+            "ccs": 189.2,
+            "smi": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Benthiavalicarb",
+            "mz": 340.1126,
+            "ccs": 173.38,
+            "smi": "CC(C)C(C(=O)NC(C)c1nc2ccc(cc2s1)F)NC(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Boscalid",
+            "mz": 343.0399,
+            "ccs": 171.67,
+            "smi": "C1=CC=C(C(=C1)C2=CC=C(C=C2)Cl)NC(=O)C3=C(N=CC=C3)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bromchlorbuterol",
+            "mz": 321.0364,
+            "ccs": 165.2,
+            "smi": "CC(C)(C)NCC(C1=CC(=C(C(=C1)Br)N)Cl)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Brombuterol",
+            "mz": 364.9859,
+            "ccs": 167.0,
+            "smi": "CC(C)(C)NCC(c1cc(c(c(c1)Br)N)Br)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Buprofezin",
+            "mz": 306.1635,
+            "ccs": 173.58,
+            "smi": "CC(C)N1/C(=N/C(C)(C)C)/SCN(C1=O)C2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Butafenacil",
+            "mz": 475.0878,
+            "ccs": 208.59,
+            "smi": "CC(C)(C(=O)OCC=C)OC(=O)C1=C(C=CC(=C1)N2C(=O)C=C(N(C2=O)C)C(F)(F)F)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carazolol",
+            "mz": 299.1754,
+            "ccs": 165.5,
+            "smi": "CC(C)NCC(COC1=CC=CC2=C1C3=CC=CC=C3N2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carbendazim",
+            "mz": 192.0768,
+            "ccs": 134.94,
+            "smi": "COC(=O)NC1=NC2=CC=CC=C2N1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carboxin",
+            "mz": 236.074,
+            "ccs": 149.35,
+            "smi": "CC1=C(SCCO1)C(=O)NC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carprofen",
+            "mz": 274.0629,
+            "ccs": 156.1,
+            "smi": "CC(c1ccc2c3cc(ccc3[nH]c2c1)Cl)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorbromuron",
+            "mz": 292.9687,
+            "ccs": 152.25,
+            "smi": "CN(C(=O)NC1=CC(=C(C=C1)Br)Cl)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chloridazon",
+            "mz": 222.0429,
+            "ccs": 141.59,
+            "smi": "C1=CC=C(C=C1)N2C(=O)C(=C(C=N2)N)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chloroxuron",
+            "mz": 291.0895,
+            "ccs": 172.24,
+            "smi": "CN(C)C(=O)Nc1ccc(cc1)Oc2ccc(cc2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorpromazine",
+            "mz": 319.103,
+            "ccs": 169.1,
+            "smi": "CN(C)CCCN1C2=CC=CC=C2SC3=C1C=C(C=C3)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorsulfuron",
+            "mz": 358.037,
+            "ccs": 175.29,
+            "smi": "CC1=NC(=NC(=N1)OC)NC(=O)NS(=O)(=O)C2=CC=CC=C2Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlortetracycline",
+            "mz": 479.1216,
+            "ccs": 203.9,
+            "smi": "C[C@]1(c2c(ccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)[C@@H](C(=C(C4=O)C(=N)O)O)N(C)C)O)O)O)Cl)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlortoluron",
+            "mz": 213.0789,
+            "ccs": 145.96,
+            "smi": "Cc1ccc(cc1Cl)/N=C(\\N(C)C)/O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cimaterol",
+            "mz": 220.1444,
+            "ccs": 155.4,
+            "smi": "CC(C)NCC(c1ccc(c(c1)C#N)N)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clenbuterol",
+            "mz": 277.0869,
+            "ccs": 159.2,
+            "smi": "Clc1cc(cc(Cl)c1N)C(O)CNC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clencyclohexerol",
+            "mz": 319.0975,
+            "ccs": 164.7,
+            "smi": "c1c(cc(c(c1Cl)N)Cl)C(CNC2CCC(CC2)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clenpenterol",
+            "mz": 291.1025,
+            "ccs": 165.0,
+            "smi": "CCC(C)(C)NCC(O)c1cc(Cl)c(N)c(Cl)c1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clobetasol",
+            "mz": 411.1733,
+            "ccs": 201.29,
+            "smi": "C[C@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CCl)O)C)O)F)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clofentezine",
+            "mz": 303.0199,
+            "ccs": 161.9,
+            "smi": "c1ccc(c(c1)c2nnc(nn2)c3ccccc3Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clostebol",
+            "mz": 323.1772,
+            "ccs": 173.6,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=C(C(=O)CC[C@]34C)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cortisone",
+            "mz": 361.201,
+            "ccs": 184.0,
+            "smi": "C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2C(=O)C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cyazofamid",
+            "mz": 325.0521,
+            "ccs": 166.69,
+            "smi": "Cc1ccc(cc1)c2c(nc(n2S(=O)(=O)N(C)C)C#N)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cyprodinil",
+            "mz": 226.1339,
+            "ccs": 152.07,
+            "smi": "CC1=CC(=NC(=N1)NC2=CC=CC=C2)C3CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cyromazine",
+            "mz": 167.104,
+            "ccs": 133.23,
+            "smi": "C1CC1NC2=NC(=NC(=N2)N)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dapsone",
+            "mz": 249.0692,
+            "ccs": 149.9,
+            "smi": "C1=CC(=CC=C1N)S(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "DEET",
+            "mz": 192.1383,
+            "ccs": 142.48,
+            "smi": "CCN(CC)C(=O)c1cccc(c1)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Demeton-S-methyl- sulfone",
+            "mz": 263.0171,
+            "ccs": 143.66,
+            "smi": "CCS(=O)(=O)CCSP(=O)(OC)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diafenthiuron",
+            "mz": 385.2308,
+            "ccs": 199.75,
+            "smi": "CC(C)C1=CC(=CC(=C1NC(=S)NC(C)(C)C)C(C)C)OC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dichlorvos",
+            "mz": 220.9532,
+            "ccs": 133.07,
+            "smi": "COP(=O)(OC)OC=C(Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diclofenac",
+            "mz": 296.024,
+            "ccs": 157.2,
+            "smi": "c1ccc(c(c1)CC(=O)O)Nc2c(cccc2Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Difenoconazole",
+            "mz": 406.072,
+            "ccs": 198.48,
+            "smi": "CC1COC(O1)(Cn2cncn2)c3ccc(cc3Cl)Oc4ccc(cc4)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Difloxacine",
+            "mz": 400.1497,
+            "ccs": 192.3,
+            "smi": "Fc1ccc(cc1)N\\3c2cc(c(F)cc2C(=O)C(/C(=O)O)=C/3)N4CCN(C)CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diflubenzuron",
+            "mz": 311.0393,
+            "ccs": 160.98,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC=C(C=C2)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dimethomorph I",
+            "mz": 388.131,
+            "ccs": 199.03,
+            "smi": "COc1ccc(cc1OC)/C(=C/C(=O)N2CCOCC2)/c3ccc(cc3)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dimetridazole",
+            "mz": 142.0611,
+            "ccs": 116.4,
+            "smi": "CC1=NC=C(N1C)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Doxycycline",
+            "mz": 445.1605,
+            "ccs": 197.4,
+            "smi": "C[C@@H]1[C@H]2[C@@H]([C@H]3[C@@H](C(=C(C(=O)[C@]3(C(=C2C(=O)C4=C1C=CC=C4O)O)O)C(=O)N)O)N(C)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dulcoside A",
+            "mz": 789.3903,
+            "ccs": 270.75,
+            "smi": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2O[C@@]34CC[C@H]5[C@@]6(CCC[C@@]([C@H]6CC[C@]5(C3)CC4=C)(C)C(=O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)C)CO)O)O)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Enrofloxacine",
+            "mz": 360.1718,
+            "ccs": 194.8,
+            "smi": "O=C(O)\\C3=C\\N(c2cc(N1CCN(CC)CC1)c(F)cc2C3=O)C4CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ethirimol",
+            "mz": 210.1061,
+            "ccs": 150.65,
+            "smi": "CCCCC1=C(N=C(NC1=O)NCC)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ethoprophos",
+            "mz": 243.0637,
+            "ccs": 149.27,
+            "smi": "CCCSP(=O)(OCC)SCCC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenamidone",
+            "mz": 312.1165,
+            "ccs": 171.15,
+            "smi": "C[C@@]1(C(=O)N(C(=N1)SC)NC2=CC=CC=C2)C3=CC=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenamiphos sulfone",
+            "mz": 336.1029,
+            "ccs": 179.48,
+            "smi": "CCOP(=O)(NC(C)C)Oc1ccc(c(c1)C)S(=O)(=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenbuconazole",
+            "mz": 337.1215,
+            "ccs": 182.44,
+            "smi": "C1=CC=C(C=C1)C(CCC2=CC=C(C=C2)Cl)(CN3C=NC=N3)C#N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenhexamid",
+            "mz": 302.0709,
+            "ccs": 164.82,
+            "smi": "CC1(CCCCC1)C(=O)NC2=C(C(=C(C=C2)O)Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenoterol",
+            "mz": 304.1543,
+            "ccs": 180.4,
+            "smi": "CC(Cc1ccc(cc1)O)NCC(c2cc(cc(c2)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenoxycarb",
+            "mz": 302.1387,
+            "ccs": 178.44,
+            "smi": "CCOC(=O)NCCOC1=CC=C(C=C1)OC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenpropidin",
+            "mz": 274.2529,
+            "ccs": 166.39,
+            "smi": "CC(CC1=CC=C(C=C1)C(C)(C)C)CN2CCCCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fenpyroximate",
+            "mz": 422.2074,
+            "ccs": 215.89,
+            "smi": "CC1=NN(C(=C1/C=N/OCC2=CC=C(C=C2)C(=O)OC(C)(C)C)OC3=CC=CC=C3)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fipronil",
+            "mz": 436.946,
+            "ccs": 180.77,
+            "smi": "C1=C(C=C(C(=C1Cl)N2C(=C(C(=N2)C#N)S(=O)C(F)(F)F)N)Cl)C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Firocoxib",
+            "mz": 337.1104,
+            "ccs": 182.1,
+            "smi": "CC1(C(=C(C(=O)O1)OCC2CC2)c3ccc(cc3)S(=O)(=O)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluazafop-P-butyl",
+            "mz": 384.1417,
+            "ccs": 194.8,
+            "smi": "CCCCOC(=O)[C@@H](C)Oc1ccc(cc1)Oc2ccc(cn2)C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluazifop",
+            "mz": 328.0791,
+            "ccs": 173.47,
+            "smi": "CC(C(=O)O)Oc1ccc(cc1)Oc2ccc(cn2)C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flufenoxuron",
+            "mz": 489.0435,
+            "ccs": 204.46,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=C(C=C(C=C2)OC3=C(C=C(C=C3)C(F)(F)F)Cl)F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flumequine",
+            "mz": 262.0874,
+            "ccs": 147.6,
+            "smi": "CC1CCC2=C3N1C=C(C(=O)C3=CC(=C2)F)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flumethasone",
+            "mz": 411.1978,
+            "ccs": 193.2,
+            "smi": "C[C@@H]1C[C@H]2[C@@H]3C[C@@H](C4=CC(=O)C=C[C@@]4([C@]3([C@H](C[C@@]2([C@]1(C(=O)CO)O)C)O)F)C)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flunixin",
+            "mz": 297.0845,
+            "ccs": 159.1,
+            "smi": "CC1=C(C=CC=C1NC2=C(C=CC=N2)C(=O)O)C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluroxypyr",
+            "mz": 254.9734,
+            "ccs": 140.69,
+            "smi": "C(C(=O)O)OC1=NC(=C(C(=C1Cl)N)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flutolanil",
+            "mz": 324.1206,
+            "ccs": 175.45,
+            "smi": "CC(C)OC1=CC=CC(=C1)NC(=O)C2=CC=CC=C2C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flutriafol",
+            "mz": 302.1099,
+            "ccs": 163.97,
+            "smi": "C1=CC=C(C(=C1)C(CN2C=NC=N2)(C3=CC=C(C=C3)F)O)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Formetanate",
+            "mz": 222.1237,
+            "ccs": 153.76,
+            "smi": "CNC(=O)OC1=CC=CC(=C1)N=CN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Furalaxyl",
+            "mz": 302.1387,
+            "ccs": 167.15,
+            "smi": "CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)C2=CC=CO2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Furathiocarb",
+            "mz": 383.1635,
+            "ccs": 190.73,
+            "smi": "CCCCOC(=O)N(C)SN(C)C(=O)OC1=CC=CC2=C1OC(C2)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Gamithromycin",
+            "mz": 777.5471,
+            "ccs": 280.6,
+            "smi": "CCCN1C[C@@H]([C@H]([C@]([C@H](OC(=O)[C@@H]([C@H]([C@@H]([C@H]([C@](C[C@H]1C)(C)O)O[C@H]2[C@@H]([C@H](C[C@H](O2)C)N(C)C)O)C)O[C@H]3C[C@@]([C@H]([C@@H](O3)C)O)(C)OC)C)CC)(C)O)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Haloperidol",
+            "mz": 376.1474,
+            "ccs": 193.9,
+            "smi": "c1cc(ccc1C(=O)CCCN2CCC(CC2)(c3ccc(cc3)Cl)O)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Haloxyfop",
+            "mz": 362.0401,
+            "ccs": 179.86,
+            "smi": "C2(OC1=CC=C(OC(C)C(=O)O)C=C1)=C(Cl)C=C(C(F)(F)F)C=N2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Haloxyfop-2-ethoxyethyl",
+            "mz": 434.0977,
+            "ccs": 193.53,
+            "smi": "CCOCCOC(=O)C(C)OC1=CC=C(C=C1)OC2=C(C=C(C=N2)C(F)(F)F)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Heptenophos",
+            "mz": 251.0234,
+            "ccs": 144.04,
+            "smi": "COP(=O)(OC)OC1=C(C2C1CC=C2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hexaconazole",
+            "mz": 314.0821,
+            "ccs": 171.26,
+            "smi": "CCCCC(CN1C=NC=N1)(C2=C(C=C(C=C2)Cl)Cl)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hexaflumuron",
+            "mz": 460.9889,
+            "ccs": 188.22,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC(=C(C(=C2)Cl)OC(C(F)F)(F)F)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hexythiazox",
+            "mz": 353.1085,
+            "ccs": 183.83,
+            "smi": "Clc1ccc(cc1)C3SC(=O)N(C(=O)NC2CCCCC2)C3C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydroxymetronidazole",
+            "mz": 188.0666,
+            "ccs": 128.2,
+            "smi": "c1c(n(c(n1)CO)CCO)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydroxythiabendazole",
+            "mz": 218.0383,
+            "ccs": 137.2,
+            "smi": "C1=CC2=C(C=C1O)NC(=N2)C3=CSC=N3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Imazalil",
+            "mz": 297.0556,
+            "ccs": 164.99,
+            "smi": "C=CCOC(CN1C=CN=C1)C2=C(C=C(C=C2)Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Imidacloprid",
+            "mz": 256.0596,
+            "ccs": 149.62,
+            "smi": "C1CN(/C(=N/[N+](=O)[O-])/N1)CC2=CN=C(C=C2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Indoprofen",
+            "mz": 282.1125,
+            "ccs": 166.4,
+            "smi": "CC(c1ccc(cc1)N2Cc3ccccc3C2=O)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Indoxacarb",
+            "mz": 528.078,
+            "ccs": 207.03,
+            "smi": "COC(=O)[C@]12Cc3cc(ccc3C1=NN(CO2)C(=O)N(c4ccc(cc4)OC(F)(F)F)C(=O)OC)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ipronidazole",
+            "mz": 170.0924,
+            "ccs": 126.1,
+            "smi": "CC(C)c1ncc(n1C)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Isoproturon",
+            "mz": 207.1492,
+            "ccs": 150.75,
+            "smi": "CC(C)C1=CC=C(C=C1)NC(=O)N(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Isoxaben",
+            "mz": 333.1809,
+            "ccs": 184.93,
+            "smi": "CCC(C)(CC)C1=NOC(=C1)NC(=O)C2=C(C=CC=C2OC)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Josamycin",
+            "mz": 828.474,
+            "ccs": 306.8,
+            "smi": "C[C@@H]1C/C=C/C=C/[C@@H]([C@@H](C[C@@H]([C@@H]([C@H]([C@@H](CC(=O)O1)OC(=O)C)OC)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)C)O[C@H]3C[C@@]([C@H]([C@@H](O3)C)OC(=O)CC(C)C)(C)O)N(C)C)O)CC=O)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ketoprofen",
+            "mz": 255.1016,
+            "ccs": 155.4,
+            "smi": "CC(C1=CC(=CC=C1)C(=O)C2=CC=CC=C2)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levamisole",
+            "mz": 205.0794,
+            "ccs": 138.2,
+            "smi": "C1CSC2=N[C@H](CN21)C3=CC=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lincomycin",
+            "mz": 407.221,
+            "ccs": 201.8,
+            "smi": "CCC[C@@H]1C[C@H](N(C1)C)C(=O)N[C@@H]([C@@H]2[C@@H]([C@@H]([C@H]([C@H](O2)SC)O)O)O)[C@@H](C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Linuron",
+            "mz": 249.0192,
+            "ccs": 149.63,
+            "smi": "CN(C(=O)NC1=CC(=C(C=C1)Cl)Cl)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lufenuron",
+            "mz": 510.9857,
+            "ccs": 198.53,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC(=C(C=C2Cl)OC(C(C(F)(F)F)F)(F)F)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mabuterol",
+            "mz": 311.1133,
+            "ccs": 168.4,
+            "smi": "CC(C)(C)NCC(C1=CC(=C(C(=C1)Cl)N)C(F)(F)F)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mandipropamid",
+            "mz": 412.131,
+            "ccs": 195.15,
+            "smi": "COC1=C(C=CC(=C1)CCNC(=O)C(C2=CC=C(C=C2)Cl)OCC#C)OCC#C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Marbofloxacin",
+            "mz": 363.1463,
+            "ccs": 179.6,
+            "smi": "CN1CCN(CC1)C2=C(C=C3C4=C2OCN(N4C=C(C3=O)C(=O)O)C)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mefenamic acid",
+            "mz": 242.1176,
+            "ccs": 150.5,
+            "smi": "CC1=C(C(=CC=C1)NC2=CC=CC=C2C(=O)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Meloxicam",
+            "mz": 352.042,
+            "ccs": 174.9,
+            "smi": "Cc1cnc(s1)/N=C(/C2=C(c3ccccc3S(=O)(=O)N2C)O)\\O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mepanipyrim",
+            "mz": 224.1182,
+            "ccs": 152.07,
+            "smi": "CC#CC1=NC(=NC(=C1)C)NC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mesotrione",
+            "mz": 340.0485,
+            "ccs": 175.66,
+            "smi": "CS(=O)(=O)C1=CC(=C(C=C1)C(=O)C2C(=O)CCCC2=O)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metalaxyl",
+            "mz": 280.1543,
+            "ccs": 159.96,
+            "smi": "CC1=C(C(=CC=C1)C)N(C(C)C(=O)OC)C(=O)COC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metamitron",
+            "mz": 203.0927,
+            "ccs": 140.93,
+            "smi": "CC1=NN=C(C(=O)N1N)C2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metconazole",
+            "mz": 320.1524,
+            "ccs": 168.62,
+            "smi": "CC1(CCC(C1(CN2C=NC=N2)O)CC3=CC=C(C=C3)Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methabenzthiazuron",
+            "mz": 222.0696,
+            "ccs": 142.47,
+            "smi": "CNC(=O)N(C)c1nc2ccccc2s1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methylboldenone",
+            "mz": 301.2162,
+            "ccs": 177.3,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2OC)CCC4=CC(=O)C=C[C@]34C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metobromuron",
+            "mz": 259.0077,
+            "ccs": 145.41,
+            "smi": "CN(C(=O)NC1=CC=C(C=C1)Br)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metolachlor",
+            "mz": 284.1412,
+            "ccs": 158.23,
+            "smi": "CCC1=CC=CC(=C1N(C(C)COC)C(=O)CCl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metribuzin",
+            "mz": 215.0961,
+            "ccs": 146.95,
+            "smi": "CC(C)(C)C1=NN=C(N(C1=O)N)SC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metronidazole",
+            "mz": 172.0717,
+            "ccs": 124.2,
+            "smi": "Cc1ncc(n1CCO)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Monolinuron",
+            "mz": 215.0582,
+            "ccs": 142.9,
+            "smi": "CN(C(=O)NC1=CC=C(C=C1)Cl)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Morantel",
+            "mz": 221.1107,
+            "ccs": 149.7,
+            "smi": "Cc1ccsc1/C=C/C2=NCCCN2C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nalidixic acid",
+            "mz": 233.0921,
+            "ccs": 141.4,
+            "smi": "CCN1C=C(C(=O)C2=C1N=C(C=C2)C)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Naproxen",
+            "mz": 231.1016,
+            "ccs": 147.1,
+            "smi": "C[C@@H](c1ccc2cc(ccc2c1)OC)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Niflumic acid",
+            "mz": 283.0689,
+            "ccs": 156.8,
+            "smi": "c1cc(cc(c1)Nc2c(cccn2)C(=O)O)C(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nitenpyram",
+            "mz": 271.0956,
+            "ccs": 160.32,
+            "smi": "CCN(CC1=CN=C(C=C1)Cl)/C(=C/[N+](=O)[O-])/NC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Norfloxacine",
+            "mz": 320.1405,
+            "ccs": 171.0,
+            "smi": "O=C(O)\\C2=C\\N(c1cc(c(F)cc1C2=O)N3CCNCC3)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Novaluron",
+            "mz": 493.0196,
+            "ccs": 196.35,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC(=C(C=C2)OC(C(OC(F)(F)F)F)(F)F)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Omethoate",
+            "mz": 214.0297,
+            "ccs": 134.62,
+            "smi": "C/N=C(\\CSP(=O)(OC)OC)/O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxadiazon",
+            "mz": 345.0767,
+            "ccs": 182.17,
+            "smi": "CC(C)OC1=C(C=C(C(=C1)N2C(=O)OC(=N2)C(C)(C)C)Cl)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxolinic acid",
+            "mz": 262.071,
+            "ccs": 147.8,
+            "smi": "CCN1C=C(C(=O)C2=CC3=C(C=C21)OCO3)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxytetracycline",
+            "mz": 461.1555,
+            "ccs": 202.3,
+            "smi": "C[C@@]1([C@H]2[C@@H]([C@H]3[C@@H](C(=C(C(=O)[C@]3(C(=C2C(=O)C4=C1C=CC=C4O)O)O)C(=O)N)O)N(C)C)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Paclobutrazol",
+            "mz": 294.1368,
+            "ccs": 168.73,
+            "smi": "CC(C)(C)[C@@H]([C@H](CC1=CC=C(C=C1)Cl)N2C=NC=N2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Paraoxon-ethyl",
+            "mz": 276.0632,
+            "ccs": 156.76,
+            "smi": "CCOP(=O)(OCC)Oc1ccc(cc1)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pencycuron",
+            "mz": 329.1415,
+            "ccs": 179.71,
+            "smi": "Clc1ccc(cc1)CN(C(=O)Nc2ccccc2)C3CCCC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Picoxystrobin",
+            "mz": 368.1104,
+            "ccs": 177.5,
+            "smi": "CO/C=C(\\C1=CC=CC=C1COC2=CC=CC(=N2)C(F)(F)F)/C(=O)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pirimicarb",
+            "mz": 239.1503,
+            "ccs": 154.68,
+            "smi": "CC1=C(N=C(N=C1OC(=O)N(C)C)N(C)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Piroxicam",
+            "mz": 332.07,
+            "ccs": 170.9,
+            "smi": "CN1C(=C(c2ccccc2S1(=O)=O)O)/C(=N/c3ccccn3)/O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prednisone",
+            "mz": 359.1853,
+            "ccs": 180.1,
+            "smi": "C[C@]12CC(=O)[C@H]3[C@H]([C@@H]1CC[C@@]2(C(=O)CO)O)CCC4=CC(=O)C=C[C@]34C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Procaterol",
+            "mz": 291.1703,
+            "ccs": 168.0,
+            "smi": "CC(C)NC(CC)C(O)c2ccc(O)c1NC(=O)C=Cc12",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prochloraz",
+            "mz": 376.0381,
+            "ccs": 161.68,
+            "smi": "O=C(N(CCOc1c(Cl)cc(Cl)cc1Cl)C(C)C)n2ccnc2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Propachlor",
+            "mz": 212.0837,
+            "ccs": 142.07,
+            "smi": "CC(C)N(C1=CC=CC=C1)C(=O)CCl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Propionylpromazine",
+            "mz": 341.1682,
+            "ccs": 182.8,
+            "smi": "CCC(=O)c1ccc2c(c1)N(c3ccccc3S2)CCCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Propyphenazone",
+            "mz": 231.1492,
+            "ccs": 150.0,
+            "smi": "O=C2\\C(=C(/N(N2c1ccccc1)C)C)C(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Proquinazid",
+            "mz": 373.0407,
+            "ccs": 169.35,
+            "smi": "Ic2ccc1\\N=C(\\OCCC)N(C(=O)c1c2)CCC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prosulfocarb",
+            "mz": 252.1417,
+            "ccs": 156.95,
+            "smi": "CCCN(CCC)C(=O)SCC1=CC=CC=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prosulfuron",
+            "mz": 420.0948,
+            "ccs": 187.01,
+            "smi": "Cc1nc(nc(n1)OC)NC(=O)NS(=O)(=O)c2ccccc2CCC(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pymetrozine",
+            "mz": 218.1036,
+            "ccs": 150.71,
+            "smi": "CC1=NNC(=O)N(C1)/N=C/C2=CN=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyraclostrobin",
+            "mz": 388.1059,
+            "ccs": 183.19,
+            "smi": "COC(=O)N(c1ccccc1COc2ccn(n2)c3ccc(cc3)Cl)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyrantel",
+            "mz": 207.095,
+            "ccs": 143.0,
+            "smi": "CN1CCCN=C1/C=C/c2cccs2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyridate",
+            "mz": 379.1242,
+            "ccs": 199.9,
+            "smi": "CCCCCCCCSC(=O)OC1=CC(=NN=C1C2=CC=CC=C2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyrimethanil",
+            "mz": 200.1182,
+            "ccs": 142.95,
+            "smi": "CC1=CC(=NC(=N1)NC2=CC=CC=C2)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyriproxifen",
+            "mz": 322.1438,
+            "ccs": 182.76,
+            "smi": "CC(COc1ccc(cc1)Oc2ccccc2)Oc3ccccn3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quinalphos",
+            "mz": 299.0614,
+            "ccs": 165.1,
+            "smi": "CCOP(=S)(OCC)OC1=NC2=CC=CC=C2N=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quinclorac",
+            "mz": 241.977,
+            "ccs": 139.54,
+            "smi": "c1cc(c(c2c1cc(cn2)Cl)C(=O)O)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ractopamine",
+            "mz": 302.1751,
+            "ccs": 168.9,
+            "smi": "CC(CCC1=CC=C(C=C1)O)NCC(C2=CC=C(C=C2)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rebaudioside A",
+            "mz": 967.4381,
+            "ccs": 299.48,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)(C)C(=O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rebaudioside B",
+            "mz": 805.3852,
+            "ccs": 261.19,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)(C)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rebaudioside C",
+            "mz": 951.4432,
+            "ccs": 299.49,
+            "smi": "C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H](O[C@H]2O[C@@]34CC[C@H]5[C@@]6(CCC[C@@]([C@H]6CC[C@]5(C3)CC4=C)(C)C(=O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)C)CO)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rebaudioside E",
+            "mz": 967.4381,
+            "ccs": 289.2,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)(C)C(=O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rebaudioside F",
+            "mz": 937.4275,
+            "ccs": 293.18,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O[C@H]7[C@@H]([C@H]([C@@H](CO7)O)O)O)(C)C(=O)O[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ritodrine",
+            "mz": 288.1594,
+            "ccs": 165.8,
+            "smi": "C[C@@H]([C@@H](c1ccc(cc1)O)O)NCCc2ccc(cc2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ronidazole",
+            "mz": 201.0618,
+            "ccs": 131.6,
+            "smi": "CN1C(=CN=C1COC(=O)N)[N+](=O)[O-]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rotenone",
+            "mz": 395.1489,
+            "ccs": 195.01,
+            "smi": "CC(=C)C1Cc2c(ccc3c2OC4COc5cc(c(cc5C4C3=O)OC)OC)O1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rubusoside",
+            "mz": 643.3324,
+            "ccs": 241.31,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O)(C)C(=O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Salbutamol",
+            "mz": 240.1594,
+            "ccs": 158.3,
+            "smi": "CC(C)(C)NCC(C1=CC(=C(C=C1)O)CO)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sarafloxacine",
+            "mz": 386.1311,
+            "ccs": 202.0,
+            "smi": "Fc1ccc(cc1)N\\3c2cc(c(F)cc2C(=O)C(/C(=O)O)=C/3)N4CCNCC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Simazine",
+            "mz": 202.0854,
+            "ccs": 142.09,
+            "smi": "CCNC1=NC(=NC(=N1)Cl)NCC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Spirotetramat",
+            "mz": 374.1962,
+            "ccs": 189.99,
+            "smi": "CCOC(=O)OC1=C(C(=O)NC12CCC(CC2)OC)C3=C(C=CC(=C3)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Stanozolol",
+            "mz": 329.2587,
+            "ccs": 185.2,
+            "smi": "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@]2(C)O)CC[C@@H]4[C@@]3(CC5=C(C4)NN=C5)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Steviol",
+            "mz": 319.2268,
+            "ccs": 173.38,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O)(C)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Steviolbioside",
+            "mz": 643.3324,
+            "ccs": 235.78,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)(C)C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Stevioside",
+            "mz": 805.3852,
+            "ccs": 269.64,
+            "smi": "C[C@@]12CCC[C@@]([C@H]1CC[C@]34[C@H]2CC[C@](C3)(C(=C)C4)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)(C)C(=O)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfachloropyridazine",
+            "mz": 285.0208,
+            "ccs": 156.9,
+            "smi": "c1cc(ccc1N)S(=O)(=O)Nc2ccc(nn2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfadiazine",
+            "mz": 251.0597,
+            "ccs": 148.7,
+            "smi": "C1=CN=C(N=C1)NS(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfadimethoxine",
+            "mz": 311.0809,
+            "ccs": 166.0,
+            "smi": "COc1cc(nc(n1)OC)NS(=O)(=O)c2ccc(cc2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfadimidine",
+            "mz": 279.091,
+            "ccs": 159.7,
+            "smi": "Cc1cc(nc(n1)NS(=O)(=O)c2ccc(cc2)N)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfadoxine",
+            "mz": 311.0809,
+            "ccs": 166.6,
+            "smi": "COC1=C(N=CN=C1OC)NS(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfamerazine",
+            "mz": 265.0754,
+            "ccs": 154.8,
+            "smi": "CC1=NC(=NC=C1)NS(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfamethizole",
+            "mz": 271.0318,
+            "ccs": 152.2,
+            "smi": "Cc1nnc(s1)NS(=O)(=O)c2ccc(cc2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfamethoxazole",
+            "mz": 254.0594,
+            "ccs": 146.3,
+            "smi": "CC1=CC(=NO1)NS(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfapyridine",
+            "mz": 250.0645,
+            "ccs": 142.3,
+            "smi": "C1=CC=NC(=C1)NS(=O)(=O)C2=CC=C(C=C2)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfaquinoxaline",
+            "mz": 301.0754,
+            "ccs": 164.8,
+            "smi": "C1=CC=C2C(=C1)N=CC(=N2)NS(=O)(=O)C3=CC=C(C=C3)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfathiazole",
+            "mz": 256.0209,
+            "ccs": 148.2,
+            "smi": "C1=CC(=CC=C1N)S(=O)(=O)NC2=NC=CS2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfentrazone",
+            "mz": 386.9891,
+            "ccs": 173.63,
+            "smi": "CC1=NN(C(=O)N1C(F)F)C2=CC(=C(C=C2Cl)Cl)NS(=O)(=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfisoxazole",
+            "mz": 268.075,
+            "ccs": 157.4,
+            "smi": "Cc1c(noc1NS(=O)(=O)c2ccc(cc2)N)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tebuconazole",
+            "mz": 308.1524,
+            "ccs": 167.37,
+            "smi": "CC(C)(C)C(CCC1=CC=C(C=C1)Cl)(CN2C=NC=N2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tebufenpyrad",
+            "mz": 334.1681,
+            "ccs": 191.25,
+            "smi": "CCC1=NN(C(=C1Cl)C(=O)NCC2=CC=C(C=C2)C(C)(C)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Teflubenzuron",
+            "mz": 380.9815,
+            "ccs": 171.81,
+            "smi": "C1=CC(=C(C(=C1)F)C(=O)NC(=O)NC2=CC(=C(C(=C2F)Cl)F)Cl)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tepraloxydim",
+            "mz": 342.1467,
+            "ccs": 184.74,
+            "smi": "CC/C(=N\\OC/C=C/Cl)/C1=C(CC(CC1=O)C2CCOCC2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Terbufos-sulfone",
+            "mz": 321.0412,
+            "ccs": 172.88,
+            "smi": "CCOP(=S)(OCC)SCS(=O)(=O)C(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Terbuthylazine",
+            "mz": 230.1167,
+            "ccs": 153.48,
+            "smi": "CCNC1=NC(=NC(=N1)Cl)NC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tetraconazole",
+            "mz": 372.0288,
+            "ccs": 174.34,
+            "smi": "C1=CC(=C(C=C1Cl)Cl)C(CN2C=NC=N2)COC(C(F)F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tetracycline",
+            "mz": 445.1605,
+            "ccs": 197.3,
+            "smi": "C[C@@]1([C@H]2C[C@H]3[C@@H](C(=C(C(=O)[C@]3(C(=C2C(=O)C4=C1C=CC=C4O)O)O)C(=O)N)O)N(C)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thiabendazole",
+            "mz": 202.0433,
+            "ccs": 136.19,
+            "smi": "C1=CC=C2C(=C1)NC(=N2)C3=CSC=N3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thiacloprid",
+            "mz": 253.0309,
+            "ccs": 154.84,
+            "smi": "C1CS/C(=N\\C#N)/N1CC2=CN=C(C=C2)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thiophanate-methyl",
+            "mz": 343.0526,
+            "ccs": 174.24,
+            "smi": "COC(=O)NC(=S)NC1=CC=CC=C1NC(=S)NC(=O)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tiamulin",
+            "mz": 494.3299,
+            "ccs": 218.9,
+            "smi": "CCN(CC)CCSCC(=O)O[C@@H]1C[C@@]([C@H]([C@@H]([C@@]23CCC(C1([C@@H]2C(=O)CC3)C)C)C)O)(C)C=C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tolfenamic acid",
+            "mz": 262.0629,
+            "ccs": 153.7,
+            "smi": "CC1=C(C=CC=C1Cl)NC2=CC=CC=C2C(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tolmetin",
+            "mz": 258.1125,
+            "ccs": 156.7,
+            "smi": "Cc1ccc(cc1)C(=O)c2ccc(n2C)CC(=O)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trichlorfon",
+            "mz": 256.9299,
+            "ccs": 136.12,
+            "smi": "COP(=O)(C(C(Cl)(Cl)Cl)O)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Triflumuron",
+            "mz": 359.0405,
+            "ccs": 169.88,
+            "smi": "C1=CC=C(C(=C1)C(=O)NC(=O)NC2=CC=C(C=C2)OC(F)(F)F)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trinexapac-ethyl",
+            "mz": 253.1071,
+            "ccs": 152.92,
+            "smi": "CCOC(=O)C1CC(=O)C(=C(C2CC2)O)C(=O)C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Triticonazole",
+            "mz": 318.1371,
+            "ccs": 179.18,
+            "smi": "Clc1ccc(cc1)\\C=C2\\C(O)(C(CC2)(C)C)Cn3ncnc3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tulathromycin",
+            "mz": 806.5737,
+            "ccs": 286.4,
+            "smi": "CCCNC[C@@]1([C@@H](O[C@H](C[C@@]1(C)OC)O[C@H]2[C@@H]([C@H]([C@](C[C@H](CN[C@@H]([C@H]([C@]([C@H](OC(=O)[C@@H]2C)CC)(C)O)O)C)C)(C)O)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)C)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tylosine",
+            "mz": 916.5264,
+            "ccs": 332.4,
+            "smi": "CC[C@@H]1[C@H](/C=C(/C=C/C(=O)[C@@H](C[C@@H]([C@@H]([C@H]([C@@H](CC(=O)O1)O)C)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)C)O[C@H]3C[C@@]([C@H]([C@@H](O3)C)O)(C)O)N(C)C)O)CC=O)C)\\C)CO[C@H]4[C@@H]([C@@H]([C@@H]([C@H](O4)C)O)OC)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Valnemulin",
+            "mz": 565.367,
+            "ccs": 233.3,
+            "smi": "C[C@@H]1CC[C@@]23CCC(=O)[C@H]2[C@@]1([C@@H](C[C@@]([C@H]([C@@H]3C)O)(C)C=C)OC(=O)CSC(C)(C)CNC(=O)[C@@H](C(C)C)N)C",
+            "adduct": "[M+H]+"
+        }
+    ]
+}

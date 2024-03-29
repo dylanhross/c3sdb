@@ -1,0 +1,2510 @@
+{   
+    "metadata": {
+        "src_tag": "moll0218",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0021967318301894",
+        "reference": "Mollerup, C. B., Mardal, M., Dalsgaard, P. W., Linnet, K. & Barron, L. P. Prediction of collision cross section and retention time for broad scope screening in gradient reversed-phase liquid chromatography-ion mobility-high resolution accurate mass spectrometry. Journal of Chromatography A 1542, 82–88 (2018).",
+        "ccs_type": "TW",
+        "ccs_method": "Major Mix IMS/Tof Calibration Kit (Waters)"
+    },
+    "data": [
+        {
+            "name": "25C-NBOMe",
+            "mz": 336.83529999999996,
+            "ccs": 177.6,
+            "smi": "COC1=CC=CC=C1CNCCC2=CC(OC)=C(Cl)C=C2OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2C-B",
+            "mz": 261.13829999999996,
+            "ccs": 155.6,
+            "smi": "COC1=CC(Br)=C(OC)C=C1CCN",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2C-I",
+            "mz": 308.13876999999997,
+            "ccs": 157.7,
+            "smi": "IC1=C(C=C(C(OC)=C1)CCN)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "3-Hydroxybromazepam",
+            "mz": 333.16429999999997,
+            "ccs": 161.0,
+            "smi": "BrC1=CC(C(C2=CC=CC=N2)=NC3O)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-MeO-DMT",
+            "mz": 219.3073,
+            "ccs": 150.3,
+            "smi": "CN(CCC1=CNC2=C1C=C(OC)C=C2)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acebutolol",
+            "mz": 337.4393,
+            "ccs": 190.2,
+            "smi": "OC(COC(C=C1)=C(C(C)=O)C=C1NC(CCC)=O)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acepromazine",
+            "mz": 327.4653,
+            "ccs": 176.6,
+            "smi": "CC(C1=CC(N(C2=CC=CC=C2S3)CCCN(C)C)=C3C=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acrivastine",
+            "mz": 349.4533,
+            "ccs": 193.9,
+            "smi": "CC1=CC=C(/C(C2=CC=CC(/C=C/C(O)=O)=N2)=C\\CN3CCCC3)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Agomelatine",
+            "mz": 244.3133,
+            "ccs": 156.3,
+            "smi": "COC1=CC2=C(C=CC=C2C=C1)CCNC(C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alfentanil",
+            "mz": 417.5333,
+            "ccs": 199.8,
+            "smi": "O=C(CC)N(C1=CC=CC=C1)C2(COC)CCN(CCN3N=NN(CC)C3=O)CC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alfuzosin",
+            "mz": 390.4633,
+            "ccs": 194.6,
+            "smi": "COC1=CC2=C(C(N)=NC(N(CCCNC(C3CCCO3)=O)C)=N2)C=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alimemazine",
+            "mz": 299.45529999999997,
+            "ccs": 166.8,
+            "smi": "CC(CN1C2=C(C=CC=C2)SC3=C1C=CC=C3)CN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Almotriptan",
+            "mz": 336.4733,
+            "ccs": 175.8,
+            "smi": "CN(CCC1=CNC2=C1C=C(C=C2)CS(=O)(N3CCCC3)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alprazolam",
+            "mz": 309.7763,
+            "ccs": 171.5,
+            "smi": "CC(N12)=NN=C1CN=C(C3=C2C=CC(Cl)=C3)C4=CC=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alprazolam-M alpha-Hydroxy",
+            "mz": 325.77529999999996,
+            "ccs": 173.3,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2)=NC3)=C(C=C1)N4C3=NN=C4CO",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alprenolol",
+            "mz": 250.3613,
+            "ccs": 159.5,
+            "smi": "OC(COC1=CC=CC=C1CC=C)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amfepramone",
+            "mz": 206.30829999999997,
+            "ccs": 148.0,
+            "smi": "CCN(C(C(C1=CC=CC=C1)=O)C)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amiodarone",
+            "mz": 646.32724,
+            "ccs": 226.4,
+            "smi": "CCCCC1=C(C2=CC=CC=C2O1)C(C3=CC(I)=C(C(I)=C3)OCCN(CC)CC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amiodarone-M N-Desethyl",
+            "mz": 618.27324,
+            "ccs": 219.8,
+            "smi": "O=C(C1=CC(I)=C(OCCNCC)C(I)=C1)C2=C(CCCC)OC3=C2C=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amisulpride",
+            "mz": 370.4873,
+            "ccs": 193.1,
+            "smi": "CCN1CCCC1CNC(C2=CC(S(=O)(CC)=O)=C(C=C2OC)N)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amitriptyline",
+            "mz": 278.4183,
+            "ccs": 167.2,
+            "smi": "CN(CCC=C1C2=C(C=CC=C2)CCC3=C1C=CC=C3)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amitriptylin-M (E)-10-hydroxy",
+            "mz": 294.4173,
+            "ccs": 167.6,
+            "smi": "CN(CC/C=C1C2=C(CC(O)C3=CC=CC=C3\\1)C=CC=C2)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amlodipine",
+            "mz": 409.8863,
+            "ccs": 188.0,
+            "smi": "CCOC(C1=C(NC(C)=C(C(OC)=O)C1C2=C(C=CC=C2)Cl)COCCN)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Amoxapine",
+            "mz": 314.7923,
+            "ccs": 170.2,
+            "smi": "ClC1=CC=C(C2=C1)OC3=CC=CC=C3N=C2N4CCNCC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Apazone",
+            "mz": 301.3693,
+            "ccs": 169.5,
+            "smi": "CCCC(C(N12)=O)C(N2C3=C(N=C1N(C)C)C=CC(C)=C3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aripiprazole",
+            "mz": 449.39529999999996,
+            "ccs": 205.8,
+            "smi": "ClC1=CC=CC(N2CCN(CC2)CCCCOC3=CC=C4CCC(NC4=C3)=O)=C1Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aripiprazol-M dehydro",
+            "mz": 447.3793,
+            "ccs": 202.4,
+            "smi": "ClC1=CC=CC(N2CCN(CC2)CCCCOC3=CC(N4)=C(C=C3)C=CC4=O)=C1Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Asenapine",
+            "mz": 286.7783,
+            "ccs": 167.6,
+            "smi": "[H][C@]12CN(C[C@@]1(C3=C(C=CC(Cl)=C3)OC4=C2C=CC=C4)[H])C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Atenolol",
+            "mz": 267.3483,
+            "ccs": 159.5,
+            "smi": "OC(COC1=CC=C(CC(N)=O)C=C1)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Atomoxetine",
+            "mz": 256.3683,
+            "ccs": 164.2,
+            "smi": "CNCC[C@H](C1=CC=CC=C1)OC2=CC=CC=C2C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Atorvastatin",
+            "mz": 559.6577032,
+            "ccs": 233.0,
+            "smi": "CC(C1=C(C(C2=CC=CC=C2)=C(C3=CC=C(C=C3)F)N1CC[C@H](C[C@H](CC(O)=O)O)O)C(NC4=CC=CC=C4)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Atropine",
+            "mz": 290.3823,
+            "ccs": 171.5,
+            "smi": "[H][C@]12CC[C@](C[C@H](OC(C(C3=CC=CC=C3)CO)=O)C1)(N2C)[H]",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Baclofen",
+            "mz": 214.6683,
+            "ccs": 149.2,
+            "smi": "ClC1=CC=C(C=C1)C(CN)CC(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bambuterol",
+            "mz": 368.4533,
+            "ccs": 189.7,
+            "smi": "OC(C1=CC(OC(N(C)C)=O)=CC(OC(N(C)C)=O)=C1)CNC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Benzocaine",
+            "mz": 166.1993,
+            "ccs": 148.2,
+            "smi": "CCOC(C1=CC=C(C=C1)N)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Benzoylecgonine",
+            "mz": 290.3383,
+            "ccs": 167.3,
+            "smi": "CN1[C@H]2CC[C@@H]1[C@@H](C(O)=O)[C@@H](OC(C3=CC=CC=C3)=O)C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Benzphetamine",
+            "mz": 240.36929999999998,
+            "ccs": 154.8,
+            "smi": "C[C@@H](CC1=CC=CC=C1)N(C)CC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Benztropine",
+            "mz": 308.4443,
+            "ccs": 180.8,
+            "smi": "CN1[C@@H]2C[C@H](C[C@H]1CC2)OC(C3=CC=CC=C3)C4=CC=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Biperiden",
+            "mz": 312.4763,
+            "ccs": 177.7,
+            "smi": "OC(CCN1CCCCC1)(C2=CC=CC=C2)C3[C@H](C=C4)C[C@H]4C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bisoprolol",
+            "mz": 326.4563,
+            "ccs": 192.2,
+            "smi": "OC(COC(C=C1)=CC=C1COCCOC(C)C)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bromazepam",
+            "mz": 317.1653,
+            "ccs": 159.8,
+            "smi": "BrC1=CC(C(C2=CC=CC=N2)=NC3)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bromodragonfly",
+            "mz": 295.1553,
+            "ccs": 158.1,
+            "smi": "BrC1=C2OC=CC2=C(C3=C1C=CO3)C[C@@H](C)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Brotizolam",
+            "mz": 394.6943,
+            "ccs": 171.9,
+            "smi": "BrC1=CC(C(C2=CC=CC=C2Cl)=NC3)=C(N4C3=NN=C4C)S1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bupivacaine",
+            "mz": 289.4423,
+            "ccs": 173.1,
+            "smi": "O=C(C1N(CCCC)CCCC1)NC2=C(C)C=CC=C2C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Buprenorphine",
+            "mz": 468.65729999999996,
+            "ccs": 209.7,
+            "smi": "O[C@@](C(C)(C)C)(C)[C@@H]1[C@]2([C@@H]([C@]3(C4=C(C=C5)C6)[C@]([C@@H]6N(CC7CC7)CC3)(CC2)C1)OC4=C5O)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Bupropion",
+            "mz": 240.75029999999998,
+            "ccs": 157.8,
+            "smi": "CC(C(C1=CC=CC(Cl)=C1)=O)NC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Buspirone",
+            "mz": 386.5193,
+            "ccs": 199.3,
+            "smi": "O=C(CC1(C2)CCCC1)N(CCCCN3CCN(C4=NC=CC=N4)CC3)C2=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Butylone",
+            "mz": 222.2633,
+            "ccs": 151.0,
+            "smi": "CCC(NC)C(C1=CC2=C(OCO2)C=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Caffeine",
+            "mz": 195.20129999999997,
+            "ccs": 138.3,
+            "smi": "CN1C=NC(N2C)=C1C(N(C2=O)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Capsaicin",
+            "mz": 306.4253,
+            "ccs": 183.0,
+            "smi": "OC1=C(OC)C=C(CNC(CCCC/C=C/C(C)C)=O)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Captopril",
+            "mz": 218.29029999999997,
+            "ccs": 142.5,
+            "smi": "C[C@@H](C(N1CCC[C@H]1C(O)=O)=O)CS",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carbamazepine",
+            "mz": 237.2813,
+            "ccs": 150.3,
+            "smi": "NC(N1C2=C(C=CC3=C1C=CC=C3)C=CC=C2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carbromal",
+            "mz": 238.1043,
+            "ccs": 139.8,
+            "smi": "CCC(C(NC(N)=O)=O)(Br)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carvedilol",
+            "mz": 407.4893,
+            "ccs": 190.0,
+            "smi": "COC1=CC=CC=C1OCCNCC(COC2=C3C(NC4=C3C=CC=C4)=CC=C2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Celecoxib",
+            "mz": 382.3805096,
+            "ccs": 186.4,
+            "smi": "CC1=CC=C(C2=CC(C(F)(F)F)=NN2C3=CC=C(S(N)(=O)=O)C=C3)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cetirizine",
+            "mz": 389.8993,
+            "ccs": 200.8,
+            "smi": "ClC1=CC=C(C=C1)C(C2=CC=CC=C2)N3CCN(CCOCC(O)=O)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cetirizine-M N-desalkyl",
+            "mz": 287.8103,
+            "ccs": 168.4,
+            "smi": "ClC1=CC=C(C(N2CCNCC2)C3=CC=CC=C3)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cetirizine-M O-desalkyl",
+            "mz": 331.8633,
+            "ccs": 186.2,
+            "smi": "ClC1=CC=C(C(N2CCN(CCO)CC2)C3=CC=CC=C3)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlordiazepoxide",
+            "mz": 300.76529999999997,
+            "ccs": 170.4,
+            "smi": "CNC(C1)=NC2=CC=C(C=C2C(C3=CC=CC=C3)=[N+]1[O-])Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorhexidine",
+            "mz": 506.4593,
+            "ccs": 222.3,
+            "smi": "N=C(NC(NC1=CC=C(Cl)C=C1)=N)NCCCCCCNC(NC(NC2=CC=C(Cl)C=C2)=N)=N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chloroquine",
+            "mz": 320.8843,
+            "ccs": 176.8,
+            "smi": "ClC1=CC2=NC=CC(NC(C)CCCN(CC)CC)=C2C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorphenamine",
+            "mz": 275.79929999999996,
+            "ccs": 164.5,
+            "smi": "CN(CCC(C1=CC=CC=N1)C2=CC=C(C=C2)Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorpromazine",
+            "mz": 319.8703,
+            "ccs": 170.6,
+            "smi": "CN(CCCN1C2=C(C=CC=C2)SC3=C1C=C(C=C3)Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorpromazine-M norl",
+            "mz": 305.8433,
+            "ccs": 168.7,
+            "smi": "CNCCCN1C2=CC=CC=C2SC3=C1C=C(Cl)C=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorprothixene",
+            "mz": 316.86629999999997,
+            "ccs": 170.1,
+            "smi": "CN(CC/C=C1C2=CC=CC=C2SC3=C/1C=C(C=C3)Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Chlorprothixene-M N-desmethyl",
+            "mz": 302.8393,
+            "ccs": 165.9,
+            "smi": "CNCC/C=C1C2=CC=CC=C2SC3=C/1C=C(C=C3)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cimetidine",
+            "mz": 253.3473,
+            "ccs": 156.5,
+            "smi": "CN/C(NCCSCC1=C(NC=N1)C)=N\\C#N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cinnarizine",
+            "mz": 369.5313,
+            "ccs": 206.2,
+            "smi": "N1(C(C2=CC=CC=C2)C3=CC=CC=C3)CCN(C/C=C/C4=CC=CC=C4)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Citalopram",
+            "mz": 325.4067032,
+            "ccs": 180.1,
+            "smi": "FC(C=C1)=CC=C1C2(CCCN(C)C)OCC3=C2C=CC(C#N)=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Citalopram-M N-desmethyl",
+            "mz": 311.3797032,
+            "ccs": 178.7,
+            "smi": "FC1=CC=C(C=C1)[C@]2(CCCNC)OCC3=C2C=CC(C#N)=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clenbuterol",
+            "mz": 278.1963,
+            "ccs": 165.6,
+            "smi": "ClC1=CC(C(CNC(C)(C)C)O)=CC(Cl)=C1N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clobazam",
+            "mz": 301.7493,
+            "ccs": 165.7,
+            "smi": "CN1C(CC(N(C2=CC(Cl)=CC=C12)C3=CC=CC=C3)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clobazam-M nor",
+            "mz": 287.72229999999996,
+            "ccs": 161.7,
+            "smi": "ClC1=CC(N(C2=CC=CC=C2)C(C3)=O)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clomipramine",
+            "mz": 315.8643,
+            "ccs": 174.3,
+            "smi": "ClC1=CC2=C(C=C1)CCC3=CC=CC=C3N2CCCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clonazepam",
+            "mz": 316.7203,
+            "ccs": 168.2,
+            "smi": "[O-][N+](C1=CC=C(C2=C1)NC(CN=C2C3=CC=CC=C3Cl)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clonazepam-M 7-amino",
+            "mz": 286.7383,
+            "ccs": 162.5,
+            "smi": "ClC1=CC=CC=C1C2=NCC(NC(C=C3)=C2C=C3N)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clonidine",
+            "mz": 231.0993,
+            "ccs": 144.0,
+            "smi": "ClC1=C(C(Cl)=CC=C1)NC2=NCCN2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clozapine",
+            "mz": 327.83529999999996,
+            "ccs": 178.8,
+            "smi": "CN1CCN(C2=NC3=CC(Cl)=CC=C3NC4=CC=CC=C24)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Clozapine-M nor",
+            "mz": 313.8083,
+            "ccs": 173.8,
+            "smi": "ClC1=CC(N=C(N2CCNCC2)C3=C(N4)C=CC=C3)=C4C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cocaine",
+            "mz": 304.3653,
+            "ccs": 169.8,
+            "smi": "CN1[C@H]2[C@@H](C(OC)=O)[C@@H](OC(C3=CC=CC=C3)=O)C[C@@H]1CC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cocaine-M Cocaethylene",
+            "mz": 318.3923,
+            "ccs": 173.5,
+            "smi": "CCOC([C@@H]1[C@H]2CC[C@@H](C[C@@H]1OC(C3=CC=CC=C3)=O)N2C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cocaine-M nor",
+            "mz": 290.3383,
+            "ccs": 166.5,
+            "smi": "COC([C@H]1C(C(OC2=CC=CC=C2)=O)CC3CCC1N3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Codeine",
+            "mz": 300.3773,
+            "ccs": 168.2,
+            "smi": "O[C@@H]1[C@]([C@]2(C3=C(C=C4)C5)[C@](C=C1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cotinine",
+            "mz": 177.22629999999998,
+            "ccs": 140.7,
+            "smi": "O=C1N(C)[C@H](C2=CN=CC=C2)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cyclizine",
+            "mz": 267.39529999999996,
+            "ccs": 166.7,
+            "smi": "CN1CCN(C(C2=CC=CC=C2)C3=CC=CC=C3)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cyclobenzaprine",
+            "mz": 276.40229999999997,
+            "ccs": 164.7,
+            "smi": "CN(C)CCC=C1C2=CC=CC=C2C=CC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Demoxepam",
+            "mz": 287.72229999999996,
+            "ccs": 161.7,
+            "smi": "[O-][N+](C1)=C(C2=CC=CC=C2)C(C=C(Cl)C=C3)=C3NC1=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Desloratadine",
+            "mz": 311.8323,
+            "ccs": 175.5,
+            "smi": "ClC1=CC2=C(C=C1)C(C(N=CC=C3)=C3CC2)=C4CCNCC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Desoxypipradrol",
+            "mz": 252.38029999999998,
+            "ccs": 164.1,
+            "smi": "C1(C(C2CCCCN2)C3=CC=CC=C3)=CC=CC=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Desvenlafaxine",
+            "mz": 264.38829999999996,
+            "ccs": 166.7,
+            "smi": "OC1(CCCCC1)C(C(C=C2)=CC=C2O)CN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Detomidine",
+            "mz": 187.2653,
+            "ccs": 146.8,
+            "smi": "CC(C=CC=C1CC2=CN=CN2)=C1C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dextromethorphan",
+            "mz": 272.4113,
+            "ccs": 166.3,
+            "smi": "CN1[C@]2([H])[C@]3([H])[C@@](CCCC3)(C(C=C4OC)=C(C=C4)C2)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dextropropoxyphene",
+            "mz": 340.48629999999997,
+            "ccs": 180.7,
+            "smi": "CCC(O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C2=CC=CC=C2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diazepam",
+            "mz": 285.7503,
+            "ccs": 164.2,
+            "smi": "CN1C2=CC=C(C=C2C(C3=CC=CC=C3)=NCC1=O)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diazepam-M N-desmethyl",
+            "mz": 271.7233,
+            "ccs": 160.1,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2)=NC3)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dibucaine",
+            "mz": 344.4783,
+            "ccs": 196.2,
+            "smi": "CCCCOC1=NC2=CC=CC=C2C(C(NCCN(CC)CC)=O)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diclofenac",
+            "mz": 297.1543,
+            "ccs": 157.7,
+            "smi": "ClC1=C(C(Cl)=CC=C1)NC2=CC=CC=C2CC(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dihydrocodeine",
+            "mz": 302.3933,
+            "ccs": 168.6,
+            "smi": "O[C@@H]1[C@]([C@]2(C3=C(C=C4)C5)[C@](CC1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dihydromorphine",
+            "mz": 288.36629999999997,
+            "ccs": 163.6,
+            "smi": "O[C@@H]1[C@]([C@]2(C3=C(C=C4)C5)[C@](CC1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diltiazem",
+            "mz": 415.52729999999997,
+            "ccs": 197.8,
+            "smi": "COC1=CC=C([C@@H]([C@H]2OC(C)=O)SC3=C(N(C2=O)CCN(C)C)C=CC=C3)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diltiazem-M deacetyl",
+            "mz": 373.4903,
+            "ccs": 186.3,
+            "smi": "O[C@@H]1[C@H](C2=CC=C(C=C2)OC)SC3=CC=CC=C3N(C1=O)CCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dimethoate",
+            "mz": 230.256062,
+            "ccs": 139.9,
+            "smi": "S=P(OC)(OC)SCC(NC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dipyridamole",
+            "mz": 505.6433,
+            "ccs": 227.5,
+            "smi": "OCCN(CCO)C(N=C1N2CCCCC2)=NC3=C1N=C(N(CCO)CCO)N=C3N4CCCCC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dixyrazine",
+            "mz": 428.6143,
+            "ccs": 201.0,
+            "smi": "CC(CN1C2=CC=CC=C2SC3=CC=CC=C31)CN4CCN(CCOCCO)CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dobutamine",
+            "mz": 302.3933,
+            "ccs": 168.2,
+            "smi": "OC(C=C(C=C1)CCNC(C)CCC(C=C2)=CC=C2O)=C1O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Donepezil",
+            "mz": 380.5073,
+            "ccs": 198.1,
+            "smi": "COC1=CC(C2)=C(C(C2CC3CCN(CC3)CC4=CC=CC=C4)=O)C=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Dosulepin",
+            "mz": 296.4513,
+            "ccs": 167.3,
+            "smi": "CN(C)CCC=C1C2=CC=CC=C2CSC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Doxapram",
+            "mz": 379.5233,
+            "ccs": 183.4,
+            "smi": "O=C1N(CC)CC(CCN2CCOCC2)C1(C3=CC=CC=C3)C4=CC=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Doxazosin",
+            "mz": 452.4903,
+            "ccs": 202.9,
+            "smi": "COC1=CC2=C(C(N)=NC(N3CCN(C(C4COC5=CC=CC=C5O4)=O)CC3)=N2)C=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Doxepin",
+            "mz": 280.39029999999997,
+            "ccs": 164.3,
+            "smi": "CN(C)CCC([H])=C1C2=CC=CC=C2COC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Doxylamine",
+            "mz": 271.38329999999996,
+            "ccs": 161.9,
+            "smi": "CC(C1=CC=CC=C1)(C2=CC=CC=N2)OCCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Duloxetine",
+            "mz": 298.4233,
+            "ccs": 171.0,
+            "smi": "CNCC[C@@H](C1=CC=CS1)OC2=C3C=CC=CC3=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "EDDP",
+            "mz": 278.4183,
+            "ccs": 166.2,
+            "smi": "CC1N(C)/C(C(C2=CC=CC=C2)(C3=CC=CC=C3)C1)=C\\C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Eletriptan",
+            "mz": 383.5293,
+            "ccs": 186.1,
+            "smi": "O=S(CCC1=CC2=C(C=C1)NC=C2C[C@@H]3N(C)CCC3)(C4=CC=CC=C4)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Enalapril",
+            "mz": 377.46029999999996,
+            "ccs": 187.2,
+            "smi": "O=C([C@H](C)N[C@H](C(OCC)=O)CCC1=CC=CC=C1)N2[C@H](C(O)=O)CCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Eplerenone",
+            "mz": 415.5053,
+            "ccs": 197.6,
+            "smi": "[H][C@@]12CC[C@]3([C@]1(C[C@H]4O[C@@]45[C@]2([C@H](C(OC)=O)CC6=CC(CC[C@]56C)=O)[H])C)CCC(O3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ethcathinone",
+            "mz": 178.2543,
+            "ccs": 139.2,
+            "smi": "CCNC(C(C1=CC=CC=C1)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ethylphenidate",
+            "mz": 248.34529999999998,
+            "ccs": 159.5,
+            "smi": "CCOC(C(C1CCCCN1)C2=CC=CC=C2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Famotidine",
+            "mz": 338.4423,
+            "ccs": 165.9,
+            "smi": "NC(NC1=NC(CSCCC(NS(N)(=O)=O)=N)=CS1)=N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fentanyl",
+            "mz": 337.48629999999997,
+            "ccs": 184.1,
+            "smi": "CCC(N(C1=CC=CC=C1)C2CCN(CCC3=CC=CC=C3)CC2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fentanyl-M nor",
+            "mz": 233.33429999999998,
+            "ccs": 156.4,
+            "smi": "O=C(CC)N(C1=CC=CC=C1)C2CCNCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fexofenadine",
+            "mz": 502.67429999999996,
+            "ccs": 226.9,
+            "smi": "OC(C1=CC=CC=C1)(C2=CC=CC=C2)C3CCN(CCCC(C(C=C4)=CC=C4C(C)(C(O)=O)C)O)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flecainide",
+            "mz": 415.3557192,
+            "ccs": 192.2,
+            "smi": "FC(F)(COC(C=C1)=C(C=C1OCC(F)(F)F)C(NCC2NCCCC2)=O)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flephedrone",
+            "mz": 182.2177032,
+            "ccs": 139.8,
+            "smi": "CC(NC)C(C1=CC=C(F)C=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluconazole",
+            "mz": 307.2841064,
+            "ccs": 163.9,
+            "smi": "OC(CN1C=NC=N1)(C2=C(C=C(C=C2)F)F)CN3C=NC=N3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flumazenil",
+            "mz": 304.3007032,
+            "ccs": 165.8,
+            "smi": "CCOC(C1=C2CN(C(C3=CC(F)=CC=C3N2C=N1)=O)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flunarizine",
+            "mz": 405.5121064,
+            "ccs": 211.5,
+            "smi": "FC1=CC=C(C=C1)C(C(C=C2)=CC=C2F)N3CCN(C/C=C/C4=CC=CC=C4)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flunitrazepam",
+            "mz": 314.2957032,
+            "ccs": 168.6,
+            "smi": "CN1C(CN=C(C2=C1C=CC([N+]([O-])=O)=C2)C3=CC=CC=C3F)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flunitrazepam-M 7-amino",
+            "mz": 284.31370319999996,
+            "ccs": 163.1,
+            "smi": "CN(C(CN=C1C2=CC=CC=C2F)=O)C3=C1C=C(N)C=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluoxetine",
+            "mz": 310.3395096,
+            "ccs": 176.5,
+            "smi": "CNCCC(C1=CC=CC=C1)OC2=CC=C(C(F)(F)F)C=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flupentixol",
+            "mz": 435.5285096,
+            "ccs": 199.4,
+            "smi": "OCCN1CCN(CC1)CC/C=C2C3=C(C=CC=C3)SC4=C\\2C=C(C(F)(F)F)C=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flupentixol-M N-desalkyl",
+            "mz": 391.4755096,
+            "ccs": 186.0,
+            "smi": "FC(C1=CC(C(C2=C(S3)C=CC=C2)=CCCN4CCNCC4)=C3C=C1)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flupentixol-M sulphoxide",
+            "mz": 451.5275096,
+            "ccs": 196.8,
+            "smi": "FC(F)(F)C1=CC(/C(C2=CC=CC=C2S3=O)=C/CCN4CCN(CCO)CC4)=C3C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Flurazepam",
+            "mz": 388.89070319999996,
+            "ccs": 185.3,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2F)=NC3)=C(C=C1)N(C3=O)CCN(CC)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fluvoxamine",
+            "mz": 319.34750959999997,
+            "ccs": 177.0,
+            "smi": "COCCCC/C(C1=CC=C(C(F)(F)F)C=C1)=N\\OCCN",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Formoterol",
+            "mz": 345.4183,
+            "ccs": 178.6,
+            "smi": "OC(C(C=C1)=CC(NC=O)=C1O)CNC(C)CC(C=C2)=CC=C2OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Galantamine",
+            "mz": 288.36629999999997,
+            "ccs": 166.9,
+            "smi": "COC1=CC=C2CN(CC[C@@]34C=C[C@@H](C[C@@H]3OC1=C24)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glimepiride",
+            "mz": 491.6263,
+            "ccs": 216.6,
+            "smi": "CCC1=C(C)CN(C(NCCC2=CC=C(S(=O)(NC(NC3CCC(C)CC3)=O)=O)C=C2)=O)C1=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glipizide",
+            "mz": 446.5453,
+            "ccs": 198.9,
+            "smi": "CC1=NC=C(C(NCCC2=CC=C(S(=O)(NC(NC3CCCCC3)=O)=O)C=C2)=O)N=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glyburide",
+            "mz": 495.0103,
+            "ccs": 204.7,
+            "smi": "COC1=CC=C(C=C1C(NCCC2=CC=C(S(=O)(NC(NC3CCCCC3)=O)=O)C=C2)=O)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Halazepam",
+            "mz": 353.7485096,
+            "ccs": 170.9,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2)=NCC3=O)=C(C=C1)N3CC(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Haloperidol",
+            "mz": 376.8757032,
+            "ccs": 193.7,
+            "smi": "OC1(C2=CC=C(C=C2)Cl)CCN(CC1)CCCC(C3=CC=C(C=C3)F)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Heroin-M 6-MAM",
+            "mz": 328.3873,
+            "ccs": 175.1,
+            "smi": "OC1=C2O[C@]([C@H]3OC(C)=O)([H])[C@]4(C2=C(C=C1)C5)[C@](C=C3)([H])[C@]5([H])N(C)CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydrocodone",
+            "mz": 300.3773,
+            "ccs": 167.4,
+            "smi": "O=C1[C@]([C@]2(C3=C(C=C4)C5)[C@](CC1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydrocortisone",
+            "mz": 363.4733,
+            "ccs": 186.6,
+            "smi": "[H][C@@]12CC[C@](C(CO)=O)([C@]1(C[C@@H]([C@]3([C@]2(CCC4=CC(CC[C@]34C)=O)[H])[H])O)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydromorphone",
+            "mz": 286.3503,
+            "ccs": 163.9,
+            "smi": "O=C1[C@]([C@]2(C3=C(C=C4)C5)[C@](CC1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydroxychloroquine",
+            "mz": 336.88329999999996,
+            "ccs": 180.2,
+            "smi": "ClC1=CC2=NC=CC(NC(C)CCCN(CC)CCO)=C2C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydroxyzine",
+            "mz": 375.9163,
+            "ccs": 197.4,
+            "smi": "ClC1=CC=C(C=C1)C(C2=CC=CC=C2)N3CCN(CCOCCO)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Imatinib",
+            "mz": 494.6223,
+            "ccs": 214.6,
+            "smi": "CC1=CC=C(NC(C2=CC=C(CN3CCN(C)CC3)C=C2)=O)C=C1NC4=NC(C5=CC=CN=C5)=CC=N4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Imipramine",
+            "mz": 281.4223,
+            "ccs": 166.5,
+            "smi": "CN(C)CCCN1C2=CC=CC=C2CCC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Imipramine-M Nor",
+            "mz": 267.39529999999996,
+            "ccs": 163.3,
+            "smi": "CNCCCN1C2=CC=CC=C2CCC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Indapamide",
+            "mz": 366.8393,
+            "ccs": 185.6,
+            "smi": "CC1CC2=C(N1NC(C3=CC=C(C(S(N)(=O)=O)=C3)Cl)=O)C=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Indomethacin",
+            "mz": 358.7973,
+            "ccs": 179.5,
+            "smi": "COC1=CC=C2N(C(C)=C(C2=C1)CC(O)=O)C(C3=CC=C(C=C3)Cl)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Irbesartan",
+            "mz": 429.5473,
+            "ccs": 200.8,
+            "smi": "CCCCC1=NC2(C(N1CC3=CC=C(C4=CC=CC=C4C5=NNN=N5)C=C3)=O)CCCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Isocarboxazid",
+            "mz": 232.26229999999998,
+            "ccs": 152.1,
+            "smi": "O=C(C1=NOC(C)=C1)NNCC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "JWH-073",
+            "mz": 328.4343,
+            "ccs": 182.5,
+            "smi": "O=C(C1=CC=CC2=C1C=CC=C2)C3=CN(CCCC)C4=C3C=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ketamine",
+            "mz": 238.7343,
+            "ccs": 149.2,
+            "smi": "ClC1=CC=CC=C1C2(CCCCC2=O)NC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ketamine-M nor",
+            "mz": 224.70729999999998,
+            "ccs": 147.1,
+            "smi": "ClC1=CC=CC=C1C2(CCCCC2=O)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ketobemidone",
+            "mz": 248.34529999999998,
+            "ccs": 159.7,
+            "smi": "O=C(CC)C1(C2=CC(O)=CC=C2)CCN(C)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Labetalol",
+            "mz": 329.41929999999996,
+            "ccs": 178.1,
+            "smi": "CC(NCC(C1=CC=C(C(C(N)=O)=C1)O)O)CCC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lamotrigine",
+            "mz": 257.09729999999996,
+            "ccs": 151.2,
+            "smi": "NC1=NC(N)=C(C2=CC=CC(Cl)=C2Cl)N=N1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lercanidipine",
+            "mz": 612.7463,
+            "ccs": 249.8,
+            "smi": "COC(C1=C(NC(C)=C(C(OC(C)(CN(CCC(C2=CC=CC=C2)C3=CC=CC=C3)C)C)=O)C1C4=CC=CC([N+]([O-])=O)=C4)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levamisole",
+            "mz": 205.29829999999998,
+            "ccs": 144.6,
+            "smi": "N12C[C@H](C3=CC=CC=C3)N=C1SCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levomepromazine",
+            "mz": 329.4813,
+            "ccs": 176.8,
+            "smi": "C[C@H](CN(C)C)CN1C2=CC=CC=C2SC3=C1C=C(OC)C=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levomepromazine-M N-desmethyl",
+            "mz": 315.4543,
+            "ccs": 174.3,
+            "smi": "C[C@](CN1C2=CC=CC=C2SC3=C1C=C(OC)C=C3)([H])CNC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levomepromazine-M N-desmethyl sulfoxide",
+            "mz": 331.4533,
+            "ccs": 172.9,
+            "smi": "C[C@](CN(C1=C2C=CC(OC)=C1)C3=CC=CC=C3S2=O)([H])CNC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Levorphanol",
+            "mz": 258.3843,
+            "ccs": 161.7,
+            "smi": "OC1=CC2=C(C=C1)C[C@H]3N(C)CC[C@@]42[C@@]3([H])CCCC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lidocaine",
+            "mz": 235.35029999999998,
+            "ccs": 157.7,
+            "smi": "CCN(CC(NC1=C(C=CC=C1C)C)=O)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Loperamide",
+            "mz": 478.0523,
+            "ccs": 222.7,
+            "smi": "CN(C(C(C1=CC=CC=C1)(C2=CC=CC=C2)CCN3CCC(CC3)(C4=CC=C(C=C4)Cl)O)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Loperamide-M Desmethyl",
+            "mz": 464.02529999999996,
+            "ccs": 218.7,
+            "smi": "ClC1=CC=C(C=C1)C2(CCN(CCC(C3=CC=CC=C3)(C(NC)=O)C4=CC=CC=C4)CC2)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Loperamid-M didesmethyl",
+            "mz": 449.9983,
+            "ccs": 211.9,
+            "smi": "ClC1=CC=C(C2(O)CCN(CCC(C3=CC=CC=C3)(C(N)=O)C4=CC=CC=C4)CC2)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Loratadine",
+            "mz": 383.89529999999996,
+            "ccs": 187.4,
+            "smi": "CCOC(N1CCC(CC1)=C2C3=C(C=C(C=C3)Cl)CCC4=C2N=CC=C4)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lorazepam",
+            "mz": 322.16429999999997,
+            "ccs": 165.8,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2Cl)=NC3O)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lormetazepam",
+            "mz": 336.1913,
+            "ccs": 169.5,
+            "smi": "CN1C(C(N=C(C2=CC(Cl)=CC=C12)C3=C(C=CC=C3)Cl)O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Losartan",
+            "mz": 423.92429999999996,
+            "ccs": 200.3,
+            "smi": "ClC1=C(CO)N(CC2=CC=C(C3=CC=CC=C3C4=NNN=N4)C=C2)C(CCCC)=N1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Loxapine",
+            "mz": 328.8193,
+            "ccs": 175.7,
+            "smi": "ClC1=CC2=C(C=C1)OC3=CC=CC=C3N=C2N4CCN(C)CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "LSD",
+            "mz": 324.4473,
+            "ccs": 179.5,
+            "smi": "O=C([C@H]1CN(C)[C@@](CC2=CNC3=CC=CC4=C23)([H])C4=C1)N(CC)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Malathion",
+            "mz": 331.357062,
+            "ccs": 165.9,
+            "smi": "S=P(OC)(OC)SC(C(OCC)=O)CC(OCC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Maprotiline",
+            "mz": 278.4183,
+            "ccs": 164.2,
+            "smi": "CNCCCC1(C2=CC=CC=C32)CC[C@H]3C4=CC=CC=C14",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Maprotiline-M N-desmethyl",
+            "mz": 264.3913,
+            "ccs": 163.1,
+            "smi": "NCCCC12CCC(C3=CC=CC=C32)C4=CC=CC=C41",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MBDB",
+            "mz": 208.28029999999998,
+            "ccs": 148.4,
+            "smi": "CCC(CC(C=C1)=CC2=C1OCO2)NC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "mCPP",
+            "mz": 197.68529999999998,
+            "ccs": 144.3,
+            "smi": "ClC1=CC=CC(N2CCNCC2)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MDEA",
+            "mz": 208.28029999999998,
+            "ccs": 147.5,
+            "smi": "CCNC(CC1=CC(OCO2)=C2C=C1)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MDMA",
+            "mz": 194.2533,
+            "ccs": 144.9,
+            "smi": "CNC(CC1=CC=C2OCOC2=C1)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "MDPV",
+            "mz": 276.3553,
+            "ccs": 166.7,
+            "smi": "CCCC(N1CCCC1)C(C2=CC=C(OCO3)C3=C2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Meclozine",
+            "mz": 391.96229999999997,
+            "ccs": 208.2,
+            "smi": "CC1=CC(CN2CCN(C(C3=CC=C(C=C3)Cl)C4=CC=CC=C4)CC2)=CC=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Medazepam",
+            "mz": 271.7673,
+            "ccs": 160.8,
+            "smi": "CN1CCN=C(C2=C1C=CC(Cl)=C2)C3=CC=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Melatonin",
+            "mz": 233.29029999999997,
+            "ccs": 153.4,
+            "smi": "COC1=CC2=C(C=C1)NC=C2CCNC(C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Meloxicam",
+            "mz": 352.40229999999997,
+            "ccs": 173.9,
+            "smi": "CN1C(C(NC2=NC=C(S2)C)=O)=C(C3=C(S1(=O)=O)C=CC=C3)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Melperone",
+            "mz": 264.3637032,
+            "ccs": 163.5,
+            "smi": "FC1=CC=C(C=C1)C(CCCN2CCC(C)CC2)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Memantine",
+            "mz": 180.31429999999997,
+            "ccs": 146.6,
+            "smi": "N[C@]1(C2)C[C@](C[C@@H]2C3)(C)C[C@]3(C)C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mephedrone",
+            "mz": 178.2543,
+            "ccs": 143.1,
+            "smi": "CC1=CC=C(C(C(NC)C)=O)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mepivacaine",
+            "mz": 247.3613,
+            "ccs": 159.1,
+            "smi": "O=C(C1N(C)CCCC1)NC2=C(C)C=CC=C2C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mepyramine",
+            "mz": 286.3983,
+            "ccs": 169.6,
+            "smi": "CN(C)CCN(C1=CC=CC=N1)CC(C=C2)=CC=C2OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metacetamol",
+            "mz": 152.17229999999998,
+            "ccs": 129.8,
+            "smi": "CC(NC1=CC=CC(O)=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metenolone acetate",
+            "mz": 345.5023,
+            "ccs": 187.6,
+            "smi": "CC1=CC(C[C@H]2[C@]1([C@H]3CC[C@]4([C@H]([C@@H]3CC2)CCC4OC(C)=O)C)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methadone",
+            "mz": 310.46029999999996,
+            "ccs": 177.7,
+            "smi": "O=C(CC)C(C1=CC=CC=C1)(C2=CC=CC=C2)CC(C)N(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methaqualone",
+            "mz": 251.30829999999997,
+            "ccs": 155.0,
+            "smi": "O=C1N(C(C)=NC2=CC=CC=C12)C3=CC=CC=C3C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methotrexate",
+            "mz": 455.4543,
+            "ccs": 196.2,
+            "smi": "CN(C1=CC=C(C(N[C@H](C(O)=O)CCC(O)=O)=O)C=C1)CC2=NC3=C(N=C(N=C3N=C2)N)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methoxetamine",
+            "mz": 248.34529999999998,
+            "ccs": 159.6,
+            "smi": "O=C1C(CCCC1)(NCC)C2=CC=CC(OC)=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methylone",
+            "mz": 208.2363,
+            "ccs": 147.3,
+            "smi": "CNC(C)C(C1=CC(OCO2)=C2C=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methylphenidate",
+            "mz": 234.3183,
+            "ccs": 154.2,
+            "smi": "O=C(C(C1=CC=CC=C1)C2NCCCC2)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methyltestosterone",
+            "mz": 303.4653,
+            "ccs": 176.0,
+            "smi": "[H][C@]1([C@@]([H])([C@@]2(C)CC3)CC[C@@]4(C)[C@@]1([H])CC[C@]4(C)O)CCC2=CC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metoclopramide",
+            "mz": 300.80629999999996,
+            "ccs": 173.2,
+            "smi": "CCN(CCNC(C1=CC(Cl)=C(C=C1OC)N)=O)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metopimazine",
+            "mz": 446.6033,
+            "ccs": 196.3,
+            "smi": "O=C(C1CCN(CCCN2C(C=C3S(=O)(C)=O)=C(C=C3)SC4=CC=CC=C24)CC1)N",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metoprolol",
+            "mz": 268.3763,
+            "ccs": 172.7,
+            "smi": "COCCC1=CC=C(C=C1)OCC(CNC(C)C)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Metronidazole",
+            "mz": 172.1633,
+            "ccs": 132.4,
+            "smi": "CC1=NC=C([N+]([O-])=O)N1CCO",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mianserin",
+            "mz": 265.3793,
+            "ccs": 164.5,
+            "smi": "CN1CC(C2=CC=CC=C2CC3=CC=CC=C43)N4CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Midazolam",
+            "mz": 326.7787032,
+            "ccs": 172.8,
+            "smi": "ClC1=CC2=C(C=C1)N3C(CN=C2C4=CC=CC=C4F)=CN=C3C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Milrinone",
+            "mz": 212.23129999999998,
+            "ccs": 150.4,
+            "smi": "O=C1NC(C)=C(C=C1C#N)C2=CC=NC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mirtazapine",
+            "mz": 266.3673,
+            "ccs": 161.0,
+            "smi": "CN1CCN2C(C3=C(C=CC=C3)CC4=C2N=CC=C4)C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mirtazapine-M N-desmethyl",
+            "mz": 252.34029999999998,
+            "ccs": 156.9,
+            "smi": "C1(C2)=CC=CC=C1C3CNCCN3C4=C2C=CC=N4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Moclobemide",
+            "mz": 269.7483,
+            "ccs": 162.5,
+            "smi": "ClC1=CC=C(C(NCCN2CCOCC2)=O)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Montelukast",
+            "mz": 587.1943,
+            "ccs": 243.0,
+            "smi": "ClC1=CC2=C(C=C1)C=CC(/C=C/C3=CC([C@@H](CCC4=CC=CC=C4C(C)(C)O)SCC5(CC(O)=O)CC5)=CC=C3)=N2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Morphine",
+            "mz": 286.3503,
+            "ccs": 164.0,
+            "smi": "O[C@@H]1[C@]([C@]2(C3=C(C=C4)C5)[C@](C=C1)([H])[C@]5([H])N(C)CC2)([H])OC3=C4O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Morphine-M Nor",
+            "mz": 272.32329999999996,
+            "ccs": 161.5,
+            "smi": "OC1=C(O2)C3=C(CC4C5C=CC(O)C2C53CCN4)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "m-Trifluorophenylpiperazine (TFMPP)",
+            "mz": 231.2415096,
+            "ccs": 151.1,
+            "smi": "FC(F)(F)C1=CC(N2CCNCC2)=CC=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-(p-Methoxyphenyl)piperazine (pMeOPP)",
+            "mz": 193.2693,
+            "ccs": 141.9,
+            "smi": "COC1=CC=C(N2CCNCC2)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "\"NN-Diethyltryptamine\"",
+            "mz": 217.3353,
+            "ccs": 148.6,
+            "smi": "CCN(CCC1=CNC2=CC=CC=C12)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "\"NN-Dimethyltryptamine\"",
+            "mz": 189.2813,
+            "ccs": 143.5,
+            "smi": "CN(C)CCC1=CNC2=CC=CC=C12",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nadolol",
+            "mz": 310.4133,
+            "ccs": 172.0,
+            "smi": "CC(C)(NCC(COC1=C2C[C@@H]([C@@H](CC2=CC=C1)O)O)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Naloxone",
+            "mz": 328.3873,
+            "ccs": 171.8,
+            "smi": "O[C@@]([C@]1([H])N(CC=C)CC2)(CCC3=O)[C@@]2(C4=C(C=C5)C1)[C@@]3([H])OC4=C5O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Naltrexone",
+            "mz": 342.41429999999997,
+            "ccs": 176.5,
+            "smi": "O[C@@]([C@]1([H])N(CC2CC2)CC3)(CCC4=O)[C@@]3(C5=C(C=C6)C1)[C@@]4([H])OC5=C6O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nandrolone",
+            "mz": 275.4113,
+            "ccs": 167.5,
+            "smi": "O=C1CC[C@@]2([H])C(CC[C@]3([H])[C@]2([H])CC[C@@]4(C)[C@@]3([H])CC[C@@H]4O)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Naphazoline",
+            "mz": 211.2873,
+            "ccs": 149.6,
+            "smi": "C1(CC2=NCCN2)=CC=CC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Naratriptan",
+            "mz": 336.4733,
+            "ccs": 174.3,
+            "smi": "CNS(=O)(CCC1=CC=C2NC=C(C2=C1)C3CCN(CC3)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-diethylnorephedrine",
+            "mz": 208.3243,
+            "ccs": 144.6,
+            "smi": "CCN([C@H]([C@@H](C1=CC=CC=C1)O)C)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nefazodone",
+            "mz": 471.0213,
+            "ccs": 211.7,
+            "smi": "ClC1=CC=CC(N(CC2)CCN2CCCN3N=C(CC)N(CCOC4=CC=CC=C4)C3=O)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nicardipine",
+            "mz": 480.5403,
+            "ccs": 212.1,
+            "smi": "CC(N1)=C(C(OC)=O)C(C(C(OCCN(CC2=CC=CC=C2)C)=O)=C1C)C3=CC([N+]([O-])=O)=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nimodipine",
+            "mz": 419.4533,
+            "ccs": 197.8,
+            "smi": "COCCOC(C1=C(NC(C)=C(C(OC(C)C)=O)C1C2=CC=CC([N+]([O-])=O)=C2)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nitrazepam",
+            "mz": 282.2783,
+            "ccs": 163.6,
+            "smi": "[O-][N+](C1=CC2=C(C=C1)NC(CN=C2C3=CC=CC=C3)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nitrazepam-M 7-amino",
+            "mz": 252.29629999999997,
+            "ccs": 158.1,
+            "smi": "NC1=CC(C(C2=CC=CC=C2)=NC3)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nitrendipine",
+            "mz": 361.3733,
+            "ccs": 182.2,
+            "smi": "CCOC(C1=C(NC(C)=C(C(OC)=O)C1C2=CC=CC([N+]([O-])=O)=C2)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nizatidine",
+            "mz": 332.46029999999996,
+            "ccs": 168.4,
+            "smi": "CN/C(NCCSCC1=CSC(CN(C)C)=N1)=C\\[N+]([O-])=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Norcodeine",
+            "mz": 286.3503,
+            "ccs": 166.1,
+            "smi": "O[C@@H]1[C@]([C@]2(C3=C(C=C4)C5)[C@](C=C1)([H])[C@]5([H])NCC2)([H])OC3=C4OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Noscapine",
+            "mz": 414.4333,
+            "ccs": 194.3,
+            "smi": "[H][C@]1([C@@]2(N(CCC3=CC4=C(C(OC)=C23)OCO4)C)[H])OC(C5=C(C(OC)=CC=C15)OC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Olanzapine",
+            "mz": 313.4423,
+            "ccs": 175.5,
+            "smi": "CN1CCN(C2=NC3=CC=CC=C3NC(S4)=C2C=C4C)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ondansetron",
+            "mz": 294.3773,
+            "ccs": 171.7,
+            "smi": "CN1C2=C(C(C(CC2)CN3C=CN=C3C)=O)C4=C1C=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ondansetron-M 8-hydroxy",
+            "mz": 310.3763,
+            "ccs": 173.7,
+            "smi": "CC1=NC=CN1CC(C2=O)CCC(N3C)=C2C4=C3C(O)=CC=C4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxazepam",
+            "mz": 287.72229999999996,
+            "ccs": 162.3,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2)=NC3O)=C(C=C1)NC3=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxcarbazepine",
+            "mz": 253.28029999999998,
+            "ccs": 153.8,
+            "smi": "NC(N1C2=C(C=CC=C2)CC(C3=C1C=CC=C3)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxprenolol",
+            "mz": 266.3603,
+            "ccs": 161.7,
+            "smi": "OC(COC1=CC=CC=C1OCC=C)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxycodone",
+            "mz": 316.3763,
+            "ccs": 168.3,
+            "smi": "O[C@@]([C@]1([H])N(C)CC2)(CCC3=O)[C@@]2(C4=C(C=C5)C1)[C@@]3([H])OC4=C5OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Oxymorphone",
+            "mz": 302.34929999999997,
+            "ccs": 164.6,
+            "smi": "O[C@@]([C@]1([H])N(C)CC2)(CCC3=O)[C@@]2(C4=C(C=C5)C1)[C@@]3([H])OC4=C5O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Papaverine",
+            "mz": 340.3983,
+            "ccs": 185.3,
+            "smi": "COC1=CC(CC2=NC=CC3=CC(OC)=C(OC)C=C32)=CC=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Paracetamol",
+            "mz": 152.17229999999998,
+            "ccs": 132.2,
+            "smi": "CC(NC1=CC=C(C=C1)O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Parecoxib",
+            "mz": 371.4303,
+            "ccs": 189.2,
+            "smi": "CCC(NS(=O)(C1=CC=C(C2=C(C)ON=C2C3=CC=CC=C3)C=C1)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Paroxetine",
+            "mz": 330.37870319999996,
+            "ccs": 183.2,
+            "smi": "FC1=CC=C(C=C1)[C@H]2[C@H](COC(C=C3)=CC4=C3OCO4)CNCC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pentazocine",
+            "mz": 286.43829999999997,
+            "ccs": 173.5,
+            "smi": "OC(C=C1)=CC2=C1CC(C3C)N(CC=C(C)C)CCC23C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pentedrone",
+            "mz": 192.2813,
+            "ccs": 145.7,
+            "smi": "CCCC(NC)C(C1=CC=CC=C1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pentoxyverine",
+            "mz": 334.47929999999997,
+            "ccs": 175.5,
+            "smi": "CCN(CCOCCOC(C1(C2=CC=CC=C2)CCCC1)=O)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pergolide",
+            "mz": 315.4983,
+            "ccs": 177.9,
+            "smi": "CCCN1[C@@](CC2=CNC3=CC=CC4=C23)([H])[C@]4([H])C[C@@H](CSC)C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Periciazine",
+            "mz": 366.5023,
+            "ccs": 186.4,
+            "smi": "OC1CCN(CC1)CCCN2C3=CC=CC=C3SC4=CC=C(C#N)C=C24",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Perphenazine",
+            "mz": 404.9763,
+            "ccs": 193.2,
+            "smi": "OCCN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=CC=C(C=C24)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pethidine",
+            "mz": 248.34529999999998,
+            "ccs": 158.5,
+            "smi": "O=C(C1(C2=CC=CC=C2)CCN(C)CC1)OCC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenacetin",
+            "mz": 180.22629999999998,
+            "ccs": 139.4,
+            "smi": "CCOC1=CC=C(C=C1)NC(C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenazepam",
+            "mz": 350.6193,
+            "ccs": 166.0,
+            "smi": "ClC1=CC=CC=C1C2=NCC(NC3=CC=C(C=C23)Br)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenazone",
+            "mz": 189.23729999999998,
+            "ccs": 137.7,
+            "smi": "O=C1N(C2=CC=CC=C2)N(C)C(C)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenmetrazine",
+            "mz": 178.2543,
+            "ccs": 138.9,
+            "smi": "CC1NCCOC1C2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenprocoumon",
+            "mz": 281.33029999999997,
+            "ccs": 160.0,
+            "smi": "CCC(C1=CC=CC=C1)C2=C(O)C3=C(OC2=O)C=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pimozide",
+            "mz": 462.5641064,
+            "ccs": 214.4,
+            "smi": "FC1=CC=C(C=C1)C(C(C=C2)=CC=C2F)CCCN3CCC(CC3)N4C5=CC=CC=C5NC4=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pindolol",
+            "mz": 249.33329999999998,
+            "ccs": 159.1,
+            "smi": "OC(COC1=CC=CC2=C1C=CN2)CNC(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pipamperone",
+            "mz": 376.4957032,
+            "ccs": 194.1,
+            "smi": "FC1=CC=C(C=C1)C(CCCN2CCC(CC2)(C(N)=O)N3CCCCC3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Piroxicam",
+            "mz": 332.3533,
+            "ccs": 170.9,
+            "smi": "CN1C(C(NC2=NC=CC=C2)=O)=C(C3=C(S1(=O)=O)C=CC=C3)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pizotifen",
+            "mz": 296.4513,
+            "ccs": 175.4,
+            "smi": "CN1CCC(CC1)=C2C3=CC=CC=C3CCC4=C2C=CS4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prazepam",
+            "mz": 325.8153,
+            "ccs": 174.0,
+            "smi": "ClC1=CC2=C(C=C1)N(C(CN=C2C3=CC=CC=C3)=O)CC4CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prazosin",
+            "mz": 384.4153,
+            "ccs": 192.7,
+            "smi": "COC1=CC2=NC(N3CCN(C(C4=CC=CO4)=O)CC3)=NC(N)=C2C=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Procaine",
+            "mz": 237.32229999999998,
+            "ccs": 154.6,
+            "smi": "CCN(CCOC(C1=CC=C(C=C1)N)=O)CC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Prochlorperazine",
+            "mz": 374.95029999999997,
+            "ccs": 183.7,
+            "smi": "CN1CCN(CC1)CCCN2C3=CC=CC=C3SC4=CC=C(C=C24)Cl",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Procyclidine",
+            "mz": 288.4543,
+            "ccs": 172.6,
+            "smi": "OC(CCN1CCCC1)(C2=CC=CC=C2)C3CCCCC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Proguanil",
+            "mz": 254.7413,
+            "ccs": 161.3,
+            "smi": "CC(NC(NC(NC1=CC=C(C=C1)Cl)=N)=N)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Promazine",
+            "mz": 285.4283,
+            "ccs": 161.5,
+            "smi": "CN(C)CCCN1C2=CC=CC=C2SC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Promethazine",
+            "mz": 285.4283,
+            "ccs": 163.7,
+            "smi": "CC(CN1C2=CC=CC=C2SC3=CC=CC=C13)N(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Propafenone",
+            "mz": 342.4583,
+            "ccs": 178.5,
+            "smi": "CCCNCC(COC1=C(C(CCC2=CC=CC=C2)=O)C=CC=C1)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Propranolol",
+            "mz": 260.3563,
+            "ccs": 162.7,
+            "smi": "CC(NCC(COC1=CC=CC2=C1C=CC=C2)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Protriptyline",
+            "mz": 264.3913,
+            "ccs": 162.8,
+            "smi": "CNCCCC1C2=CC=CC=C2C=CC3=CC=CC=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Psilocin",
+            "mz": 205.28029999999998,
+            "ccs": 144.8,
+            "smi": "OC1=CC=CC2=C1C(CCN(C)C)=CN2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Psilocybine",
+            "mz": 285.259062,
+            "ccs": 157.3,
+            "smi": "OP(OC1=CC=CC2=C1C(CCN(C)C)=CN2)(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quazepam",
+            "mz": 387.79991279999996,
+            "ccs": 174.9,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2F)=NCC3=S)=C(C=C1)N3CC(F)(F)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quetiapine",
+            "mz": 384.5173,
+            "ccs": 192.9,
+            "smi": "OCCOCCN1CCN(C2=NC3=CC=CC=C3SC4=CC=CC=C24)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quinidine",
+            "mz": 325.43129999999996,
+            "ccs": 175.8,
+            "smi": "O[C@@H](C1=C(C=C2OC)C(C=C2)=NC=C1)[C@]3([H])[N@@]4C[C@H](C=C)[C@](CC4)([H])C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Quinine",
+            "mz": 325.43129999999996,
+            "ccs": 177.4,
+            "smi": "C=C[C@H]1C[N@]2[C@@]([C@H](O)C3=CC=NC4=CC=C(OC)C=C43)([H])C[C@@H]1CC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ramipril",
+            "mz": 417.52529999999996,
+            "ccs": 197.0,
+            "smi": "CCOC([C@@H](N[C@H](C(N1[C@H]2CCC[C@H]2C[C@H]1C(O)=O)=O)C)CCC3=CC=CC=C3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Reboxetine",
+            "mz": 314.4043,
+            "ccs": 174.0,
+            "smi": "CCOC1=CC=CC=C1O[C@H](C2=CC=CC=C2)[C@]3([H])OCCNC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Remifentanil",
+            "mz": 377.46029999999996,
+            "ccs": 190.3,
+            "smi": "O=C(C1(CCN(CCC(OC)=O)CC1)N(C(CC)=O)C2=CC=CC=C2)OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Risperidone",
+            "mz": 411.5007032,
+            "ccs": 205.5,
+            "smi": "CC1=C(C(N2CCCCC2=N1)=O)CCN3CCC(C4=NOC5=C4C=CC(F)=C5)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Risperidone-M 9-hydroxy",
+            "mz": 427.4997032,
+            "ccs": 209.9,
+            "smi": "CC(N=C1C(O)CCCN12)=C(C2=O)CCN3CCC(C4=NOC5=C4C=CC(F)=C5)CC3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ritalinic acid",
+            "mz": 220.29129999999998,
+            "ccs": 150.0,
+            "smi": "O=C(O)C(C1CCCCN1)C2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rivastigmine",
+            "mz": 251.3493,
+            "ccs": 165.0,
+            "smi": "CCN(C(OC1=CC=CC([C@@H](N(C)C)C)=C1)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rizatriptan",
+            "mz": 270.35929999999996,
+            "ccs": 160.3,
+            "smi": "CN(C)CCC1=CNC2=C1C=C(CN3N=CN=C3)C=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ropinirole",
+            "mz": 261.38829999999996,
+            "ccs": 163.8,
+            "smi": "O=C1NC2=CC=CC(CCN(CCC)CCC)=C2C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Rufinamide",
+            "mz": 239.20510639999998,
+            "ccs": 148.6,
+            "smi": "NC(C1=CN(N=N1)CC2=C(C=CC=C2F)F)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Salbutamol",
+            "mz": 240.32229999999998,
+            "ccs": 160.0,
+            "smi": "CC(C)(NCC(C1=CC=C(C(CO)=C1)O)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Salmeterol",
+            "mz": 416.5813,
+            "ccs": 202.9,
+            "smi": "O[C@H](C(C=C1)=CC(CO)=C1O)CNCCCCCCOCCCCC2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Scopolamine",
+            "mz": 304.3653,
+            "ccs": 171.1,
+            "smi": "CN1[C@H]2[C@H]3O[C@H]3[C@@H]1C[C@H](OC([C@@H](C4=CC=CC=C4)CO)=O)C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Selegiline",
+            "mz": 188.2933,
+            "ccs": 142.1,
+            "smi": "C[C@H](CC1=CC=CC=C1)N(C)CC#C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sertindol",
+            "mz": 441.9547032,
+            "ccs": 215.9,
+            "smi": "ClC1=CC2=C(C=C1)N(C(C=C3)=CC=C3F)C=C2C4CCN(CCN5CCNC5=O)CC4",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sertindol-M dehydro",
+            "mz": 439.93870319999996,
+            "ccs": 213.8,
+            "smi": "ClC1=CC(C(C2CCN(CCN3C=CNC3=O)CC2)=CN4C5=CC=C(F)C=C5)=C4C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sibutramine",
+            "mz": 280.85929999999996,
+            "ccs": 168.0,
+            "smi": "CC(CC(C1(C2=CC=C(C=C2)Cl)CCC1)N(C)C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sildenafil",
+            "mz": 475.58729999999997,
+            "ccs": 212.7,
+            "smi": "CCCC1=NN(C2=C1N=C(C3=CC(S(=O)(N4CCN(CC4)C)=O)=CC=C3OCC)NC2=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sotalol",
+            "mz": 273.3703,
+            "ccs": 167.0,
+            "smi": "CC(NCC(C1=CC=C(C=C1)NS(C)(=O)=O)O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Stanozolol",
+            "mz": 329.5073,
+            "ccs": 188.1,
+            "smi": "[H][C@@]12CC[C@](O)([C@]1(CC[C@]3([C@]2(CC[C@]4(CC5=C(C=NN5)C[C@]34C)[H])[H])[H])C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Strychnine",
+            "mz": 335.42629999999997,
+            "ccs": 172.0,
+            "smi": "O=C1N2[C@]([C@@]([C@@](C1)([H])OCC=C3C4)([H])[C@@]3([H])C5)([H])[C@]6(C7=CC=CC=C27)[C@@]5([H])N4CC6",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sufentanil",
+            "mz": 387.56129999999996,
+            "ccs": 191.3,
+            "smi": "O=C(CC)N(C1=CC=CC=C1)C2(COC)CCN(CCC3=CC=CS3)CC2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfadoxine",
+            "mz": 311.33529999999996,
+            "ccs": 165.3,
+            "smi": "O=S(NC(N=CN=C1OC)=C1OC)(C(C=C2)=CC=C2N)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfamethoxazole",
+            "mz": 254.2833,
+            "ccs": 151.0,
+            "smi": "CC1=CC(NS(=O)(C2=CC=C(C=C2)N)=O)=NO1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfapyridine",
+            "mz": 250.2953,
+            "ccs": 150.8,
+            "smi": "NC1=CC=C(S(=O)(NC2=NC=CC=C2)=O)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulfasalazine",
+            "mz": 399.40029999999996,
+            "ccs": 199.7,
+            "smi": "OC(C1=C(C=CC(/N=N/C2=CC=C(S(=O)(NC3=CC=CC=N3)=O)C=C2)=C1)O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulindac",
+            "mz": 357.4187032,
+            "ccs": 192.6,
+            "smi": "CC1=C(C2=C(/C1=C\\C3=CC=C(S(C)=O)C=C3)C=CC(F)=C2)CC(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sulpiride",
+            "mz": 342.4333,
+            "ccs": 184.3,
+            "smi": "CCN1CCCC1CNC(C2=CC(S(N)(=O)=O)=CC=C2OC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Sumatriptan",
+            "mz": 296.4083,
+            "ccs": 162.1,
+            "smi": "CNS(=O)(CC1=CC2=C(C=C1)NC=C2CCN(C)C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tadalafil",
+            "mz": 390.4183,
+            "ccs": 189.4,
+            "smi": "[H][C@]12CC3=C([C@@H](C4=CC=C5OCOC5=C4)N1C(CN(C2=O)C)=O)NC6=C3C=CC=C6",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tamoxifen",
+            "mz": 372.5313,
+            "ccs": 197.1,
+            "smi": "CC/C(C1=CC=CC=C1)=C(C2=CC=C(C=C2)OCCN(C)C)\\C3=CC=CC=C3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tapentadol",
+            "mz": 222.35129999999998,
+            "ccs": 152.1,
+            "smi": "OC1=CC=CC([C@H](CC)[C@@H](C)CN(C)C)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Temazepam",
+            "mz": 301.7493,
+            "ccs": 166.1,
+            "smi": "CN1C(C(N=C(C2=C1C=CC(Cl)=C2)C3=CC=CC=C3)O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tenoxicam",
+            "mz": 338.3753,
+            "ccs": 170.4,
+            "smi": "CN(S1(=O)=O)C(C(NC2=NC=CC=C2)=O)=C(C3=C1C=CS3)O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Terbinafine",
+            "mz": 292.4453,
+            "ccs": 187.2,
+            "smi": "CN(CC1=CC=CC2=CC=CC=C12)C/C=C/C#CC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Terbutaline",
+            "mz": 226.2953,
+            "ccs": 154.9,
+            "smi": "OC(C1=CC(O)=CC(O)=C1)CNC(C)(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Terfenadine",
+            "mz": 472.6923,
+            "ccs": 229.8,
+            "smi": "CC(C)(C1=CC=C(C(CCCN2CCC(C(C3=CC=CC=C3)(C4=CC=CC=C4)O)CC2)O)C=C1)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tetrabenazine",
+            "mz": 318.43629999999996,
+            "ccs": 182.6,
+            "smi": "O=C1C(CC(C)C)CN(CCC2=CC(OC)=C3OC)C(C2=C3)C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tetracaine",
+            "mz": 265.3763,
+            "ccs": 173.1,
+            "smi": "O=C(C1=CC=C(C=C1)NCCCC)OCCN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thebacon",
+            "mz": 342.41429999999997,
+            "ccs": 178.2,
+            "smi": "CC(OC1=CC[C@H]2[C@H]3CC4=C5[C@@]2(CCN3C)[C@H]1OC5=C(OC)C=C4)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thioridazine",
+            "mz": 371.58029999999997,
+            "ccs": 184.9,
+            "smi": "CN1C(CCN2C(C=C3SC)=C(C=C3)SC4=CC=CC=C24)CCCC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tiagabine",
+            "mz": 376.5523,
+            "ccs": 184.5,
+            "smi": "OC([C@H]1CN(CCC=C(C2=C(C)C=CS2)C3=C(C)C=CS3)CCC1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tianeptine",
+            "mz": 437.9583,
+            "ccs": 197.0,
+            "smi": "CN1C2=CC=CC=C2C(C3=CC=C(C=C3S1(=O)=O)Cl)NCCCCCCC(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tiaprofenic acid",
+            "mz": 261.3143,
+            "ccs": 155.1,
+            "smi": "OC(C(C)C1=CC=C(C(C2=CC=CC=C2)=O)S1)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tizanidine",
+            "mz": 254.71529999999998,
+            "ccs": 149.4,
+            "smi": "ClC1=C(C2=NSN=C2C=C1)NC3=NCCN3",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tolbutamide",
+            "mz": 271.35429999999997,
+            "ccs": 163.0,
+            "smi": "CCCCNC(NS(=O)(C1=CC=C(C=C1)C)=O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tolterodine",
+            "mz": 326.50329999999997,
+            "ccs": 182.1,
+            "smi": "CC(N(C(C)C)CC[C@@H](C1=CC(C)=CC=C1O)C2=CC=CC=C2)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tramadol",
+            "mz": 264.38829999999996,
+            "ccs": 161.4,
+            "smi": "O[C@@]1(C2=CC(OC)=CC=C2)[C@@H](CN(C)C)CCCC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tramadol-M O-desmethyl",
+            "mz": 250.3613,
+            "ccs": 157.4,
+            "smi": "OC1(C2=CC(O)=CC=C2)C(CN(C)C)CCCC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trandolapril",
+            "mz": 431.5523,
+            "ccs": 203.5,
+            "smi": "O=C([C@H](C)N[C@H](C(OCC)=O)CCC1=CC=CC=C1)N2[C@]3([H])[C@@](CCCC3)([H])C[C@H]2C(O)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tranylcypromine",
+            "mz": 134.20129999999997,
+            "ccs": 127.6,
+            "smi": "NC1C(C1)C2=CC=CC=C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Triazolam",
+            "mz": 344.2183,
+            "ccs": 172.4,
+            "smi": "ClC1=CC(C(C2=CC=CC=C2Cl)=NC3)=C(C=C1)N4C3=NN=C4C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trifluoperazine",
+            "mz": 408.50650959999996,
+            "ccs": 188.1,
+            "smi": "FC(F)(C1=CC2=C(C=C1)SC3=CC=CC=C3N2CCCN4CCN(C)CC4)F",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trimethoprim",
+            "mz": 291.33029999999997,
+            "ccs": 170.8,
+            "smi": "COC1=CC(CC2=CN=C(N=C2N)N)=CC(OC)=C1OC",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Trimipramine",
+            "mz": 295.4493,
+            "ccs": 171.2,
+            "smi": "CC(CN1C2=CC=CC=C2CCC3=C1C=CC=C3)CN(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Triptyline-M nor",
+            "mz": 264.3913,
+            "ccs": 164.5,
+            "smi": "CNCCC=C1C2=CC=CC=C2CCC3=CC=CC=C31",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tulobuterol",
+            "mz": 228.7393,
+            "ccs": 150.5,
+            "smi": "CC(C)(NCC(O)C1=CC=CC=C1Cl)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Vardenafil",
+            "mz": 489.6143,
+            "ccs": 225.8,
+            "smi": "CCN1CCN(CC1)S(=O)(C2=CC=C(C(C(NN3C4=C(N=C3CCC)C)=NC4=O)=C2)OCC)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Varenicline",
+            "mz": 212.2753,
+            "ccs": 151.0,
+            "smi": "[H][C@]1(CNC2)C[C@]2([H])C3=CC4=NC=CN=C4C=C13",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Venlafaxine",
+            "mz": 278.4153,
+            "ccs": 171.6,
+            "smi": "COC1=CC=C(C(C2(CCCCC2)O)CN(C)C)C=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Verapamil",
+            "mz": 455.6183,
+            "ccs": 210.2,
+            "smi": "COC1=CC=C(C=C1OC)CCN(CCCC(C(C)C)(C2=CC=C(C(OC)=C2)OC)C#N)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Verapamil-M nor",
+            "mz": 441.5913,
+            "ccs": 207.3,
+            "smi": "N#CC(CCCNCCC(C=C1)=CC(OC)=C1OC)(C(C=C2)=CC(OC)=C2OC)C(C)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Warfarin",
+            "mz": 309.3403,
+            "ccs": 166.8,
+            "smi": "CC(CC(C1=C(C2=C(C=CC=C2)OC1=O)O)C3=CC=CC=C3)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Xylazine",
+            "mz": 221.3413,
+            "ccs": 147.9,
+            "smi": "CC1=CC=CC(C)=C1NC2=NCCCS2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Xylometazoline",
+            "mz": 245.3893,
+            "ccs": 170.4,
+            "smi": "CC(C)(C)C1=CC(C)=C(CC2=NCCN2)C(C)=C1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Yohimbine",
+            "mz": 355.4573,
+            "ccs": 186.5,
+            "smi": "O[C@@H]1[C@H](C(OC)=O)[C@]2([H])[C@](CC1)([H])CN3[C@@](C(NC4=CC=CC=C54)=C5CC3)([H])C2",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zaleplon",
+            "mz": 306.3483,
+            "ccs": 173.5,
+            "smi": "CCN(C1=CC=CC(C2=CC=NC3=C(C#N)C=NN23)=C1)C(C)=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ziprasidone",
+            "mz": 413.94329999999997,
+            "ccs": 192.6,
+            "smi": "ClC1=CC(N2)=C(C=C1CCN3CCN(C4=NSC5=C4C=CC=C5)CC3)CC2=O",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zolazepam",
+            "mz": 287.3177032,
+            "ccs": 162.3,
+            "smi": "CC(C1=C2N(C(CN=C1C3=CC=CC=C3F)=O)C)=NN2C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zolmitriptan",
+            "mz": 288.3703,
+            "ccs": 160.6,
+            "smi": "CN(CCC1=CNC2=C1C=C(C[C@H]3COC(N3)=O)C=C2)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zolpidem",
+            "mz": 308.4043,
+            "ccs": 177.2,
+            "smi": "CN(C(CC1=C(C2=CC=C(C=C2)C)N=C3C=CC(C)=CN13)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zolpidem-M 2",
+            "mz": 338.3863,
+            "ccs": 181.4,
+            "smi": "CN(C(CC1=C(C2=CC=C(C=C2)C)N=C3C=CC(C(O)=O)=CN13)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zolpidem-M Carboxylic acid",
+            "mz": 338.3863,
+            "ccs": 184.4,
+            "smi": "CN(C(CC1=C(C2=CC=C(C=C2)C(O)=O)N=C3C=CC(C)=CN13)=O)C",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zopiclone",
+            "mz": 389.8193,
+            "ccs": 188.5,
+            "smi": "CN1CCN(C(OC2N(C3=NC=C(C=C3)Cl)C(C4=C2N=CC=N4)=O)=O)CC1",
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Zuclopenthixol",
+            "mz": 401.97229999999996,
+            "ccs": 194.0,
+            "smi": "OCCN1CCN(CC1)CC/C=C2C3=CC=CC=C3SC4=CC=C(C=C/24)Cl",
+            "adduct": "[M+H]+"
+        }
+    ]
+}

@@ -1,0 +1,767 @@
+{
+    "metadata": {
+        "src_tag": "lian0118",
+        "url": "https://pubs.rsc.org/en/content/articlelanding/2018/ay/c7ay02808c",
+        "reference": "Lian, R. et al. Ion mobility derived collision cross section as an additional measure to support the rapid analysis of abused drugs and toxic compounds using electrospray ion mobility time-of-flight mass spectrometry. Anal. Methods 10, 749–756 (2018).",
+        "ccs_type": "DT",
+        "ccs_method": "single field, calibrated"
+    },
+    "data": [
+        {
+            "name": "NICOTINAMIDE",
+            "adduct": "[M+H]+",
+            "mz": 123.0553,
+            "ccs": 125.2
+        },
+        {
+            "name": "METHAMIDOPHOS",
+            "adduct": "[M+H]+",
+            "mz": 142.0086,
+            "ccs": 123.2
+        },
+        {
+            "name": "METHAMPHETAMINE",
+            "adduct": "[M+H]+",
+            "mz": 150.1277,
+            "ccs": 133.5
+        },
+        {
+            "name": "EPHEDRINE",
+            "adduct": "[M+H]+",
+            "mz": 166.1226,
+            "ccs": 138.2
+        },
+        {
+            "name": "1-BENZYLPIPERAZINE",
+            "adduct": "[M+H]+",
+            "mz": 177.1386,
+            "ccs": 138.8
+        },
+        {
+            "name": "BUPHEDRONE",
+            "adduct": "[M+H]+",
+            "mz": 178.1226,
+            "ccs": 141.2
+        },
+        {
+            "name": "MEPHEDRONE",
+            "adduct": "[M+H]+",
+            "mz": 178.1226,
+            "ccs": 143.3
+        },
+        {
+            "name": "METHEPHEDRINE",
+            "adduct": "[M+H]+",
+            "mz": 180.1383,
+            "ccs": 138.4
+        },
+        {
+            "name": "3-FLUOROMETHCATHINONE",
+            "adduct": "[M+H]+",
+            "mz": 182.0976,
+            "ccs": 142.3
+        },
+        {
+            "name": "3-FLUOROMETHCATHINONE",
+            "adduct": "[M+H]+",
+            "mz": 182.0976,
+            "ccs": 138.7
+        },
+        {
+            "name": "2C\u2013H",
+            "adduct": "[M+H]+",
+            "mz": 182.1186,
+            "ccs": 144.8
+        },
+        {
+            "name": "4-MEC",
+            "adduct": "[M+H]+",
+            "mz": 192.1383,
+            "ccs": 146.7
+        },
+        {
+            "name": "MDMA",
+            "adduct": "[M+H]+",
+            "mz": 194.1176,
+            "ccs": 144.2
+        },
+        {
+            "name": "4-METHOXYMETHCATHINONE",
+            "adduct": "[M+H]+",
+            "mz": 194.1176,
+            "ccs": 144.1
+        },
+        {
+            "name": "CAFFEINE",
+            "adduct": "[M+H]+",
+            "mz": 195.0877,
+            "ccs": 139.6
+        },
+        {
+            "name": "HMMA",
+            "adduct": "[M+H]+",
+            "mz": 196.1332,
+            "ccs": 147.6
+        },
+        {
+            "name": "CHLORDIMEFORM",
+            "adduct": "[M+H]+",
+            "mz": 197.084,
+            "ccs": 145.7
+        },
+        {
+            "name": "PYRIMETHANIL",
+            "adduct": "[M+H]+",
+            "mz": 200.1182,
+            "ccs": 143.2
+        },
+        {
+            "name": "THIABENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 202.0433,
+            "ccs": 138.9
+        },
+        {
+            "name": "DIETHYLPROPION",
+            "adduct": "[M+H]+",
+            "mz": 206.1539,
+            "ccs": 146.9
+        },
+        {
+            "name": "ISOPROTURON",
+            "adduct": "[M+H]+",
+            "mz": 207.1492,
+            "ccs": 151.8
+        },
+        {
+            "name": "MDEA",
+            "adduct": "[M+H]+",
+            "mz": 208.1332,
+            "ccs": 146.6
+        },
+        {
+            "name": "MINOXIDIL",
+            "adduct": "[M+H]+",
+            "mz": 210.1349,
+            "ccs": 147.9
+        },
+        {
+            "name": "ISOPRENALINE",
+            "adduct": "[M+H]+",
+            "mz": 212.1281,
+            "ccs": 150.0
+        },
+        {
+            "name": "CHLOROTOLURON",
+            "adduct": "[M+H]+",
+            "mz": 213.0789,
+            "ccs": 147.5
+        },
+        {
+            "name": "XYLAZINE",
+            "adduct": "[M+H]+",
+            "mz": 221.1107,
+            "ccs": 148.6
+        },
+        {
+            "name": "BUTYLONE",
+            "adduct": "[M+H]+",
+            "mz": 222.1125,
+            "ccs": 151.8
+        },
+        {
+            "name": "ETHYLONE",
+            "adduct": "[M+H]+",
+            "mz": 222.1125,
+            "ccs": 151.3
+        },
+        {
+            "name": "CARBOFURAN",
+            "adduct": "[M+H]+",
+            "mz": 222.1125,
+            "ccs": 147.3
+        },
+        {
+            "name": "ACETAMIPRID",
+            "adduct": "[M+H]+",
+            "mz": 223.0745,
+            "ccs": 153.7
+        },
+        {
+            "name": "CARBARYL",
+            "adduct": "[M+H]+",
+            "mz": 224.0682,
+            "ccs": 150.0
+        },
+        {
+            "name": "PROPOXUR",
+            "adduct": "[M+H]+",
+            "mz": 232.0944,
+            "ccs": 152.8
+        },
+        {
+            "name": "AMINOPHENAZONE",
+            "adduct": "[M+H]+",
+            "mz": 232.1444,
+            "ccs": 151.7
+        },
+        {
+            "name": "DIURON",
+            "adduct": "[M+H]+",
+            "mz": 233.0243,
+            "ccs": 150.0
+        },
+        {
+            "name": "CARBAMAZEPINE",
+            "adduct": "[M+H]+",
+            "mz": 237.1022,
+            "ccs": 150.0
+        },
+        {
+            "name": "KETAMINE",
+            "adduct": "[M+H]+",
+            "mz": 238.0993,
+            "ccs": 148.9
+        },
+        {
+            "name": "PIRIMICARB",
+            "adduct": "[M+H]+",
+            "mz": 239.1503,
+            "ccs": 155.9
+        },
+        {
+            "name": "SALBUTAMOL",
+            "adduct": "[M+H]+",
+            "mz": 240.1594,
+            "ccs": 158.1
+        },
+        {
+            "name": "PROMETRYN",
+            "adduct": "[M+H]+",
+            "mz": 242.1434,
+            "ccs": 160.6
+        },
+        {
+            "name": "MEPERIDINE",
+            "adduct": "[M+H]+",
+            "mz": 248.1645,
+            "ccs": 158.6
+        },
+        {
+            "name": "LINURON",
+            "adduct": "[M+H]+",
+            "mz": 249.0192,
+            "ccs": 152.6
+        },
+        {
+            "name": "METHAQUALONE",
+            "adduct": "[M+H]+",
+            "mz": 251.1179,
+            "ccs": 155.5
+        },
+        {
+            "name": "HEXAZINONE",
+            "adduct": "[M+H]+",
+            "mz": 253.1659,
+            "ccs": 160.6
+        },
+        {
+            "name": "NEFOPAM",
+            "adduct": "[M+H]+",
+            "mz": 254.1539,
+            "ccs": 157.6
+        },
+        {
+            "name": "DIPHENHYDRAMINE",
+            "adduct": "[M+H]+",
+            "mz": 256.1696,
+            "ccs": 161.7
+        },
+        {
+            "name": "2C\u2013B",
+            "adduct": "[M+H]+",
+            "mz": 260.0281,
+            "ccs": 157.6
+        },
+        {
+            "name": "TRAMADOL",
+            "adduct": "[M+H]+",
+            "mz": 264.1968,
+            "ccs": 160.4
+        },
+        {
+            "name": "TETRACAINE",
+            "adduct": "[M+H]+",
+            "mz": 265.1911,
+            "ccs": 173.5
+        },
+        {
+            "name": "METOPROLOL",
+            "adduct": "[M+H]+",
+            "mz": 268.1907,
+            "ccs": 171.4
+        },
+        {
+            "name": "MOCLOBEMIDE",
+            "adduct": "[M+H]+",
+            "mz": 269.1051,
+            "ccs": 162.9
+        },
+        {
+            "name": "ACETOCHLOR",
+            "adduct": "[M+H]+",
+            "mz": 270.1255,
+            "ccs": 157.4
+        },
+        {
+            "name": "MDPV",
+            "adduct": "[M+H]+",
+            "mz": 276.1594,
+            "ccs": 166.7
+        },
+        {
+            "name": "CLENBUTEROL",
+            "adduct": "[M+H]+",
+            "mz": 277.0869,
+            "ccs": 163.7
+        },
+        {
+            "name": "MAPROTILINE",
+            "adduct": "[M+H]+",
+            "mz": 278.1903,
+            "ccs": 163.8
+        },
+        {
+            "name": "VENLAFAXINE",
+            "adduct": "[M+H]+",
+            "mz": 278.2115,
+            "ccs": 170.2
+        },
+        {
+            "name": "METALAXYL",
+            "adduct": "[M+H]+",
+            "mz": 280.1543,
+            "ccs": 160.4
+        },
+        {
+            "name": "IMIPRAMINE",
+            "adduct": "[M+H]+",
+            "mz": 281.2012,
+            "ccs": 165.3
+        },
+        {
+            "name": "NITRAZEPAM",
+            "adduct": "[M+H]+",
+            "mz": 282.0873,
+            "ccs": 166.3
+        },
+        {
+            "name": "METOLACHLOR",
+            "adduct": "[M+H]+",
+            "mz": 284.1412,
+            "ccs": 159.1
+        },
+        {
+            "name": "DIAZEPAM",
+            "adduct": "[M+H]+",
+            "mz": 285.0789,
+            "ccs": 164.9
+        },
+        {
+            "name": "MORPHINE",
+            "adduct": "[M+H]+",
+            "mz": 286.1438,
+            "ccs": 164.0
+        },
+        {
+            "name": "PIPERINE",
+            "adduct": "[M+H]+",
+            "mz": 286.1438,
+            "ccs": 176.2
+        },
+        {
+            "name": "GALANTHAMINE",
+            "adduct": "[M+H]+",
+            "mz": 288.1594,
+            "ccs": 168.2
+        },
+        {
+            "name": "PACLOBUTRAZOL",
+            "adduct": "[M+H]+",
+            "mz": 294.1368,
+            "ccs": 170.6
+        },
+        {
+            "name": "ESTAZOLAM",
+            "adduct": "[M+H]+",
+            "mz": 295.0745,
+            "ccs": 168.1
+        },
+        {
+            "name": "CINCHONIDINE",
+            "adduct": "[M+H]+",
+            "mz": 295.1805,
+            "ccs": 169.6
+        },
+        {
+            "name": "NIMETAZEPAM",
+            "adduct": "[M+H]+",
+            "mz": 296.103,
+            "ccs": 169.7
+        },
+        {
+            "name": "CODEINE",
+            "adduct": "[M+H]+",
+            "mz": 300.1594,
+            "ccs": 169.3
+        },
+        {
+            "name": "BENZHEXOL",
+            "adduct": "[M+H]+",
+            "mz": 302.2478,
+            "ccs": 175.1
+        },
+        {
+            "name": "COCAINE",
+            "adduct": "[M+H]+",
+            "mz": 304.1543,
+            "ccs": 169.5
+        },
+        {
+            "name": "SCOPOLAMINE",
+            "adduct": "[M+H]+",
+            "mz": 304.1543,
+            "ccs": 170.5
+        },
+        {
+            "name": "SERTRALINE",
+            "adduct": "[M+H]+",
+            "mz": 306.0811,
+            "ccs": 167.3
+        },
+        {
+            "name": "RACANISODAMINE",
+            "adduct": "[M+H]+",
+            "mz": 306.17,
+            "ccs": 170.9
+        },
+        {
+            "name": "ZOLPIDEM",
+            "adduct": "[M+H]+",
+            "mz": 308.1757,
+            "ccs": 177.6
+        },
+        {
+            "name": "ALPRAZOLAM",
+            "adduct": "[M+H]+",
+            "mz": 309.0902,
+            "ccs": 172.4
+        },
+        {
+            "name": "METHADONE",
+            "adduct": "[M+H]+",
+            "mz": 310.2165,
+            "ccs": 175.9
+        },
+        {
+            "name": "CANNABINOL",
+            "adduct": "[M+H]+",
+            "mz": 311.2006,
+            "ccs": 182.2
+        },
+        {
+            "name": "THEBAINE",
+            "adduct": "[M+H]+",
+            "mz": 312.1594,
+            "ccs": 172.2
+        },
+        {
+            "name": "OLANZAPINE",
+            "adduct": "[M+H]+",
+            "mz": 313.1481,
+            "ccs": 174.9
+        },
+        {
+            "name": "ETHYLMORPHINE",
+            "adduct": "[M+H]+",
+            "mz": 314.1751,
+            "ccs": 175.2
+        },
+        {
+            "name": "CLOMIPRAMINE",
+            "adduct": "[M+H]+",
+            "mz": 315.1623,
+            "ccs": 174.4
+        },
+        {
+            "name": "THC",
+            "adduct": "[M+H]+",
+            "mz": 315.2319,
+            "ccs": 184.0
+        },
+        {
+            "name": "CLONAZEPAM",
+            "adduct": "[M+H]+",
+            "mz": 316.0483,
+            "ccs": 171.0
+        },
+        {
+            "name": "CHLORPROTHIXENE",
+            "adduct": "[M+H]+",
+            "mz": 316.0921,
+            "ccs": 169.8
+        },
+        {
+            "name": "CHLORPROMAZINE",
+            "adduct": "[M+H]+",
+            "mz": 319.103,
+            "ccs": 170.8
+        },
+        {
+            "name": "BISOPROLOL",
+            "adduct": "[M+H]+",
+            "mz": 326.2326,
+            "ccs": 187.7
+        },
+        {
+            "name": "NALOXONE",
+            "adduct": "[M+H]+",
+            "mz": 328.1543,
+            "ccs": 173.0
+        },
+        {
+            "name": "O3-MONOACETYLMORPHINE",
+            "adduct": "[M+H]+",
+            "mz": 328.1543,
+            "ccs": 174.7
+        },
+        {
+            "name": "STRYCHNINE",
+            "adduct": "[M+H]+",
+            "mz": 335.1754,
+            "ccs": 174.4
+        },
+        {
+            "name": "JWH-250",
+            "adduct": "[M+H]+",
+            "mz": 336.1958,
+            "ccs": 187.2
+        },
+        {
+            "name": "FENTANYL",
+            "adduct": "[M+H]+",
+            "mz": 337.2274,
+            "ccs": 181.4
+        },
+        {
+            "name": "PAPAVERINE",
+            "adduct": "[M+H]+",
+            "mz": 340.1543,
+            "ccs": 186.5
+        },
+        {
+            "name": "PROPOXYPHENE",
+            "adduct": "[M+H]+",
+            "mz": 340.2271,
+            "ccs": 179.1
+        },
+        {
+            "name": "SULPIRIDE",
+            "adduct": "[M+H]+",
+            "mz": 342.1482,
+            "ccs": 184.9
+        },
+        {
+            "name": "ACETYLCODEINE",
+            "adduct": "[M+H]+",
+            "mz": 342.17,
+            "ccs": 179.4
+        },
+        {
+            "name": "NALTREXONE",
+            "adduct": "[M+H]+",
+            "mz": 342.17,
+            "ccs": 177.6
+        },
+        {
+            "name": "JWH-018",
+            "adduct": "[M+H]+",
+            "mz": 342.1852,
+            "ccs": 187.1
+        },
+        {
+            "name": "TRIAZOLAM",
+            "adduct": "[M+H]+",
+            "mz": 343.0512,
+            "ccs": 173.8
+        },
+        {
+            "name": "BULLATINE A",
+            "adduct": "[M+H]+",
+            "mz": 344.2584,
+            "ccs": 178.5
+        },
+        {
+            "name": "PROTOPINE",
+            "adduct": "[M+H]+",
+            "mz": 354.1336,
+            "ccs": 178.3
+        },
+        {
+            "name": "AM-2201",
+            "adduct": "[M+H]+",
+            "mz": 360.1758,
+            "ccs": 187.4
+        },
+        {
+            "name": "HEROIN",
+            "adduct": "[M+H]+",
+            "mz": 370.1649,
+            "ccs": 185.7
+        },
+        {
+            "name": "HALOPERIDOL",
+            "adduct": "[M+H]+",
+            "mz": 376.1474,
+            "ccs": 194.1
+        },
+        {
+            "name": "ENALAPRIL",
+            "adduct": "[M+H]+",
+            "mz": 377.2071,
+            "ccs": 186.5
+        },
+        {
+            "name": "DOXAPRAM",
+            "adduct": "[M+H]+",
+            "mz": 379.238,
+            "ccs": 185.0
+        },
+        {
+            "name": "DROPERIDOL",
+            "adduct": "[M+H]+",
+            "mz": 380.1769,
+            "ccs": 197.7
+        },
+        {
+            "name": "QUETIAPINE",
+            "adduct": "[M+H]+",
+            "mz": 384.174,
+            "ccs": 191.1
+        },
+        {
+            "name": "ROTENONE",
+            "adduct": "[M+H]+",
+            "mz": 395.1489,
+            "ccs": 194.9
+        },
+        {
+            "name": "BRUCINE",
+            "adduct": "[M+H]+",
+            "mz": 395.1965,
+            "ccs": 192.7
+        },
+        {
+            "name": "PHOLCODINE",
+            "adduct": "[M+H]+",
+            "mz": 399.2278,
+            "ccs": 188.8
+        },
+        {
+            "name": "PHOLCODINE",
+            "adduct": "[M+H]+",
+            "mz": 399.2278,
+            "ccs": 196.1
+        },
+        {
+            "name": "EPRISTERIDE",
+            "adduct": "[M+H]+",
+            "mz": 400.2846,
+            "ccs": 206.6
+        },
+        {
+            "name": "RISPERIDAL",
+            "adduct": "[M+H]+",
+            "mz": 411.2191,
+            "ccs": 204.9
+        },
+        {
+            "name": "NOSCAPINE",
+            "adduct": "[M+H]+",
+            "mz": 414.1547,
+            "ccs": 195.2
+        },
+        {
+            "name": "DIHYDROETORPHINE",
+            "adduct": "[M+H]+",
+            "mz": 414.2639,
+            "ccs": 197.8
+        },
+        {
+            "name": "DILTIAZEM",
+            "adduct": "[M+H]+",
+            "mz": 415.1686,
+            "ccs": 197.3
+        },
+        {
+            "name": "FLUPHENAZINE ",
+            "adduct": "[M+H]+",
+            "mz": 438.1821,
+            "ccs": 198.1
+        },
+        {
+            "name": "QUINAPRIL",
+            "adduct": "[M+H]+",
+            "mz": 439.2227,
+            "ccs": 204.4
+        },
+        {
+            "name": "DIPHENOXYLATE",
+            "adduct": "[M+H]+",
+            "mz": 453.2507,
+            "ccs": 216.5
+        },
+        {
+            "name": "BUPRENORPHINE",
+            "adduct": "[M+H]+",
+            "mz": 468.3108,
+            "ccs": 208.6
+        },
+        {
+            "name": "KETOCONAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 531.156,
+            "ccs": 216.1
+        },
+        {
+            "name": "LAPPACONITINE",
+            "adduct": "[M+H]+",
+            "mz": 585.317,
+            "ccs": 233.8
+        },
+        {
+            "name": "RESERPINE",
+            "adduct": "[M+H]+",
+            "mz": 609.2807,
+            "ccs": 247.9
+        },
+        {
+            "name": "HYPACONITINE",
+            "adduct": "[M+H]+",
+            "mz": 616.3116,
+            "ccs": 232.6
+        },
+        {
+            "name": "MESACONITINE",
+            "adduct": "[M+H]+",
+            "mz": 632.3065,
+            "ccs": 235.1
+        },
+        {
+            "name": "ACONITINE",
+            "adduct": "[M+H]+",
+            "mz": 646.3222,
+            "ccs": 236.6
+        }
+    ]
+}

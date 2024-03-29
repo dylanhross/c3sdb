@@ -1,0 +1,529 @@
+{
+    "metadata": {
+        "src_tag": "stow0817",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/acs.analchem.7b01729",
+        "reference": "Stow, S. M. et al. An Interlaboratory Evaluation of Drift Tube Ion Mobility–Mass Spectrometry Collision Cross Section Measurements. Anal. Chem. 89, 9048–9055 (2017).",
+        "ccs_type": "DT",
+        "ccs_method": "stepped-field"
+    },
+    "data": [
+        {
+            "name": "Creatinine",
+            "adduct": "[M-H]-",
+            "mz": "112.05111",
+            "ccs": "120.7"
+        },
+        {
+            "name": "L-Isoleucine",
+            "adduct": "[M-H]-",
+            "mz": "130.08683",
+            "ccs": "131.29"
+        },
+        {
+            "name": "L-Leucine",
+            "adduct": "[M-H]-",
+            "mz": "130.08683",
+            "ccs": "132.51"
+        },
+        {
+            "name": "L-Aspartic acid",
+            "adduct": "[M-H]-",
+            "mz": "132.02971",
+            "ccs": "120.39"
+        },
+        {
+            "name": "L-Glutamate",
+            "adduct": "[M-H]-",
+            "mz": "146.04536",
+            "ccs": "125.65"
+        },
+        {
+            "name": "L-Histidine",
+            "adduct": "[M-H]-",
+            "mz": "154.06168",
+            "ccs": "130.01"
+        },
+        {
+            "name": "L-Phenylalanine",
+            "adduct": "[M-H]-",
+            "mz": "164.07118",
+            "ccs": "141.29"
+        },
+        {
+            "name": "Uric acid",
+            "adduct": "[M-H]-",
+            "mz": "167.02054",
+            "ccs": "126.93"
+        },
+        {
+            "name": "L-Arginine",
+            "adduct": "[M-H]-",
+            "mz": "173.10388",
+            "ccs": "138.03"
+        },
+        {
+            "name": "L-Tyrosine",
+            "adduct": "[M-H]-",
+            "mz": "180.06609",
+            "ccs": "145.59"
+        },
+        {
+            "name": "Lauric acid",
+            "adduct": "[M-H]-",
+            "mz": "199.16983",
+            "ccs": "154.82",
+            "smi": "CCCCCCCCCCCC(=O)O"
+        },
+        {
+            "name": "L-Cystine",
+            "adduct": "[M-H]-",
+            "mz": "239.01605",
+            "ccs": "144.39"
+        },
+        {
+            "name": "Pentadecanoic acid",
+            "adduct": "[M-H]-",
+            "mz": "241.21678",
+            "ccs": "165.34"
+        },
+        {
+            "name": "Pyridoxal Phosphate",
+            "adduct": "[M-H]-",
+            "mz": "246.01677",
+            "ccs": "150.8"
+        },
+        {
+            "name": "Palmitoleic acid",
+            "adduct": "[M-H]-",
+            "mz": "253.21678",
+            "ccs": "167.95"
+        },
+        {
+            "name": "Palmitic acid",
+            "adduct": "[M-H]-",
+            "mz": "255.23243",
+            "ccs": "169.12"
+        },
+        {
+            "name": "Margaric acid",
+            "adduct": "[M-H]-",
+            "mz": "269.24808",
+            "ccs": "173.41"
+        },
+        {
+            "name": "Linolenic acid",
+            "adduct": "[M-H]-",
+            "mz": "277.21678",
+            "ccs": "174.88"
+        },
+        {
+            "name": "Linoleic acid",
+            "adduct": "[M-H]-",
+            "mz": "279.23243",
+            "ccs": "175.69"
+        },
+        {
+            "name": "Oleic acid",
+            "adduct": "[M-H]-",
+            "mz": "281.24808",
+            "ccs": "176.46"
+        },
+        {
+            "name": "Stearic acid",
+            "adduct": "[M-H]-",
+            "mz": "283.26373",
+            "ccs": "177.66"
+        },
+        {
+            "name": "Arachidonic acid",
+            "adduct": "[M-H]-",
+            "mz": "303.23243",
+            "ccs": "183.66"
+        },
+        {
+            "name": "Dihomo-gamma-Linolenic Acid",
+            "adduct": "[M-H]-",
+            "mz": "305.24808",
+            "ccs": "183.02"
+        },
+        {
+            "name": "cis-11,14-Eicosadienoic acid",
+            "adduct": "[M-H]-",
+            "mz": "307.26373",
+            "ccs": "183.32",
+            "smi": "CCCCC\\C=C/C\\C=C/CCCCCCCCCC(=O)O"
+        },
+        {
+            "name": "cis-Gondoic acid",
+            "adduct": "[M-H]-",
+            "mz": "309.27938",
+            "ccs": "184.29"
+        },
+        {
+            "name": "Eicosanoic acid",
+            "adduct": "[M-H]-",
+            "mz": "311.29503",
+            "ccs": "186.17"
+        },
+        {
+            "name": "Lignoceric acid",
+            "adduct": "[M-H]-",
+            "mz": "367.35763",
+            "ccs": "201.11"
+        },
+        {
+            "name": "5-Methyl-THF",
+            "adduct": "[M-H]-",
+            "mz": "458.17883",
+            "ccs": "200.57"
+        },
+        {
+            "name": "GITWK",
+            "adduct": "[M+2H]2+",
+            "mz": "302.676825",
+            "ccs": "273.43"
+        },
+        {
+            "name": "IFVQK",
+            "adduct": "[M+2H]2+",
+            "mz": "317.7003",
+            "ccs": "285.5"
+        },
+        {
+            "name": "YIPGTK",
+            "adduct": "[M+2H]2+",
+            "mz": "339.695215",
+            "ccs": "292.28"
+        },
+        {
+            "name": "MIFAGIK",
+            "adduct": "[M+2H]2+",
+            "mz": "390.228365",
+            "ccs": "305.66"
+        },
+        {
+            "name": "EDLIAYLK",
+            "adduct": "[M+2H]2+",
+            "mz": "482.77165",
+            "ccs": "340.98"
+        },
+        {
+            "name": "Angiotensin II",
+            "adduct": "[M+2H]2+",
+            "mz": "523.77506",
+            "ccs": "353.79"
+        },
+        {
+            "name": "Bradykinin",
+            "adduct": "[M+2H]2+",
+            "mz": "530.7885",
+            "ccs": "343.33"
+        },
+        {
+            "name": "TGPNLHGLFGR",
+            "adduct": "[M+2H]2+",
+            "mz": "584.815245",
+            "ccs": "369.09"
+        },
+        {
+            "name": "Angiotensin I",
+            "adduct": "[M+2H]2+",
+            "mz": "648.846545",
+            "ccs": "387.3"
+        },
+        {
+            "name": "Substance P",
+            "adduct": "[M+2H]2+",
+            "mz": "674.371875",
+            "ccs": "399.88"
+        },
+        {
+            "name": "TGQAPGFTYTDANK",
+            "adduct": "[M+2H]2+",
+            "mz": "735.847135",
+            "ccs": "399.01"
+        },
+        {
+            "name": "EETLMEYLENPK",
+            "adduct": "[M+2H]2+",
+            "mz": "748.353405",
+            "ccs": "414.23"
+        },
+        {
+            "name": "Neurotensin",
+            "adduct": "[M+2H]2+",
+            "mz": "836.96264",
+            "ccs": "434.32"
+        },
+        {
+            "name": "Renin",
+            "adduct": "[M+2H]2+",
+            "mz": "879.970465",
+            "ccs": "460.39"
+        },
+        {
+            "name": "Melittin",
+            "adduct": "[M+2H]2+",
+            "mz": "1423.384885",
+            "ccs": "613.37"
+        },
+        {
+            "name": "Angiotensin II",
+            "adduct": "[M+3H]3+",
+            "mz": "349.5193067",
+            "ccs": "436.24"
+        },
+        {
+            "name": "Bradykinin",
+            "adduct": "[M+3H]3+",
+            "mz": "354.1949333",
+            "ccs": "447.61"
+        },
+        {
+            "name": "Angiotensin I",
+            "adduct": "[M+3H]3+",
+            "mz": "432.9002967",
+            "ccs": "474.71"
+        },
+        {
+            "name": "Substance P",
+            "adduct": "[M+3H]3+",
+            "mz": "449.9171833",
+            "ccs": "495.74"
+        },
+        {
+            "name": "Neurotensin",
+            "adduct": "[M+3H]3+",
+            "mz": "558.3110267",
+            "ccs": "525.02"
+        },
+        {
+            "name": "Renin",
+            "adduct": "[M+3H]3+",
+            "mz": "586.98291",
+            "ccs": "518.81"
+        },
+        {
+            "name": "Melittin",
+            "adduct": "[M+3H]3+",
+            "mz": "949.25919",
+            "ccs": "721.07"
+        },
+        {
+            "name": "Angiotensin I",
+            "adduct": "[M+4H]4+",
+            "mz": "324.9271725",
+            "ccs": "549.24"
+        },
+        {
+            "name": "Renin",
+            "adduct": "[M+4H]4+",
+            "mz": "440.4891325",
+            "ccs": "634.6"
+        },
+        {
+            "name": "Melittin",
+            "adduct": "[M+4H]4+",
+            "mz": "712.1963425",
+            "ccs": "756.79"
+        },
+        {
+            "name": "Creatinine",
+            "adduct": "[M+H]+",
+            "mz": "114.06671",
+            "ccs": "123.87"
+        },
+        {
+            "name": "L-Proline",
+            "adduct": "[M+H]+",
+            "mz": "116.07113",
+            "ccs": "126.22"
+        },
+        {
+            "name": "L-Isoleucine",
+            "adduct": "[M+H]+",
+            "mz": "132.10243",
+            "ccs": "133.81"
+        },
+        {
+            "name": "L-Leucine",
+            "adduct": "[M+H]+",
+            "mz": "132.10243",
+            "ccs": "135.56"
+        },
+        {
+            "name": "DL-Homocysteine",
+            "adduct": "[M+H]+",
+            "mz": "136.0432",
+            "ccs": "130.78"
+        },
+        {
+            "name": "L-Lysine",
+            "adduct": "[M+H]+",
+            "mz": "147.11333",
+            "ccs": "131.62"
+        },
+        {
+            "name": "L-Methionine",
+            "adduct": "[M+H]+",
+            "mz": "150.05885",
+            "ccs": "134.08"
+        },
+        {
+            "name": "L-Histidine",
+            "adduct": "[M+H]+",
+            "mz": "156.07728",
+            "ccs": "132.74"
+        },
+        {
+            "name": "L-Phenylalanine",
+            "adduct": "[M+H]+",
+            "mz": "166.08678",
+            "ccs": "141.28"
+        },
+        {
+            "name": "L-Arginine",
+            "adduct": "[M+H]+",
+            "mz": "175.11948",
+            "ccs": "136.84"
+        },
+        {
+            "name": "L-Tyrosine",
+            "adduct": "[M+H]+",
+            "mz": "182.08169",
+            "ccs": "146.45"
+        },
+        {
+            "name": "L-Cystine",
+            "adduct": "[M+H]+",
+            "mz": "241.03165",
+            "ccs": "150.08"
+        },
+        {
+            "name": "Pyridoxal Phosphate",
+            "adduct": "[M+H]+",
+            "mz": "248.03237",
+            "ccs": "151.94"
+        },
+        {
+            "name": "Hydrocortisone",
+            "adduct": "[M+H]+",
+            "mz": "363.21712",
+            "ccs": "189.27"
+        },
+        {
+            "name": "5-Methyl-THF",
+            "adduct": "[M+H]+",
+            "mz": "460.19443",
+            "ccs": "197.52"
+        },
+        {
+            "name": "GITWK",
+            "adduct": "[M+H]+",
+            "mz": "604.34585",
+            "ccs": "236.33"
+        },
+        {
+            "name": "IFVQK",
+            "adduct": "[M+H]+",
+            "mz": "634.3928",
+            "ccs": "248.88"
+        },
+        {
+            "name": "YIPGTK",
+            "adduct": "[M+H]+",
+            "mz": "678.38263",
+            "ccs": "254.75"
+        },
+        {
+            "name": "MIFAGIK",
+            "adduct": "[M+H]+",
+            "mz": "779.44893",
+            "ccs": "275.34"
+        },
+        {
+            "name": "EDLIAYLK",
+            "adduct": "[M+H]+",
+            "mz": "964.5355",
+            "ccs": "307.47"
+        },
+        {
+            "name": "Angiotensin II",
+            "adduct": "[M+H]+",
+            "mz": "1046.54232",
+            "ccs": "314.38"
+        },
+        {
+            "name": "Bradykinin",
+            "adduct": "[M+H]+",
+            "mz": "1060.5692",
+            "ccs": "315.25"
+        },
+        {
+            "name": "TGPNLHGLFGR",
+            "adduct": "[M+H]+",
+            "mz": "1168.62269",
+            "ccs": "331.08"
+        },
+        {
+            "name": "Angiotensin I",
+            "adduct": "[M+H]+",
+            "mz": "1296.68529",
+            "ccs": "357.31"
+        },
+        {
+            "name": "Substance P",
+            "adduct": "[M+H]+",
+            "mz": "1347.73595",
+            "ccs": "362.51"
+        },
+        {
+            "name": "TGQAPGFTYTDANK",
+            "adduct": "[M+H]+",
+            "mz": "1470.68647",
+            "ccs": "365.46"
+        },
+        {
+            "name": "EETLMEYLENPK",
+            "adduct": "[M+H]+",
+            "mz": "1495.69901",
+            "ccs": "386.8"
+        },
+        {
+            "name": "Creatinine",
+            "adduct": "[M+Na]+",
+            "mz": "136.05781",
+            "ccs": "132.99"
+        },
+        {
+            "name": "L-Histidine",
+            "adduct": "[M+Na]+",
+            "mz": "178.06838",
+            "ccs": "135.48"
+        },
+        {
+            "name": "a-D-Glucose",
+            "adduct": "[M+Na]+",
+            "mz": "203.06229",
+            "ccs": "147.35"
+        },
+        {
+            "name": "L-Cystine",
+            "adduct": "[M+Na]+",
+            "mz": "263.02275",
+            "ccs": "151.81"
+        },
+        {
+            "name": "Pyridoxal Phosphate",
+            "adduct": "[M+Na]+",
+            "mz": "270.02347",
+            "ccs": "161.4"
+        },
+        {
+            "name": "Hydrocortisone",
+            "adduct": "[M+Na]+",
+            "mz": "385.20822",
+            "ccs": "213.72"
+        }
+    ]
+}

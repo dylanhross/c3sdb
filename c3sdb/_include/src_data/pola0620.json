@@ -1,0 +1,2637 @@
+{
+    "metadata": {
+        "src_tag": "pola0620",
+        "url": "https://pubs.acs.org/doi/10.1021/jasms.0c00015",
+        "reference": "Poland, J. C. et al. Collision Cross Section Conformational Analyses of Bile Acids via Ion Mobility–Mass Spectrometry. Journal of the American Society for Mass Spectrometry 31, 1625–1631 (2020).",
+        "ccs_type": "DT",
+        "ccs_method": "single field, calibrated"
+    },
+    "data": [
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 464.30218,
+            "ccs": 202.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 430.2967,
+            "ccs": 196.9,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 448.30726,
+            "ccs": 197.4,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 548.26355,
+            "ccs": 214.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 486.28413,
+            "ccs": 204.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 522.2608,
+            "ccs": 210.7,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 532.28961,
+            "ccs": 212.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 488.29977,
+            "ccs": 202.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 448.30218,
+            "ccs": 199.9,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 414.2967,
+            "ccs": 204.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 432.30726,
+            "ccs": 207.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 532.26355,
+            "ccs": 214.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 506.2608,
+            "ccs": 212.3,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 516.28961,
+            "ccs": 214.0,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycodeoxycholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 472.29977,
+            "ccs": 207.6,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 528.26218,
+            "ccs": 215.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-H2O-H]-",
+            "mz": 510.25162,
+            "ccs": 214.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-H2O+HCOO]-",
+            "mz": 556.2571,
+            "ccs": 219.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 414.29987,
+            "ccs": 201.9,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 448.30535,
+            "ccs": 200.3,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 430.29479,
+            "ccs": 200.3,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 432.31043,
+            "ccs": 203.6,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+HCOO]-",
+            "mz": 476.30027,
+            "ccs": 204.7,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M+K-2H]-",
+            "mz": 566.21807,
+            "ccs": 217.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 602.19474,
+            "ccs": 223.3,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 612.22355,
+            "ccs": 224.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 550.24413,
+            "ccs": 216.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 448.30218,
+            "ccs": 201.1,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 414.2967,
+            "ccs": 202.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 432.30726,
+            "ccs": 211.1,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 532.26355,
+            "ccs": 218.0,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 506.2608,
+            "ccs": 213.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycoursodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 516.28961,
+            "ccs": 215.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 432.31218,
+            "ccs": 199.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 416.31726,
+            "ccs": 209.2,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 516.27355,
+            "ccs": 216.9,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 490.2708,
+            "ccs": 211.8,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 500.29961,
+            "ccs": 214.5,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 456.30977,
+            "ccs": 211.6,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 512.27218,
+            "ccs": 215.6,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 432.31535,
+            "ccs": 199.0,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 414.30479,
+            "ccs": 200.1,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Glycolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 416.32043,
+            "ccs": 209.0,
+            "smi": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 514.28218,
+            "ccs": 207.6,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 480.2767,
+            "ccs": 200.7,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 498.28726,
+            "ccs": 204.6,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 538.27977,
+            "ccs": 211.1,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurohyocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 514.28218,
+            "ccs": 208.4,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurohyocholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 496.27162,
+            "ccs": 210.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurohyocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 480.2767,
+            "ccs": 206.7,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurohyocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 498.28726,
+            "ccs": 206.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurohyocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 538.27977,
+            "ccs": 213.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Taurochenodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 498.29218,
+            "ccs": 207.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurochenodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 464.2867,
+            "ccs": 218.7,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurochenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 464.27987,
+            "ccs": 202.5,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)S(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Tauroursodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 498.29218,
+            "ccs": 207.6,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Tauroursodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 464.2867,
+            "ccs": 202.6,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Tauroursodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 482.29726,
+            "ccs": 216.4,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurohyodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 498.29218,
+            "ccs": 206.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurohyodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 464.2867,
+            "ccs": 204.5,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurohyodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 482.29726,
+            "ccs": 204.5,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurohyodeoxycholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 522.28977,
+            "ccs": 206.7,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Taurolithocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 482.29218,
+            "ccs": 206.4,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 466.29726,
+            "ccs": 219.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 506.28977,
+            "ccs": 214.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 562.25218,
+            "ccs": 217.1,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 482.29535,
+            "ccs": 206.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 464.28479,
+            "ccs": 206.9,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 466.30043,
+            "ccs": 219.4,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M+H-H2O]+",
+            "mz": 546.25726,
+            "ccs": 219.5,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M+K-2H]-",
+            "mz": 600.20807,
+            "ccs": 225.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Taurolithocholic acid 3-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 584.23413,
+            "ccs": 222.8,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Tauro-β-muricholic acid",
+            "adduct": "[M-H]-",
+            "mz": 514.28218,
+            "ccs": 209.5,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-β-muricholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 496.27162,
+            "ccs": 211.9,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-β-muricholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 480.2767,
+            "ccs": 203.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-β-muricholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 498.28726,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-β-muricholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 538.27977,
+            "ccs": 218.3,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-α-muricholic acid",
+            "adduct": "[M-H]-",
+            "mz": 514.28218,
+            "ccs": 209.4,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-α-muricholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 480.2767,
+            "ccs": 201.2,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Tauro-α-muricholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 498.28726,
+            "ccs": 213.1,
+            "smi": "C[C@H](CCC(=O)NCCS(=O)(=O)O)[C@H]1CCC2[C@@]1(CCC3C2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid",
+            "adduct": "[M-H]-",
+            "mz": 407.28218,
+            "ccs": 202.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 453.28766,
+            "ccs": 203.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 491.24355,
+            "ccs": 205.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 465.2408,
+            "ccs": 199.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 475.26961,
+            "ccs": 204.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 487.23218,
+            "ccs": 192.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-H2O-H]-",
+            "mz": 469.22162,
+            "ccs": 212.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 373.27387,
+            "ccs": 189.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-3H2O+H]+",
+            "mz": 373.27387,
+            "ccs": 186.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 407.27535,
+            "ccs": 202.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 389.26479,
+            "ccs": 199.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+Cl]-",
+            "mz": 425.24146,
+            "ccs": 204.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+HCOO]-",
+            "mz": 435.27027,
+            "ccs": 210.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "Cholic acid 3-sulfate",
+            "adduct": "[M-SO3+Cl]-",
+            "mz": 443.25202,
+            "ccs": 203.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)O)C"
+        },
+        {
+            "name": "3-oxocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 371.2567,
+            "ccs": 182.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CCC(=O)C4)C)O)O)C"
+        },
+        {
+            "name": "3-oxocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 389.26726,
+            "ccs": 186.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CCC(=O)C4)C)O)O)C"
+        },
+        {
+            "name": "3-oxocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 429.25977,
+            "ccs": 201.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CCC(=O)C4)C)O)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 405.26218,
+            "ccs": 204.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 371.2567,
+            "ccs": 186.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 389.26726,
+            "ccs": 204.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 451.26766,
+            "ccs": 202.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 535.99766,
+            "ccs": 202.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 443.21807,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 527.94807,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 489.22355,
+            "ccs": 205.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 463.2208,
+            "ccs": 200.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 547.9508,
+            "ccs": 200.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 473.24961,
+            "ccs": 204.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 557.97961,
+            "ccs": 204.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "7-ketodeoxycholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 429.25977,
+            "ccs": 204.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2C(=O)C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 387.25218,
+            "ccs": 190.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 353.2467,
+            "ccs": 182.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 371.25726,
+            "ccs": 188.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 433.25766,
+            "ccs": 206.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 502.60766,
+            "ccs": 206.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 471.21355,
+            "ccs": 205.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 540.56355,
+            "ccs": 221.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 445.2108,
+            "ccs": 200.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 514.5608,
+            "ccs": 200.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 455.23961,
+            "ccs": 208.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 524.58961,
+            "ccs": 208.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrodeoxycholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 411.24977,
+            "ccs": 197.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(C(=O)C[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 407.28218,
+            "ccs": 190.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 389.27162,
+            "ccs": 196.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M-H2O+HCOO]-",
+            "mz": 435.2771,
+            "ccs": 197.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 373.2767,
+            "ccs": 203.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 391.28726,
+            "ccs": 199.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 453.28766,
+            "ccs": 202.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 491.24355,
+            "ccs": 209.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 429.26413,
+            "ccs": 197.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 465.2408,
+            "ccs": 200.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 475.26961,
+            "ccs": 206.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Hyocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 431.27977,
+            "ccs": 218.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M-H]-",
+            "mz": 407.28218,
+            "ccs": 192.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 389.27162,
+            "ccs": 200.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 373.2767,
+            "ccs": 187.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 391.28726,
+            "ccs": 222.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 453.28766,
+            "ccs": 203.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 491.24355,
+            "ccs": 209.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 429.26413,
+            "ccs": 194.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 465.2408,
+            "ccs": 201.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "α-Muricholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 475.26961,
+            "ccs": 207.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 391.28218,
+            "ccs": 202.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 357.2767,
+            "ccs": 186.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 375.28726,
+            "ccs": 202.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 437.28766,
+            "ccs": 201.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 514.74766,
+            "ccs": 201.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 475.24355,
+            "ccs": 208.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 552.70355,
+            "ccs": 224.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 449.2408,
+            "ccs": 199.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 526.7008,
+            "ccs": 199.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 459.26961,
+            "ccs": 205.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 536.72961,
+            "ccs": 205.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 7-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 471.24218,
+            "ccs": 202.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 7-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 357.27987,
+            "ccs": 186.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 7-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 373.27479,
+            "ccs": 197.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 471.24218,
+            "ccs": 194.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 357.27987,
+            "ccs": 186.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 391.28535,
+            "ccs": 202.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 373.27479,
+            "ccs": 199.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M-2SO3-2H2O+H]+",
+            "mz": 357.28304,
+            "ccs": 186.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M-H]-",
+            "mz": 551.20218,
+            "ccs": 207.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 471.24535,
+            "ccs": 203.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 453.23479,
+            "ccs": 203.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M-SO3-H2O+HCOO]-",
+            "mz": 499.24027,
+            "ccs": 219.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "Chenodeoxycholic acid, disulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 573.18413,
+            "ccs": 228.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)OS(=O)(=O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M-H]-",
+            "mz": 407.28218,
+            "ccs": 190.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 389.27162,
+            "ccs": 205.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 373.2767,
+            "ccs": 192.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 391.28726,
+            "ccs": 201.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 453.28766,
+            "ccs": 201.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 491.24355,
+            "ccs": 209.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 429.26413,
+            "ccs": 202.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 465.2408,
+            "ccs": 201.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 475.26961,
+            "ccs": 206.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "β-Muricholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 431.27977,
+            "ccs": 222.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H]([C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 391.28218,
+            "ccs": 198.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 357.2767,
+            "ccs": 186.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 437.28766,
+            "ccs": 200.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 523.85766,
+            "ccs": 200.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 475.24355,
+            "ccs": 205.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 449.2408,
+            "ccs": 199.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 535.8108,
+            "ccs": 199.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 459.26961,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Ursodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 545.83961,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 391.28218,
+            "ccs": 199.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 357.2767,
+            "ccs": 186.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 375.28726,
+            "ccs": 219.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 437.28766,
+            "ccs": 200.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 517.78766,
+            "ccs": 200.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 465.21474,
+            "ccs": 203.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 475.24355,
+            "ccs": 206.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 555.74355,
+            "ccs": 223.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 413.26413,
+            "ccs": 194.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 493.76413,
+            "ccs": 194.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 449.2408,
+            "ccs": 199.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 529.7408,
+            "ccs": 199.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 459.26961,
+            "ccs": 203.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Hyodeoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 539.76961,
+            "ccs": 203.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M-H]-",
+            "mz": 391.28218,
+            "ccs": 200.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 437.28766,
+            "ccs": 200.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 520.81766,
+            "ccs": 200.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 465.21474,
+            "ccs": 203.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 475.24355,
+            "ccs": 206.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 449.2408,
+            "ccs": 200.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 532.7708,
+            "ccs": 200.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 459.26961,
+            "ccs": 204.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 542.79961,
+            "ccs": 204.0,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Murideoxycholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 415.27977,
+            "ccs": 222.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2C[C@H]([C@H]4[C@@]3(CC[C@H](C4)O)C)O)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 375.29218,
+            "ccs": 198.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 359.29726,
+            "ccs": 191.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 421.29766,
+            "ccs": 198.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 493.49766,
+            "ccs": 198.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 459.25355,
+            "ccs": 204.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 531.45355,
+            "ccs": 217.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 433.2508,
+            "ccs": 197.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 505.4508,
+            "ccs": 197.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 443.27961,
+            "ccs": 201.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 515.47961,
+            "ccs": 201.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 399.28977,
+            "ccs": 214.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 455.24218,
+            "ccs": 196.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid 3-sulfate",
+            "adduct": "[M-H2O+HCOO]-",
+            "mz": 483.2371,
+            "ccs": 208.9,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 359.29043,
+            "ccs": 191.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid 3-sulfate",
+            "adduct": "[M+K-2H]-",
+            "mz": 493.19807,
+            "ccs": 205.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Lithocholic acid 3-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 477.22413,
+            "ccs": 202.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 373.27218,
+            "ccs": 205.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 419.27766,
+            "ccs": 201.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 490.46766,
+            "ccs": 201.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 518.39474,
+            "ccs": 214.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 457.23355,
+            "ccs": 203.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 528.42355,
+            "ccs": 215.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 395.25413,
+            "ccs": 190.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 466.44413,
+            "ccs": 190.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 431.2308,
+            "ccs": 197.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 502.4208,
+            "ccs": 197.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 441.25961,
+            "ccs": 200.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 512.44961,
+            "ccs": 200.6,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Dehydrolithocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 396.26977,
+            "ccs": 201.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CCC(=O)C4)C)C"
+        },
+        {
+            "name": "Deoxycholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 471.24218,
+            "ccs": 196.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2C1[C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O"
+        },
+        {
+            "name": "Deoxycholic acid 3-sulfate",
+            "adduct": "[M-H2O-H]-",
+            "mz": 453.23162,
+            "ccs": 202.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2C1[C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O"
+        },
+        {
+            "name": "Deoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 357.27987,
+            "ccs": 187.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2C1[C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O"
+        },
+        {
+            "name": "Deoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 391.28535,
+            "ccs": 202.2,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2C1[C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O"
+        },
+        {
+            "name": "Deoxycholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 373.27479,
+            "ccs": 198.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2C1[C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)OS(=O)(=O)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 389.27218,
+            "ccs": 189.1,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 371.26162,
+            "ccs": 197.3,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 355.2667,
+            "ccs": 184.5,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 373.27726,
+            "ccs": 190.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 435.27766,
+            "ccs": 201.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 508.67766,
+            "ccs": 201.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 463.20474,
+            "ccs": 201.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 546.63355,
+            "ccs": 217.7,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 447.2308,
+            "ccs": 198.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 520.6308,
+            "ccs": 198.8,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 457.25961,
+            "ccs": 202.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 530.65961,
+            "ccs": 202.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "Apocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 413.26977,
+            "ccs": 202.4,
+            "smi": "C[C@H](CCC(=O)O)[C@H]1CCC2=C3CC[C@@H]4C[C@@H](CC[C@@]4([C@H]3C[C@@H]([C@]12C)O)C)O"
+        },
+        {
+            "name": "12-dehydrocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 371.2567,
+            "ccs": 186.6
+        },
+        {
+            "name": "12-dehydrocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 389.26726,
+            "ccs": 191.2
+        },
+        {
+            "name": "12-dehydrocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 429.25977,
+            "ccs": 204.6
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M-H]-",
+            "mz": 389.27218,
+            "ccs": 200.8
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 371.26162,
+            "ccs": 193.2
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 355.2667,
+            "ccs": 182.1
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 373.27726,
+            "ccs": 191.5
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 435.27766,
+            "ccs": 201.2
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 505.63766,
+            "ccs": 201.2
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 463.20474,
+            "ccs": 202.4
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 533.56474,
+            "ccs": 213.4
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 543.59355,
+            "ccs": 212.7
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 481.61413,
+            "ccs": 200.9
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 411.25413,
+            "ccs": 200.9
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 447.2308,
+            "ccs": 199.0
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 517.5908,
+            "ccs": 199.0
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 457.25961,
+            "ccs": 202.5
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 527.61961,
+            "ccs": 202.5
+        },
+        {
+            "name": "3-oxo-12α-cholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 413.26977,
+            "ccs": 192.1
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 387.25218,
+            "ccs": 200.9
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 353.2467,
+            "ccs": 184.7
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 371.25726,
+            "ccs": 188.8
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 433.25766,
+            "ccs": 199.6
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 496.53766,
+            "ccs": 199.6
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 425.20807,
+            "ccs": 203.4
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 488.48807,
+            "ccs": 203.4
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 524.46474,
+            "ccs": 212.0
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 534.49355,
+            "ccs": 212.4
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 409.23413,
+            "ccs": 190.9
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 472.51413,
+            "ccs": 190.9
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 445.2108,
+            "ccs": 197.5
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 508.4908,
+            "ccs": 197.5
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 455.23961,
+            "ccs": 200.6
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 518.51961,
+            "ccs": 200.6
+        },
+        {
+            "name": "3,6-diketocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 411.24977,
+            "ccs": 218.8
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 353.2467,
+            "ccs": 182.2
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 371.25726,
+            "ccs": 185.0
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 433.25766,
+            "ccs": 202.2
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 499.56766,
+            "ccs": 202.2
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 461.18474,
+            "ccs": 203.1
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 471.21355,
+            "ccs": 205.7
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 409.23413,
+            "ccs": 191.3
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 475.54413,
+            "ccs": 191.3
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 445.2108,
+            "ccs": 199.4
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 511.5208,
+            "ccs": 199.4
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 455.23961,
+            "ccs": 205.2
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 521.54961,
+            "ccs": 205.2
+        },
+        {
+            "name": "3,7-dioxy-5β-choanoic acid",
+            "adduct": "[M+Na]+",
+            "mz": 411.24977,
+            "ccs": 201.8
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M-H]-",
+            "mz": 401.23218,
+            "ccs": 192.4
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 383.22162,
+            "ccs": 191.9
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 367.2267,
+            "ccs": 185.3
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 385.23726,
+            "ccs": 188.5
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 447.23766,
+            "ccs": 206.1
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 529.92766,
+            "ccs": 206.1
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 439.18807,
+            "ccs": 207.2
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+K-2H]-",
+            "mz": 521.87807,
+            "ccs": 207.2
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 485.19355,
+            "ccs": 208.7
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 567.88355,
+            "ccs": 225.0
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 423.21413,
+            "ccs": 192.8
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 505.90413,
+            "ccs": 192.8
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 459.1908,
+            "ccs": 202.7
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 541.8808,
+            "ccs": 202.7
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 469.21961,
+            "ccs": 206.9
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 551.90961,
+            "ccs": 206.9
+        },
+        {
+            "name": "3,7,12-tri-betacholanic acid",
+            "adduct": "[M+Na]+",
+            "mz": 425.22977,
+            "ccs": 201.2
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M-H]-",
+            "mz": 392.29218,
+            "ccs": 202.7
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 371.2567,
+            "ccs": 186.5
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 389.26726,
+            "ccs": 210.0
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 438.29766,
+            "ccs": 204.1
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 526.88766,
+            "ccs": 204.1
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 476.25355,
+            "ccs": 209.1
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 564.84355,
+            "ccs": 224.6
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 450.2508,
+            "ccs": 202.4
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 538.8408,
+            "ccs": 202.4
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 460.27961,
+            "ccs": 206.3
+        },
+        {
+            "name": "3β, 7α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 548.86961,
+            "ccs": 206.3
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M-H]-",
+            "mz": 403.25218,
+            "ccs": 190.3
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 385.24162,
+            "ccs": 194.8
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 369.2467,
+            "ccs": 185.5
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 387.25726,
+            "ccs": 194.9
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 449.25766,
+            "ccs": 201.3
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 532.95766,
+            "ccs": 201.3
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 425.23413,
+            "ccs": 203.2
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 508.93413,
+            "ccs": 203.2
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 461.2108,
+            "ccs": 200.4
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 544.9108,
+            "ccs": 200.4
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 471.23961,
+            "ccs": 206.1
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 554.93961,
+            "ccs": 206.1
+        },
+        {
+            "name": "7,12-dioxolithocholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 427.24977,
+            "ccs": 204.8
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M-H]-",
+            "mz": 391.28218,
+            "ccs": 200.6
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M-H2O-H]-",
+            "mz": 373.27162,
+            "ccs": 194.9
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 357.2867,
+            "ccs": 186.4
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 375.29726,
+            "ccs": 203.7
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 437.28766,
+            "ccs": 202.2
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+HCOO]-",
+            "mz": 511.71766,
+            "ccs": 202.2
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+K-H+Cl]-",
+            "mz": 465.21474,
+            "ccs": 202.1
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+K-H+HCOO]-",
+            "mz": 549.67355,
+            "ccs": 223.3
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 413.26413,
+            "ccs": 199.5
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-2H]-",
+            "mz": 487.69413,
+            "ccs": 199.5
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 449.2408,
+            "ccs": 199.1
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+Cl]-",
+            "mz": 523.6708,
+            "ccs": 199.1
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 459.26961,
+            "ccs": 202.4
+        },
+        {
+            "name": "7α, 12α, dihydroxy-5β-cholanic acid",
+            "adduct": "[M+Na-H+HCOO]-",
+            "mz": 533.69961,
+            "ccs": 202.4
+        },
+        {
+            "name": "Cholic acid 12-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 487.23218,
+            "ccs": 207.7
+        },
+        {
+            "name": "Cholic acid 12-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 373.26987,
+            "ccs": 190.3
+        },
+        {
+            "name": "Cholic acid 12-sulfate",
+            "adduct": "[M-SO3-3H2O+H]+",
+            "mz": 373.26987,
+            "ccs": 186.4
+        },
+        {
+            "name": "Deoxycholic acid 17-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 471.24218,
+            "ccs": 206.1
+        },
+        {
+            "name": "Deoxycholic acid 17-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 357.27987,
+            "ccs": 187.4
+        },
+        {
+            "name": "Deoxycholic acid 17-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 391.28535,
+            "ccs": 201.9
+        },
+        {
+            "name": "Glycochenodeoxycholic acid disulfate",
+            "adduct": "[M-2SO3-2H2O+H]+",
+            "mz": 414.30304,
+            "ccs": 206.5
+        },
+        {
+            "name": "Glycochenodeoxycholic acid disulfate",
+            "adduct": "[M-H]-",
+            "mz": 608.22218,
+            "ccs": 223.7
+        },
+        {
+            "name": "Glycochenodeoxycholic acid disulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 528.26535,
+            "ccs": 212.8
+        },
+        {
+            "name": "Glycochenodeoxycholic acid disulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 510.25479,
+            "ccs": 214.4
+        },
+        {
+            "name": "Glycochenodeoxycholic acid disulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 630.20413,
+            "ccs": 223.6
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 544.26218,
+            "ccs": 212.6
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 430.29987,
+            "ccs": 204.5
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M-SO3-3H2O+H]+",
+            "mz": 430.29987,
+            "ccs": 196.9
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M+H-H2O]+",
+            "mz": 528.26726,
+            "ccs": 207.8
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M+K-2H]-",
+            "mz": 582.21807,
+            "ccs": 215.3
+        },
+        {
+            "name": "Glycocholic acid 12-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 566.24413,
+            "ccs": 212.7
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 544.26218,
+            "ccs": 215.8
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-H2O-H]-",
+            "mz": 526.25162,
+            "ccs": 215.0
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 430.29987,
+            "ccs": 200.6
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-SO3-3H2O+H]+",
+            "mz": 430.29987,
+            "ccs": 196.6
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 464.30535,
+            "ccs": 201.9
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O-H]-",
+            "mz": 446.29479,
+            "ccs": 200.2
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 448.31043,
+            "ccs": 211.4
+        },
+        {
+            "name": "Glycocholic acid 3-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 566.24413,
+            "ccs": 217.1
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M-H]-",
+            "mz": 528.26218,
+            "ccs": 213.0
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M-H2O+HCOO]-",
+            "mz": 556.2571,
+            "ccs": 220.3
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M-SO3-2H2O+H]+",
+            "mz": 414.29987,
+            "ccs": 204.5
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M-SO3-H]-",
+            "mz": 448.30535,
+            "ccs": 199.5
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M-SO3-H2O+H]+",
+            "mz": 432.31043,
+            "ccs": 202.8
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M+K-2H]-",
+            "mz": 566.21807,
+            "ccs": 215.5
+        },
+        {
+            "name": "Glycodeoxycholic acid 12-sulfate",
+            "adduct": "[M+Na-2H]-",
+            "mz": 550.24413,
+            "ccs": 219.0
+        },
+        {
+            "name": "Tauro-ω-muricholic acid",
+            "adduct": "[M-H]-",
+            "mz": 514.28218,
+            "ccs": 209.3
+        },
+        {
+            "name": "Tauro-ω-muricholic acid",
+            "adduct": "[M+H-2H2O]+",
+            "mz": 480.2767,
+            "ccs": 201.9
+        },
+        {
+            "name": "Tauro-ω-muricholic acid",
+            "adduct": "[M+H-H2O]+",
+            "mz": 498.28726,
+            "ccs": 209.2
+        },
+        {
+            "name": "Tauro-ω-muricholic acid",
+            "adduct": "[M+Na]+",
+            "mz": 538.27977,
+            "ccs": 221.9
+        }
+    ]
+}

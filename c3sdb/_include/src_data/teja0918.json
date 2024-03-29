@@ -1,0 +1,1049 @@
+{
+    "metadata": {
+        "src_tag": "teja0918",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003267018311693",
+        "reference": "Tejada-Casado, C. et al. Collision cross section (CCS) as a complementary parameter to characterize human and veterinary drugs. Analytica Chimica Acta 1043, 52–63 (2018).",
+        "ccs_type": "TW",
+        "ccs_method": "calibrated with Waters Major Mix"
+    },
+    "data": [
+        {
+            "name": "5-HYDROXYMEBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 298.1186,
+            "ccs": 175.6
+        },
+        {
+            "name": "5-HYDROXYMEBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 320.1006,
+            "ccs": 187.8
+        },
+        {
+            "name": "5-HYDROXYTHIABENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 218.0383,
+            "ccs": 145.0
+        },
+        {
+            "name": "5-HYDROXYTHIABENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 240.0202,
+            "ccs": 156.7
+        },
+        {
+            "name": "ALBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 266.0958,
+            "ccs": 166.6
+        },
+        {
+            "name": "ALBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 288.0777,
+            "ccs": 178.8
+        },
+        {
+            "name": "ALBENDAZOLE-2-AMINOSULFONE",
+            "adduct": "[M+H]+",
+            "mz": 240.0801,
+            "ccs": 160.7
+        },
+        {
+            "name": "ALBENDAZOLE-2-AMINOSULFONE",
+            "adduct": "[M+Na]+",
+            "mz": 262.0621,
+            "ccs": 171.6
+        },
+        {
+            "name": "ALBENDAZOLE-SULFONE",
+            "adduct": "[M+H]+",
+            "mz": 298.0856,
+            "ccs": 173.0
+        },
+        {
+            "name": "ALBENDAZOLE-SULFONE",
+            "adduct": "[M+Na]+",
+            "mz": 320.0675,
+            "ccs": 188.2
+        },
+        {
+            "name": "ALBENDAZOLE-SULFOXIDE",
+            "adduct": "[M+H]+",
+            "mz": 282.0907,
+            "ccs": 169.7
+        },
+        {
+            "name": "ALBENDAZOLE-SULFOXIDE",
+            "adduct": "[M+Na]+",
+            "mz": 304.0726,
+            "ccs": 187.7
+        },
+        {
+            "name": "AMIKACIN",
+            "adduct": "[M+H]+",
+            "mz": 586.293,
+            "ccs": 235.1
+        },
+        {
+            "name": "AMIKACIN",
+            "adduct": "[M+Na]+",
+            "mz": 608.275,
+            "ccs": 233.7
+        },
+        {
+            "name": "AMOXICILLIN",
+            "adduct": "[M+H]+",
+            "mz": 366.1118,
+            "ccs": 192.2
+        },
+        {
+            "name": "AMOXICILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 388.0938,
+            "ccs": 189.3
+        },
+        {
+            "name": "AMPICILLIN",
+            "adduct": "[M+H]+",
+            "mz": 332.1063,
+            "ccs": 187.5
+        },
+        {
+            "name": "AMPICILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 372.0988,
+            "ccs": 183.2
+        },
+        {
+            "name": "APRAMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 540.2875,
+            "ccs": 232.9
+        },
+        {
+            "name": "APRAMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 562.2695,
+            "ccs": 222.4
+        },
+        {
+            "name": "CEFADROXIL",
+            "adduct": "[M+H]+",
+            "mz": 364.0962,
+            "ccs": 188.8
+        },
+        {
+            "name": "CEFADROXIL",
+            "adduct": "[M+Na]+",
+            "mz": 386.0781,
+            "ccs": 187.7
+        },
+        {
+            "name": "CEFALEXIN",
+            "adduct": "[M+H]+",
+            "mz": 348.1013,
+            "ccs": 186.9
+        },
+        {
+            "name": "CEFALEXIN",
+            "adduct": "[M+Na]+",
+            "mz": 370.0832,
+            "ccs": 183.1
+        },
+        {
+            "name": "CEFALONIUM",
+            "adduct": "[M+H]+",
+            "mz": 459.0791,
+            "ccs": 203.5
+        },
+        {
+            "name": "CEFAMANDOLE",
+            "adduct": "[M+Na]+",
+            "mz": 485.0672,
+            "ccs": 197.9
+        },
+        {
+            "name": "CEFAPIRIN",
+            "adduct": "[M+H]+",
+            "mz": 424.0632,
+            "ccs": 183.5
+        },
+        {
+            "name": "CEFAPIRIN",
+            "adduct": "[M+Na]+",
+            "mz": 446.0451,
+            "ccs": 191.2
+        },
+        {
+            "name": "CEFAZOLIN",
+            "adduct": "[M+H]+",
+            "mz": 455.0373,
+            "ccs": 186.2
+        },
+        {
+            "name": "CEFAZOLIN",
+            "adduct": "[M+Na]+",
+            "mz": 477.0192,
+            "ccs": 192.7
+        },
+        {
+            "name": "CEFOPERAZONE",
+            "adduct": "[M+H]+",
+            "mz": 646.1497,
+            "ccs": 239.1
+        },
+        {
+            "name": "CEFOPERAZONE",
+            "adduct": "[M+Na]+",
+            "mz": 668.1316,
+            "ccs": 244.1
+        },
+        {
+            "name": "CEFQUINONE",
+            "adduct": "[M+H]+",
+            "mz": 529.1322,
+            "ccs": 223.2
+        },
+        {
+            "name": "CEFQUINONE",
+            "adduct": "[M+Na]+",
+            "mz": 551.1142,
+            "ccs": 226.8
+        },
+        {
+            "name": "CEFTIOFUR",
+            "adduct": "[M+H]+",
+            "mz": 524.0363,
+            "ccs": 215.0
+        },
+        {
+            "name": "CEFTIOFUR",
+            "adduct": "[M+Na]+",
+            "mz": 546.0182,
+            "ccs": 211.2
+        },
+        {
+            "name": "CHLORTETRACYCLINE",
+            "adduct": "[M+H]+",
+            "mz": 479.1216,
+            "ccs": 199.0
+        },
+        {
+            "name": "CHLORTETRACYCLINE",
+            "adduct": "[M+Na]+",
+            "mz": 501.1035,
+            "ccs": 210.5
+        },
+        {
+            "name": "CINOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 263.0662,
+            "ccs": 152.1
+        },
+        {
+            "name": "CINOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 285.0482,
+            "ccs": 165.2
+        },
+        {
+            "name": "CIPROFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 332.1405,
+            "ccs": 188.1
+        },
+        {
+            "name": "CIPROFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 354.1224,
+            "ccs": 191.7
+        },
+        {
+            "name": "CLOXACILLIN",
+            "adduct": "[M+H]+",
+            "mz": 436.0728,
+            "ccs": 193.8
+        },
+        {
+            "name": "CLOXACILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 458.0548,
+            "ccs": 200.4
+        },
+        {
+            "name": "DANOFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 358.1561,
+            "ccs": 193.3
+        },
+        {
+            "name": "DANOFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 380.138,
+            "ccs": 199.3
+        },
+        {
+            "name": "DICLOXACILLIN",
+            "adduct": "[M+H]+",
+            "mz": 470.0339,
+            "ccs": 197.0
+        },
+        {
+            "name": "DICLOXACILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 492.0158,
+            "ccs": 205.9
+        },
+        {
+            "name": "DIFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 400.1467,
+            "ccs": 205.3
+        },
+        {
+            "name": "DIFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 422.1287,
+            "ccs": 210.4
+        },
+        {
+            "name": "DIHYDROSTREPTOMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 584.2886,
+            "ccs": 232.1
+        },
+        {
+            "name": "DIHYDROSTREPTOMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 606.2705,
+            "ccs": 230.0
+        },
+        {
+            "name": "DIMETRIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 142.0611,
+            "ccs": 133.3
+        },
+        {
+            "name": "DOXYCYCLINE",
+            "adduct": "[M+H]+",
+            "mz": 445.1605,
+            "ccs": 196.8
+        },
+        {
+            "name": "DOXYCYCLINE",
+            "adduct": "[M+Na]+",
+            "mz": 467.1425,
+            "ccs": 205.7
+        },
+        {
+            "name": "ENOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 321.1357,
+            "ccs": 170.8
+        },
+        {
+            "name": "ENOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 343.1177,
+            "ccs": 185.0
+        },
+        {
+            "name": "ENROFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 360.1718,
+            "ccs": 194.9
+        },
+        {
+            "name": "ENROFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 382.1537,
+            "ccs": 204.7
+        },
+        {
+            "name": "FEBANTEL",
+            "adduct": "[M+H]+",
+            "mz": 447.1333,
+            "ccs": 221.5
+        },
+        {
+            "name": "FEBANTEL",
+            "adduct": "[M+Na]+",
+            "mz": 469.1152,
+            "ccs": 208.4
+        },
+        {
+            "name": "FENBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 300.0801,
+            "ccs": 174.5
+        },
+        {
+            "name": "FENBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 322.0621,
+            "ccs": 186.5
+        },
+        {
+            "name": "FENBENDAZOLE-SULFONE",
+            "adduct": "[M+H]+",
+            "mz": 332.07,
+            "ccs": 181.3
+        },
+        {
+            "name": "FENBENDAZOLE-SULFONE",
+            "adduct": "[M+Na]+",
+            "mz": 354.0519,
+            "ccs": 196.9
+        },
+        {
+            "name": "FLEROXACIN",
+            "adduct": "[M+H]+",
+            "mz": 370.1373,
+            "ccs": 189.8
+        },
+        {
+            "name": "FLEROXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 392.1193,
+            "ccs": 198.8
+        },
+        {
+            "name": "FLUMEQUINE",
+            "adduct": "[M+H]+",
+            "mz": 262.0874,
+            "ccs": 153.0
+        },
+        {
+            "name": "FLUMEQUINE",
+            "adduct": "[M+Na]+",
+            "mz": 284.0693,
+            "ccs": 166.8
+        },
+        {
+            "name": "GENTAMICIN C1",
+            "adduct": "[M+H]+",
+            "mz": 478.3235,
+            "ccs": 214.5
+        },
+        {
+            "name": "GENTAMICIN C1",
+            "adduct": "[M+Na]+",
+            "mz": 500.3055,
+            "ccs": 222.8
+        },
+        {
+            "name": "GENTAMICIN C1A",
+            "adduct": "[M+H]+",
+            "mz": 450.2922,
+            "ccs": 212.1
+        },
+        {
+            "name": "GENTAMICIN C1A",
+            "adduct": "[M+Na]+",
+            "mz": 472.2742,
+            "ccs": 212.3
+        },
+        {
+            "name": "GENTAMICIN C2",
+            "adduct": "[M+H]+",
+            "mz": 464.3079,
+            "ccs": 215.8
+        },
+        {
+            "name": "GENTAMICIN C2",
+            "adduct": "[M+Na]+",
+            "mz": 486.2898,
+            "ccs": 217.5
+        },
+        {
+            "name": "HYDROXYDIMETRIDAZOL",
+            "adduct": "[M+H]+",
+            "mz": 158.056,
+            "ccs": 133.5
+        },
+        {
+            "name": "HYDROXYIPRONIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 186.0873,
+            "ccs": 139.9
+        },
+        {
+            "name": "HYDROXYMETRONIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 188.0666,
+            "ccs": 136.9
+        },
+        {
+            "name": "IPRONIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 170.0924,
+            "ccs": 138.1
+        },
+        {
+            "name": "KANAMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 485.2453,
+            "ccs": 206.6
+        },
+        {
+            "name": "KANAMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 507.2273,
+            "ccs": 210.7
+        },
+        {
+            "name": "LEVOFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 362.1511,
+            "ccs": 191.4
+        },
+        {
+            "name": "LEVOFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 384.133,
+            "ccs": 199.9
+        },
+        {
+            "name": "LOMEFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 352.1467,
+            "ccs": 191.3
+        },
+        {
+            "name": "LOMEFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 374.1287,
+            "ccs": 196.0
+        },
+        {
+            "name": "MARBOFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 363.1463,
+            "ccs": 190.6
+        },
+        {
+            "name": "MARBOFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 385.1283,
+            "ccs": 198.5
+        },
+        {
+            "name": "MEBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 296.103,
+            "ccs": 174.4
+        },
+        {
+            "name": "MEBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 318.0849,
+            "ccs": 187.8
+        },
+        {
+            "name": "MEBENDAZOLE-AMINE",
+            "adduct": "[M+H]+",
+            "mz": 238.0975,
+            "ccs": 161.9
+        },
+        {
+            "name": "MEBENDAZOLE-AMINE",
+            "adduct": "[M+Na]+",
+            "mz": 260.0794,
+            "ccs": 175.5
+        },
+        {
+            "name": "METHACYCLINE",
+            "adduct": "[M+H]+",
+            "mz": 443.1449,
+            "ccs": 197.8
+        },
+        {
+            "name": "METHACYCLINE",
+            "adduct": "[M+Na]+",
+            "mz": 465.1268,
+            "ccs": 207.4
+        },
+        {
+            "name": "METRONIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 172.0717,
+            "ccs": 133.3
+        },
+        {
+            "name": "MOXIFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 402.1824,
+            "ccs": 198.5
+        },
+        {
+            "name": "MOXIFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 424.1643,
+            "ccs": 210.7
+        },
+        {
+            "name": "NAFCILLIN",
+            "adduct": "[M+H]+",
+            "mz": 415.1322,
+            "ccs": 196.1
+        },
+        {
+            "name": "NAFCILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 437.1142,
+            "ccs": 202.0
+        },
+        {
+            "name": "NALIDIXIC ACID",
+            "adduct": "[M+H]+",
+            "mz": 233.0921,
+            "ccs": 148.0
+        },
+        {
+            "name": "NALIDIXIC ACID",
+            "adduct": "[M+Na]+",
+            "mz": 255.074,
+            "ccs": 161.6
+        },
+        {
+            "name": "NEOMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 615.3196,
+            "ccs": 238.4
+        },
+        {
+            "name": "NEOMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 637.3015,
+            "ccs": 238.6
+        },
+        {
+            "name": "NORFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 320.1405,
+            "ccs": 186.9
+        },
+        {
+            "name": "NORFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 342.1224,
+            "ccs": 188.8
+        },
+        {
+            "name": "OFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 362.1511,
+            "ccs": 191.5
+        },
+        {
+            "name": "OFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 384.133,
+            "ccs": 200.1
+        },
+        {
+            "name": "ORBIFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 396.153,
+            "ccs": 199.5
+        },
+        {
+            "name": "ORBIFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 418.1349,
+            "ccs": 206.1
+        },
+        {
+            "name": "ORNIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 220.0483,
+            "ccs": 144.6
+        },
+        {
+            "name": "OXACILLIN",
+            "adduct": "[M+H]+",
+            "mz": 402.118,
+            "ccs": 191.5
+        },
+        {
+            "name": "OXACILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 424.0938,
+            "ccs": 195.4
+        },
+        {
+            "name": "OXFENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 316.075,
+            "ccs": 177.4
+        },
+        {
+            "name": "OXFENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 338.057,
+            "ccs": 195.4
+        },
+        {
+            "name": "OXIBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 250.1186,
+            "ccs": 161.4
+        },
+        {
+            "name": "OXIBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 272.1006,
+            "ccs": 173.5
+        },
+        {
+            "name": "OXOLINIC ACID",
+            "adduct": "[M+H]+",
+            "mz": 262.071,
+            "ccs": 152.5
+        },
+        {
+            "name": "OXOLINIC ACID",
+            "adduct": "[M+Na]+",
+            "mz": 284.0529,
+            "ccs": 167.2
+        },
+        {
+            "name": "OXYTETRACYCLINE",
+            "adduct": "[M+H]+",
+            "mz": 461.1555,
+            "ccs": 198.1
+        },
+        {
+            "name": "OXYTETRACYCLINE",
+            "adduct": "[M+Na]+",
+            "mz": 483.1374,
+            "ccs": 207.3
+        },
+        {
+            "name": "PARBENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 248.1394,
+            "ccs": 164.3
+        },
+        {
+            "name": "PARBENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 270.1213,
+            "ccs": 175.7
+        },
+        {
+            "name": "PAROMOMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 616.3036,
+            "ccs": 239.1
+        },
+        {
+            "name": "PAROMOMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 638.2855,
+            "ccs": 237.7
+        },
+        {
+            "name": "PEFLOXACIN",
+            "adduct": "[M+H]+",
+            "mz": 334.1561,
+            "ccs": 188.8
+        },
+        {
+            "name": "PEFLOXACIN",
+            "adduct": "[M+Na]+",
+            "mz": 356.1381,
+            "ccs": 194.2
+        },
+        {
+            "name": "PENICILLIN G",
+            "adduct": "[M+H]+",
+            "mz": 335.106,
+            "ccs": 176.6
+        },
+        {
+            "name": "PENICILLIN G",
+            "adduct": "[M+Na]+",
+            "mz": 357.0879,
+            "ccs": 182.9
+        },
+        {
+            "name": "PENICILLIN V",
+            "adduct": "[M+H]+",
+            "mz": 351.1009,
+            "ccs": 182.6
+        },
+        {
+            "name": "PENICILLIN V",
+            "adduct": "[M+Na]+",
+            "mz": 373.0829,
+            "ccs": 186.7
+        },
+        {
+            "name": "PIPEMIDIC ACID",
+            "adduct": "[M+H]+",
+            "mz": 304.1404,
+            "ccs": 174.3
+        },
+        {
+            "name": "PIPEMIDIC ACID",
+            "adduct": "[M+Na]+",
+            "mz": 326.1224,
+            "ccs": 185.6
+        },
+        {
+            "name": "PIPERACILLIN",
+            "adduct": "[M+H]+",
+            "mz": 518.1704,
+            "ccs": 227.2
+        },
+        {
+            "name": "PIPERACILLIN",
+            "adduct": "[M+Na]+",
+            "mz": 540.1523,
+            "ccs": 226.4
+        },
+        {
+            "name": "RONIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 201.0618,
+            "ccs": 140.3
+        },
+        {
+            "name": "RONIDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 223.0438,
+            "ccs": 150.0
+        },
+        {
+            "name": "SECNIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 186.0873,
+            "ccs": 138.6
+        },
+        {
+            "name": "SPECTINOMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 333.1656,
+            "ccs": 176.2
+        },
+        {
+            "name": "SPECTINOMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 355.1476,
+            "ccs": 183.5
+        },
+        {
+            "name": "STREPTOMYCIN",
+            "adduct": "[M+H]+",
+            "mz": 582.2729,
+            "ccs": 231.0
+        },
+        {
+            "name": "STREPTOMYCIN",
+            "adduct": "[M+Na]+",
+            "mz": 604.2549,
+            "ccs": 228.5
+        },
+        {
+            "name": "SULFACHLOROPYRIDAZINE",
+            "adduct": "[M+H]+",
+            "mz": 285.0208,
+            "ccs": 160.9
+        },
+        {
+            "name": "SULFACHLOROPYRIDAZINE",
+            "adduct": "[M+Na]+",
+            "mz": 307.0027,
+            "ccs": 171.7
+        },
+        {
+            "name": "SULFADIAZINE",
+            "adduct": "[M+H]+",
+            "mz": 251.0597,
+            "ccs": 153.9
+        },
+        {
+            "name": "SULFADIAZINE",
+            "adduct": "[M+Na]+",
+            "mz": 273.0417,
+            "ccs": 163.0
+        },
+        {
+            "name": "SULFADIMETHOXINE",
+            "adduct": "[M+H]+",
+            "mz": 311.0809,
+            "ccs": 170.5
+        },
+        {
+            "name": "SULFADIMETHOXINE",
+            "adduct": "[M+Na]+",
+            "mz": 333.0628,
+            "ccs": 178.4
+        },
+        {
+            "name": "SULFADOXINE",
+            "adduct": "[M+H]+",
+            "mz": 311.0809,
+            "ccs": 169.1
+        },
+        {
+            "name": "SULFADOXINE",
+            "adduct": "[M+Na]+",
+            "mz": 333.0628,
+            "ccs": 177.8
+        },
+        {
+            "name": "SULFAMERAZINE",
+            "adduct": "[M+H]+",
+            "mz": 265.0754,
+            "ccs": 159.0
+        },
+        {
+            "name": "SULFAMERAZINE",
+            "adduct": "[M+Na]+",
+            "mz": 287.0573,
+            "ccs": 168.3
+        },
+        {
+            "name": "SULFAMETER",
+            "adduct": "[M+H]+",
+            "mz": 281.0703,
+            "ccs": 161.6
+        },
+        {
+            "name": "SULFAMETER",
+            "adduct": "[M+Na]+",
+            "mz": 303.0522,
+            "ccs": 171.3
+        },
+        {
+            "name": "SULFAMETHAZINE",
+            "adduct": "[M+H]+",
+            "mz": 279.091,
+            "ccs": 164.4
+        },
+        {
+            "name": "SULFAMETHAZINE",
+            "adduct": "[M+Na]+",
+            "mz": 301.073,
+            "ccs": 172.8
+        },
+        {
+            "name": "SULFAMETHIZOLE",
+            "adduct": "[M+H]+",
+            "mz": 271.0318,
+            "ccs": 157.8
+        },
+        {
+            "name": "SULFAMETHIZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 293.0137,
+            "ccs": 171.2
+        },
+        {
+            "name": "SULFAMETHOXAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 254.0595,
+            "ccs": 154.5
+        },
+        {
+            "name": "SULFAMETHOXAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 276.0413,
+            "ccs": 164.8
+        },
+        {
+            "name": "SULFAPYRIDINE",
+            "adduct": "[M+H]+",
+            "mz": 250.0645,
+            "ccs": 154.6
+        },
+        {
+            "name": "SULFAPYRIDINE",
+            "adduct": "[M+Na]+",
+            "mz": 272.0464,
+            "ccs": 163.9
+        },
+        {
+            "name": "TERNIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 186.0873,
+            "ccs": 138.6
+        },
+        {
+            "name": "TERNIDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 208.0693,
+            "ccs": 152.9
+        },
+        {
+            "name": "TETRACYCLINE",
+            "adduct": "[M+H]+",
+            "mz": 445.1611,
+            "ccs": 196.9
+        },
+        {
+            "name": "TETRACYCLINE",
+            "adduct": "[M+Na]+",
+            "mz": 467.1425,
+            "ccs": 207.1
+        },
+        {
+            "name": "THIABENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 202.0433,
+            "ccs": 141.7
+        },
+        {
+            "name": "THIABENDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 224.0253,
+            "ccs": 152.4
+        },
+        {
+            "name": "TINIDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 248.07,
+            "ccs": 149.7
+        },
+        {
+            "name": "TINIDAZOLE",
+            "adduct": "[M+Na]+",
+            "mz": 270.0519,
+            "ccs": 161.2
+        },
+        {
+            "name": "TRICLABENDAZOLE",
+            "adduct": "[M+H]+",
+            "mz": 358.9574,
+            "ccs": 179.3
+        },
+        {
+            "name": "TRICLABENDAZOLE SULFOXIDE",
+            "adduct": "[M+H]+",
+            "mz": 374.9523,
+            "ccs": 186.1
+        },
+        {
+            "name": "TRICLABENDAZOLE SULFOXIDE",
+            "adduct": "[M+Na]+",
+            "mz": 296.9345,
+            "ccs": 199.5
+        },
+        {
+            "name": "TRICLABENDAZOLE-SULFONE",
+            "adduct": "[M+H]+",
+            "mz": 390.9472,
+            "ccs": 188.7
+        },
+        {
+            "name": "TRICLABENDAZOLE-SULFONE",
+            "adduct": "[M+Na]+",
+            "mz": 412.9292,
+            "ccs": 202.9
+        }
+    ]
+}

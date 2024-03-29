@@ -1,0 +1,587 @@
+{
+    "metadata": {
+        "src_tag": "pagl0314",
+        "url": "https://pubs.acs.org/doi/abs/10.1021/ac500405x",
+        "reference": "Paglia, G. et al. Ion Mobility Derived Collision Cross Sections to Support Metabolomics Applications. Anal. Chem. 86, 3985–3993 (2014).Paglia, G. et al. Ion Mobility Derived Collision Cross Sections to Support Metabolomics Applications. Anal. Chem. 86, 3985–3993 (2014).",
+        "ccs_type": "TW",
+        "ccs_method": "calibrated with polyalanine"
+    },
+    "data": [
+        {
+            "name": "Dimethylglycine",
+            "mz": 104.0708,
+            "ccs": 116.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Choline",
+            "mz": 104.1075,
+            "ccs": 117.0,
+            "adduct": "[M]+"
+        },
+        {
+            "name": "Uracil",
+            "mz": 113.0351,
+            "ccs": 115.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Proline",
+            "mz": 116.0711,
+            "ccs": 118.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Threonine",
+            "mz": 120.066,
+            "ccs": 122.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Cysteine",
+            "mz": 122.0275,
+            "ccs": 113.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Niacinamide",
+            "mz": 123.0558,
+            "ccs": 118.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Nicotinic acid",
+            "mz": 124.0398,
+            "ccs": 115.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Taurine",
+            "mz": 126.0225,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Thymine",
+            "mz": 127.0507,
+            "ccs": 115.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "5-Oxoproline",
+            "mz": 130.0504,
+            "ccs": 121.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hydroxyproline",
+            "mz": 132.066,
+            "ccs": 122.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Isoleucine",
+            "mz": 132.1024,
+            "ccs": 129.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Leucine",
+            "mz": 132.1024,
+            "ccs": 128.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Asparagine",
+            "mz": 133.0613,
+            "ccs": 118.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ornithine",
+            "mz": 133.0977,
+            "ccs": 121.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aspartic acid",
+            "mz": 134.0453,
+            "ccs": 122.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Homocysteine",
+            "mz": 136.0428,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Adenine",
+            "mz": 136.0618,
+            "ccs": 119.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Hypoxanthine",
+            "mz": 137.0468,
+            "ccs": 120.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "PABA",
+            "mz": 138.0558,
+            "ccs": 131.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glutamine",
+            "mz": 147.0769,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Lysine",
+            "mz": 147.1133,
+            "ccs": 127.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glutamic acid",
+            "mz": 148.061,
+            "ccs": 123.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methionine",
+            "mz": 150.0589,
+            "ccs": 127.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Guanine",
+            "mz": 152.0568,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Xanthine",
+            "mz": 153.0412,
+            "ccs": 124.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Histidine",
+            "mz": 156.0773,
+            "ccs": 127.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Carnitine",
+            "mz": 162.113,
+            "ccs": 130.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phenylalanine",
+            "mz": 166.0868,
+            "ccs": 135.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyridoxamine",
+            "mz": 169.0977,
+            "ccs": 130.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "1-Methylhistidine",
+            "mz": 170.0929,
+            "ccs": 129.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mevalonic acid",
+            "mz": 171.0633,
+            "ccs": 128.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Arginine",
+            "mz": 175.1195,
+            "ccs": 133.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Citrulline",
+            "mz": 176.1035,
+            "ccs": 132.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glucosamine",
+            "mz": 180.0872,
+            "ccs": 135.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tyrosine",
+            "mz": 182.0817,
+            "ccs": 139.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Pyridoxic acid",
+            "mz": 184.061,
+            "ccs": 130.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phosphorylcholine",
+            "mz": 184.0738,
+            "ccs": 135.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Epinephrine",
+            "mz": 184.0973,
+            "ccs": 133.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Phosphoenolpyruvate",
+            "mz": 190.9721,
+            "ccs": 131.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Glycerol monophosphate",
+            "mz": 195.0034,
+            "ccs": 132.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Fructose",
+            "mz": 203.054,
+            "ccs": 135.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Galactose",
+            "mz": 203.054,
+            "ccs": 136.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Mannose",
+            "mz": 203.054,
+            "ccs": 138.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Glucose",
+            "mz": 203.0548,
+            "ccs": 138.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "ADMA",
+            "mz": 203.1508,
+            "ccs": 141.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SDMA",
+            "mz": 203.1508,
+            "ccs": 142.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acetylcarnitine",
+            "mz": 204.1236,
+            "ccs": 142.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Mannitol",
+            "mz": 205.0688,
+            "ccs": 137.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Tryptophan",
+            "mz": 205.0977,
+            "ccs": 145.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "2-Phosphoglyceric acid",
+            "mz": 208.9827,
+            "ccs": 132.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "3-Phosphoglyceric acid",
+            "mz": 208.9827,
+            "ccs": 134.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Citric acid",
+            "mz": 215.0168,
+            "ccs": 138.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Glucuronic acid",
+            "mz": 217.0324,
+            "ccs": 140.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Pantothenic acid",
+            "mz": 220.1185,
+            "ccs": 145.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Gluconic acid",
+            "mz": 241.03,
+            "ccs": 148.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Cystine",
+            "mz": 241.0317,
+            "ccs": 145.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Acetylglucosamine",
+            "mz": 244.0797,
+            "ccs": 153.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Cytidine",
+            "mz": 244.0933,
+            "ccs": 148.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Uridine",
+            "mz": 245.0773,
+            "ccs": 152.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Ribose 5-monophosphate",
+            "mz": 253.0089,
+            "ccs": 146.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Acadesine",
+            "mz": 259.1042,
+            "ccs": 152.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glucosamine 1-phosphate",
+            "mz": 260.0535,
+            "ccs": 153.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Glucosamine 6-phosphate",
+            "mz": 260.0535,
+            "ccs": 150.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "thiamine",
+            "mz": 265.1123,
+            "ccs": 159.0,
+            "adduct": "[M]+"
+        },
+        {
+            "name": "Adenosine",
+            "mz": 268.1048,
+            "ccs": 151.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Inosine",
+            "mz": 269.0886,
+            "ccs": 153.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fructose-6-phosphate",
+            "mz": 281.0038,
+            "ccs": 150.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Glucose 6-Phosphate",
+            "mz": 281.0038,
+            "ccs": 154.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Guanosine",
+            "mz": 284.0995,
+            "ccs": 160.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Xanthosine",
+            "mz": 285.0835,
+            "ccs": 158.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Methylthioadenosine",
+            "mz": 298.0974,
+            "ccs": 167.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "6-Phosphogluconate",
+            "mz": 299.0144,
+            "ccs": 159.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "glutathione",
+            "mz": 308.0916,
+            "ccs": 165.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "CMP",
+            "mz": 324.0597,
+            "ccs": 163.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "dCMP",
+            "mz": 330.0467,
+            "ccs": 161.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "cAMP",
+            "mz": 330.0603,
+            "ccs": 172.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "dAMP",
+            "mz": 332.076,
+            "ccs": 164.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "dTMP",
+            "mz": 345.0464,
+            "ccs": 170.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "UMP",
+            "mz": 347.0256,
+            "ccs": 168.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "AMP",
+            "mz": 348.0709,
+            "ccs": 167.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "IMP",
+            "mz": 349.0549,
+            "ccs": 169.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "GMP",
+            "mz": 364.0658,
+            "ccs": 176.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "lactose",
+            "mz": 365.106,
+            "ccs": 173.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "sucrose",
+            "mz": 365.106,
+            "ccs": 170.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "trehalose",
+            "mz": 365.106,
+            "ccs": 173.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "SAH",
+            "mz": 385.1294,
+            "ccs": 179.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "SAMe",
+            "mz": 399.145,
+            "ccs": 184.0,
+            "adduct": "[M]+"
+        },
+        {
+            "name": "palmitoylcarnitine",
+            "mz": 400.3428,
+            "ccs": 217.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "UDP",
+            "mz": 405.01,
+            "ccs": 174.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "ADP",
+            "mz": 428.0372,
+            "ccs": 181.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Folic acid",
+            "mz": 464.1295,
+            "ccs": 202.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "GTP",
+            "mz": 523.9985,
+            "ccs": 196.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "raffinose",
+            "mz": 527.1588,
+            "ccs": 210.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "glutathione disulfide",
+            "mz": 613.1598,
+            "ccs": 227.0,
+            "adduct": "[M+H]+"
+        }
+    ]
+}

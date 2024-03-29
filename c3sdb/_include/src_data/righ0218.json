@@ -1,0 +1,647 @@
+{
+    "metadata": {
+        "src_tag": "righ0218",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0003267018301521",
+        "reference": "Righetti, L. et al. Ion mobility-derived collision cross section database: Application to mycotoxin analysis. Analytica Chimica Acta 1014, 50–57 (2018).",
+        "ccs_type": "TW",
+        "ccs_method": "calibrated with polyalanine"
+    },
+    "data": [
+        {
+            "name": "Penicillic acid",
+            "mz": 171.0652,
+            "ccs": 131.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Tenuazonic acid",
+            "mz": 198.1125,
+            "ccs": 135.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Patulin",
+            "mz": 213.0394,
+            "ccs": 142.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "Citrinin",
+            "mz": 251.0914,
+            "ccs": 148.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Alternariol",
+            "mz": 257.045,
+            "ccs": 146.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "Alternariol-methylether",
+            "mz": 271.0606,
+            "ccs": 150.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "Aflatoxin B1",
+            "mz": 313.0707,
+            "ccs": 161.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin B1",
+            "mz": 335.0521,
+            "ccs": 164.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Aflatoxin B1",
+            "mz": 351.0261,
+            "ccs": 177.1,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Aflatoxin B2",
+            "mz": 315.0863,
+            "ccs": 162.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin B2",
+            "mz": 337.0677,
+            "ccs": 176.8,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Aflatoxin B2",
+            "mz": 353.0417,
+            "ccs": 181.4,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Zearalenone",
+            "mz": 317.1389,
+            "ccs": 170.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "cis Zearalenone",
+            "mz": 317.1389,
+            "ccs": 167.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "alpha-zearalenol",
+            "mz": 319.155,
+            "ccs": 173.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "beta-zearalenol",
+            "mz": 319.155,
+            "ccs": 173.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "Sterigmatocystin",
+            "mz": 325.0707,
+            "ccs": 163.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin M1",
+            "mz": 329.0655,
+            "ccs": 166.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin M1",
+            "mz": 351.0469,
+            "ccs": 179.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Aflatoxin M1",
+            "mz": 367.0209,
+            "ccs": 177.8,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Aflatoxin G1",
+            "mz": 329.0656,
+            "ccs": 164.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin G1",
+            "mz": 351.047,
+            "ccs": 176.5,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Aflatoxin G1",
+            "mz": 367.021,
+            "ccs": 180.2,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Aflatoxin G2",
+            "mz": 331.0812,
+            "ccs": 166.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Aflatoxin G2",
+            "mz": 353.0626,
+            "ccs": 176.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Aflatoxin G2",
+            "mz": 369.0366,
+            "ccs": 181.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Cyclopiazonic acid",
+            "mz": 335.139,
+            "ccs": 174.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "Mycophenolic acid",
+            "mz": 338.1598,
+            "ccs": 176.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Deoxynivalenol",
+            "mz": 355.1382,
+            "ccs": 183.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "Nivalenol",
+            "mz": 371.1331,
+            "ccs": 180.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "HFB4",
+            "mz": 374.3629,
+            "ccs": 201.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Diacetoxyscirpenol",
+            "mz": 384.2017,
+            "ccs": 192.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Roquefortine C",
+            "mz": 390.1925,
+            "ccs": 179.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HFB3",
+            "mz": 390.3577,
+            "ccs": 199.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HFB3",
+            "mz": 412.3391,
+            "ccs": 208.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HFB3",
+            "mz": 428.3131,
+            "ccs": 209.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "HFB2",
+            "mz": 390.3577,
+            "ccs": 199.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HFB2",
+            "mz": 412.3391,
+            "ccs": 208.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HFB2",
+            "mz": 428.3131,
+            "ccs": 209.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "15-Acetyldeoxynivalenol",
+            "mz": 397.1488,
+            "ccs": 196.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "3-Acetyldeoxynivalenol",
+            "mz": 397.1488,
+            "ccs": 196.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "Neosolaniol",
+            "mz": 400.1966,
+            "ccs": 198.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Ochratoxin A",
+            "mz": 404.0895,
+            "ccs": 194.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HFB1",
+            "mz": 406.3527,
+            "ccs": 203.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "HFB1",
+            "mz": 428.3341,
+            "ccs": 209.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "HFB1",
+            "mz": 444.3081,
+            "ccs": 214.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Fusarenon X",
+            "mz": 413.1437,
+            "ccs": 195.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "Tentoxin",
+            "mz": 415.234,
+            "ccs": 202.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "AOH-3-GlcA",
+            "mz": 433.0779,
+            "ccs": 187.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AOH-9-GlcA",
+            "mz": 433.0779,
+            "ccs": 195.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "Meleagrin",
+            "mz": 434.1823,
+            "ccs": 201.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Paxilline",
+            "mz": 436.2482,
+            "ccs": 201.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "HT-2 toxin",
+            "mz": 442.243,
+            "ccs": 203.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "AME-7-GlcA",
+            "mz": 447.0928,
+            "ccs": 193.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "AME-3-GlcA",
+            "mz": 447.0928,
+            "ccs": 200.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DON-15-GlcA",
+            "mz": 471.151,
+            "ccs": 215.1,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DON-3-GlcA",
+            "mz": 471.151,
+            "ccs": 210.2,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ZEN-14-Glc",
+            "mz": 479.1923,
+            "ccs": 213.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "ZEN-16-Glc",
+            "mz": 479.1923,
+            "ccs": 216.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "T-2 toxin",
+            "mz": 484.2536,
+            "ccs": 214.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "ZEN-14-GlcA",
+            "mz": 493.172,
+            "ccs": 220.0,
+            "adduct": "[M-H]-"
+        },
+        {
+            "name": "DON-3-glucoside",
+            "mz": 517.191,
+            "ccs": 217.0,
+            "adduct": "[M+H3C2O2]-"
+        },
+        {
+            "name": "pHFB2",
+            "mz": 548.3793,
+            "ccs": 232.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "pHFB1",
+            "mz": 564.3942,
+            "ccs": 234.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Penitrem A",
+            "mz": 634.293,
+            "ccs": 253.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 646.3069,
+            "ccs": 243.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 651.2617,
+            "ccs": 240.1,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 667.2362,
+            "ccs": 242.3,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 646.3069,
+            "ccs": 251.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 651.2617,
+            "ccs": 249.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "T2-_-Glc",
+            "mz": 667.2362,
+            "ccs": 249.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin B",
+            "mz": 657.4433,
+            "ccs": 248.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Enniatin B",
+            "mz": 662.4291,
+            "ccs": 248.9,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Enniatin B",
+            "mz": 678.4031,
+            "ccs": 251.1,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin B",
+            "mz": 640.4477,
+            "ccs": 244.1,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Enniatin B1",
+            "mz": 671.4584,
+            "ccs": 253.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Enniatin B1",
+            "mz": 676.4442,
+            "ccs": 253.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Enniatin B1",
+            "mz": 692.4182,
+            "ccs": 254.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin B1",
+            "mz": 654.4628,
+            "ccs": 246.4,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Enniatin A1",
+            "mz": 685.4741,
+            "ccs": 259.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Enniatin A1",
+            "mz": 690.4599,
+            "ccs": 258.0,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Enniatin A1",
+            "mz": 706.4339,
+            "ccs": 257.9,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin A1",
+            "mz": 668.4785,
+            "ccs": 252.2,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B4",
+            "mz": 690.4059,
+            "ccs": 255.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B4",
+            "mz": 712.3873,
+            "ccs": 260.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Fumonisin B4",
+            "mz": 728.3613,
+            "ccs": 264.6,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin A",
+            "mz": 699.4897,
+            "ccs": 264.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Enniatin A",
+            "mz": 704.4755,
+            "ccs": 262.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Enniatin A",
+            "mz": 720.4495,
+            "ccs": 264.7,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Enniatin A",
+            "mz": 682.4941,
+            "ccs": 257.9,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B2",
+            "mz": 706.4008,
+            "ccs": 258.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B2",
+            "mz": 728.3822,
+            "ccs": 259.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Fumonisin B2",
+            "mz": 744.3562,
+            "ccs": 264.5,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Fumonisin B3",
+            "mz": 706.4008,
+            "ccs": 258.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B3",
+            "mz": 728.3822,
+            "ccs": 259.2,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Fumonisin B3",
+            "mz": 744.3562,
+            "ccs": 264.5,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Fumonisin B1",
+            "mz": 722.3957,
+            "ccs": 258.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "Fumonisin B1",
+            "mz": 744.3771,
+            "ccs": 264.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Fumonisin B1",
+            "mz": 760.3511,
+            "ccs": 269.0,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Beauvericin",
+            "mz": 801.4428,
+            "ccs": 269.0,
+            "adduct": "[M+NH4]+"
+        },
+        {
+            "name": "Beauvericin",
+            "mz": 806.4286,
+            "ccs": 287.4,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "Beauvericin",
+            "mz": 822.4026,
+            "ccs": 290.3,
+            "adduct": "[M+K]+"
+        },
+        {
+            "name": "Beauvericin",
+            "mz": 784.4472,
+            "ccs": 283.8,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-deoxyfructosyl-FB1",
+            "mz": 884.4491,
+            "ccs": 287.0,
+            "adduct": "[M+H]+"
+        },
+        {
+            "name": "N-deoxyfructosyl-FB1",
+            "mz": 906.4305,
+            "ccs": 290.7,
+            "adduct": "[M+Na]+"
+        },
+        {
+            "name": "N-deoxyfructosyl-FB1",
+            "mz": 922.4045,
+            "ccs": 292.8,
+            "adduct": "[M+K]+"
+        }
+    ]
+}

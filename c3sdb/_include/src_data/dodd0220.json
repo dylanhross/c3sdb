@@ -1,0 +1,347 @@
+{
+    "metadata" : {
+        "src_tag": "dodd0220",
+        "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.9b05364",
+        "reference": "Dodds, J. et al. Rapid Characterization of Per- and Polyfluoroalkyl Substances (PFAS) by Ion Mobility Spectrometry−Mass Spectrometry (IMS-MS). Anal. Chem. 92, 4427-4435 (2020).",
+        "ccs_type": "DT",
+        "ccs_method": "single field, calibrated"
+    },
+    "data": [
+        {
+            "name": "PFNA",
+            "adduct": "[M-H]-",
+            "mz": 462.9633,
+            "ccs": 165.2,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFDA",
+            "adduct": "[M-H]-",
+            "mz": 512.9604,
+            "ccs": 174.2,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFUdA",
+            "adduct": "[M-H]-",
+            "mz": 562.9572,
+            "ccs": 182.9,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFDoA",
+            "adduct": "[M-H]-",
+            "mz": 612.9539,
+            "ccs": 191.4,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFTrDA",
+            "adduct": "[M-H]-",
+            "mz": 662.9516,
+            "ccs": 200.8,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFTeDA",
+            "adduct": "[M-H]-",
+            "mz": 712.9487,
+            "ccs": 209.2,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFHxDA",
+            "adduct": "[M-H]-",
+            "mz": 812.943,
+            "ccs": 226.1,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFBA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 168.9894,
+            "ccs": 110.8,
+            "smi": "C(=O)(C(C(C(F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFPeA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 218.9861,
+            "ccs": 117.4,
+            "smi": "C(=O)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFHxA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 268.9837,
+            "ccs": 125.1,
+            "smi": "C(=O)(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFHpA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 318.9803,
+            "ccs": 132.4,
+            "smi": "C(=O)(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFOA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 368.9765,
+            "ccs": 139.5,
+            "smi": "C(=O)(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFNA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 418.9751,
+            "ccs": 147.0,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFDA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 468.9698,
+            "ccs": 155.3,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFUdA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 518.9687,
+            "ccs": 163.4,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFDoA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 568.965,
+            "ccs": 171.5,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFTrDA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 618.9613,
+            "ccs": 179.6,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFTeDA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 668.9562,
+            "ccs": 187.6,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFHxDA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 768.9514,
+            "ccs": 203.7,
+            "smi": "C(=O)(C(C(C(C(C(C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "PFBS-L",
+            "adduct": "[M-H]-",
+            "mz": 298.9444,
+            "ccs": 133.6,
+            "smi": "C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(C(F)(F)F)(F)F"
+        },
+        {
+            "name": "PFPeS-L",
+            "adduct": "[M-H]-",
+            "mz": 348.9397,
+            "ccs": 142.2,
+            "smi": "C(C(C(F)(F)F)(F)F)(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F"
+        },
+        {
+            "name": "PFHxS-L",
+            "adduct": "[M-H]-",
+            "mz": 398.9378,
+            "ccs": 150.5,
+            "smi": "C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(C(C(F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFHpS-L",
+            "adduct": "[M-H]-",
+            "mz": 448.9339,
+            "ccs": 157.4,
+            "smi": "C(C(C(C(F)(F)F)(F)F)(F)F)(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFHpS-L",
+            "adduct": "[M-H]-",
+            "mz": 448.9336,
+            "ccs": 159.2,
+            "smi": "C(C(C(C(F)(F)F)(F)F)(F)F)(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFOS-L",
+            "adduct": "[M-H]-",
+            "mz": 498.9298,
+            "ccs": 166.5,
+            "smi": "C(C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFOS-L",
+            "adduct": "[M-H]-",
+            "mz": 498.9298,
+            "ccs": 168.3,
+            "smi": "C(C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(C(C(C(F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFNS-L",
+            "adduct": "[M-H]-",
+            "mz": 548.9261,
+            "ccs": 177.2,
+            "smi": "C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFDS-L",
+            "adduct": "[M-H]-",
+            "mz": 598.9263,
+            "ccs": 186.2,
+            "smi": "C(C(C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F)(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PFDoS-L",
+            "adduct": "[M-H]-",
+            "mz": 698.921,
+            "ccs": 203.7,
+            "smi": "C(C(C(C(C(C(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F)(F)F)(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "4:2 FTS",
+            "adduct": "[M-H]-",
+            "mz": 326.9749,
+            "ccs": 150.4,
+            "smi": "C(CS(=O)(=O)[O-])C(C(C(C(F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "6:2 FTS",
+            "adduct": "[M-H]-",
+            "mz": 426.9674,
+            "ccs": 168.1,
+            "smi": "C(CS(=O)(=O)[O-])C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "8:2 FTS",
+            "adduct": "[M-H]-",
+            "mz": 526.9623,
+            "ccs": 185.8,
+            "smi": "C(CS(=O)(=O)[O-])C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "10:2 FTS",
+            "adduct": "[M-H]-",
+            "mz": 626.9543,
+            "ccs": 203.6,
+            "smi": "C(CS(=O)(=O)[O-])C(C(C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "FBSA",
+            "adduct": "[M-H]-",
+            "mz": 297.9592,
+            "ccs": 135.0,
+            "smi": "C(C(C(F)(F)S(=O)(=O)N)(F)F)(C(F)(F)F)(F)F"
+        },
+        {
+            "name": "FHxSA",
+            "adduct": "[M-H]-",
+            "mz": 397.9529,
+            "ccs": 152.0,
+            "smi": "C(C(C(C(F)(F)S(=O)(=O)N)(F)F)(F)F)(C(C(F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "N_MeFOSAA",
+            "adduct": "[M-H]-",
+            "mz": 569.9697,
+            "ccs": 192.7,
+            "smi": "CN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "N_EtFOSAA",
+            "adduct": "[M-H]-",
+            "mz": 583.9843,
+            "ccs": 196.3,
+            "smi": "CCN(CC(=O)O)S(=O)(=O)C(C(C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "N_AP_FHxSA",
+            "adduct": "[M-H]-",
+            "mz": 483.0428,
+            "ccs": 182.8,
+            "smi": "CN(C)CCCNS(=O)(=O)C(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "N_CMAmP-6:2FOSA (6:2 FTAB)",
+            "adduct": "[M-H]-",
+            "mz": 569.0817,
+            "ccs": 215.2,
+            "smi": "C[N+](C)(CCCNS(=O)(=O)CCC(C(C(C(C(C(F)(F)F)(F)F)(F)F)(F)F)(F)F)(F)F)CC(=O)[O-]"
+        },
+        {
+            "name": "9Cl_PF3ONS",
+            "adduct": "[M-H]-",
+            "mz": 530.8964,
+            "ccs": 170.2,
+            "smi": "C(C(C(C(F)(F)Cl)(F)F)(F)F)(C(C(OC(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "11C1_PF3OUdS",
+            "adduct": "[M-H]-",
+            "mz": 630.8924,
+            "ccs": 186.5,
+            "smi": "C(C(C(C(C(F)(F)Cl)(F)F)(F)F)(F)F)(C(C(C(OC(C(F)(F)S(=O)(=O)[O-])(F)F)(F)F)(F)F)(F)F)(F)F"
+        },
+        {
+            "name": "PMPA",
+            "adduct": "[M-H-CO2]-",
+            "mz": 184.9842,
+            "ccs": 115.2,
+            "smi": "C(=O)(C(C(F)(F)F)(OC(F)(F)F)F)O"
+        },
+        {
+            "name": "GenX",
+            "adduct": "[M-H-CO2]-",
+            "mz": 284.9779,
+            "ccs": 127.5,
+            "smi": "C(=O)(C(C(F)(F)F)(OC(C(C(F)(F)F)(F)F)(F)F)F)[O-]"
+        },
+        {
+            "name": "PFO4DA",
+            "adduct": "[M-H]-",
+            "mz": 376.9546,
+            "ccs": 146.7,
+            "smi": "C(=O)(C(OC(OC(OC(OC(F)(F)F)(F)F)(F)F)(F)F)(F)F)O"
+        },
+        {
+            "name": "Hydro-EVE",
+            "adduct": "[M-H]-",
+            "mz": 426.9659,
+            "ccs": 152.6,
+            "smi": "C(C(F)(F)F)(OC(C(C(F)(F)F)(OC(C(C(=O)O)(F)F)(F)F)F)(F)F)F"
+        },
+        {
+            "name": "Hydro-EVE",
+            "adduct": "[M-H]-",
+            "mz": 426.9659,
+            "ccs": 151.6,
+            "smi": "C(C(F)(F)F)(OC(C(C(F)(F)F)(OC(C(C(=O)O)(F)F)(F)F)F)(F)F)F"
+        },
+        {
+            "name": "NVHOS",
+            "adduct": "[M-H]-",
+            "mz": 296.9474,
+            "ccs": 132.9,
+            "smi": "C(C(F)(F)F)(OC(C(F)(F)S(=O)(=O)[O-])(F)F)F"
+        },
+        {
+            "name": "Nafion Byproduct 2",
+            "adduct": "[M-H]-",
+            "mz": 462.9326,
+            "ccs": 155.2,
+            "smi": "C(C(F)(F)F)(OC(C(C(F)(F)F)(OC(C(F)(F)S(=O)(=O)O)(F)F)F)(F)F)F"
+        }
+    ]
+}

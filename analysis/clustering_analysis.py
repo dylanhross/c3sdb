@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 from matplotlib import rcParams
 from sklearn.decomposition import PCA
 
-from C3SData.data import C3SD
+from c3sdb.ml.data import C3SD
 
 rcParams['font.size'] = 8
 
@@ -18,7 +18,7 @@ with open('kmcm_svr_final_20210414.pickle', 'rb') as pf:
 
 # load the dataset
 data = C3SD('C3S.db', seed=2345)
-data.featurize()
+data.assemble_features()
 data.train_test_split('ccs')
 data.center_and_scale()
 
