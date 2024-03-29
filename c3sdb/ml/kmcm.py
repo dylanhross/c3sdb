@@ -1,10 +1,10 @@
 """
-    kmcm.py
-    Dylan H. Ross
-    2019/08/02
+    c3sdb/ml/kmcm.py
 
-    description:
-        TODO
+    Dylan Ross (dylan.ross@pnnl.gov)
+
+    Module housing the K-means clustering with multiple estimators (KMCMulti)
+    ensemble estimator
 """
 
 
@@ -17,42 +17,43 @@ from numpy import argwhere, array
 
 class KMCMulti(BaseEstimator, RegressorMixin):
     """
-KMCMulti
-    description:
-        TODO
-"""
+    TODO: description
+    """
     
+    # TODO: type annotations
     def __init__(self, n_clusters, seed=69, use_estimator=None, estimator_params=None):
         """
-KMCMulti.__init__
-    description:
-        TODO
-    parameters:
-    n_clusters : ``int``
-        number of clusters to fit
+        TODO: description
+
+        Parameters
+        n_clusters : ``int``
+            number of clusters to fit
+        
+        TODO: finish reformatting these parameter descriptions
         [seed (int)] -- pRNG seed [optional, default=69]
         [n_clusters (int)] -- the number of clusters to fit [optional, default=3]
         [use_estimator (sklearn Regressor)] -- instance of individual estimator to use on each cluster 
                                                [optional, default=None]
         [estimator_params (list(dict(...)))] -- parameters to initialize each estimator with 
                                                 [optional, default=None]
-"""
+        """
         self.seed = seed
         self.n_clusters = n_clusters
         self.use_estimator = use_estimator
         self.estimator_params = estimator_params
 
+    # TODO: type annotations
     def fit(self, X, y):
         """
-KMCMulti.fit
-    description:
-        TODO
-    parameters:
+        TODO: description
+
+        TODO: reformat parameters and returns descriptions
+        parameters:
         X (array-like) -- features 
         y (array-like) -- targets
-    returns: 
-        () -- 
-"""
+        returns: 
+
+        """
         # first fit the KMeans clustering model
         self.kmeans_ = KMeans(n_clusters=self.n_clusters, random_state=self.seed)
         self.kmeans_.fit(X)
@@ -76,31 +77,41 @@ KMCMulti.fit
         
         # return the fitted regressor
         return self
-        
+
+    # TODO: type annotations        
     def predict(self, X):
         """
-KMCMulti.predict
-    description:
-        TODO
-    parameters:
+        TODO: description
+
+        TODO: finish reformatting these parameter descriptions
+        Parameters
+        ----------
         X (array-like) -- features
-    returns:
+        returns:
         (numpy.ndarray) -- predictions 
-"""
+
+        Returns
+        -------
+        TODO: ?
+        """
         return array([self.estimators_[self.kmeans_.predict(x.reshape(1, -1))[0]].predict(x.reshape(1, -1))[0] for x in X])
 
-    
+
+# TODO: type annotations    
 def kmcm_p_grid(n_clusters, est_params):
     """
-kmcm_p_grid
-    description:
-        generates a parameter grid that can be used with GridSearchCV for hyperparameter tuning
-    parameters:
-        n_clusters (list(int)) -- list of values to try for n_clusters
-        est_params (dict(str:list(...))) -- values to try for individual estimator parameters, in
-                                            the style of the parameter grid used for GridSearchCV
-    returns:
-        (list(dict(...))) -- parameter grid for use with GridSearchCV
+    generates a parameter grid that can be used with GridSearchCV for hyperparameter tuning
+    
+    Parameters
+    ----------
+    n_clusters : ``list(int)`` -- list of values to try for n_clusters
+    est_params : ``dict(str:list(...))``
+        values to try for individual estimator parameters, in the style of the 
+        parameter grid used for GridSearchCV
+    Returns
+    -------
+    p_grid : ``list(dict(...))``
+        parameter grid for use with GridSearchCV
 """
     # all permutations of the estimator parameters
     perms = []

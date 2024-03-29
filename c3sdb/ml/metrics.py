@@ -110,7 +110,7 @@ def train_test_summary_figure(summary: Dict[str, Dict[str, float | List[float]]]
         file name to save the generated plot under 
     r2_range : ``list(float))``, default=[0.95, 1.]]
         lower and upper bounds of R-squared y axis 
-"""
+    """
     fig = plt.figure(figsize=(5, 3))
     gs = GridSpec(1, 4, figure=fig, width_ratios=[1.2, 3, 2, 5])
     # R-squared
