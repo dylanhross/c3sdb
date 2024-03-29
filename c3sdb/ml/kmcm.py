@@ -22,12 +22,14 @@ KMCMulti
         TODO
 """
     
-    def __init__(self, seed=69, n_clusters=3, use_estimator=None, estimator_params=None):
+    def __init__(self, n_clusters, seed=69, use_estimator=None, estimator_params=None):
         """
 KMCMulti.__init__
     description:
         TODO
     parameters:
+    n_clusters : ``int``
+        number of clusters to fit
         [seed (int)] -- pRNG seed [optional, default=69]
         [n_clusters (int)] -- the number of clusters to fit [optional, default=3]
         [use_estimator (sklearn Regressor)] -- instance of individual estimator to use on each cluster 

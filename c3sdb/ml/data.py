@@ -465,7 +465,7 @@ class C3SD:
         with open(encoder_f, "wb") as pf:
             pickle.dump(self.OHEncoder_, pf)
         with open(scaler_f, "wb") as pf:
-            pickle.dump(self.SScaler_)
+            pickle.dump(self.SScaler_, pf)
 
 
 def data_for_inference(mzs: npt.ArrayLike, 
@@ -473,7 +473,7 @@ def data_for_inference(mzs: npt.ArrayLike,
                        smis: npt.ArrayLike, 
                        encoder_f: str, 
                        scaler_f: str
-                       ) -> Tuple[npt.NDArray[np.float64], npt.NDArray[np.bool]] :
+                       ) -> Tuple[npt.NDArray[np.float64], npt.NDArray[np.bool_]] :
     """
     generate data for inference using lists of m/zs, adducts, smiles structures
     and fitted instances of OneHotEncoder and StandardScaler
