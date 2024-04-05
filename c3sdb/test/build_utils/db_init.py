@@ -31,7 +31,3 @@ class Test_IncludePath(unittest.TestCase):
             sf_path = os.path.join(_INCLUDE_PATH, schema_file)
             self.assertTrue(os.path.isfile(sf_path))
 
-    def test_include_path_has_smiles_search_cache(self):
-        """ ensure the smiles search cache file is found under _INCLUDE_PATH """
-        cache_path = os.path.join(_INCLUDE_PATH, "smiles_search_cache.json")
-        self.assertTrue(os.path.isfile(cache_path))

@@ -13,6 +13,9 @@ import unittest
 from c3sdb.test.build_utils.db_init import (
     Test_IncludePath
 )
+from c3sdb.test.build_utils.smiles import (
+    Test_SmilesSearchCache
+)
 from c3sdb.test.build_utils.src_data import (
     Test_SrcDataPath
 )
