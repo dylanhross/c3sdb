@@ -18,6 +18,18 @@ import os
 _SRC_DATA_PATH: str = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "_include/src_data/")
 
 
+# list all source tags that are available in this package
+ALL_SRC_TAGS = [
+    "zhou1016", "zhou0817", "zhen0917", "pagl0314", "righ0218", 
+    "nich1118", "may_0114", "moll0218", "hine1217", "hine0217", 
+    "hine0817", "groe0815", "bijl0517", "stow0817", "hine0119", 
+    "leap0219", "blaz0818", 
+    "vasi0120",
+    "tsug0220", "lian0118", "teja0918", "pola0620", "dodd0220",
+    "celm1120", "belo0321", "ross0422"
+]
+
+
 def _gen_id(name: str, 
             adduct: str, 
             ccs: float, 

@@ -18,24 +18,12 @@ import os
 import requests
 
 from c3sdb.build_utils.db_init import create_db
-from c3sdb.build_utils.src_data import add_dataset
+from c3sdb.build_utils.src_data import add_dataset, ALL_SRC_TAGS
 from c3sdb.build_utils.smiles import (
     load_smiles_search_cache, save_smiles_search_cache, add_smiles_to_db
 )
 from c3sdb.build_utils.mqns import add_mqns_to_db
 from c3sdb.build_utils.classification import label_class_byname
-
-
-# source datasets to include
-_SRC_TAGS = [
-    "zhou1016", "zhou0817", "zhen0917", "pagl0314", "righ0218", 
-    "nich1118", "may_0114", "moll0218", "hine1217", "hine0217", 
-    "hine0817", "groe0815", "bijl0517", "stow0817", "hine0119", 
-    "leap0219", "blaz0818", 
-    "vasi0120",
-    "tsug0220", "lian0118", "teja0918", "pola0620", "dodd0220",
-    "celm1120", "belo0321", "ross0422"
-]
 
 
 def _main():
@@ -51,7 +39,7 @@ def _main():
     # add source datasets
     print("adding source datasets ...")
     n_entries = 0
-    for src_tag in _SRC_TAGS:  
+    for src_tag in ALL_SRC_TAGS:  
         n_added = add_dataset(cur, src_tag)
         n_entries += n_added
         print(f"\tsrc_tag: {src_tag} n_added: {n_added}")
