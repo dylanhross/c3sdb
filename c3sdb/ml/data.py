@@ -8,7 +8,6 @@
 """
 
 
-import importlib.resources
 import os
 from typing import List, Any, Optional, Tuple
 from sqlite3 import connect
