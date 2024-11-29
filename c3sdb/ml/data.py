@@ -8,6 +8,7 @@
 """
 
 
+import importlib.resources
 import os
 from typing import List, Any, Optional, Tuple
 from sqlite3 import connect
@@ -535,3 +536,17 @@ def data_for_inference(mzs: npt.ArrayLike,
     return scaler.transform(np.array(features)), included
 
 
+# Rick: access pretrained data
+import importlib
+def pretrained_data(file: str
+                    ) -> Any :
+    """
+    return a path to a file inside the pretrained directory
+
+    Parameters
+    ----------
+    file : ``str``
+        the name of a pretrained pickle file, i.e. "c3sdb_OHEncoder.pkl",
+        "c3sdb_SScaler.pkl" or "c3sdb_kmcm_svr.pkl"
+    """
+    return importlib.resources.files("c3sdb") / "pretrained" / file
