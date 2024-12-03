@@ -33,11 +33,7 @@ source datasets and training the CCS prediction model
 - This code is tested to work with `Python3.12`, I cannot guarantee compatibility with
     other Python versions
 - I suggest setting up a virtual environment for installing dependencies
-- Download the source code: `git clone https://github.com/dylanhross/c3sdb.git`
-- `cd` into repository directory
-- Install requirements: `pip3 install -r requirements.txt`
-- Optional: add the repository directory to `PYTHON_PATH` environment variable so 
-    that the code can be imported from the `c3sdb` package from anywhere in the filesystem 
+- Install the package with `pip`, e.g.: `pip install git+https://github.com/dylanhross/c3sdb`
 
 ### Building Database
 - `cd` into the repository directory or make sure the repository directory is included in
@@ -113,22 +109,23 @@ with open("c3sdb_kmcm_svr.pkl", "wb") as pf:
 ```
 
 ### Inference with Trained Model
-> This example assumes that the model has already been trained as described in the examples above 
-> and the files `c3sdb_OHEncoder.pkl`, `c3sdb_SScaler.pkl`, and `c3sdb_kmcm_svr.pkl` are all available.
+> This example uses the pretrained data that were generated as described in the examples above. 
+> The paths to the pretrained files `c3sdb_OHEncoder.pkl`, `c3sdb_SScaler.pkl`, and `c3sdb_kmcm_svr.pkl`
+are obtained with the `pretrained_data()` function.
 ```python
 import pickle
 
-from c3sdb.ml.data import data_for_inference
+from c3sdb.ml.data import data_for_inference, pretrained_data
 
 # generate input data (m/z + encoded adduct + MQNs, centered and scaled) for inference
 # mzs, adducts, and smis are all numpy arrays with same length
 # included is a boolean mask with same shape as input arrays, indicating which rows
 # are included in the generated dataset (some might fail to compute MQNs from SMILES)
 X, included = data_for_inference(mzs, adducts, smis,
-                                 "c3sdb_OHEncoder.pkl", "c3sdb_SScaler.pkl")
+                                 pretrained_data("c3sdb_OHEncoder.pkl"), pretrained_data("c3sdb_SScaler.pkl"))
 
 # load the trained model
-with open("c3sdb_kmcm_svr.pkl", "rb") as pf:
+with open(pretrained_data("c3sdb_kmcm_svr.pkl"), "rb") as pf:
     kmcm_svr = pickle.load(pf)
 
 # do inference
